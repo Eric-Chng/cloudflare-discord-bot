@@ -13,6 +13,8 @@ import { getCuteUrl } from './reddit.js';
 import { InteractionResponseFlags } from 'discord-interactions';
 
 const counters = require('../data/counters.json');
+const drafts = require('../data/drafts.json');
+
 
 
 class JsonResponse extends Response {
@@ -82,12 +84,27 @@ router.post('/', async (request, env) => {
         });
       }
       case DRAFT_COMMAND.name.toLowerCase(): {
-        const mapName = interaction.data.options.find(option => option.name === 'map')?.value;
+        const mapName = interaction.data.options.find(option => option.name === 'map')?.value.toLowerCase();
         const draftInfo = `https://www.reddit.com/r/BrawlStarsCompetitive/comments/19a61lt/how_to_draft_in_season_22_a_power_league_meta/`;
+        if (drafts[mapName] === undefined) {
+          return new JsonResponse({
+            type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+            data: {
+              content: `Sorry, I couldn't find a draft for "${mapName}".\nYou can find more information on drafting here: ${draftInfo}`,
+            },
+          });
+        } 
+
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
-            content: `Draft for ${mapName}: \n${draftInfo}`,
+            content: `Draft for ${mapName}:`,
+            embeds: [{
+              title: `Draft for ${mapName}`,
+              image: {
+                url: drafts[mapName], 
+              },
+            }],
           },
         });
       }
