@@ -83,11 +83,11 @@ router.post('/', async (request, env) => {
       }
       case DRAFT_COMMAND.name.toLowerCase(): {
         const mapName = interaction.data.options.find(option => option.name === 'map')?.value;
-        const draftInfo = await getDraftInfoForMap(mapName); // Implement this function based on your logic
+        const draftInfo = `https://www.reddit.com/r/BrawlStarsCompetitive/comments/19a61lt/how_to_draft_in_season_22_a_power_league_meta/`;
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
-            content: `Draft for ${mapName}: ${draftInfo}`,
+            content: `Draft for ${mapName}: \n${draftInfo}`,
           },
         });
       }
