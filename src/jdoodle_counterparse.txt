@@ -1,0 +1,242 @@
+import java.io.*;
+
+
+public class MyClass {
+    
+    public static void main(String args[]) {
+        String string0 = """
+Shelly
+Outrange, slow, or overwhelm with spawnables
+Stu, Nita, Spike, Crow, Emz, Tara
+Nita
+Wall break opens up map to outrange Nita and quickly kill or pierce through Bruce (throwers)
+Barley, Spike, Ruffs, Carl, Griff, Amber
+Colt
+Outrange or out maneuver
+Piper, Max, Belle, Darryl, Mortis, Spike
+Bull
+Don't let him get close or out damage him in close range (why are you even looking up this counter)
+El Primo, Lou, Surge, Shelly, Emz, Gale
+Brock
+Use agro or hit hard from a long range
+Max, Sam, Mandy, Darryl, Mortis
+El Primo
+Outrange or cancel/run away from him up close
+Surge, Colette, Otis, Stu, Gale
+Barley
+He's squishy so use assassins or break walls for throwers
+Mortis, Edgar, Carl, Brock
+Poco
+Tank his shots and melt him down or slow
+Mortis, Emz, Bea, Griff, Crow
+Rosa
+Scout Rosa out before she jumps on you or easily deal with her as she's approaching you
+Crow, Emz, Griff, Gale, Shelly, Frank""";
+      String string1 = """
+Jessie
+Find a way to beat Jessie 1v1 typically by outranging or agro, and quickly get rid of turret (throwers, long range, tanks/assassins)
+Barley, Grom, Janet, Darryl, Piper, Leon
+Dynamike
+Dodge his main attack and get to him up close
+Mortis, Bibi, Gray, Stu
+Tick
+Pressure Tick up close or mid range
+Max, Sprout, Ash, Gene, Fang, Sam
+8-Bit
+Punish the player for being close to turret and being slow/tanky
+Squeak, Penny, Colette, Belle, Dynamike
+Rico
+Since he's reliant on walls but can't break them, use throwers or assassins
+Buzz, Bonnie, Fang, Sprout, Grom
+Darryl
+Be prepared for when he rolls in and destroy him before he does or when he does
+Surge, El Primo, Gale, Bea, Ruffs
+Penny
+Break walls or shoot around walls to deal with her turret
+Squeak, Griff, Carl, Grom, Amber
+Carl
+Interrupt his super when he gets up close
+Surge, Gene, Buzz, Colette, Stu
+Jacky
+Outrange and mow her down
+Frank, Bea, Emz, Shelly, Stu, Gale
+Gus
+Melt down his shield easily with high damage and usually getting up close
+Sam, Lola, Buzz, Fang, Edgar""";
+String string2 = """
+Bo
+Wiggle through his main attacks or stay out of range, then be aware of his mines or have some mobility to escape them or quickly trigger them
+Max, Carl, Stu, Colette
+Emz
+Waste all her friend zoner gadgets and move in as an assassin/tank or outrange her by breaking down walls
+Mortis, Crow, Ruffs, Stu
+Stu
+Use spawnables to waste his ammo or have a wide attack that is hard to dodge
+Crow, Lola, Pam, Poco
+Piper
+Use agro, or outrange her with a longer range sniper or thrower
+Leon, Mandy, Sprout, Nani, Max, Tick
+Pam
+Punish her HP and healing abilities
+Crow, Emz, Lou, Squeak, Spike
+Frank
+Punish his high HP and slow attacks
+Colette, El Primo, Surge, Carl
+Bibi
+Outrange her and destroy her cover
+Stu, Surge, El Primo, Griff
+Bea
+She has low HP and can't break walls, be careful of her range, slow, and damage, she also struggles against spawnables that don't charge her loaded shot
+Sprout, Grom, Byron, Tick, Mr. P
+Nani
+Find brawlers that can chip her to avoid giving Return to Sender value as well as easily dodge her main attack and super
+Gene, Leon, Max, Tick
+Edgar
+Outrange him or deal with him up close
+Otis, Buzz, Surge, Stu, Shelly
+Griff
+Get out of his range which he spends a lot of time attacking in
+Crow, Bea, Stu, Spike
+Grom
+Get close and apply pressure
+Fang, Mortis, Darryl
+Bonnie
+Punish her Clyde form for slow attack and movement speed, find a way to best mitigate her Bonnie form
+Colette, Penny, Lou, Bea, Pam
+Hank
+Use a brawler that can tank one shot from Hank and then melt him before he can deal another one, or outrange him before he can approach you and waste his big bubble
+Shelly, Colette, El Primo, Gale, Bea, Carl
+Mortis
+Don't let him get close to your or destroy him for trying to go through you
+Shelly, Otis, Surge, Stu
+Tara
+Splash through her shadows or destroy her grass for ambushes
+Emz, Sandy, Amber, Janet, Poco
+Gene
+Expect a pull and have an instantly spawnable gadget/super that can tank it or try to dodge it and overwhelm him with spawners due to his low DPS
+Penny, Mr. P, Eve, Ruffs, Ash
+Max
+Slow her down or be able to waste her ammo and tank/heal it off
+Crow, Poco, Lola
+Mr. P
+He is quite weak without his porters and can't deal with agro well
+Carl, Jacky, Buzz, Fang, Janet, Amber, Edgar
+Sprout
+Assassins destroy Sprout, if not an assassin try breaking walls or dodging to get close
+Mortis, Darryl, Edgar, Buzz
+Byron
+Cripple his healing or destroy him due to low health
+Crow, Leon, Gus, Bea, Ash
+Squeak
+Easily gets overwhelmed by agro due to his slow damage output
+Leon, Mortis, Carl, Max
+Gray
+He plays like an assassin so just make it hard for him to teleport on you
+Bea, Spike, Penny, Gus
+Spike
+Squishy brawler, deal a lot of damage to him quickly or find a way to attack through his life plant
+Grom, Sprout, Carl, Tick, Mr. P, Tara
+Crow
+Have something to tank his main attack and jumps or outrange and quickly kill him
+Janet, Spike, Lola, Gus, Gene, Mr. P
+Leon
+Use brawlers that can scout easily or are able to deal with his surprise attacks
+Crow, Gene, Pam, Squeak, Eve, Shelly
+Sandy
+Outrange and cripple Sandy or be able to tank his low DPS
+Ash, El Primo, Poco, Gene, Crow
+Amber
+Waste her ammo by dodging her attacks or getting up close to her
+Crow, Leon, Carl, Mortis, Poco
+Meg
+Main attack is slow and doesn't do much damage, also super isn't too remarkable if you can heal it off up close so use assassins, anti tank, or control brawlers
+Gene, Gray, Grom, Mr. P, Crow, Mortis, Edgar
+Chester
+Can't deal much damage at a range so either move around and dodge shots or out damage/range him in a lane/wall peak situation
+Nita, Tara, Grom, Mr. P, Gene""";
+
+String string3 = """
+Gale
+Don't let him charge super by outranging him or peaking behind walls well and destroy walls so he can't utilize the stun with his super as much
+Spike, Piper, Bea, Belle, Nita, Bo
+Surge
+Don't let him get that first upgrade, if he can't he isn't a threat, if he does don't let him keep upgrading by having gadgets or spawnables to tank his shots
+Ruffs, Spike, Penny, Eve
+Colette
+Don't be a tank and you already have a decent advantage into the matchup, swarm her with spawners since her damage is low against them or consistently heal/have a shield
+Griff, Poco, Bea, Mr. P
+Lou
+Escape from his super or outrange him to avoid getting frozen, generally not many hard counters just adjust playstyle
+Janet, Nita, Buster, Max, Belle, Bea
+Ruffs
+Hit through his sandbags or be tanky enough to absorb his hits
+Buster, Rosa, Jacky, Janet, Sprout, Carl
+Belle
+Outskill her with other snipers, agro, or throwers
+R-T, Mr. P, Grom, Piper, Mandy, Meg, Fang, Leon
+Buzz
+Have a way to move away or to stun Buzz before he stuns you
+Stu, Max, Surge, Gale, Jacky, Maisie, Shelly
+Ash
+Splash through his rats, and find a way to stun him or prevent him from getting a lot of rage and hitting hard
+Rosa, El Primo, Lou, Gale, Buster
+Lola
+Punish Lola for using her ego by hitting both of them or overwhelm her with swarms
+Belle, Penny, Janet, Amber, Eve
+Fang
+Spawnables and some form of counter play when he jumps onto you is necessary, with the stun you have to be faster than him as well
+Surge, Eve, R-T, Nani, Piper (have super and auto aimer)
+Eve
+Splash her hatchlings and avoid the big egg shot to have her retreat for control
+Penny, Janet, Carl, Poco, Max
+Janet
+Outrange her or be able to deal with her chip damage before she can fly away
+Bonnie, Ash, Gus, Poco, R-T, Crow
+Otis
+Outrange him and don't rely on up close burst damage or use a spawnable to tank the shot
+Piper, Byron, Tick, Penny, Spike, Lola
+Sam
+Don't let him get back his knucklebusters and be aware of them when he's coming for you so you can dodge or not get pulled
+Gale, Colette, Griff, Surge, El Primo
+Buster
+Don't let him get the surprise on you with his gadget or super, flank him to get past his super or be patient for it to run out
+Surge, Darryl, Buzz, Maisie, Mr. P, Stu
+Mandy
+Know where she is and always be aware of attacks you can't see, she is weak to agro or anything forcing her to move
+Fang, Mr. P, Carl, Nani, Max, Mortis
+R-T
+Dodge his shots well since his attack is thin and be able to escape from him when he changes forms
+Max, Leon, Crow, Stu, Mr. P, Spike
+Maisie
+Don't let her predict where you're going or slightly outrange her and be aware of her Disengage gadget and super
+Surge, Tara, Stu, Cordelius, Belle
+Cordelius
+Use spawnables to tank his super, have a brawler with a strong main attack in the shadow realm, be aware that he's charging his super or camping in a bush with the mute
+Pam, Grom, Mr. P, Stu, Spike""";
+
+
+String test = string3;
+BufferedReader bufReader = new BufferedReader(new StringReader(test));
+String line=null;
+int i = 0;
+try {
+    System.out.println("{");
+while( (line=bufReader.readLine()) != null )
+{
+    if (i %3 == 0) {
+        System.out.print("\"" +line.trim().toLowerCase() + "\": ");
+    } else if (i %3 ==1) {
+        System.out.print("\"- "+line +"\\\\n");
+    } else {
+        System.out.println("- " +line + "\",");
+    }
+    i++;
+}
+System.out.println("}");
+} catch (Exception e) {
+    System.out.println(e.getMessage());
+}
+
+      
+    }
+}

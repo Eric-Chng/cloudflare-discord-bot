@@ -11,7 +11,9 @@ import {
 import { AWW_COMMAND, INVITE_COMMAND, DRAFT_COMMAND, COUNTER_COMMAND } from './commands.js';
 import { getCuteUrl } from './reddit.js';
 import { InteractionResponseFlags } from 'discord-interactions';
-import counters from 'data/counters.json'; 
+
+const counters = require('../data/counters.json');
+
 
 class JsonResponse extends Response {
   constructor(body, init) {
@@ -90,8 +92,10 @@ router.post('/', async (request, env) => {
         });
       }
       case COUNTER_COMMAND.name.toLowerCase(): {
-        const brawlerName = interaction.data.options.find(option => option.name === 'brawler')?.value.toLowerCase();
+        var brawlerName = interaction.data.options.find(option => option.name === 'brawler')?.value.toLowerCase();
         const counterInfo = counters[brawlerName] || 'No counter information available for this brawler.';
+        //capitalize first letter of brawler name
+        brawlerName = brawlerName.charAt(0).toUpperCase() + brawlerName.slice(1);
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
