@@ -100,7 +100,7 @@ router.post('/', async (request, env) => {
           data: {
             content: ``,
             embeds: [{
-              title: `Hi there!`,
+              title: `Draft for ${mapName}`,
               image: {
                 url: drafts[mapName], 
               },
