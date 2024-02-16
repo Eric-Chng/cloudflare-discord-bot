@@ -98,9 +98,9 @@ router.post('/', async (request, env) => {
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
-            content: `Draft for ${mapName}:`,
+            content: ``,
             embeds: [{
-              title: `Draft for ${mapName}`,
+              title: `Hi there!`,
               image: {
                 url: drafts[mapName], 
               },
