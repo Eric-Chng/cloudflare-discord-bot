@@ -16,7 +16,7 @@ const Fuse = require('fuse.js');
 
 const counters = require('../data/counters.json');
 const drafts = require('../data/drafts.json');
-const draftsFuzzyArray = Object.keys(counters).map(key => ({ mapName: key, url: counters[key] }));
+const draftsFuzzyArray = Object.keys(drafts).map(key => ({ mapName: key, url: drafts[key] }));
 
 
 const draftsFuzzySearch = new Fuse(draftsFuzzyArray, {
@@ -110,6 +110,7 @@ router.post('/', async (request, env) => {
               },
             });
           }
+          console.log(draftsFuzzyResult);
           const matchedUrl = draftsFuzzyResult[0].item.url;
           return new JsonResponse({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
