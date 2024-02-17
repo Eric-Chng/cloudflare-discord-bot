@@ -110,7 +110,6 @@ router.post('/', async (request, env) => {
               },
             });
           }
-          console.log(draftsFuzzyResult);
           const matchedUrl = draftsFuzzyResult[0].item.url;
           return new JsonResponse({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
