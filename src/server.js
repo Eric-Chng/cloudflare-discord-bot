@@ -24,7 +24,7 @@ const draftsFuzzySearch = new Fuse(draftsFuzzyArray, {
   keys: ["mapName"],
 
   // Configure other options for fuzziness, etc.
-  threshold: 0.6, // Adjust the threshold (0 = exact match, 1 = match anything)
+  threshold: 0.4, // Adjust the threshold (0 = exact match, 1 = match anything)
 });
 
 
