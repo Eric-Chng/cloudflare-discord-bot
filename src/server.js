@@ -24,7 +24,7 @@ const countersFuzzySearch = new Fuse(countersFuzzyArray, {
 
   // Configure other options for fuzziness, etc.
   includeScore: true, // Include the score in the result for debugging
-  threshold: 0.4, // Adjust the threshold (0 = exact match, 1 = match anything)
+  threshold: 0.6, // Adjust the threshold (0 = exact match, 1 = match anything)
 });
 
 
@@ -110,7 +110,7 @@ router.post('/', async (request, env) => {
               },
             });
           }
-          const matchedUrls = countersFuzzyResult.map(match => match.item.url)[0];
+          const matchedUrl = countersFuzzyResult[0].item.url;
           return new JsonResponse({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
             data: {
