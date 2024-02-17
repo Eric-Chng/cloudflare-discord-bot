@@ -12,9 +12,20 @@ import { AWW_COMMAND, INVITE_COMMAND, DRAFT_COMMAND, COUNTER_COMMAND } from './c
 import { getCuteUrl } from './reddit.js';
 import { InteractionResponseFlags } from 'discord-interactions';
 
+const Fuse = require('fuse.js');
+
 const counters = require('../data/counters.json');
+const countersFuzzyArray = Object.keys(counters).map(key => ({ mapName: key, url: counters[key] }));
 const drafts = require('../data/drafts.json');
 
+const countersFuzzySearch = new Fuse(countersFuzzyArray, {
+  // keys to search in (you can specify nested paths with dot notation)
+  keys: ["mapName"],
+
+  // Configure other options for fuzziness, etc.
+  includeScore: true, // Include the score in the result for debugging
+  threshold: 0.4, // Adjust the threshold (0 = exact match, 1 = match anything)
+});
 
 
 class JsonResponse extends Response {
@@ -87,13 +98,32 @@ router.post('/', async (request, env) => {
         const mapName = interaction.data.options.find(option => option.name === 'map')?.value;
         const mapQuery = mapName.toLowerCase().replace(/[^\w\s]|_/g, "");
         const draftInfo = `https://www.reddit.com/r/BrawlStarsCompetitive/comments/19a61lt/how_to_draft_in_season_22_a_power_league_meta/`;
+
         if (drafts[mapQuery] === undefined) {
+          //fuzzy search time
+          const countersFuzzyResult = countersFuzzySearch.search(mapQuery);
+          if (countersFuzzyResult.length === 0) {
+            return new JsonResponse({
+              type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+              data: {
+                content: `Sorry, I couldn't find a draft for "${mapName}".\nYou can find more information on drafting here: ${draftInfo}`,
+              },
+            });
+          }
+          const matchedUrls = countersFuzzyResult.map(match => match.item.url)[0];
           return new JsonResponse({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
             data: {
-              content: `Sorry, I couldn't find a draft for "${mapName}".\nYou can find more information on drafting here: ${draftInfo}`,
+              content: ``,
+              embeds: [{
+                title: `Fuzzy Search Result for ${mapName}`,
+                image: {
+                  url: drafts[mapQuery], 
+                },
+              }],
             },
           });
+          
         } 
 
         return new JsonResponse({

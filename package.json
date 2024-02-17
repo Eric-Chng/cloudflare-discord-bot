@@ -1,7 +1,7 @@
 {
-  "name": "awwbot",
+  "name": "brawldraftbot",
   "version": "1.0.0",
-  "description": "A simple discord bot that uses intents to post pictures from r/aww",
+  "description": "A simple discord bot that uses intents to help brawlstars drafts",
   "type": "module",
   "private": true,
   "main": "src/server.js",
@@ -20,6 +20,7 @@
   "license": "MIT",
   "dependencies": {
     "discord-interactions": "^3.4.0",
+    "fuse.js": "^7.0.0",
     "itty-router": "^4.0.13"
   },
   "devDependencies": {
