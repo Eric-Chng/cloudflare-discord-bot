@@ -84,9 +84,10 @@ router.post('/', async (request, env) => {
         });
       }
       case DRAFT_COMMAND.name.toLowerCase(): {
-        const mapName = interaction.data.options.find(option => option.name === 'map')?.value.toLowerCase();
+        const mapName = interaction.data.options.find(option => option.name === 'map')?.value;
+        const mapQuery = mapName.toLowerCase().replace(/[^\w\s]|_/g, "");
         const draftInfo = `https://www.reddit.com/r/BrawlStarsCompetitive/comments/19a61lt/how_to_draft_in_season_22_a_power_league_meta/`;
-        if (drafts[mapName] === undefined) {
+        if (drafts[mapQuery] === undefined) {
           return new JsonResponse({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
             data: {
@@ -102,7 +103,7 @@ router.post('/', async (request, env) => {
             embeds: [{
               title: `Draft for ${mapName}`,
               image: {
-                url: drafts[mapName], 
+                url: drafts[mapQuery], 
               },
             }],
           },
@@ -110,7 +111,8 @@ router.post('/', async (request, env) => {
       }
       case COUNTER_COMMAND.name.toLowerCase(): {
         var brawlerName = interaction.data.options.find(option => option.name === 'brawler')?.value.toLowerCase();
-        const counterInfo = counters[brawlerName] || 'No counter information available for this brawler.';
+        const brawlerNameQuery = brawlerName.replace(/[^\w\s]|_/g, "");
+        const counterInfo = counters[brawlerNameQuery] || 'No counter information available for this brawler.';
         //capitalize first letter of brawler name
         brawlerName = brawlerName.charAt(0).toUpperCase() + brawlerName.slice(1);
         return new JsonResponse({
