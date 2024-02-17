@@ -102,11 +102,12 @@ router.post('/', async (request, env) => {
         if (drafts[mapQuery] === undefined) {
           //fuzzy search time
           const countersFuzzyResult = countersFuzzySearch.search(mapQuery);
+          const testprint = JSON.stringify(countersFuzzyArray);
           if (countersFuzzyResult.length === 0) {
             return new JsonResponse({
               type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
               data: {
-                content: `Sorry, I couldn't find a draft for "${mapName}".\nYou can find more information on drafting here: ${draftInfo}\n${JSON.stringify(countersFuzzyArray, null, 2)}\n${JSON.stringify(countersFuzzyResult, null, 2)}`,
+                content: `Sorry, I couldn't find a draft for "${mapName}".\nYou can find more information on drafting here: ${draftInfo}\n${testprint}`,
               },
             });
           }
