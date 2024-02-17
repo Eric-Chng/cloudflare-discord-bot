@@ -15,15 +15,15 @@ import { InteractionResponseFlags } from 'discord-interactions';
 const Fuse = require('fuse.js');
 
 const counters = require('../data/counters.json');
-const countersFuzzyArray = Object.keys(counters).map(key => ({ mapName: key, url: counters[key] }));
 const drafts = require('../data/drafts.json');
+const draftsFuzzyArray = Object.keys(counters).map(key => ({ mapName: key, url: counters[key] }));
 
-const countersFuzzySearch = new Fuse(countersFuzzyArray, {
+
+const draftsFuzzySearch = new Fuse(draftsFuzzyArray, {
   // keys to search in (you can specify nested paths with dot notation)
   keys: ["mapName"],
 
   // Configure other options for fuzziness, etc.
-  includeScore: true, // Include the score in the result for debugging
   threshold: 0.6, // Adjust the threshold (0 = exact match, 1 = match anything)
 });
 
@@ -101,17 +101,16 @@ router.post('/', async (request, env) => {
 
         if (drafts[mapQuery] === undefined) {
           //fuzzy search time
-          const countersFuzzyResult = countersFuzzySearch.search(mapQuery);
-          const testprint = JSON.stringify(countersFuzzyArray);
-          if (countersFuzzyResult.length === 0) {
+          const draftsFuzzyResult = draftsFuzzySearch.search(mapQuery);
+          if (draftsFuzzyResult.length === 0) {
             return new JsonResponse({
               type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
               data: {
-                content: `Sorry, I couldn't find a draft for "${mapName}".\nYou can find more information on drafting here: ${draftInfo}\n${testprint}`,
+                content: `Sorry, I couldn't find a draft for "${mapName}".\nYou can find more information on drafting here: ${draftInfo}`,
               },
             });
           }
-          const matchedUrl = countersFuzzyResult[0].item.url;
+          const matchedUrl = draftsFuzzyResult[0].item.url;
           return new JsonResponse({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
             data: {
@@ -119,7 +118,7 @@ router.post('/', async (request, env) => {
               embeds: [{
                 title: `Fuzzy Search Result for ${mapName}`,
                 image: {
-                  url: drafts[mapQuery], 
+                  url: matchedUrl, 
                 },
               }],
             },
