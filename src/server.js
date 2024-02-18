@@ -18,6 +18,7 @@ const acceptedRoles = [`931250396435972136`, `1168295996166516848`, `93526462032
 const Fuse = require('fuse.js');
 
 const counters = require('../data/counters.json');
+const countersFuzzyArray = Object.keys(counters).map(key => ({ brawlerName: key, counterInfo: counters[key] }));
 const drafts = require('../data/drafts.json');
 const draftsFuzzyArray = Object.keys(drafts).map(key => ({ mapName: key, url: drafts[key] }));
 
@@ -28,6 +29,11 @@ const draftsFuzzySearch = new Fuse(draftsFuzzyArray, {
 
   // Configure other options for fuzziness, etc.
   threshold: 0.4, // Adjust the threshold (0 = exact match, 1 = match anything)
+});
+const countersFuzzySearch = new Fuse(countersFuzzyArray, {
+  // keys to search in (you can specify nested paths with dot notation)
+  keys: ["brawlerName"],
+  threshold: 0.25,
 });
 
 
@@ -158,9 +164,30 @@ router.post('/', async (request, env) => {
       case COUNTER_COMMAND.name.toLowerCase(): {
         var brawlerName = interaction.data.options.find(option => option.name === 'brawler')?.value.toLowerCase();
         const brawlerNameQuery = brawlerName.replace(/[^\w\s]|_/g, "");
-        const counterInfo = counters[brawlerNameQuery] || 'No counter information available for this brawler.';
-        //capitalize first letter of brawler name
         brawlerName = brawlerName.charAt(0).toUpperCase() + brawlerName.slice(1);
+        if (counters[brawlerNameQuery] === undefined) {
+          //fuzzy search time
+          const countersFuzzyResult = countersFuzzySearch.search(brawlerNameQuery);
+          if (countersFuzzyResult.length === 0) {
+            return new JsonResponse({
+              type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+              data: {
+                content: `Sorry, I couldn't find any counter information for "${brawlerName}".`,
+                flags: messageFlags,
+              },
+            });
+          }
+          const matchedCounterInfo = countersFuzzyResult[0].item.counterInfo;
+          return new JsonResponse({
+            type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+            data: {
+              content: `${brawlerName}: \n${matchedCounterInfo}`,
+              flags: messageFlags,
+            },
+          });
+        }
+        const counterInfo = counters[brawlerNameQuery];
+        
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
