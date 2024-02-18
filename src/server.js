@@ -12,6 +12,9 @@ import { AWW_COMMAND, INVITE_COMMAND, DRAFT_COMMAND, COUNTER_COMMAND } from './c
 import { getCuteUrl } from './reddit.js';
 import { InteractionResponseFlags } from 'discord-interactions';
 
+const botchannel = `931255199627112458`;
+const acceptedRoles = [`931250396435972136`, `1168295996166516848`, `935264620325765191`,`931250435745022013`, `931250488836493313`];
+
 const Fuse = require('fuse.js');
 
 const counters = require('../data/counters.json');
@@ -74,6 +77,13 @@ router.post('/', async (request, env) => {
   if (interaction.type === InteractionType.APPLICATION_COMMAND) {
     const channel = interaction.channel_id;
     const roles = interaction.member.roles;
+    var messageFlags = 0;
+    if (channel !== botchannel) {
+      const hasAcceptedRole = roles.some(role => acceptedRoles.includes(role));
+      if (hasAcceptedRole === false) {
+        messageFlags = InteractionResponseFlags.EPHEMERAL;
+      }
+    }
     // Most user commands will come as `APPLICATION_COMMAND`.
     switch (interaction.data.name.toLowerCase()) {
       case AWW_COMMAND.name.toLowerCase(): {
@@ -82,6 +92,7 @@ router.post('/', async (request, env) => {
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
             content: cuteUrl,
+            flags: messageFlags,
           },
         });
       }
@@ -109,6 +120,7 @@ router.post('/', async (request, env) => {
               type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
               data: {
                 content: `Sorry, I couldn't find a draft for "${mapName}".\nYou can find more information on drafting here: ${draftInfo}`,
+                flags: messageFlags,
               },
             });
           }
@@ -117,6 +129,7 @@ router.post('/', async (request, env) => {
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
             data: {
               content: ``,
+              flags: messageFlags,
               embeds: [{
                 title: `Fuzzy Search Result for ${mapName}`,
                 image: {
@@ -132,6 +145,7 @@ router.post('/', async (request, env) => {
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
             content: ``,
+            flags: messageFlags,
             embeds: [{
               title: `Draft for ${mapName}`,
               image: {
@@ -150,7 +164,8 @@ router.post('/', async (request, env) => {
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
-            content: `${brawlerName}: \n${counterInfo}\n${channel}\n${roles}`,
+            content: `${brawlerName}: \n${counterInfo}`,
+            flags: messageFlags,
           },
         });
       }
