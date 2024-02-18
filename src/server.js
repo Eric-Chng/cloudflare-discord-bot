@@ -72,8 +72,8 @@ router.post('/', async (request, env) => {
   }
 
   if (interaction.type === InteractionType.APPLICATION_COMMAND) {
-    const channel = interaction.channel;
-    const roles = interaction.roles;
+    const channel = interaction.channel_id;
+    const roles = interaction.member.roles;
     // Most user commands will come as `APPLICATION_COMMAND`.
     switch (interaction.data.name.toLowerCase()) {
       case AWW_COMMAND.name.toLowerCase(): {
