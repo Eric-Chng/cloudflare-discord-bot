@@ -176,12 +176,13 @@ router.post('/', async (request, env) => {
               },
             });
           }
-          const matchedCounterBrawler = countersFuzzyResult[0].item.brawlerName;
+          var matchedCounterBrawler = countersFuzzyResult[0].item.brawlerName;
+          matchedCounterBrawler = matchedCounterBrawler.charAt(0).toUpperCase() + matchedCounterBrawler.slice(1);
           const matchedCounterInfo = countersFuzzyResult[0].item.counterInfo;
           return new JsonResponse({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
             data: {
-              content: `Fuzzy Search for ${brawlerName} found ${matchedCounterBrawler}: \n${matchedCounterInfo}`,
+              content: `Fuzzy Search for ${brawlerName} found **${matchedCounterBrawler}**: \n${matchedCounterInfo}`,
               flags: messageFlags,
             },
           });
