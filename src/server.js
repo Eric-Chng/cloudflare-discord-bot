@@ -72,6 +72,8 @@ router.post('/', async (request, env) => {
   }
 
   if (interaction.type === InteractionType.APPLICATION_COMMAND) {
+    const channel = interaction.channel;
+    const roles = interaction.roles;
     // Most user commands will come as `APPLICATION_COMMAND`.
     switch (interaction.data.name.toLowerCase()) {
       case AWW_COMMAND.name.toLowerCase(): {
@@ -148,7 +150,7 @@ router.post('/', async (request, env) => {
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
-            content: `${brawlerName}: \n${counterInfo}`,
+            content: `${brawlerName}: \n${counterInfo}\n${channel}\n${roles}`,
           },
         });
       }
