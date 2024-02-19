@@ -8,7 +8,7 @@ import {
   InteractionType,
   verifyKey,
 } from 'discord-interactions';
-import { AWW_COMMAND, INVITE_COMMAND, DRAFT_COMMAND, COUNTER_COMMAND } from './commands.js';
+import { INVITE_COMMAND, DRAFT_COMMAND, COUNTER_COMMAND, HELP_COMMAND } from './commands.js';
 import { getCuteUrl } from './reddit.js';
 import { InteractionResponseFlags } from 'discord-interactions';
 
@@ -83,21 +83,23 @@ router.post('/', async (request, env) => {
   if (interaction.type === InteractionType.APPLICATION_COMMAND) {
     const channel = interaction.channel_id;
     const roles = interaction.member.roles;
+    const guild = interaction.guild_id;
     var messageFlags = 0;
-    if (channel !== botchannel) {
-      const hasAcceptedRole = roles.some(role => acceptedRoles.includes(role));
-      if (hasAcceptedRole === false) {
-        messageFlags = InteractionResponseFlags.EPHEMERAL;
+    if (guild === `931249800790298645`) {
+      if (channel !== botchannel) {
+        const hasAcceptedRole = roles.some(role => acceptedRoles.includes(role));
+        if (hasAcceptedRole === false) {
+          messageFlags = InteractionResponseFlags.EPHEMERAL;
+        }
       }
     }
     // Most user commands will come as `APPLICATION_COMMAND`.
     switch (interaction.data.name.toLowerCase()) {
-      case AWW_COMMAND.name.toLowerCase(): {
-        const cuteUrl = await getCuteUrl();
+      case HELP_COMMAND.name.toLowerCase(): {
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
-            content: cuteUrl,
+            content: `**Commands**\n**/draft** - Return power league drafts for a map. Only has updated maps for current PL rotation\n**/counter** - Return brawler counters for a brawler\n**/invite** - Find out how to add the bot to your own server\n\nIf you would like to support the bot, check out: https://ko-fi.com/brawldraftbot`,
             flags: messageFlags,
           },
         });

@@ -3,11 +3,6 @@
  * and registration.
  */
 
-export const AWW_COMMAND = {
-  name: 'awwww',
-  description: 'Drop some cuteness on this channel.',
-};
-
 export const INVITE_COMMAND = {
   name: 'invite',
   description: 'Get an invite link to add the bot to your server',
@@ -37,4 +32,9 @@ export const COUNTER_COMMAND = {
       required: true,
     }
   ],
+};
+
+export const HELP_COMMAND = {
+  name: 'help',
+  description: 'See a list of commands and how to use them',
 };
