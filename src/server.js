@@ -108,7 +108,7 @@ router.post('/', async (request, env) => {
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
-            content: `The bot is private due to hosting fees. \nIf you would like to add it to your own server and are willing to pay a small subscription fee, join https://discord.gg/SYqvayCKep and contact Coolfood.`,
+            content: `The bot is not free to invite due to hosting fees. \nIf you want to add it to your own server, check out: https://ko-fi.com/brawldraftbot`,
             flags: InteractionResponseFlags.EPHEMERAL,
           },
         });
