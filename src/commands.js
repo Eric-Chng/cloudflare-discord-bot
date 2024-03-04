@@ -34,6 +34,19 @@ export const COUNTER_COMMAND = {
   ],
 };
 
+export const MODIFIER_COMMAND = {
+  name: 'modifier',
+  description: 'Get tips for a specific modifier',
+  options: [
+    {
+      type: 3, 
+      name: 'modifier',
+      description: 'Modifier Name',
+      required: true,
+    }
+  ],
+};
+
 export const HELP_COMMAND = {
   name: 'help',
   description: 'See a list of commands and how to use them',

@@ -8,8 +8,7 @@ import {
   InteractionType,
   verifyKey,
 } from 'discord-interactions';
-import { INVITE_COMMAND, DRAFT_COMMAND, COUNTER_COMMAND, HELP_COMMAND } from './commands.js';
-import { getCuteUrl } from './reddit.js';
+import { INVITE_COMMAND, DRAFT_COMMAND, COUNTER_COMMAND, HELP_COMMAND, MODIFIER_COMMAND } from './commands.js';
 import { InteractionResponseFlags } from 'discord-interactions';
 
 const botchannel = `931255199627112458`;
@@ -21,6 +20,8 @@ const counters = require('../data/counters.json');
 const countersFuzzyArray = Object.keys(counters).map(key => ({ brawlerName: key, counterInfo: counters[key] }));
 const drafts = require('../data/drafts.json');
 const draftsFuzzyArray = Object.keys(drafts).map(key => ({ mapName: key, url: drafts[key] }));
+const modifiers = require('../data/modifiers.json');
+const modifiersFuzzyArray = Object.keys(modifiers).map(key => ({ modifierName: key, modifierInfo: modifiers[key] }));
 
 
 const draftsFuzzySearch = new Fuse(draftsFuzzyArray, {
@@ -34,6 +35,11 @@ const countersFuzzySearch = new Fuse(countersFuzzyArray, {
   // keys to search in (you can specify nested paths with dot notation)
   keys: ["brawlerName"],
   threshold: 0.25,
+});
+const modifiersFuzzySearch = new Fuse(modifiersFuzzyArray, {
+  // keys to search in (you can specify nested paths with dot notation)
+  keys: ["modifierName"],
+  threshold: 0.6,
 });
 
 
@@ -199,6 +205,31 @@ router.post('/', async (request, env) => {
             flags: messageFlags,
           },
         });
+      }
+      case MODIFIER_COMMAND.name.toLowerCase(): {
+        var modifierNameInput = interaction.data.options.find(option => option.name === 'modifier')?.value;
+        var cleanedModifierName = modifierNameInput.toLowerCase().replace(/[^\w\s]|_/g, "");
+        const modifierFuzzyResult = modifiersFuzzySearch.search(cleanedModifierName);
+        if (modifierFuzzyResult.length === 0) {
+          return new JsonResponse({
+            type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+            data: {
+              content: `Sorry, I couldn't find any information for "${modifierNameInput}".`,
+              flags: messageFlags,
+            },
+          });
+        } else {
+          const matchedModifierName = modifierFuzzyResult[0].item.modifierName;
+          const matchedModifierInfo = modifierFuzzyResult[0].item.modifierInfo;
+          return new JsonResponse({
+            type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+            data: {
+              content: `Fuzzy Search for ${modifierNameInput} found **${matchedModifierName}**: \n${matchedModifierInfo}`,
+              flags: messageFlags,
+            },
+          });
+      
+        }
       }
       default:
         return new JsonResponse({ error: 'Unknown Type' }, { status: 400 });
