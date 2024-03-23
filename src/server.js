@@ -142,7 +142,7 @@ router.post('/', async (request, env) => {
           return new JsonResponse({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
             data: {
-              content: `${drafts[mapQuery]}`,
+              content: `Fuzzy Search for ${mapName}\n${matchedUrl}`,
               flags: messageFlags,
               
             },
@@ -153,9 +153,8 @@ router.post('/', async (request, env) => {
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
-            content: `${drafts[mapQuery]}`,
+            content: `Draft for ${mapName}\n${drafts[mapQuery]}`,
             flags: messageFlags,
-            
           },
         });
       }
