@@ -116,7 +116,7 @@ router.post('/', async (request, env) => {
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
-            content: `The bot is not free to invite due to hosting fees. \nIf you want to add it to your own server, either boost this discord server: https://discord.gg/KDkyMhGuux or check out: https://ko-fi.com/brawldraftbot`,
+            content: `The bot is not free to invite due to hosting fees. \nIf you want to add it to your own server, either check out: https://ko-fi.com/brawldraftbot or boost this discord server: https://discord.gg/KDkyMhGuux \nKo-Fi is preferred!`,
             flags: InteractionResponseFlags.EPHEMERAL,
           },
         });
