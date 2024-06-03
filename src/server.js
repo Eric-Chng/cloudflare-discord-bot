@@ -8,7 +8,7 @@ import {
   InteractionType,
   verifyKey,
 } from 'discord-interactions';
-import { INVITE_COMMAND, DRAFT_COMMAND, COUNTER_COMMAND, HELP_COMMAND, MODIFIER_COMMAND } from './commands.js';
+import { INVITE_COMMAND, DRAFT_COMMAND, COUNTER_COMMAND, HELP_COMMAND, MODIFIER_COMMAND, BUILD_COMMAND } from './commands.js';
 import { InteractionResponseFlags } from 'discord-interactions';
 
 const botchannel = `931255199627112458`;
@@ -22,6 +22,8 @@ const drafts = require('../data/drafts.json');
 const draftsFuzzyArray = Object.keys(drafts).map(key => ({ mapName: key, url: drafts[key] }));
 const modifiers = require('../data/modifiers.json');
 const modifiersFuzzyArray = Object.keys(modifiers).map(key => ({ modifierName: key, modifierInfo: modifiers[key] }));
+const builds = require('../data/builds.json');
+const buildsFuzzyArray = Object.keys(builds).map(key => ({ brawlerName: key, buildInfo: builds[key] }));
 
 
 const draftsFuzzySearch = new Fuse(draftsFuzzyArray, {
@@ -40,6 +42,11 @@ const modifiersFuzzySearch = new Fuse(modifiersFuzzyArray, {
   // keys to search in (you can specify nested paths with dot notation)
   keys: ["modifierName"],
   threshold: 0.6,
+});
+const buildsFuzzySearch = new Fuse(buildsFuzzyArray, {
+  // keys to search in (you can specify nested paths with dot notation)
+  keys: ["brawlerName"],
+  threshold: 0.25,
 });
 
 
@@ -219,6 +226,43 @@ router.post('/', async (request, env) => {
           });
       
         }
+      }
+      case BUILD_COMMAND.name.toLowerCase(): {
+        var brawlerName = interaction.data.options.find(option => option.name === 'brawler')?.value.toLowerCase();
+        const brawlerNameQuery = brawlerName.replace(/[^\w\s]|_/g, "");
+        if (builds[brawlerNameQuery] === undefined) {
+          //fuzzy search time
+          const buildsFuzzyResult = buildsFuzzyArray.search(brawlerNameQuery);
+          if (buildsFuzzyResult.length === 0) {
+            return new JsonResponse({
+              type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+              data: {
+                content: `Sorry, I couldn't find any build information for "${brawlerName}".`,
+                flags: messageFlags,
+              },
+            });
+          }
+          var matchedBuildBrawler = buildsFuzzyResult[0].item.brawlerName;
+          matchedBuildBrawler = matchedBuildBrawler.charAt(0).toUpperCase() + matchedBuildBrawler.slice(1);
+          const matchedBuildInfo = buildsFuzzyResult[0].item.buildInfo;
+          return new JsonResponse({
+            type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+            data: {
+              content: `Fuzzy Search for ${brawlerName} found **${matchedBuildBrawler}**: \n${matchedBuildInfo}`,
+              flags: messageFlags,
+            },
+          });
+        }
+        const buildInfo = builds[brawlerNameQuery];
+        brawlerName = brawlerName.charAt(0).toUpperCase() + brawlerName.slice(1);
+
+        return new JsonResponse({
+          type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+          data: {
+            content: `${brawlerName}: \n${buildInfo}`,
+            flags: messageFlags,
+          },
+        });
       }
       default:
         return new JsonResponse({ error: 'Unknown Type' }, { status: 400 });
