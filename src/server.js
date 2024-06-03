@@ -248,7 +248,7 @@ router.post('/', async (request, env) => {
           return new JsonResponse({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
             data: {
-              content: `Fuzzy Search for ${brawlerName} found **${matchedBuildBrawler}**: \n__**Gadgets**__:\n${matchedBuildInfo.gadget}\n__**Star Powers**__:\n${matchedBuildInfo.starpower}\n__**Gears**__:\n${matchedBuildInfo.gear}`,
+              content: `Fuzzy Search for ${brawlerName} found **${matchedBuildBrawler}**: \n\n__**Gadgets**__:\n${matchedBuildInfo.gadget}\n\n__**Star Powers**__:\n${matchedBuildInfo.starpower}\n\n__**Gears**__:\n${matchedBuildInfo.gear}`,
               flags: messageFlags,
             },
           });
@@ -259,7 +259,7 @@ router.post('/', async (request, env) => {
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
-            content: `${brawlerName}: \n__**Gadgets**__:\n${buildInfo.gadget}\n__**Star Powers**__:\n${buildInfo.starpower}\n__**Gears**__:\n${buildInfo.gear}`,
+            content: `${brawlerName}: \n\n__**Gadgets**__:\n${buildInfo.gadget}\n\n__**Star Powers**__:\n${buildInfo.starpower}\n\n__**Gears**__:\n${buildInfo.gear}`,
             flags: messageFlags,
           },
         });
