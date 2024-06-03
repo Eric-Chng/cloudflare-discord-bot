@@ -232,7 +232,7 @@ router.post('/', async (request, env) => {
         const brawlerNameQuery = brawlerName.replace(/[^\w\s]|_/g, "");
         if (builds[brawlerNameQuery] === undefined) {
           //fuzzy search time
-          const buildsFuzzyResult = buildsFuzzyArray.search(brawlerNameQuery);
+          const buildsFuzzyResult = buildsFuzzySearch.search(brawlerNameQuery);
           if (buildsFuzzyResult.length === 0) {
             return new JsonResponse({
               type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
