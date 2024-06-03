@@ -3,5 +3,276 @@
         "gadget": "Both pretty good. Cheat cartridge 90% of time, Extra Credits in heist.",
         "starpower":"Boosted booster 99% of time. Speed vs snipers and counters some times.",
         "gear":"Reload and speed."
+    },
+    "amber": {
+        "gadget": "Both good. Fire starter better if you pick one due to star power synergy. Dancing flames is anti aggro + play around walls",
+        "starpower":"Wild Flames",
+        "gear":"Reload and damage/vision."
+    },
+    "angelo": {
+        "gadget": "Stinging Flight 99% of time. Master Fletcher still good in certain matchups+maps",
+        "starpower":"Empower.",
+        "gear":"Shield and damage."
+    },
+    "ash": {
+        "gadget": "Chill pill.",
+        "starpower":"First bash.",
+        "gear":"Speed and damage."
+    },
+    "barley": {
+        "gadget": "Two good gadgets. Herbal tonic generally better, but sticky good vs assassins.",
+        "starpower":"Damage star power. Healing good if you are facing throwers",
+        "gear":"Any two of damage, gadget, and shield."
+    },
+    "bea": {
+        "gadget": "Rattled Hive.",
+        "starpower":"Honeycomb more powerful. Insta Beaload if you're not confident in your aim.",
+        "gear":"Shield and damage."
+    },
+    "belle": {
+        "gadget": "Nest egg most of the time. Reverse polarity ok on some maps.",
+        "starpower":"Positive feedback.",
+        "gear":"Reload and shield."
+    },
+    "bibi": {
+        "gadget": "Vitamin booster.",
+        "starpower":"Home run 99% of time. Batting stance sometimes on grassy maps + vs tanks.",
+        "gear":"Speed and damage. Swap speed for shield/health if not grassy."
+    },
+    "bo": {
+        "gadget": "Super totem 99% of time. Tripwire good in brawl ball + to break open map.",
+        "starpower":"Snare bear.",
+        "gear":"Reload and damage. Vision okay in super grassy maps"
+    },
+    "bonnie": {
+        "gadget": "Sugar rush.",
+        "starpower":"Black powder.",
+        "gear":"Super charge and gadget."
+    },
+    "brock": {
+        "gadget": "Rocket fuel 99% of time. Rocket laces okay vs aggro.",
+        "starpower":"More rockets.",
+        "gear":"Reload and shield. Damage instead of shield in heist."
+    },
+    "bull": {
+        "gadget": "Stomper. T-bone injector okay in heist.",
+        "starpower":"Tough Guy.",
+        "gear":"Damage and super charge. Speed over super charge on grassy maps."
+    },
+    "buster": {
+        "gadget": "Slow-mo replay.",
+        "starpower":"Kevlar Vest.",
+        "gear":"Gadget and speed/damage."
+    },
+    "buzz": {
+        "gadget": "Reserve buoy 99%.",
+        "starpower":"Eyes Sharp. Other one okay vs tanks",
+        "gear":"Shield and damage."
+    },
+    "byron": {
+        "gadget": "Shot in the arm better vs sharpshooters. Other one still good.",
+        "starpower":"Malaise.",
+        "gear":"Shield and gadget. Damage instead if you don't take shot in the arm."
+    },
+    "carl": {
+        "gadget": "Flying hook.",
+        "starpower":"Protective Pirouette.",
+        "gear":"Gadget and damage."
+    },
+    "charlie": {
+        "gadget": "Spiders. Other gadget if vs aoe like sandy/emz/etc.",
+        "starpower":"Both fine.",
+        "gear":"Gadget and damage."
+    },
+    "chester": {
+        "gadget": "Candy beans. Other is fine but both gadgets are mid",
+        "starpower":"Bell-o-mania.",
+        "gear":"Speed and damage. Vision good in super grassy maps which chester is often good in."
+    },
+    "chuck": {
+        "gadget": "Rerouting. Allows you to get final post in easier. Super up, reroute, place on safe.",
+        "starpower":"Pit stop.",
+        "gear":"Damage and shield. Gadget if you are using ghost train."
+    },
+    "collette": {
+        "gadget": "Gotcha.",
+        "starpower":"Mass tax in heist. Both good elsewhere",
+        "gear":"Gadget and damage."
+    },
+    "colt": {
+        "gadget": "Speedloader. Silver bullet good vs walls/throwers.",
+        "starpower":"Equally good.",
+        "gear":"Reload and damage."
+    },
+    "cordelius": {
+        "gadget": "Replanting.",
+        "starpower": "Combo shrooms better.",
+        "gear":"Shield and gadget."
+    },
+    "crow": {
+        "gadget": "Both gadgets underwhelming. Slow slightly better.",
+        "starpower":"Extra toxic. Carrion crow is fine too.",
+        "gear":"Mythic and shield. Can sub out mythic for whatever"
+    },
+    "darryl": {
+        "gadget": "Both are just okay. Slight preference for recoiling rotator",
+        "starpower": "Steel hoops.",
+        "gear":"Damage and health. Sometimes speed"
+    },
+    "doug": {
+        "gadget": "Extra mustard.",
+        "starpower": "Self service.",
+        "gear":"Speed and damage."
+    },
+    "dynamike": {
+        "gadget": "Satchel Charge.",
+        "starpower": "Demolition.",
+        "gear":"Damage and gadget."
+    },
+    "edgar": {
+        "gadget": "Let's Fly.",
+        "starpower": "Hard landing vs squishy. Fisticuffs vs tanks",
+        "gear":"Super charge and gadget/damage/shield."
+    },
+    "el primo": {
+        "gadget": "Suplex suplement to enhance ability to counter bibi, buzz, etc. Asteroid belt okay on some maps or vs throwers.",
+        "starpower": "Meteor rush a little better.",
+        "gear":"Super charge and damage/health."
+    },
+    "emz": {
+        "gadget": "Friendzoner.",
+        "starpower": "Hype. Bad karma in heist",
+        "gear":"Speed and damage."
+    },
+    "eve": {
+        "gadget": "Gotta go",
+        "starpower": "Unnatural order.",
+        "gear":"Reload and mythic."
+    },
+    "fang": {
+        "gadget": "Both good. Corn-fu to stop healing + control. Roundhouse to confirm kills.",
+        "starpower": "Fresh kicks.",
+        "gear":"Shield and damage."
+    },
+    "frank": {
+        "gadget": "Irresistable attraction.",
+        "starpower": "Sponge.",
+        "gear":"Health and damage."
+    },
+    "gale": {
+        "gadget": "Twister.",
+        "starpower": "Freezing snow.",
+        "gear":"Damage and shield/speed."
+    },
+    "gene": {
+        "gadget": "Vengeful vs long range. Lamp blowout brawl ball or vs tanks",
+        "starpower": "Magic puffs a little better. Spirit slap good with hyper",
+        "gear":"Mythic and vision/damage/health."
+    },
+    "gray": {
+        "gadget": "walking cane",
+        "starpower": "Fake Injury on ko/bounty. New perspective elsewhere",
+        "gear":"Damage/shield and Gadget."
+    },
+    "griff": {
+        "gadget": "Piggy bank.",
+        "starpower": "Business resilience.",
+        "gear":"Reload and damage/gadget."
+    },
+    "grom": {
+        "gadget": "radio check. Watchtower can be useful",
+        "starpower": "X-factor.",
+        "gear":"Shield and damage."
+    },
+    "gus": {
+        "gadget": "kooky popper",
+        "starpower": "Spirit animal.",
+        "gear":"Damage and gadget/shield"
+    },
+    "hank": {
+        "gadget": "barricade.",
+        "starpower": "It's gonna blow.",
+        "gear":"Health and damage."
+    },
+    "jacky": {
+        "gadget": "Pneumatic booster.",
+        "starpower": "Counter Crush.",
+        "gear":"Speed and damage. Super charge and gadget can be swapped in just as good."
+    },
+    "janet": {
+        "gadget": "Drop the bass.",
+        "starpower": "Vocal warmup.",
+        "gear":"Speed and damage/vision."
+    },
+    "jessie": {
+        "gadget": "Spark plug. Recoil Spring in heist",
+        "starpower": "Energize.",
+        "gear":"Damage and pet power in heist. Speed > pet power otherwise."
+    },
+    "kit": {
+        "gadget": "Cardboard box. Cheeseburger okay too now.",
+        "starpower": "Overly attached. Not actually necessary.",
+        "gear":"Damage and shield."
+    },
+    "larry": {
+        "gadget": "Order: Fall back.",
+        "starpower": "Protocol: Protect.",
+        "gear":"Damage and gadget."
+    },
+    "leon": {
+        "gadget": "Lollipop drop.",
+        "starpower": "Invisiheal. Smoke trails okay on long range maps",
+        "gear":"Mythic and damage. Shield and damage is safer build."
+    },
+    "lily": {
+        "gadget": "Vanish.",
+        "starpower": "Spiky.",
+        "gear":"Damage and gadget."
+    },
+    "lola": {
+        "gadget": "Freeze frame.",
+        "starpower": "Sealed with a Kiss.",
+        "gear":"Reload and damage/vision."
+    },
+    "lou": {
+        "gadget": "Cryo syrup.",
+        "starpower": "Hypothermia.",
+        "gear":"Gadget and super charge."
+    },
+    "maisie": {
+        "gadget": "Disengage.",
+        "starpower": "Tremors.",
+        "gear":"Damage and gadget."
+    },
+    "mandy": {
+        "gadget": "Caramalize. Cookie Crumbs okay too",
+        "starpower": "In My Sights.",
+        "gear":"Damage and shield."
+    },
+    "max": {
+        "gadget": "Phase Shifter.",
+        "starpower": "Run and Gun.",
+        "gear":"Gadget and damage/shield/health."
+    },
+    "meg": {
+        "gadget": "Jolting Volts to pressure enemy back. Toolbox good vs gene",
+        "starpower": "Shield star power.",
+        "gear":"Shield/damage and gadget charge."
+    },
+    "melodie": {
+        "gadget": "interlude.",
+        "starpower": "Fast beats.",
+        "gear":"Gadget and damage."
+    },
+    "mico": {
+        "gadget": "Clipping screen 99% of time. Presto okay in niche scenarios.",
+        "starpower": "Monkey business. Record smash in heist.",
+        "gear":"Shield and damage."
+    },
+    "mortis": {
+        "gadget": "Survival Shovel.",
+        "starpower": "Both good. Coiled snake better high elo.",
+        "gear":"Damage and shield/gadget/mythic."
     }
+
 }
