@@ -47,6 +47,19 @@ export const MODIFIER_COMMAND = {
   ],
 };
 
+export const BUILD_COMMAND = {
+  name: 'build',
+  description: 'Return best build for a brawler',
+  options: [
+    {
+      type: 3, 
+      name: 'brawler',
+      description: 'The name of the brawler to build',
+      required: true,
+    }
+  ],
+};
+
 export const HELP_COMMAND = {
   name: 'help',
   description: 'See a list of commands and how to use them',
