@@ -125,9 +125,9 @@
         "gear":"Speed and damage."
     },
     "draco": {
-        "gadget": "Don't own :(.",
-        "starpower": "idk.",
-        "gear":"idk."
+        "gadget": "Last stand.",
+        "starpower": "Shredding better on long range maps. Expose better vs tanks",
+        "gear":"Probably gadget and health/damage. Need time to fully test"
     },
     "dynamike": {
         "gadget": "Satchel Charge.",
