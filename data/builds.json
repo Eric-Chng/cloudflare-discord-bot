@@ -124,6 +124,11 @@
         "starpower": "Self service.",
         "gear":"Speed and damage."
     },
+    "draco": {
+        "gadget": "Don't own :(.",
+        "starpower": "idk.",
+        "gear":"idk."
+    },
     "dynamike": {
         "gadget": "Satchel Charge.",
         "starpower": "Demolition.",
@@ -273,6 +278,125 @@
         "gadget": "Survival Shovel.",
         "starpower": "Both good. Coiled snake better high elo.",
         "gear":"Damage and shield/gadget/mythic."
+    },
+    "mr p": {
+        "gadget": "Service Bell.",
+        "starpower": "Revolving Door.",
+        "gear":"Shield and damage."
+    },
+    "nani": {
+        "gadget": "Return to Sender in bounty/knockout/vs snipers. Teleport in heist/brawl ball/gem grab.",
+        "starpower": "Autofocus in bounty/knockout. tempered steel other modes",
+        "gear":"Damage and shield."
+    },
+    "nita": {
+        "gadget": "Faux Fur. Bear paws good vs tanks and in brawl ball",
+        "starpower": "Bear with me. Hyper bear in heist",
+        "gear":"Damage and speed. Pet power in heist."
+    },
+    "otis": {
+        "gadget": "Fat splatter.",
+        "starpower": "Ink Refill.",
+        "gear":"Speed and vision in grassy. Damage and super charge elsewhere."
+    },
+    "pam": {
+        "gadget": "Scrapsucker.",
+        "starpower": "Mama squeeze. Hug in quickfire",
+        "gear":"Mythic and health (hotzone)/vision (grassy)/gadget."
+    },
+    "pearl": {
+        "gadget": "Overcooked.",
+        "starpower": "Heat shield. Heat retention okay vs aggro",
+        "gear":"Damage and health."
+    },
+    "penny": {
+        "gadget": "salty barrel.",
+        "starpower": "Master blaster/heavy coffers equal. Blaster better vs aggro",
+        "gear":"Damage and Shield."
+    },
+    "piper": {
+        "gadget": "Auto aimer vs aggro/as default. Homemade recipe if no aggro",
+        "starpower": "Snappy Sniping.",
+        "gear":"Shield and gadget."
+    },
+    "poco": {
+        "gadget": "Tuning Fork.",
+        "starpower": "Both good. Da capo great heals. Screeching solo if you play aggro.",
+        "gear":"Speed/damage and gadget."
+    },
+    "r t": {
+        "gadget": "Hacks if long range. Out of line vs aggro or on maps like parallel plays/sneaky fields",
+        "starpower": "Shield sp.",
+        "gear":"Health and shield/gadget."
+    },
+    "rico": {
+        "gadget": "Multiball launcher. Bouncy castle okay vs only snipers",
+        "starpower": "Super bouncy better. Robo retreat okay",
+        "gear":"Reload and damage/vision/gadget."
+    },
+    "rosa": {
+        "gadget": "Unfriendly bushes.",
+        "starpower": "Thorny gloves.",
+        "gear":"Damage/gadget (grassy maps) and speed. "
+    },
+    "ruffs": {
+        "gadget": "Air support.",
+        "starpower": "Air superiority. Field promotion okay on knockout/bounty",
+        "gear":"Damage and shield."
+    },
+    "sam": {
+        "gadget": "Magnetic Field.",
+        "starpower": "Hearty Recovery.",
+        "gear":"Speed/shield and damage."
+    },
+    "sandy": {
+        "gadget": "Sweet Dreams.",
+        "starpower": "Rude Sands.",
+        "gear":"Speed and damage."
+    },
+    "shelly": {
+        "gadget": "Clay Pigeons.",
+        "starpower": "Shell shock. Both pretty mid so can go without.",
+        "gear":"Speed and gadget."
+    },
+    "spike": {
+        "gadget": "Life plant. Popping pincushion on heist",
+        "starpower": "Starpower. Fertilize if big friend",
+        "gear":"Damage/shield/vision and mythic gear."
+    },
+    "sprout": {
+        "gadget": "Transplant.",
+        "starpower": "Overgrowth.",
+        "gear":"Super charge and shield."
+    },
+    "squeak": {
+        "gadget": "Residue.",
+        "starpower": "Super sticky.",
+        "gear":"Damage and gadget."
+    },
+    "stu": {
+        "gadget": "Speedzone usually. Breakthrough on good maps",
+        "starpower": "Gasoheal. Zero drag vs snipers/long range",
+        "gear":"Damage and shield."
+    },
+    "surge": {
+        "gadget": "Power shield usually. Power surge for consistency",
+        "starpower": "Serve ice cold.",
+        "gear":"Speed and damage."
+    },
+    "tara": {
+        "gadget": "Support from beyond.",
+        "starpower": "Healing shade.",
+        "gear":"Damag/gadget and speed."
+    },
+    "tick": {
+        "gadget": "last hurrah.",
+        "starpower": "Well Oiled. Automa-tick reload if no enemy throwers/threats",
+        "gear":"Shield and mythic."
+    },
+    "willow": {
+        "gadget": "Both meh. Dive better vs aggro. Spellbound for confirming kills",
+        "starpower": "Love is blind.",
+        "gear":"Damage and shield gear."
     }
-
 }
