@@ -225,7 +225,7 @@
         "gear":"Damage and gadget."
     },
     "leon": {
-        "gadget": "Lollipop drop.",
+        "gadget": "Lollipop drop. Allows you to connect bushes and push up control. Team invis is super strong.",
         "starpower": "Invisiheal. Smoke trails okay on long range maps",
         "gear":"Mythic and damage. Shield and damage is safer build."
     },
@@ -325,6 +325,11 @@
         "gear":"Speed/damage and gadget."
     },
     "r t": {
+        "gadget": "Hacks if long range. Out of line vs aggro or on maps like parallel plays/sneaky fields",
+        "starpower": "Shield sp.",
+        "gear":"Health and shield/gadget."
+    },
+    "rt": {
         "gadget": "Hacks if long range. Out of line vs aggro or on maps like parallel plays/sneaky fields",
         "starpower": "Shield sp.",
         "gear":"Health and shield/gadget."
