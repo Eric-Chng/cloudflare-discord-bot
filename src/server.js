@@ -131,7 +131,7 @@ router.post('/', async (request, env) => {
       case DRAFT_COMMAND.name.toLowerCase(): {
         const mapName = interaction.data.options.find(option => option.name === 'map')?.value;
         const mapQuery = mapName.toLowerCase().replace(/[^\w\s]|_/g, "");
-        const draftInfo = `https://www.youtube.com/watch?v=D4-c1Ce8P4s`;
+        const draftInfo = `https://www.youtube.com/watch?v=dF0NwoYGM2s&t=2s`;
 
         if (drafts[mapQuery] === undefined) {
           //fuzzy search time
@@ -245,21 +245,28 @@ router.post('/', async (request, env) => {
           var matchedBuildBrawler = buildsFuzzyResult[0].item.brawlerName;
           matchedBuildBrawler = matchedBuildBrawler.charAt(0).toUpperCase() + matchedBuildBrawler.slice(1);
           const matchedBuildInfo = buildsFuzzyResult[0].item.buildInfo;
+          var buildResponseContent = `Fuzzy Search for ${brawlerName} found **${matchedBuildBrawler}**: \n\n__**Gadgets**__:\n${matchedBuildInfo.gadget}\n\n__**Star Powers**__:\n${matchedBuildInfo.starpower}\n\n__**Gears**__:\n${matchedBuildInfo.gear}`;
+          if (matchedBuildInfo.tips !== undefined) {
+            buildResponseContent += `\n\n__**Tips**__:\n${matchedBuildInfo.tips}`;
+          }
           return new JsonResponse({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
             data: {
-              content: `Fuzzy Search for ${brawlerName} found **${matchedBuildBrawler}**: \n\n__**Gadgets**__:\n${matchedBuildInfo.gadget}\n\n__**Star Powers**__:\n${matchedBuildInfo.starpower}\n\n__**Gears**__:\n${matchedBuildInfo.gear}`,
+              content: buildResponseContent,
               flags: messageFlags,
             },
           });
         }
         const buildInfo = builds[brawlerNameQuery];
         brawlerName = brawlerName.charAt(0).toUpperCase() + brawlerName.slice(1);
-
+        var buildResponseContent = `${brawlerName}: \n\n__**Gadgets**__:\n${buildInfo.gadget}\n\n__**Star Powers**__:\n${buildInfo.starpower}\n\n__**Gears**__:\n${buildInfo.gear}`;
+          if (matchedBuildInfo.tips !== undefined) {
+            buildResponseContent += `\n\n__**Tips**__:\n${buildInfo.tips}`;
+          }
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
-            content: `${brawlerName}: \n\n__**Gadgets**__:\n${buildInfo.gadget}\n\n__**Star Powers**__:\n${buildInfo.starpower}\n\n__**Gears**__:\n${buildInfo.gear}`,
+            content: buildResponseContent,
             flags: messageFlags,
           },
         });

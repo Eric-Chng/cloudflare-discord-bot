@@ -127,7 +127,8 @@
     "draco": {
         "gadget": "Last stand.",
         "starpower": "Shredding better on long range maps. Expose better vs tanks",
-        "gear":"Probably gadget and health/damage. Need time to fully test. \nPairs great with Kit, byron"
+        "gear":"Probably gadget and health/damage. Need time to fully test.",
+        "tips": "Pairs great with Kit, Byron when supering. Great for when pressure is needed (hot zone, etc.)"
     },
     "dynamike": {
         "gadget": "Satchel Charge.",
