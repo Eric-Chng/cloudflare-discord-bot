@@ -183,7 +183,8 @@
     "griff": {
         "gadget": "Piggy bank.",
         "starpower": "Business resilience.",
-        "gear":"Reload and damage/gadget."
+        "gear":"Reload and damage/gadget.",
+        "tips": "Midrange wallbreaker. Use on any map you need a wallbreak + midrange on"
     },
     "grom": {
         "gadget": "radio check. Watchtower can be useful",
