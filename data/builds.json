@@ -70,7 +70,7 @@
         "gear":"Shield and damage."
     },
     "byron": {
-        "gadget": "Shot in the arm better vs sharpshooters. Other one still good.",
+        "gadget": "Shot in the arm better vs sharpshooters. Booster shot better vs aggro.",
         "starpower":"Malaise.",
         "gear":"Shield and gadget. Damage instead if you don't take shot in the arm."
     },
@@ -92,7 +92,7 @@
     "chuck": {
         "gadget": "Rerouting. Allows you to get final post in easier. Super up, reroute, place on safe.",
         "starpower":"Pit stop.",
-        "gear":"Damage and shield. Gadget if you are using ghost train."
+        "gear":"Damage and shield. Gadget if you are using ghost train. Can swap health for shield in non-heist"
     },
     "collette": {
         "gadget": "Gotcha.",
