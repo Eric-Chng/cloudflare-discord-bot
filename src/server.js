@@ -15,8 +15,6 @@ const botchannel = `931255199627112458`;
 const acceptedRoles = [`931250396435972136`, `1168295996166516848`, `935264620325765191`,`931250435745022013`, `931250488836493313`];
 
 const paid_servers = require('../data/paid_servers.json');
-console.log(paid_servers);
-console.log("Credit = " + paid_servers[0]);
 
 const Fuse = require('fuse.js');
 
@@ -113,6 +111,8 @@ router.post('/', async (request, env) => {
     // Most user commands will come as `APPLICATION_COMMAND`.
     switch (interaction.data.name.toLowerCase()) {
       case HELP_COMMAND.name.toLowerCase(): {
+        console.log(paid_servers);
+        console.log("Credit = " + paid_servers[0]);
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
