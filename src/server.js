@@ -113,6 +113,7 @@ router.post('/', async (request, env) => {
       case HELP_COMMAND.name.toLowerCase(): {
         console.log(paid_servers);
         console.log("Credit = " + paid_servers[0]);
+        console.log("cred inside" + paid_servers.includes("931249800790298645"));
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
