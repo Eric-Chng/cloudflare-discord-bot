@@ -14,6 +14,10 @@ import { InteractionResponseFlags } from 'discord-interactions';
 const botchannel = `931255199627112458`;
 const acceptedRoles = [`931250396435972136`, `1168295996166516848`, `935264620325765191`,`931250435745022013`, `931250488836493313`];
 
+const paid_servers = require('../data/paid_servers.json');
+console.log(paid_servers);
+console.log("Credit = " + paid_servers[0]);
+
 const Fuse = require('fuse.js');
 
 const counters = require('../data/counters.json');
