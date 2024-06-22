@@ -107,13 +107,19 @@ router.post('/', async (request, env) => {
           messageFlags = InteractionResponseFlags.EPHEMERAL;
         }
       }
+    } 
+    if (paid_servers.includes(parseInt(guild)) === false) {
+      return new JsonResponse({
+        type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+        data: {
+          content: `The bot is not free to invite due to hosting fees. \nYour server subscription has now expired. You can resubscribe on Ko-Fi: https://ko-fi.com/brawldraftbot \nIf you believe you are seeing this message in error, contact Coolfood at the bot discord: https://discord.gg/KDkyMhGuux`,
+          flags: 0,
+        },
+      });
     }
     // Most user commands will come as `APPLICATION_COMMAND`.
     switch (interaction.data.name.toLowerCase()) {
       case HELP_COMMAND.name.toLowerCase(): {
-        console.log(paid_servers);
-        console.log("Credit = " + paid_servers[0]);
-        console.log("cred inside" + paid_servers.includes(parseInt(guild)));
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
