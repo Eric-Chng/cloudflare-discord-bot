@@ -394,7 +394,7 @@
     "tara": {
         "gadget": "Support from beyond.",
         "starpower": "Healing shade.",
-        "gear":"Damag/gadget and speed."
+        "gear":"Damage/gadget and speed."
     },
     "tick": {
         "gadget": "last hurrah.",
@@ -405,5 +405,10 @@
         "gadget": "Both meh. Dive better vs aggro. Spellbound for confirming kills",
         "starpower": "Love is blind.",
         "gear":"Damage and shield gear."
-    }
+    },
+    "berry": {
+        "gadget": "Friendship is great to counter aggro",
+        "starpower": "FLoor is Fine",
+        "gear": "Shield and damage",
+        "tips": "Attack is impact + damage zone after. Damage zone doesn't stack. Weak vs tanks"
 }
