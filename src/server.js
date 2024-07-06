@@ -159,7 +159,7 @@ router.post('/', async (request, env) => {
           const matchedUrl = draftsFuzzyResult[0].item.url;
           var formattedDraftContent = `# Fuzzy Search for ${mapName}\n`;
           if (matchedUrl.tips) {
-            formattedDraftContent += `## Tips\n${matchedUrl.tips}\n\n`;
+            formattedDraftContent += `### Tips\n${matchedUrl.tips}\n\n`;
           }
           formattedDraftContent += `${matchedUrl.link}`;
           return new JsonResponse({
@@ -174,7 +174,7 @@ router.post('/', async (request, env) => {
         } 
         var formattedDraftContent = `# Draft for ${mapName}\n`;
         if (drafts[mapQuery].tips) {
-          formattedDraftContent += `## Tips\n${drafts[mapQuery].tips}\n\n`;
+          formattedDraftContent += `### Tips\n${drafts[mapQuery].tips}\n\n`;
         }
         formattedDraftContent += `${drafts[mapQuery].link}`;
 
