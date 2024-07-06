@@ -157,21 +157,31 @@ router.post('/', async (request, env) => {
             });
           }
           const matchedUrl = draftsFuzzyResult[0].item.url;
+          const formattedDraftContent = `# Fuzzy Search for ${mapName}\n`;
+          if (matchedUrl.tips) {
+            formattedDraftContent += `## Tips\n${matchedUrl.tips}\n\n`;
+          }
+          formattedDraftContent += `${matchedUrl.link}`;
           return new JsonResponse({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
             data: {
-              content: `# Fuzzy Search for ${mapName}\n${matchedUrl}`,
+              content: formattedDraftContent,
               flags: messageFlags,
               
             },
           });
           
         } 
+        const formattedDraftContent = `# Draft for ${mapName}\n`;
+        if (drafts[mapQuery].tips) {
+          formattedDraftContent += `## Tips\n${drafts[mapQuery].tips}\n\n`;
+        }
+        formattedDraftContent += `${drafts[mapQuery].link}`;
 
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
-            content: `# Draft for ${mapName}\n${drafts[mapQuery]}`,
+            content: formattedDraftContent,
             flags: messageFlags,
           },
         });
