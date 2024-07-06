@@ -161,7 +161,7 @@
         "gear":"Shield and damage."
     },
     "frank": {
-        "gadget": "Irresistable attraction.",
+        "gadget": "Irresistable attraction default. Active Noise Cancellation vs stuns.",
         "starpower": "Sponge.",
         "gear":"Health and damage."
     },
