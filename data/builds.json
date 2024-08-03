@@ -411,5 +411,9 @@
         "gadget": "Dive to stall enemy utility.",
         "starpower": "Love is Blind. Both are hard to get value from.",
         "gear":"Damage and shield gear."
-    }
+    },
+    "clancy": {
+        "gadget": "Snappy shooting. Earlier you get form, the more useful you are",
+        "starpower": "Probably recon. Wait to see.",
+        "gear": "Damage and ?"
 }
