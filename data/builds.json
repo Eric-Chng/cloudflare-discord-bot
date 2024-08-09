@@ -413,7 +413,8 @@
         "gear":"Damage and shield gear."
     },
     "clancy": {
-        "gadget": "Snappy shooting. Earlier you get form, the more useful you are",
-        "starpower": "Probably recon. Wait to see.",
-        "gear": "Damage and ?"
+        "gadget": "Snappy shooting. Earlier you get form, the more useful you are. Tactical retreat good in bad matchups",
+        "starpower": "Recon. Most of his dmg is from super and lower ranks are too horrible.",
+        "gear": "Damage and shield.",
+        "tips": "Clancy is best on brawlball, heist, and gem grab. Weak vs long range"
 }
