@@ -287,6 +287,12 @@
         "starpower": "Both good. Coiled snake better high elo.",
         "gear":"Shield and Bat Storm/Damage (if you're a good player)."
     },
+    "moe": {
+        "gadget": "Dodgy Digging",
+        "starpower": "Skipping Stones",
+        "gear": "Damage and shield",
+        "tips": "Pop out of super when you're about to die or can't hit to charge super again. \nKeep distance in small form. Kills throwers and brawlers weak vs aggro in big form."
+    },
     "mr p": {
         "gadget": "Service Bell.",
         "starpower": "Revolving Door.",
