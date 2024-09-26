@@ -8,48 +8,7 @@ import {
   InteractionType,
   verifyKey,
 } from 'discord-interactions';
-import { INVITE_COMMAND, DRAFT_COMMAND, COUNTER_COMMAND, HELP_COMMAND, MODIFIER_COMMAND, BUILD_COMMAND } from './commands.js';
-import { InteractionResponseFlags } from 'discord-interactions';
 
-const botchannel = `931255199627112458`;
-const acceptedRoles = [`931250396435972136`, `1168295996166516848`, `935264620325765191`,`931250435745022013`, `931250488836493313`];
-
-const paid_servers = require('../data/paid_servers.json');
-
-const Fuse = require('fuse.js');
-
-const counters = require('../data/counters.json');
-const countersFuzzyArray = Object.keys(counters).map(key => ({ brawlerName: key, counterInfo: counters[key] }));
-const drafts = require('../data/drafts.json');
-const draftsFuzzyArray = Object.keys(drafts).map(key => ({ mapName: key, url: drafts[key] }));
-const modifiers = require('../data/modifiers.json');
-const modifiersFuzzyArray = Object.keys(modifiers).map(key => ({ modifierName: key, modifierInfo: modifiers[key] }));
-const builds = require('../data/builds.json');
-const buildsFuzzyArray = Object.keys(builds).map(key => ({ brawlerName: key, buildInfo: builds[key] }));
-
-
-const draftsFuzzySearch = new Fuse(draftsFuzzyArray, {
-  // keys to search in (you can specify nested paths with dot notation)
-  keys: ["mapName"],
-
-  // Configure other options for fuzziness, etc.
-  threshold: 0.4, // Adjust the threshold (0 = exact match, 1 = match anything)
-});
-const countersFuzzySearch = new Fuse(countersFuzzyArray, {
-  // keys to search in (you can specify nested paths with dot notation)
-  keys: ["brawlerName"],
-  threshold: 0.25,
-});
-const modifiersFuzzySearch = new Fuse(modifiersFuzzyArray, {
-  // keys to search in (you can specify nested paths with dot notation)
-  keys: ["modifierName"],
-  threshold: 0.6,
-});
-const buildsFuzzySearch = new Fuse(buildsFuzzyArray, {
-  // keys to search in (you can specify nested paths with dot notation)
-  keys: ["brawlerName"],
-  threshold: 0.25,
-});
 
 
 class JsonResponse extends Response {
