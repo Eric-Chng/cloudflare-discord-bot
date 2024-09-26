@@ -422,5 +422,11 @@
         "gadget": "Spellbound. Dive for assassins.",
         "starpower": "Love is Blind. Obsession for Brawl Ball.",
         "gear":"Damage and shield gear."
+    },
+    "kenji": {
+        "gadget": "Hosomaki Healing for massive healing.",
+        "starpower": "Probably Nigiri Nemesis to stay alive",
+        "gear": "Probably shield and damage",
+        "tips": "Can dash into wall and then use swipe to wall peak with 2x dmg"
     }
 }
