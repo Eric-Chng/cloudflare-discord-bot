@@ -82,6 +82,7 @@ router.get('*', (request, env) => {
  * https://discord.com/developers/docs/interactions/receiving-and-responding#interaction-object
  */
 router.post('*', async (request, env) => {
+  return new JsonResponse({ error: 'Unknown Type' }, { status: 400 });
   try {
     console.log("POST request received");
     console.log("Headers:", [...request.headers]);
