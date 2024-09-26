@@ -82,6 +82,15 @@ router.get('*', (request, env) => {
  * https://discord.com/developers/docs/interactions/receiving-and-responding#interaction-object
  */
 router.post('*', async (request, env) => {
+  try {
+    console.log("POST request received");
+    console.log("Headers:", [...request.headers]);
+    const body = await request.text();
+    console.log("Body:", body);
+  } catch (err) {
+    console.error('Error reading body from request:', err); 
+    return new Response("Internal server error", { status: 500 });
+  }
   console.log("Discord req received");
   const { isValid, interaction } = await server.verifyDiscordRequest(
     request,
