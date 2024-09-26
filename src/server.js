@@ -70,6 +70,7 @@ const router = Router();
  * A simple :wave: hello page to verify the worker is working.
  */
 router.get('/', (request, env) => {
+  console.log("Wave recorded");
   return new Response(`👋 ${env.DISCORD_APPLICATION_ID}`);
 });
 
@@ -79,6 +80,7 @@ router.get('/', (request, env) => {
  * https://discord.com/developers/docs/interactions/receiving-and-responding#interaction-object
  */
 router.post('/', async (request, env) => {
+  console.log("Discord req received");
   const { isValid, interaction } = await server.verifyDiscordRequest(
     request,
     env,
