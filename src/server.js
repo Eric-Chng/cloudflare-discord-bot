@@ -69,8 +69,10 @@ const router = Router();
 /**
  * A simple :wave: hello page to verify the worker is working.
  */
-router.get('/', (request, env) => {
-  console.log("Wave recorded");
+router.get('*', (request, env) => {
+  const url = new URL(request.url);
+  const pathname = url.pathname;
+  console.log("Wave recorded at " + pathname);
   return new Response(`👋 ${env.DISCORD_APPLICATION_ID}`);
 });
 
@@ -79,7 +81,7 @@ router.get('/', (request, env) => {
  * include a JSON payload described here:
  * https://discord.com/developers/docs/interactions/receiving-and-responding#interaction-object
  */
-router.post('/', async (request, env) => {
+router.post('*', async (request, env) => {
   console.log("Discord req received");
   const { isValid, interaction } = await server.verifyDiscordRequest(
     request,
