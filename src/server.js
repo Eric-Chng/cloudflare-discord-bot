@@ -307,6 +307,7 @@ router.all('*', () => new Response('Not Found.', { status: 404 }));
 async function verifyDiscordRequest(request, env) {
   const signature = request.headers.get('x-signature-ed25519');
   const timestamp = request.headers.get('x-signature-timestamp');
+  console.log(signature);
   const body = await request.text();
   const isValidRequest =
     signature &&
