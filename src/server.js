@@ -34,10 +34,15 @@ router.get('*', (request, env) => {
  * https://discord.com/developers/docs/interactions/receiving-and-responding#interaction-object
  */
 router.post('*', async (request, env) => {
-  return new JsonResponse({ error: 'Unknown Type' }, { status: 400 });
+  return new Response('Hello, world!');
   
 });
 router.all('*', () => new Response('Not Found.', { status: 404 }));
 
+const server = {
+  fetch: async function (request, env) {
+    return router.handle(request, env);
+  },
+};
 
 export default server;
