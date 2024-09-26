@@ -3,11 +3,7 @@
  */
 
 import { Router } from 'itty-router';
-import {
-  InteractionResponseType,
-  InteractionType,
-  verifyKey,
-} from 'discord-interactions';
+
 
 
 
@@ -43,27 +39,5 @@ router.post('*', async (request, env) => {
 });
 router.all('*', () => new Response('Not Found.', { status: 404 }));
 
-async function verifyDiscordRequest(request, env) {
-  const signature = request.headers.get('x-signature-ed25519');
-  const timestamp = request.headers.get('x-signature-timestamp');
-  console.log(signature);
-  const body = await request.text();
-  const isValidRequest =
-    signature &&
-    timestamp &&
-    verifyKey(body, signature, timestamp, env.DISCORD_PUBLIC_KEY);
-  if (!isValidRequest) {
-    return { isValid: false };
-  }
-
-  return { interaction: JSON.parse(body), isValid: true };
-}
-
-const server = {
-  verifyDiscordRequest: verifyDiscordRequest,
-  fetch: async function (request, env) {
-    return router.handle(request, env);
-  },
-};
 
 export default server;
