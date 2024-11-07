@@ -428,5 +428,10 @@
         "starpower": "Probably Nigiri Nemesis to stay alive",
         "gear": "Probably shield and damage",
         "tips": "Can dash into wall and then use swipe to wall peak for more dmg/range"
+    },
+    "juju": {
+        "gadget": "Both good. Elementalist for defensive/versatile plays. Voodoo Chile for surprise kills",
+        "starpower": "Numbing Needles to confirm shots",
+        "gear": "Probably shield and damage"
     }
 }
