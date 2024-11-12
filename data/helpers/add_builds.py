@@ -7,7 +7,7 @@ current_dir = os.path.dirname(__file__)
 
 # Construct paths to the JSON files
 builds_json_path = os.path.join(current_dir, '../builds.json')
-builds_s32_json_path = os.path.join(current_dir, 'builds_s32.json')
+builds_s32_json_path = os.path.join(current_dir, 'replacement.json')
 
 with open(builds_json_path, 'r') as f:
     builds = json.load(f)

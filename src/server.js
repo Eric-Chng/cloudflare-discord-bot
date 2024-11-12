@@ -288,8 +288,8 @@ router.post('/', async (request, env) => {
         const buildInfo = builds[brawlerNameQuery];
         brawlerName = brawlerName.charAt(0).toUpperCase() + brawlerName.slice(1);
         var buildResponseContent = `${brawlerName}: \n\n__**Gadgets**__:\n${buildInfo.gadget}\n\n__**Star Powers**__:\n${buildInfo.starpower}\n\n__**Gears**__:\n${buildInfo.gear}`;
-        if ("hypercharge" in matchedBuildInfo) {
-          buildResponseContent += `\n\n__**Hypercharge**__:\n${matchedBuildInfo.hypercharge}`;
+        if ("hypercharge" in buildInfo) {
+          buildResponseContent += `\n\n__**Hypercharge**__:\n${buildInfo.hypercharge}`;
         }
         if ("tips" in buildInfo) {
           buildResponseContent += `\n\n__**Tips**__:\n${buildInfo.tips}`;
