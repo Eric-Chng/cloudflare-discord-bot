@@ -271,6 +271,9 @@ router.post('/', async (request, env) => {
           matchedBuildBrawler = matchedBuildBrawler.charAt(0).toUpperCase() + matchedBuildBrawler.slice(1);
           const matchedBuildInfo = buildsFuzzyResult[0].item.buildInfo;
           var buildResponseContent = `Fuzzy Search for ${brawlerName} found **${matchedBuildBrawler}**: \n\n__**Gadgets**__:\n${matchedBuildInfo.gadget}\n\n__**Star Powers**__:\n${matchedBuildInfo.starpower}\n\n__**Gears**__:\n${matchedBuildInfo.gear}`;
+          if ("hypercharge" in matchedBuildInfo) {
+            buildResponseContent += `\n\n__**Hypercharge**__:\n${matchedBuildInfo.hypercharge}`;
+          }
           if ("tips" in matchedBuildInfo) {
             buildResponseContent += `\n\n__**Tips**__:\n${matchedBuildInfo.tips}`;
           }
@@ -285,9 +288,12 @@ router.post('/', async (request, env) => {
         const buildInfo = builds[brawlerNameQuery];
         brawlerName = brawlerName.charAt(0).toUpperCase() + brawlerName.slice(1);
         var buildResponseContent = `${brawlerName}: \n\n__**Gadgets**__:\n${buildInfo.gadget}\n\n__**Star Powers**__:\n${buildInfo.starpower}\n\n__**Gears**__:\n${buildInfo.gear}`;
-          if ("tips" in buildInfo) {
-            buildResponseContent += `\n\n__**Tips**__:\n${buildInfo.tips}`;
-          }
+        if ("hypercharge" in matchedBuildInfo) {
+          buildResponseContent += `\n\n__**Hypercharge**__:\n${matchedBuildInfo.hypercharge}`;
+        }
+        if ("tips" in buildInfo) {
+          buildResponseContent += `\n\n__**Tips**__:\n${buildInfo.tips}`;
+        }
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
