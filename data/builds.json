@@ -362,9 +362,9 @@
         "gear": "Damage and Shield. In grassy maps use Speed and Vision."
     },
     "piper": {
-        "gadget": "Auto Aimer in Gem Brab. Homemade Recipe in Knockout/Bounty.",
+        "gadget": "Auto Aimer in Gem Grab. Homemade Recipe in Knockout/Bounty.",
         "starpower": "Snappy Sniping.",
-        "gear": "Shield and Gadget Charge/Vision/Health."
+        "gear": "Shield and Gadget Charge. Occasionally swap out gadget charge for Vision/Health."
     },
     "poco": {
         "gadget": "Tuning Fork. Protective Tunes can work in ranked.",
