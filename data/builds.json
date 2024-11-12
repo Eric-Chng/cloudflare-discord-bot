@@ -44,7 +44,7 @@
         "tips": "Attack is impact + damage zone after. Damage zone doesn't stack. Weak vs tanks"
     },
     "bibi": {
-        "gadget": "Vitamin booster.",
+        "gadget": "Vitamin Booster.",
         "starpower": "Home Run 99% of time. Batting Stance sometimes on grassy maps + vs tanks.",
         "gear": "Speed/Health and Damage.",
         "hypercharge": "Hypercharge is worth it."
@@ -92,7 +92,7 @@
     },
     "charlie": {
         "gadget": "Spiders unless enemy has piercing attacks, then use Personal Space.",
-        "starpower": "Both are lackluster. Spen uses Slimy since it provides value if you miss super.",
+        "starpower": "Both are lackluster. Spen uses Slimy since it provides value if you miss super. Digestive also okay vs tanks.",
         "gear": "Gadget Charge and Damage."
     },
     "chester": {
@@ -112,7 +112,7 @@
         "tips": "Stage one sucks and requires getting out of asap."
     },
     "collette": {
-        "gadget": "Gotcha.",
+        "gadget": "Gotcha!",
         "starpower": "Mass Tax for Heist, otherwise use Push It.",
         "gear": "Damage and Shield/Gadget Charge."
     },
@@ -188,14 +188,14 @@
     },
     "gale": {
         "gadget": "Twister. Spring Ejector good for certain maps (Kaboom Canyon).",
-        "starpower": "Freezing Snow. Bluster Blow to counter tanks better in maps with a lot of maps.",
+        "starpower": "Freezing Snow. Blustery Blow to counter tanks better in maps with a lot of walls.",
         "gear": "Speed and Vision for grassy maps. Otherwise use Damage and Shield.",
         "hypercharge": "Hypercharge is the best one in the game."
     },
     "gene": {
         "gadget": "Vengeful Spirits in open maps. Lamp Blowout for cancelling supers in Brawl Ball or Gem Grab.",
         "starpower": "Magic Puffs is one of the best star powers in the game. Spirit Slap against tanks.",
-        "gear": "Talk to the Hand and Vision. Swap out talk to the Hand for Speed in very bushy map or Vision for Shield in grassless maps."
+        "gear": "Talk to the Hand and Vision. Swap out Talk to the Hand for Speed in very bushy map or Vision for Shield in grassless maps."
     },
     "gray": {
         "gadget": "Walking Cane.",
@@ -247,7 +247,7 @@
         "gadget": "Hosomaki Healing.",
         "starpower": "Nigiri Nemesis.",
         "gear": "Damage and Shield/Gadget Charge.",
-        "tips": "Can dash into wall and then use swipe to wall peak for more dmg/range"
+        "tips": "Can dash into wall and then use swipe to wall peek for more dmg/range"
     },
     "kit": {
         "gadget": "Cardboard Box. Cheeseburger in cheese comp.",
@@ -352,7 +352,7 @@
     },
     "pearl": {
         "gadget": "Overcooked.",
-        "starpower": "Heat shield.",
+        "starpower": "Heat Shield.",
         "gear": "Damage and Health/Vision/Shield. In grassy maps use Speed and Vision.",
         "hypercharge": "Do not buy the hypercharge."
     },
