@@ -376,6 +376,11 @@
         "starpower": "Recording. If you never have to split use Quick Maths.",
         "gear": "Health and Shield."
     },
+    "rt": {
+        "gadget": "Out of Line. Hacks! if long range matchup.",
+        "starpower": "Recording. If you never have to split use Quick Maths.",
+        "gear": "Health and Shield."
+    },
     "rico": {
         "gadget": "Multiball Launcher. Bouncy Castle for really bad matchups.",
         "starpower": "Super Bouncy. Robo Retreat better if bad matchup (wall breakers, throwers, assassins).",
