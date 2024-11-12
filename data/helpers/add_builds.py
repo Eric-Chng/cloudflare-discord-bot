@@ -17,6 +17,10 @@ with open(builds_s32_json_path, 'r') as f:
 def highest_fuzzy_match_on_keys(json_data, search_term):
     best_match = None
     highest_score = 0
+    best_key = None
+    
+    search_term = search_term.lower()
+    
 
     for key, value in json_data.items():
         # Extract all keys from the item and join them into a single string
@@ -39,7 +43,20 @@ for key, value in builds32.items():
     res_key, res_match, score = highest_fuzzy_match_on_keys(builds, key)
     # if value has a key "tips" then add it to the new_builds
     if "tips" in value:
-        res_match["hypercharge"] = value["tips"]
+        if "hypercharge" in value["tips"].lower():
+            res_match["hypercharge"] = value["tips"]
+            print(f"Added hypercharge to {res_key}")
+        else:
+            print(f"Hypercharge not found in {res_key}")
+    if "tip" in value:
+        if "hypercharge" in value["tip"].lower():
+            res_match["hypercharge"] = value["tip"]
+            print(f"Added hypercharge to {res_key}")
+        else:
+            print(f"Hypercharge not found in {res_key}")
+    res_match["gadget"] = value["gadget"]
+    res_match["gear"] = value["gear"]
+    res_match["starpower"] = value["starpower"]
     new_builds[res_key] = res_match
 
 # Write the new builds to a file

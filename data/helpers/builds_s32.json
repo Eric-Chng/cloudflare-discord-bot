@@ -13,7 +13,7 @@
         "gadget": "Stinging Flight for ladder. Master Fletcher used more by pros.",
         "starpower": "Empower. Flow not bad for watery maps.",
         "gear": "Shield and Health/Damage.",
-        "hypercharge": "Don't buy the hypercharge."
+        "tip": "Don't buy the hypercharge."
     },
     "ash": {
         "gadget": "Chill Pill.",
@@ -24,7 +24,7 @@
         "gadget": "Sticky Syrup in ladder and for agro. Herbal Tonic good in ranked.",
         "starpower": "Personal preference. Medical Use against throwers, Extra Noxious against tanks.",
         "gear": "Gadget Charge and Shield.",
-        "hypercharge": "Hypercharge is worth it."
+        "tip": "Hypercharge is worth it."
     },
     "bea": {
         "gadget": "Rattled Hive. Honey Molasses if against snipers.",
@@ -35,7 +35,7 @@
         "gadget": "Nest Egg. Reverse Polarity has some uses in certain maps.",
         "starpower": "Positive Feedback. Grounded underrated in ranked against agro.",
         "gear": "Reload Speed and Shield/Damage/Vision.",
-        "hypercharge": "Don't buy the hypercharge."
+        "tip": "Don't buy the hypercharge."
     },
     "berry": {
         "gadget": "Friendship is Great. Healthy Additives in Heist (does 20% of safe).",
@@ -47,7 +47,7 @@
         "gadget": "Vitamin booster.",
         "starpower": "Home Run 99% of time. Batting Stance sometimes on grassy maps + vs tanks.",
         "gear": "Speed/Health and Damage.",
-        "hypercharge": "Hypercharge is worth it."
+        "tip": "Hypercharge is worth it."
     },
     "bo": {
         "gadget": "Both gadgets lackluster. Tripwire opens up map on command but Super Totem can tank shots.",
@@ -78,7 +78,7 @@
         "gadget": "Reserve Buoy. X-Ray-Shades is very good on grassy maps.",
         "starpower": "Eyes Sharp. Tougher Torpedo for tanks.",
         "gear": "Damage and Shield/Speed.",
-        "hypercharge": "Hypercharge is worth it."
+        "tip": "Hypercharge is worth it."
     },
     "byron": {
         "gadget": "Booster Shots is good for cycling super. Shot in the Arm is okay against snipers.",
@@ -93,7 +93,7 @@
     "charlie": {
         "gadget": "Spiders unless enemy has piercing attacks, then use Personal Space.",
         "starpower": "Both are lackluster. Spen uses Slimy since it provides value if you miss super.",
-        "gear": "Gadget Charge and Damage."
+        "gear":"Gadget Charge and Damage."
     },
     "chester": {
         "gadget": "Spicy Dice better for getting good supers. Candy Beans can work for bad matchups.",
@@ -109,7 +109,7 @@
         "gadget": "Snappy Shooting. Pros have been starting to use Tactical Retreat to get closer.",
         "starpower": "Recon.",
         "gear": "Speed and Vision for grassy maps. Otherwise use Damage and Shield.",
-        "tip": "Stage one sucks and requires "
+        "tip": "Build is all about getting out of stage 1."
     },
     "collette": {
         "gadget": "Gotcha.",
@@ -130,7 +130,7 @@
         "gadget": "Slowing Toxin.",
         "starpower": "Carrion Crow since he's only good in Heist.",
         "gear": "Shield and Enduring Toxins/Gadget Charge.",
-        "hypercharge": "Hypercharge is worth it."
+        "tip": "Hypercharge is worth it."
     },
     "darryl": {
         "gadget": "Tar Barrel. Recoiling Rotator in Heist or to charge super.",
@@ -152,13 +152,13 @@
         "gadget": "Satchel Charge.",
         "starpower": "Demolition.",
         "gear": "Gadget Charge and Damage/Shield.",
-        "hypercharge": "Hypercharge is worth it."
+        "tip": "Hypercharge is worth it."
     },
     "edgar": {
         "gadget": "Let's Fly. Hardcore in passive game modes like Duels.",
         "starpower": "Hard landing vs squishy. Fisticuffs for super cycling.",
         "gear": "Gadget Charge and Shield/Damage.",
-        "hypercharge": "Hypercharge is worth it."
+        "tip": "Hypercharge is worth it."
     },
     "el primo": {
         "gadget": "Suplex Supplement.",
@@ -169,7 +169,7 @@
         "gadget": "Friendzoner.",
         "starpower": "Bad Karma.",
         "gear": "Speed and Damage/Gadget Charge",
-        "hypercharge": "Don't buy the hypercharge."
+        "tip": "Don't buy the hypercharge."
     },
     "eve": {
         "gadget": "Gotta Go!",
@@ -190,7 +190,7 @@
         "gadget": "Twister. Spring Ejector good for certain maps (Kaboom Canyon).",
         "starpower": "Freezing Snow. Bluster Blow to counter tanks better in maps with a lot of maps.",
         "gear": "Speed and Vision for grassy maps. Otherwise use Damage and Shield.",
-        "hypercharge": "Hypercharge is the best one in the game."
+        "tips": "Hypercharge is the best one in the game."
     },
     "gene": {
         "gadget": "Vengeful Spirits in open maps. Lamp Blowout for cancelling supers in Brawl Ball or Gem Grab.",
@@ -221,7 +221,8 @@
     "hank": {
         "gadget": "Barricade.",
         "starpower": "It's Gonna Blow.",
-        "gear": "Damage and Health/Gadget Charge."
+        "gear": "Damage and Health/Gadget Charge.",
+        "tip": "Don't level him up."
     },
     "jacky": {
         "gadget": "Pneumatic Booster. Don't let TikTok convince you Rebuild is good.",
@@ -246,13 +247,12 @@
     "kenji": {
         "gadget": "Hosomaki Healing.",
         "starpower": "Nigiri Nemesis.",
-        "gear": "Damage and Shield/Gadget Charge.",
-        "tips": "Can dash into wall and then use swipe to wall peak for more dmg/range"
+        "gear": "Damage and Shield/Gadget Charge."
     },
     "kit": {
         "gadget": "Cardboard Box. Cheeseburger in cheese comp.",
         "starpower": "Overly Attached in 3v3. Power Hungry in Showdown.",
-        "gear": "Gadget Charge and Shield."
+        "gear":"Gadget Charge and Shield."
     },
     "larry & lawrie": {
         "gadget": "Order: Fall back.",
@@ -263,7 +263,7 @@
         "gadget": "Lollipop Drop.",
         "starpower": "Invisiheal. Smoke Trails for an open map.",
         "gear": "Shield and Lingering Smoke.",
-        "hypercharge": "Hypercharge is worth it."
+        "tip": "Hypercharge is worth it."
     },
     "lily": {
         "gadget": "Vanish.",
@@ -284,7 +284,7 @@
         "gadget": "Disengage!",
         "starpower": "Tremors.",
         "gear": "Gadget Charge and Damage.",
-        "hypercharge": "Hypercharge is worth it."
+        "tip": "Hypercharge is worth it."
     },
     "mandy": {
         "gadget": "Cookie Crumbs. Caramelize for unoptimal modes or to combo with super.",
@@ -320,9 +320,9 @@
         "gadget": "Survival Shovel.",
         "starpower": "Coiled Snake.",
         "gear": "Bat Storm and Shield/Damage.",
-        "hypercharge": "Hypercharge is worth it."
+        "tip": "Hypercharge is worth it."
     },
-    "mr p": {
+    "mr. p": {
         "gadget": "Service Bell.",
         "starpower": "Revolving Door.",
         "gear": "Shield and Damage."
@@ -331,19 +331,19 @@
         "gadget": "Return to Sender in Bounty/Knockout or against other snipers. Warpin' Time in Heist/Brawl Ball/Gem Grab.",
         "starpower": "Autofocus in Bounty/Knockout. Tempered Steel in other gamemodes.",
         "gear": "Damage and Shield/Gadget Charge.",
-        "hypercharge": "Don't buy the hypercharge."
+        "tip": "Don't buy the hypercharge."
     },
     "nita": {
         "gadget": "Bear Paws. Faux Fur is easier to use.",
         "starpower": "Hyper Bear. Bear With Me works well with Hyperbearing (hypercharge)",
         "gear": "Damage and Speed/Pet Power.",
-        "hypercharge": "Hypercharge is worth it."
+        "tip": "Hypercharge is worth it."
     },
     "otis": {
         "gadget": "Phat Splatter.",
         "starpower": "Ink Refill.",
         "gear": "Speed and Vision for grassy maps. Otherwise use Damage and Shield/Super Charge.",
-        "hypercharge": "Hypercharge is worth it once it gets fixed."
+        "tip": "Hypercharge is worth it once it gets fixed."
     },
     "pam": {
         "gadget": "Scrapsucker.",
@@ -354,7 +354,7 @@
         "gadget": "Overcooked.",
         "starpower": "Heat shield.",
         "gear": "Damage and Health/Vision/Shield. In grassy maps use Speed and Vision.",
-        "hypercharge": "Do not buy the hypercharge."
+        "tip": "Do not buy the hypercharge."
     },
     "penny": {
         "gadget": "Salty Barrel.",
@@ -376,11 +376,16 @@
         "starpower": "Recording. If you never have to split use Quick Maths.",
         "gear": "Health and Shield."
     },
+    "r-t": {
+        "gadget": "Out of Line. Hacks! if long range matchup.",
+        "starpower": "Recording. If you never have to split use Quick Maths.",
+        "gear": "Health and Shield."
+    },
     "rico": {
         "gadget": "Multiball Launcher. Bouncy Castle for really bad matchups.",
         "starpower": "Super Bouncy. Robo Retreat better if bad matchup (wall breakers, throwers, assassins).",
         "gear": "Reload Speed and Damage/Shield/Vision.",
-        "hypercharge": "Hypercharge is worth it."
+        "tip": "Hypercharge is worth it."
     },
     "rosa": {
         "gadget": "Unfriendly Bushes.",
@@ -401,7 +406,7 @@
         "gadget": "Sweet Dreams.",
         "starpower": "Rude Sands.",
         "gear": "Speed and Damage/Vision.",
-        "hypercharge": "Hypercharge is worth it."
+        "tip": "Hypercharge is worth it."
     },
     "shelly": {
         "gadget": "Clay Pigeons.",
@@ -427,7 +432,7 @@
         "gadget": "Breakthrough. Speedzone for Hot Zone/Gem Grab.",
         "starpower": "Gaso-Heal.",
         "gear": "Shield and Health/Gadget Charge.",
-        "hypercharge": "Hypercharge is worth it."
+        "tip": "Hypercharge is worth it."
     },
     "surge": {
         "gadget": "Power Shield. Power Surge if against pros since hard to charge super.",
@@ -438,7 +443,7 @@
         "gadget": "Support From Beyond. Psychic Enhancer against pierce or Snake Prairie.",
         "starpower": "Healing Shade. Black Portal not bad against snipers.",
         "gear": "Speed and Damage/Vision.",
-        "hypercharge": "Hypercharge is worth it."
+        "tip": "Hypercharge is worth it."
     },
     "tick": {
         "gadget": "Last Hurrah. Mine Mania underrated in maps with lots of chokepoints.",

@@ -1,257 +1,252 @@
 {
     "8 bit": {
-        "gadget": "Both pretty good. Cheat cartridge 90% of time, Extra Credits in heist.",
-        "starpower": "Boosted booster 99% of time. Speed vs snipers and counters some times.",
+        "gadget": "Cheat Cartridge overall. Use Extra Credits in Heist.",
+        "starpower": "Boosted Booster overall. Plugged In for sniper/counter matchups and Gem Grab.",
         "gear": "Reload Speed and Health. Replace Health with Vision (grassy map) or Damage (Heist) when necessary."
     },
     "amber": {
         "gadget": "Dancing Flames. Fire Starters if sniper matchup.",
         "starpower": "Wild Flames",
-        "gear": "Reload Speed and Damage/Gadget Charge/Sticky Oil/Vision."
+        "gear": "Reload Speed and Vision/Damage."
     },
     "angelo": {
-        "gadget": "Stinging Flight 99% of time. Master Fletcher still good in certain matchups+maps",
+        "gadget": "Stinging Flight for ladder. Master Fletcher used more by pros.",
         "starpower": "Empower. Flow not bad for watery maps.",
-        "gear": "Health and Shield/Damage.",
+        "gear": "Shield and Health/Damage.",
         "hypercharge": "Don't buy the hypercharge."
     },
     "ash": {
-        "gadget": "Chill pill.",
-        "starpower": "First bash.",
-        "gear": "Speed and damage."
+        "gadget": "Chill Pill.",
+        "starpower": "First Bash.",
+        "gear": "Damage and Speed."
     },
     "barley": {
-        "gadget": "Sticky Syrup in ladder and agro. Herbal Tonic good in ranked.",
+        "gadget": "Sticky Syrup in ladder and for agro. Herbal Tonic good in ranked.",
         "starpower": "Personal preference. Medical Use against throwers, Extra Noxious against tanks.",
-        "gear": "Any two of damage, gadget, and shield.",
+        "gear": "Gadget Charge and Shield.",
         "hypercharge": "Hypercharge is worth it."
     },
     "bea": {
         "gadget": "Rattled Hive. Honey Molasses if against snipers.",
-        "starpower": "Honeycomb more powerful. Insta Beaload if you're not confident in your aim.",
-        "gear": "Shield and damage."
+        "starpower": "Insta Beaload for casuals. Pros use Honeycomb to move up map.",
+        "gear": "Shield and Damage/Gadget Charge."
     },
     "belle": {
-        "gadget": "Nest egg most of the time. Reverse polarity ok on some maps.",
-        "starpower": "Positive Feedback. Grounded is a good niche against agro.",
-        "gear": "Reload and Shield.",
+        "gadget": "Nest Egg. Reverse Polarity has some uses in certain maps.",
+        "starpower": "Positive Feedback. Grounded underrated in ranked against agro.",
+        "gear": "Reload Speed and Shield/Damage/Vision.",
         "hypercharge": "Don't buy the hypercharge."
     },
     "berry": {
         "gadget": "Friendship is Great. Healthy Additives in Heist (does 20% of safe).",
         "starpower": "Floor is Fine is busted.",
         "gear": "Shield and Gadget Charge.",
-        "tips": "Attack is impact + damage zone after. Damage zone doesn't stack. Weak vs tanks",
-        "hypercharge": "Attack is impact + damage zone after. Damage zone doesn't stack. Weak vs tanks"
+        "tips": "Attack is impact + damage zone after. Damage zone doesn't stack. Weak vs tanks"
     },
     "bibi": {
         "gadget": "Vitamin booster.",
-        "starpower": "Home run 99% of time. Batting stance sometimes on grassy maps + vs tanks.",
-        "gear": "Shield and Damage.",
+        "starpower": "Home Run 99% of time. Batting Stance sometimes on grassy maps + vs tanks.",
+        "gear": "Speed/Health and Damage.",
         "hypercharge": "Hypercharge is worth it."
     },
     "bo": {
-        "gadget": "Super totem 99% of time. Tripwire good in brawl ball + to break open map.",
-        "starpower": "Snare a Bear. Circling Eagle for weird bush maps (Cavern Churn).",
-        "gear": "Reload Speed and Health."
+        "gadget": "Both gadgets lackluster. Tripwire opens up map on command but Super Totem can tank shots.",
+        "starpower": "Snare a Bear. Circling Eagle for weird bush maps (Snake Prairie and Cavern Churn).",
+        "gear": "Reload Speed and Health/Vision."
     },
     "bonnie": {
-        "gadget": "Sugar rush.",
-        "starpower": "Black powder.",
-        "gear": "Super charge and gadget."
+        "gadget": "Sugar Rush.",
+        "starpower": "Black Powder.",
+        "gear": "Gadget Charge and Super Charge/Health."
     },
     "brock": {
-        "gadget": "Rocket fuel 99% of time. Rocket laces okay in ladder for unknown enemies.",
+        "gadget": "Rocket Fuel 99% of time. Rocket Laces okay in ladder for unknown enemies.",
         "starpower": "More Rockets! Rocket No. 4 can be good in Knockout or Bounty but hard to fully utilize.",
-        "gear": "Reload and shield. Damage instead of shield in heist."
+        "gear": "Reload and Shield."
     },
     "bull": {
         "gadget": "Stomper. T-Bone Injector can be used for Heist base races.",
-        "starpower": "Tough Guy. Berserker is good in Heist.",
-        "gear": "Damage and Speed/Health (tough matchup)/Super Charge (aggressive)."
+        "starpower": "Tough Guy. Berserker hard to get value out of.",
+        "gear": "Damage and Speed/Health."
     },
     "buster": {
-        "gadget": "Slow-mo replay.",
+        "gadget": "Slow-Mo Replay.",
         "starpower": "Kevlar Vest.",
-        "gear": "Damage and Speed/Gadget Charge."
+        "gear": "Damage and Speed."
     },
     "buzz": {
         "gadget": "Reserve Buoy. X-Ray-Shades is very good on grassy maps.",
-        "starpower": "Eyes Sharp. Other one okay vs tanks",
-        "gear": "Damage and Shield/Health (if you're good at surviving).",
+        "starpower": "Eyes Sharp. Tougher Torpedo for tanks.",
+        "gear": "Damage and Shield/Speed.",
         "hypercharge": "Hypercharge is worth it."
     },
     "byron": {
-        "gadget": "Shot in the arm better vs sharpshooters. Booster shot better vs aggro.",
-        "starpower": "Malaise. Injection if you're healing behind a tank.",
-        "gear": "Shield and gadget. Damage instead if you don't take shot in the arm."
+        "gadget": "Booster Shots is good for cycling super. Shot in the Arm is okay against snipers.",
+        "starpower": "Malaise messes up enemy healing. Injection if you're healing behind a tank.",
+        "gear": "Shield and Gadget Charge."
     },
     "carl": {
-        "gadget": "Flying Hook. Heat Ejector is good against tanks and does a lot of damage in Heist.",
+        "gadget": "Heat Ejector for Heist/Spirit Wars. Flying Hook in Bounty or for more skilled players.",
         "starpower": "Protective Pirouette.",
-        "gear": "Gadget Charge and Damage/Health."
+        "gear": "Damage and Health. Carl is flexible so mix and match with Shield and Gadget Charge as well."
     },
     "charlie": {
-        "gadget": "Spiders unless enemy has piercing attacks. Personal Space is underrated if you learn how to use it.",
-        "starpower": "Digestive good against tanks, both are meh.",
-        "gear": "Gadget and damage."
+        "gadget": "Spiders unless enemy has piercing attacks, then use Personal Space.",
+        "starpower": "Both are lackluster. Spen uses Slimy since it provides value if you miss super.",
+        "gear": "Gadget Charge and Damage."
     },
     "chester": {
-        "gadget": "Spicy Dice better for getting good supers. Candy Beans underrated though.",
+        "gadget": "Spicy Dice better for getting good supers. Candy Beans can work for bad matchups.",
         "starpower": "Single Bell'O'Mania.",
-        "gear": "Damage and Health/Shield. Vision and Speed for grassy maps."
+        "gear": "Damage and Gadget Charge. Chester is versatile so you can mix and match with Health and Shield, or use Speed and Vision in grassy maps."
     },
     "chuck": {
-        "gadget": "Rerouting good for setting final post (put down post near where you intend final post to be, super over there, use gadget, place down final post). Ghost Train good with walls.",
-        "starpower": "Both star powers not necessary. Spen likes Tickets Please. Pit stop still good for flexibility with post setup.",
-        "gear": "Damage and Health."
+        "gadget": "Rerouting in Heist. Ghost Train for Hot Zone or Knockout.",
+        "starpower": "Pit Stop. It and Tickets Please! are decent.",
+        "gear": "Damage and Health/Shield."
     },
     "clancy": {
-        "gadget": "Snappy Shooting. Tactical Retreat okay for tough matchups.",
+        "gadget": "Snappy Shooting. Pros have been starting to use Tactical Retreat to get closer.",
         "starpower": "Recon.",
-        "gear": "Damage and Shield.",
-        "tip": "Stage one sucks and requires ",
-        "hypercharge": "Build is all about getting out of stage 1."
+        "gear": "Speed and Vision for grassy maps. Otherwise use Damage and Shield.",
+        "tip": "Stage one sucks and requires "
     },
     "collette": {
         "gadget": "Gotcha.",
-        "starpower": "Mass Tax.",
-        "gear": "Gadget Charge and Shield/Damage (Heist)."
+        "starpower": "Mass Tax for Heist, otherwise use Push It.",
+        "gear": "Damage and Shield/Gadget Charge."
     },
     "colt": {
-        "gadget": "Speedloader. Silver bullet good vs walls/throwers.",
-        "starpower": "Slick Boots for movement/juking, Magnum Special for aiming/melting people.",
-        "gear": "Reload and damage."
+        "gadget": "Speedloader. Silver bullet good for opening up map.",
+        "starpower": "Slick Boots. Magnum Special can still be good.",
+        "gear": "Reload Speed and Damage/Shield/Gadget Charge."
     },
     "cordelius": {
-        "gadget": "Replanting more versatile. Poison Mushroom for tanks and bush camping.",
-        "starpower": "Comboshrooms better. Mushroom Kingdom for unfavorable matchup",
-        "gear": "Gadget Charge and Damage/Shield."
+        "gadget": "Replanting. Poison Mushroom for bushy maps or Showdown.",
+        "starpower": "Depends on your playstyle if Comboshrooms or Mushroom Kingdom is better.",
+        "gear": "Shield and Gadget Charge."
     },
     "crow": {
-        "gadget": "Slowing Toxin. Make sure you have a teammate nearby able to capitalize on slowed enemy.",
-        "starpower": "Extra Toxic. Carrion Crow better for Heist since it works on safe.",
-        "gear": "Gadget Charge and Enduring Toxins (Heist)/Shield.",
+        "gadget": "Slowing Toxin.",
+        "starpower": "Carrion Crow since he's only good in Heist.",
+        "gear": "Shield and Enduring Toxins/Gadget Charge.",
         "hypercharge": "Hypercharge is worth it."
     },
     "darryl": {
-        "gadget": "Tar Barrel. Recoiling Rotator in Heist or hard to get super.",
-        "starpower": "Steel Hoops. Rolling Reload in Heist",
+        "gadget": "Tar Barrel. Recoiling Rotator in Heist or to charge super.",
+        "starpower": "Steel Hoops.",
         "gear": "Damage and Health/Speed."
     },
     "doug": {
-        "gadget": "Extra mustard.",
-        "starpower": "Self service.",
-        "gear": "Speed and damage."
+        "gadget": "Extra Mustard.",
+        "starpower": "Self Service.",
+        "gear": "Speed and Damage."
     },
     "draco": {
         "gadget": "Last Stand.",
         "starpower": "Shredding.",
-        "gear": "Damage and Shield/Speed.",
-        "tips": "Pairs great with Kit, Byron when supering. Great for when pressure is needed (hot zone, etc.)",
-        "hypercharge": "Pairs great with Kit, Byron when supering. Great for when pressure is needed (hot zone, etc.)"
+        "gear": "Damage and Speed/Gadget Charge.",
+        "tips": "Pairs great with Kit, Byron when supering. Great for when pressure is needed (hot zone, etc.)"
     },
     "dynamike": {
         "gadget": "Satchel Charge.",
         "starpower": "Demolition.",
-        "gear": "Damage and gadget.",
+        "gear": "Gadget Charge and Damage/Shield.",
         "hypercharge": "Hypercharge is worth it."
     },
     "edgar": {
         "gadget": "Let's Fly. Hardcore in passive game modes like Duels.",
-        "starpower": "Hard landing vs squishy. Fisticuffs vs tanks",
-        "gear": "Shield and Damage.",
+        "starpower": "Hard landing vs squishy. Fisticuffs for super cycling.",
+        "gear": "Gadget Charge and Shield/Damage.",
         "hypercharge": "Hypercharge is worth it."
     },
     "el primo": {
         "gadget": "Suplex Supplement.",
-        "starpower": "Meteor Rush, but it can be personal preference.",
+        "starpower": "Meteor Rush, but it can be personal preference if you use El Fuego to finish off opponents.",
         "gear": "Damage and Health/Super Charge (good matchup)."
     },
     "emz": {
         "gadget": "Friendzoner.",
         "starpower": "Bad Karma.",
-        "gear": "Damage and Gadget Charge/Speed.",
+        "gear": "Speed and Damage/Gadget Charge",
         "hypercharge": "Don't buy the hypercharge."
     },
     "eve": {
-        "gadget": "Gotta go",
+        "gadget": "Gotta Go!",
         "starpower": "Unnatural Order.",
-        "gear": "Reload and Quadruplets/Damage/Shield."
+        "gear": "Reload and Quadruplets/Shield."
     },
     "fang": {
         "gadget": "Roundhouse Kick. Corn-Fu is underrated.",
         "starpower": "Divine Soles. Fresh Kicks better against bad players.",
-        "gear": "Shield and damage."
+        "gear": "Shield and Damage."
     },
     "frank": {
         "gadget": "Active Noise Canceling. Irresistible Attraction still good though.",
-        "starpower": "Power Grab.",
-        "gear": "Health and damage."
+        "starpower": "Power Grab. Sponge for very bad matchups.",
+        "gear": "Damage and Health/Speed."
     },
     "gale": {
-        "gadget": "Twister. Spring Ejector good for certain maps.",
-        "starpower": "Blustery Blow is good with hypercharge and countering tanks. Freezing Snow good for grassy maps.",
-        "gear": "Damage and Shield. Speed and Vision for grassy maps.",
+        "gadget": "Twister. Spring Ejector good for certain maps (Kaboom Canyon).",
+        "starpower": "Freezing Snow. Bluster Blow to counter tanks better in maps with a lot of maps.",
+        "gear": "Speed and Vision for grassy maps. Otherwise use Damage and Shield.",
         "hypercharge": "Hypercharge is the best one in the game."
     },
     "gene": {
-        "gadget": "Vengeful vs long range. Lamp blowout brawl ball or vs tanks",
-        "starpower": "Magic Puffs. Spirit Slap against tanks.",
-        "gear": "Talk to the Hand and Vision. Shield or Health instead of Vision on open maps."
+        "gadget": "Vengeful Spirits in open maps. Lamp Blowout for cancelling supers in Brawl Ball or Gem Grab.",
+        "starpower": "Magic Puffs is one of the best star powers in the game. Spirit Slap against tanks.",
+        "gear": "Talk to the Hand and Vision. Swap out talk to the Hand for Speed in very bushy map or Vision for Shield in grassless maps."
     },
     "gray": {
-        "gadget": "walking cane",
-        "starpower": "Fake Injury on ko/bounty. New perspective elsewhere",
+        "gadget": "Walking Cane.",
+        "starpower": "Fake Injury on Knockout/Bounty or against sharpshooters. New Perspective elsewhere.",
         "gear": "Damage and Gadget Charge. Shield instead of Damage if running Fake Injury."
     },
     "griff": {
-        "gadget": "Piggy bank.",
-        "starpower": "Business Resilience. Keep the Change sometimes against tanks.",
-        "gear": "Reload Speed and Health. Gadget Charge underrated on certain maps.",
-        "tips": "Midrange wallbreaker. Use on any map you need a wallbreak + midrange on",
-        "hypercharge": "Midrange wallbreaker. Use on any map you need a wallbreak + midrange on"
+        "gadget": "Piggy Bank.",
+        "starpower": "Business Resilience.",
+        "gear": "Reload Speed and Gadget Charge/Health.",
+        "tips": "Midrange wallbreaker. Use on any map you need a wallbreak + midrange on"
     },
     "grom": {
         "gadget": "Radio Check. Watchtower is good for tanking or on grassy maps.",
         "starpower": "X-factor.",
-        "gear": "Damage and Shield/Gadget Charge."
+        "gear": "Gadget Charge and Damage/Shield."
     },
     "gus": {
-        "gadget": "kooky popper",
-        "starpower": "Spirit animal.",
-        "gear": "Gadget Charge and Damage/Shield/Health."
+        "gadget": "Kooky Popper.",
+        "starpower": "Spirit Animal.",
+        "gear": "Gadget Charge and Shield/Health."
     },
     "hank": {
-        "gadget": "barricade.",
-        "starpower": "It's gonna blow.",
-        "gear": "Damage and Gadget Charge/Health.",
-        "hypercharge": "Don't level him up."
+        "gadget": "Barricade.",
+        "starpower": "It's Gonna Blow.",
+        "gear": "Damage and Health/Gadget Charge."
     },
     "jacky": {
-        "gadget": "Pneumatic booster.",
+        "gadget": "Pneumatic Booster. Don't let TikTok convince you Rebuild is good.",
         "starpower": "Counter Crush.",
         "gear": "Damage and Speed/Gadget Charge."
     },
     "janet": {
-        "gadget": "Drop the bass.",
-        "starpower": "Vocal warmup.",
-        "gear": "Speed and Vision. Damage and Shield if not bushy map."
+        "gadget": "Drop the Bass.",
+        "starpower": "Vocal Warm Up.",
+        "gear": "Speed and Vision for grassy maps. Otherwise Damage and Shield."
     },
     "jessie": {
-        "gadget": "Spark plug. Recoil Spring in heist",
+        "gadget": "Spark Plug. Recoil Spring in Heist",
         "starpower": "Energize.",
-        "gear": "Damage and Pet Power in Heist. Damage/Shield/Speed/Vision anywhere else."
+        "gear": "Damage and Pet Power in Heist. Damage and Shield/Speed/Vision anywhere else."
     },
     "juju": {
-        "gadget": "Both good. Elementalist for defensive/versatile plays. Voodoo Chile for surprise kills",
-        "starpower": "Numbing Needles to confirm shots",
-        "gear": "Probably shield and damage"
+        "gadget": "Both good. Voodoo Chile easier to use but Elementalist can make good plays.",
+        "starpower": "Numbing Needles.",
+        "gear": "Gadget Charge and Shield."
     },
     "kenji": {
-        "gadget": "Hosomaki Healing for massive healing.",
-        "starpower": "Probably Nigiri Nemesis to stay alive",
-        "gear": "Probably shield and damage",
+        "gadget": "Hosomaki Healing.",
+        "starpower": "Nigiri Nemesis.",
+        "gear": "Damage and Shield/Gadget Charge.",
         "tips": "Can dash into wall and then use swipe to wall peak for more dmg/range"
     },
     "kit": {
@@ -261,65 +256,65 @@
     },
     "larry & lawrie": {
         "gadget": "Order: Fall back.",
-        "starpower": "Protocol: Protect. Protocol: Assist against tanks.",
-        "gear": "Damage and Shield."
+        "starpower": "Protocol: Assist.",
+        "gear": "Shield and Damage/Gadget Charge."
     },
     "leon": {
-        "gadget": "Lollipop drop. Allows you to connect bushes and push up control. Team invis is super strong.",
-        "starpower": "Smoke Trails. Invisiheal if map is not as open.",
-        "gear": "Shield and Damage/Lingering Smoke.",
+        "gadget": "Lollipop Drop.",
+        "starpower": "Invisiheal. Smoke Trails for an open map.",
+        "gear": "Shield and Lingering Smoke.",
         "hypercharge": "Hypercharge is worth it."
     },
     "lily": {
         "gadget": "Vanish.",
-        "starpower": "Spiky. Vigilance underrated.",
+        "starpower": "Spiky. Vigilance for bad matchups.",
         "gear": "Gadget Charge and Damage/Shield."
     },
     "lola": {
-        "gadget": "Freeze frame.",
-        "starpower": "Sealed with a Kiss if you like ego behind you. Improvise if in front or Heist.",
-        "gear": "Reload and Damage/Vision. Can also use Speed and Vision for bushy maps."
+        "gadget": "Freeze Frame.",
+        "starpower": "Sealed with a Kiss if you like ego behind you. Improvise against healers or tanks.",
+        "gear": "Reload Speed and Health."
     },
     "lou": {
-        "gadget": "Cryo syrup.",
+        "gadget": "Cryo Syrup.",
         "starpower": "Hypothermia.",
-        "gear": "Gadget and super charge."
+        "gear": "Super Charge and Gadget Charge."
     },
     "maisie": {
-        "gadget": "Disengage.",
+        "gadget": "Disengage!",
         "starpower": "Tremors.",
-        "gear": "Damage and gadget.",
+        "gear": "Gadget Charge and Damage.",
         "hypercharge": "Hypercharge is worth it."
     },
     "mandy": {
-        "gadget": "Both good but it's personal preference. Cookie Crumbs good for surprise element. Caramelize for hitting more shots.",
+        "gadget": "Cookie Crumbs. Caramelize for unoptimal modes or to combo with super.",
         "starpower": "In My Sights.",
         "gear": "Shield and Damage/Health."
     },
     "max": {
         "gadget": "Phase Shifter.",
         "starpower": "Run N Gun. Super Charged if passive team composition.",
-        "gear": "Shield and Health."
+        "gear": "Shield and Health or Gadget Charge and Damage."
     },
     "meg": {
-        "gadget": "Jolting Volts. Toolbox not bad for tanking.",
+        "gadget": "Jolting Volts.",
         "starpower": "Heavy Metal.",
-        "gear": "Damage and Health/Shield."
+        "gear": "Damage and Shield/Health."
     },
     "melodie": {
-        "gadget": "interlude.",
-        "starpower": "Fast beats.",
-        "gear": "Shield and Gadget Charge/Damage (Heist)."
+        "gadget": "Interlude.",
+        "starpower": "Fast Beats.",
+        "gear": "Shield and Gadget Charge/Damage."
     },
     "mico": {
-        "gadget": "Clipping screen 99% of time. Presto okay in niche scenarios.",
-        "starpower": "Monkey business. Record Smash in Heist and maybe Showdown.",
-        "gear": "Shield and damage."
+        "gadget": "Clipping Screen.",
+        "starpower": "Monkey business. Record Smash in Heist or Showdown.",
+        "gear": "Shield and Damage."
     },
     "moe": {
-        "gadget": "Dodgy Digging. Rat Race can provide good value.",
-        "starpower": "Skipping Stones. Speeding Ticket good against noobs.",
-        "gear": "Damage and Shield/Vision. Gears don't really help."
+        "gadget": "Dodgy Digging. Rat Race can make good plays.",
+        "starpower": "Skipping Stones for tanks. Speeding Ticket for Bounty/Knockout to move up and extend your range.",
+        "gear": "Damage and Shield/Vision."
     },
     "mortis": {
         "gadget": "Survival Shovel.",
@@ -330,129 +325,129 @@
     "mr p": {
         "gadget": "Service Bell.",
         "starpower": "Revolving Door.",
-        "gear": "Shield and damage."
+        "gear": "Shield and Damage."
     },
     "nani": {
-        "gadget": "Return to Sender in bounty/knockout/vs snipers. Teleport in heist/brawl ball/gem grab.",
-        "starpower": "Autofocus in bounty/knockout. tempered steel other modes",
-        "gear": "Damage and Shield/Super Charge.",
+        "gadget": "Return to Sender in Bounty/Knockout or against other snipers. Warpin' Time in Heist/Brawl Ball/Gem Grab.",
+        "starpower": "Autofocus in Bounty/Knockout. Tempered Steel in other gamemodes.",
+        "gear": "Damage and Shield/Gadget Charge.",
         "hypercharge": "Don't buy the hypercharge."
     },
     "nita": {
-        "gadget": "Faux Fur. Bear paws good vs tanks and in brawl ball",
-        "starpower": "Bear with me. Hyper bear in heist",
-        "gear": "Damage and speed. Pet power in heist.",
+        "gadget": "Bear Paws. Faux Fur is easier to use.",
+        "starpower": "Hyper Bear. Bear With Me works well with Hyperbearing (hypercharge)",
+        "gear": "Damage and Speed/Pet Power.",
         "hypercharge": "Hypercharge is worth it."
     },
     "otis": {
         "gadget": "Phat Splatter.",
         "starpower": "Ink Refill.",
-        "gear": "Damage and Super Charge. If grassy map Vision and Speed.",
+        "gear": "Speed and Vision for grassy maps. Otherwise use Damage and Shield/Super Charge.",
         "hypercharge": "Hypercharge is worth it once it gets fixed."
     },
     "pam": {
         "gadget": "Scrapsucker.",
-        "starpower": "Mama squeeze. Hug in quickfire",
-        "gear": "Mythic and health (hotzone)/vision (grassy)/gadget."
+        "starpower": "Mama's Squeeze.",
+        "gear": "Super Turret and Health (open map)/Vision (grassy map)/Gadget Charge (into agro)."
     },
     "pearl": {
         "gadget": "Overcooked.",
-        "starpower": "Heat shield. Heat retention okay vs aggro",
-        "gear": "Damage and Health/Vision/Shield. Grassy maps Speed and Vision.",
+        "starpower": "Heat shield.",
+        "gear": "Damage and Health/Vision/Shield. In grassy maps use Speed and Vision.",
         "hypercharge": "Do not buy the hypercharge."
     },
     "penny": {
-        "gadget": "salty barrel.",
-        "starpower": "Master blaster/heavy coffers equal. Blaster better vs aggro",
-        "gear": "Damage and Shield."
+        "gadget": "Salty Barrel.",
+        "starpower": "Heavy Coffers. Run Master Blaster in ladder or Brawl Ball.",
+        "gear": "Damage and Shield. In grassy maps use Speed and Vision."
     },
     "piper": {
-        "gadget": "Auto aimer vs aggro/as default. Homemade recipe if no aggro",
+        "gadget": "Auto Aimer in Gem Brab. Homemade Recipe in Knockout/Bounty.",
         "starpower": "Snappy Sniping.",
-        "gear": "Shield and Gadget Charge/Damage/Health (1v1)."
+        "gear": "Shield and Gadget Charge/Vision/Health."
     },
     "poco": {
-        "gadget": "Tuning Fork.",
-        "starpower": "Screeching Solo. Da Capo! if you want to be a real healer.",
-        "gear": "Gadget Charge and Speed/Damage/Shield (support)."
+        "gadget": "Tuning Fork. Protective Tunes can work in ranked.",
+        "starpower": "Screeching Solo. Da Capo! has good synergy with other brawlers.",
+        "gear": "Gadget Charge and Shield."
     },
     "r t": {
         "gadget": "Out of Line. Hacks! if long range matchup.",
         "starpower": "Recording. If you never have to split use Quick Maths.",
-        "gear": "Health and shield/gadget."
+        "gear": "Health and Shield."
     },
     "rico": {
-        "gadget": "Multiball launcher. Bouncy castle okay vs only snipers",
+        "gadget": "Multiball Launcher. Bouncy Castle for really bad matchups.",
         "starpower": "Super Bouncy. Robo Retreat better if bad matchup (wall breakers, throwers, assassins).",
         "gear": "Reload Speed and Damage/Shield/Vision.",
         "hypercharge": "Hypercharge is worth it."
     },
     "rosa": {
-        "gadget": "Unfriendly Bushes. Grow Light depends on matchup (can benefit or hurt you).",
-        "starpower": "Thorny gloves.",
-        "gear": "Damage/gadget (grassy maps) and speed. "
+        "gadget": "Unfriendly Bushes.",
+        "starpower": "Thorny Gloves.",
+        "gear": "Speed and Gadget Charge/Damage."
     },
     "ruffs": {
-        "gadget": "Air Support. Take Cover against snipers or Gene.",
-        "starpower": "Air superiority.",
-        "gear": "Damage and Shield. Vision and Speed on grassy map."
+        "gadget": "Air Support. Take Cover against snipers.",
+        "starpower": "Air Superiority.",
+        "gear": "Damage and Shield. In grassy maps use Vision and Speed."
     },
     "sam": {
         "gadget": "Magnetic Field.",
         "starpower": "Hearty Recovery.",
-        "gear": "Speed/shield and damage."
+        "gear": "Speed/Shield and Damage."
     },
     "sandy": {
         "gadget": "Sweet Dreams.",
         "starpower": "Rude Sands.",
-        "gear": "Speed and damage.",
+        "gear": "Speed and Damage/Vision.",
         "hypercharge": "Hypercharge is worth it."
     },
     "shelly": {
         "gadget": "Clay Pigeons.",
-        "starpower": "Shell Shock. Band-Aid can be good on Showdown, Knockout, and Bounty. Neither really worth buying.",
-        "gear": "Damage and Speed/Gadget Charge."
+        "starpower": "Shell Shock. Band-Aid can be good on Showdown, Knockout, and Bounty.",
+        "gear": "Damage and Gadget Charge."
     },
     "spike": {
-        "gadget": "Life plant. Popping pincushion on heist",
-        "starpower": "Curveball. Fertilize if big friend",
-        "gear": "Damage and Sticky Spikes."
+        "gadget": "Life Plant. Popping Pincushion on heist",
+        "starpower": "Curveball.",
+        "gear": "Stick Spikes and Damage/Shield."
     },
     "sprout": {
         "gadget": "Transplant.",
         "starpower": "Overgrowth.",
-        "gear": "Super Charge and Shield."
+        "gear": "Super Charge and Shield/Gadget Charge."
     },
     "squeak": {
         "gadget": "Residue.",
-        "starpower": "Super Sticky. Chain Reaction in Heist or if better at hitting super.",
+        "starpower": "Personal preference. Pros prefer Super Sticky but Chain Reaction can still provide value.",
         "gear": "Gadget Charge and Damage/Health."
     },
     "stu": {
-        "gadget": "Speedzone for Hot Zone/Gem Grab. Breakthrough for aggressive gameplay and destroying map.",
-        "starpower": "Gasoheal. Zero Drag vs snipers/throwers.",
-        "gear": "Damage and shield.",
+        "gadget": "Breakthrough. Speedzone for Hot Zone/Gem Grab.",
+        "starpower": "Gaso-Heal.",
+        "gear": "Shield and Health/Gadget Charge.",
         "hypercharge": "Hypercharge is worth it."
     },
     "surge": {
         "gadget": "Power Shield. Power Surge if against pros since hard to charge super.",
-        "starpower": "Serve ice cold.",
-        "gear": "Damage and Speed/Shield."
+        "starpower": "Serve Ice Cold.",
+        "gear": "Damage and Speed/Shield. In very grassy maps replace Damage for Vision."
     },
     "tara": {
-        "gadget": "Support from beyond. Psychic Enhancer against pierce or Snake Prairie.",
+        "gadget": "Support From Beyond. Psychic Enhancer against pierce or Snake Prairie.",
         "starpower": "Healing Shade. Black Portal not bad against snipers.",
-        "gear": "Speed and Damage/Gadget Charge.",
+        "gear": "Speed and Damage/Vision.",
         "hypercharge": "Hypercharge is worth it."
     },
     "tick": {
-        "gadget": "last hurrah.",
-        "starpower": "Well Oiled. Automa-tick reload if no enemy throwers/threats",
+        "gadget": "Last Hurrah. Mine Mania underrated in maps with lots of chokepoints.",
+        "starpower": "Well Oiled. Automa-Tick Reload if no enemy throwers/threats",
         "gear": "Thicc Head and Shield/Vision (grassy map)."
     },
     "willow": {
         "gadget": "Spellbound. Dive for assassins.",
         "starpower": "Love is Blind. Obsession for Brawl Ball.",
-        "gear": "Damage and shield gear."
+        "gear": "Damage and Shield gear."
     }
 }
