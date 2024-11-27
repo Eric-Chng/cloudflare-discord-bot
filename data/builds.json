@@ -403,6 +403,12 @@
         "gear": "Speed and Damage/Vision.",
         "hypercharge": "Hypercharge is worth it."
     },
+    "shade": {
+        "gadget": "Probably long arms. Slow radius is really small.",
+        "starpower": "Both are great. Hardened Hoodies is easier/guaranteed value.",
+        "gear": "Damage and Shield/Gadget Charge.",
+        "tips": "Heavily enabled by walls."
+    },
     "shelly": {
         "gadget": "Clay Pigeons.",
         "starpower": "Shell Shock. Band-Aid can be good on Showdown, Knockout, and Bounty.",
