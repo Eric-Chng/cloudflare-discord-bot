@@ -401,7 +401,8 @@
         "gadget": "Sweet Dreams.",
         "starpower": "Rude Sands.",
         "gear": "Speed and Damage/Vision.",
-        "hypercharge": "Hypercharge is worth it."
+        "hypercharge": "Hypercharge is worth it.",
+        "tips": "Try to use super in a way that enables you to charge your super back. (Generally avoid using unless you have full hp and can push up with team)."
     },
     "shade": {
         "gadget": "Long arms better gadget by far.",

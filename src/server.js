@@ -11,7 +11,7 @@ import {
 import { INVITE_COMMAND, DRAFT_COMMAND, COUNTER_COMMAND, HELP_COMMAND, MODIFIER_COMMAND, BUILD_COMMAND } from './commands.js';
 import { InteractionResponseFlags } from 'discord-interactions';
 
-const botchannel = `931255199627112458`;
+const botchannels = [`931255199627112458`, '1306466117140615281'];
 const acceptedRoles = [`931250396435972136`, `1168295996166516848`, `935264620325765191`,`931250435745022013`, `931250488836493313`];
 
 const paid_servers = require('../data/paid_servers.json');
@@ -82,7 +82,6 @@ router.get('/', (request, env) => {
  * https://discord.com/developers/docs/interactions/receiving-and-responding#interaction-object
  */
 router.post('/', async (request, env) => {
-  console.log("Discord req received");
   const { isValid, interaction } = await server.verifyDiscordRequest(
     request,
     env,
@@ -105,7 +104,7 @@ router.post('/', async (request, env) => {
     const guild = interaction.guild_id;
     var messageFlags = 0;
     if (guild === `931249800790298645`) {
-      if (channel !== botchannel) {
+      if (botchannels.includes(channel) === false) {
         const hasAcceptedRole = roles.some(role => acceptedRoles.includes(role));
         if (hasAcceptedRole === false) {
           messageFlags = InteractionResponseFlags.EPHEMERAL;
