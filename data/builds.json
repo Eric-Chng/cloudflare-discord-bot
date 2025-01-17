@@ -456,5 +456,10 @@
         "gadget": "Spellbound. Dive for assassins.",
         "starpower": "Obsession. Love is blind is bugged",
         "gear": "Damage and Shield gear."
+    },
+    "meeple": {
+        "gadget": "Ragequit is slightly better but both gadgets are insane.",
+        "starpower": "Rule Bending",
+        "gear": "Gadget Charge and Shield/Damage"
     }
 }
