@@ -60,6 +60,11 @@ export const BUILD_COMMAND = {
   ],
 };
 
+export const EVENT_COMMAND = {
+  name: 'event',
+  description: 'Get tips for the current event.',
+};
+
 export const HELP_COMMAND = {
   name: 'help',
   description: 'See a list of commands and how to use them',
