@@ -8,7 +8,7 @@ import {
   InteractionType,
   verifyKey,
 } from 'discord-interactions';
-import { INVITE_COMMAND, DRAFT_COMMAND, COUNTER_COMMAND, HELP_COMMAND, MODIFIER_COMMAND, BUILD_COMMAND } from './commands.js';
+import { INVITE_COMMAND, DRAFT_COMMAND, COUNTER_COMMAND, HELP_COMMAND, MODIFIER_COMMAND, BUILD_COMMAND, EVENT_COMMAND } from './commands.js';
 import { InteractionResponseFlags } from 'discord-interactions';
 
 const botchannels = [`931255199627112458`, '1306466117140615281'];
@@ -27,6 +27,7 @@ const modifiersFuzzyArray = Object.keys(modifiers).map(key => ({ modifierName: k
 const builds = require('../data/builds.json');
 const buildsFuzzyArray = Object.keys(builds).map(key => ({ brawlerName: key, buildInfo: builds[key] }));
 
+const event_tips = require('../data/event_tips.json');
 
 const draftsFuzzySearch = new Fuse(draftsFuzzyArray, {
   // keys to search in (you can specify nested paths with dot notation)
@@ -126,7 +127,7 @@ router.post('/', async (request, env) => {
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
-            content: `**Commands**\n**/draft** - Return power league drafts for a map. Only has updated maps for current PL rotation\n**/counter** - Return brawler counters for a brawler\n**/modifier** - Return brawler recommendations for a modifier\n**/build** - Get the best build for a brawler.\n**/invite** - Find out how to add the bot to your own server\n\nIf you would like to support the bot, check out: https://ko-fi.com/brawldraftbot`,
+            content: `**Commands**\n**/draft** - Return power league drafts for a map. Only has updated maps for current PL rotation\n**/counter** - Return brawler counters for a brawler\n**/modifier** - Return brawler recommendations for a modifier\n**/build** - Get the best build for a brawler.\n**/event - Get tips on the current event (if any).**\n**/invite** - Find out how to add the bot to your own server\n\nIf you would like to support the bot, check out: https://ko-fi.com/brawldraftbot`,
             flags: messageFlags,
           },
         });
@@ -303,6 +304,30 @@ router.post('/', async (request, env) => {
             flags: messageFlags,
           },
         });
+      }
+      case EVENT_COMMAND.name.toLowerCase(): {
+        if (Object.keys(event_tips).length === 0) {
+          return new JsonResponse({
+            type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+            data: {
+              content: `There is no active event.`,
+              flags: messageFlags,
+            },
+          });
+        } else {
+          var eventTipsResponseString = "";
+          for (const [key, value] of Object.entries(event_tips)) {
+            eventTipsResponseString += `- **${key}**:${value}\n`;
+          }
+          return new JsonResponse({
+            type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+            data: {
+              content: eventTipsResponseString,
+              flags: messageFlags,
+            },
+          });
+        }
+
       }
       default:
         return new JsonResponse({ error: 'Unknown Type' }, { status: 400 });
