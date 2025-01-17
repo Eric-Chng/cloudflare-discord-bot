@@ -460,6 +460,7 @@
     "meeple": {
         "gadget": "Ragequit is slightly better but both gadgets are insane.",
         "starpower": "Rule Bending",
-        "gear": "Gadget Charge and Shield/Damage"
+        "gear": "Gadget Charge and Shield/Damage",
+        "tips": "Best matchups are vs midhp brawlers (~6k range). Always preserve ammo to win engagement due to slow reload. Use super offensively on enemy walls."
     }
 }
