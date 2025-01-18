@@ -317,7 +317,7 @@ router.post('/', async (request, env) => {
         } else {
           var eventTipsResponseString = "";
           for (const [key, value] of Object.entries(event_tips)) {
-            eventTipsResponseString += `- **${key}**:${value}\n`;
+            eventTipsResponseString += `- **${key}**: ${value}\n`;
           }
           return new JsonResponse({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
