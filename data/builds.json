@@ -29,7 +29,8 @@
     "bea": {
         "gadget": "Rattled Hive. Honey Molasses if against snipers.",
         "starpower": "Insta Beaload for casuals. Pros use Honeycomb to move up map.",
-        "gear": "Shield and Damage/Gadget Charge."
+        "gear": "Shield and Damage/Gadget Charge.",
+        "tips": "Slow projectile speed mean bea is best at midrange rather than max range."
     },
     "belle": {
         "gadget": "Nest Egg. Reverse Polarity has some uses in certain maps.",
@@ -62,12 +63,13 @@
     "brock": {
         "gadget": "Rocket Fuel 99% of time. Rocket Laces okay in ladder for unknown enemies.",
         "starpower": "More Rockets! Rocket No. 4 can be good in Knockout or Bounty but hard to fully utilize.",
-        "gear": "Reload and Shield."
+        "gear": "Reload and Shield.",
+        "tips": "User super and then hypercharge for max dmg."
     },
     "bull": {
         "gadget": "Stomper. T-Bone Injector can be used for Heist base races.",
         "starpower": "Tough Guy. Berserker hard to get value out of.",
-        "gear": "Damage and Speed/Health."
+        "gear": "Damage and Speed/Health. Supercharge gear is a breakpoint for super charge."
     },
     "buster": {
         "gadget": "Slow-Mo Replay.",
@@ -83,12 +85,14 @@
     "byron": {
         "gadget": "Booster Shots is good for cycling super. Shot in the Arm is okay against snipers.",
         "starpower": "Malaise messes up enemy healing. Injection if you're healing behind a tank.",
-        "gear": "Shield and Gadget Charge."
+        "gear": "Shield and Gadget Charge.",
+        "tips": "Autoaiming super almost always works perfectly."
     },
     "carl": {
         "gadget": "Heat Ejector for Heist/Spirit Wars. Flying Hook in Bounty or for more skilled players.",
         "starpower": "Protective Pirouette.",
-        "gear": "Damage and Health. Carl is flexible so mix and match with Shield and Gadget Charge as well."
+        "gear": "Damage and Health. Carl is flexible so mix and match with Shield and Gadget Charge as well.",
+        "tips": "Before supering, throw out one attack."
     },
     "charlie": {
         "gadget": "Spiders unless enemy has piercing attacks, then use Personal Space.",
@@ -103,13 +107,14 @@
     "chuck": {
         "gadget": "Rerouting in Heist. Ghost Train for Hot Zone or Knockout.",
         "starpower": "Pit Stop. It and Tickets Please! are decent.",
-        "gear": "Damage and Health/Shield."
+        "gear": "Damage and Health/Shield.",
+        "tips": "Putting post above safe lets you hit safe twice on the way back."
     },
     "clancy": {
         "gadget": "Snappy Shooting. Pros have been starting to use Tactical Retreat to get closer.",
         "starpower": "Recon.",
         "gear": "Speed and Vision for grassy maps. Otherwise use Damage and Shield.",
-        "tips": "Stage one sucks and requires getting out of asap."
+        "tips": "Stage one sucks and requires getting out of asap. Use gadget before using super to get more charge."
     },
     "collette": {
         "gadget": "Gotcha!",
@@ -135,7 +140,8 @@
     "darryl": {
         "gadget": "Tar Barrel. Recoiling Rotator in Heist or to charge super.",
         "starpower": "Steel Hoops.",
-        "gear": "Damage and Health/Speed."
+        "gear": "Damage and Health/Speed.",
+        "tips": "Tip of his super will knockback again."
     },
     "doug": {
         "gadget": "Extra Mustard.",
@@ -146,7 +152,7 @@
         "gadget": "Last Stand.",
         "starpower": "Shredding.",
         "gear": "Damage and Speed/Gadget Charge.",
-        "tips": "Pairs great with Kit, Byron when supering. Great for when pressure is needed (hot zone, etc.)"
+        "tips": "Pairs great with Kit, Byron when supering. Great for when pressure is needed (hot zone, etc.). Shoot normal attack and then super for extra super charge."
     },
     "dynamike": {
         "gadget": "Satchel Charge.",
@@ -163,7 +169,8 @@
     "el primo": {
         "gadget": "Suplex Supplement.",
         "starpower": "Meteor Rush, but it can be personal preference if you use El Fuego to finish off opponents.",
-        "gear": "Damage and Health/Super Charge (good matchup)."
+        "gear": "Damage and Health/Super Charge (good matchup).",
+        "tips": "Super can be chained into suplex for a lot of CC."
     },
     "emz": {
         "gadget": "Friendzoner.",
@@ -184,23 +191,26 @@
     "frank": {
         "gadget": "Active Noise Canceling. Irresistible Attraction still good though.",
         "starpower": "Power Grab. Sponge for very bad matchups.",
-        "gear": "Damage and Health/Speed."
+        "gear": "Damage and Health/Speed.",
+        "tips": "Can wallpeek surprisingly well due to triangular attack."
     },
     "gale": {
         "gadget": "Twister. Spring Ejector good for certain maps (Kaboom Canyon).",
         "starpower": "Freezing Snow. Blustery Blow to counter tanks better in maps with a lot of walls.",
         "gear": "Speed and Vision for grassy maps. Otherwise use Damage and Shield.",
-        "hypercharge": "Hypercharge is the best one in the game."
+        "hypercharge": "Hypercharge is one of the best in the game."
     },
     "gene": {
         "gadget": "Vengeful Spirits in open maps. Lamp Blowout for cancelling supers in Brawl Ball or Gem Grab.",
         "starpower": "Magic Puffs is one of the best star powers in the game. Spirit Slap against tanks.",
-        "gear": "Talk to the Hand and Vision. Swap out Talk to the Hand for Speed in very bushy map or Vision for Shield in grassless maps."
+        "gear": "Talk to the Hand and Vision. Swap out Talk to the Hand for Speed in very bushy map or Vision for Shield in grassless maps.",
+        "tips": "Move backwards after hitting a pull for longer CC."
     },
     "gray": {
         "gadget": "Walking Cane.",
         "starpower": "Fake Injury on Knockout/Bounty or against sharpshooters. New Perspective elsewhere.",
-        "gear": "Damage and Gadget Charge. Shield instead of Damage if running Fake Injury."
+        "gear": "Damage and Gadget Charge. Shield instead of Damage if running Fake Injury.",
+        "tips": "Can super backwards after hitting pull gadget to extend pull distance."
     },
     "griff": {
         "gadget": "Piggy Bank.",
@@ -216,7 +226,8 @@
     "gus": {
         "gadget": "Kooky Popper.",
         "starpower": "Spirit Animal.",
-        "gear": "Gadget Charge and Shield/Health."
+        "gear": "Gadget Charge and Shield/Health.",
+        "tips": "Super niche but can spawn 2 ghosts if you shoot quickly and hit at max range."
     },
     "hank": {
         "gadget": "Barricade.",
@@ -289,7 +300,8 @@
     "mandy": {
         "gadget": "Cookie Crumbs. Caramelize for unoptimal modes or to combo with super.",
         "starpower": "In My Sights.",
-        "gear": "Shield and Damage/Health."
+        "gear": "Shield and Damage/Health.",
+        "tips": "Try moving a little bit after every attack instead of just standing still."
     },
     "max": {
         "gadget": "Phase Shifter.",
@@ -331,7 +343,8 @@
         "gadget": "Return to Sender in Bounty/Knockout or against other snipers. Warpin' Time in Heist/Brawl Ball/Gem Grab.",
         "starpower": "Autofocus in Bounty/Knockout. Tempered Steel in other gamemodes.",
         "gear": "Damage and Shield/Gadget Charge.",
-        "hypercharge": "Don't buy the hypercharge."
+        "hypercharge": "Don't buy the hypercharge.",
+        "tips": "Overshoot behind a little to more reliably hit 2 shots"
     },
     "nita": {
         "gadget": "Bear Paws. Faux Fur is easier to use.",
@@ -367,7 +380,7 @@
         "gear": "Shield and Gadget Charge. Occasionally swap out gadget charge for Vision/Health."
     },
     "poco": {
-        "gadget": "Tuning Fork. Protective Tunes can work in ranked.",
+        "gadget": "Tuning Fork. Protective Tunes can work in ranked (4 sec of immunity from poison and cc).",
         "starpower": "Screeching Solo. Da Capo! has good synergy with other brawlers.",
         "gear": "Gadget Charge and Shield."
     },
