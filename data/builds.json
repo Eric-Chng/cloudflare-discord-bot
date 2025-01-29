@@ -53,7 +53,7 @@
         "hypercharge": "Hypercharge is worth it."
     },
     "bo": {
-        "gadget": "Personal preference. Tripwire opens up map on command but Super Totem can tank shots.",
+        "gadget": "Both are meh. Tripwire opens up map on command but Super Totem can tank shots.",
         "starpower": "Snare a Bear. Circling Eagle for weird bush maps (Snake Prairie and Cavern Churn).",
         "gear": "Reload Speed and Health/Vision."
     },
@@ -106,7 +106,7 @@
     "chester": {
         "gadget": "Spicy Dice better for getting good supers. Candy Beans can work for bad matchups.",
         "starpower": "Single Bell'O'Mania.",
-        "gear": "Damage and Shield."
+        "gear": "Damage and Shield. Vision in grassy maps."
     },
     "chuck": {
         "gadget": "Rerouting in Heist. Ghost Train for Hot Zone or Knockout.",
@@ -190,7 +190,7 @@
     },
     "fang": {
         "gadget": "Roundhouse Kick. Corn-Fu is underrated.",
-        "starpower": "Fresh Kicks for noob stomping. Pros use Divine Soles.",
+        "starpower": "Pros use Divine Soles. Fresh Kicks for noob stomping.",
         "gear": "Shield and Damage."
     },
     "frank": {
@@ -257,8 +257,8 @@
         "hypercharge": "Meh hypercharge."
     },
     "juju": {
-        "gadget": "Elementalist.",
-        "starpower": "Guarded Gris-Gris for bad matchups. Numbing Needles to oppress people.",
+        "gadget": "Elementalist. Voodoo Chile against bad matchups.",
+        "starpower": "Numbing Needles to oppress people. Guarded Gris-Gris for bad matchups. ",
         "gear": "Gadget Charge and Shield."
     },
     "kenji": {
@@ -316,9 +316,10 @@
         "gear": "Shield and Health or Gadget Charge and Damage."
     },
     "meeple": {
-        "gadget": "Mansions of Meeple. Ragequit is good as well.",
+        "gadget": "Mansions of Meeple. Ragequit is really good as well.",
         "starpower": "Rule Bending. Do Not Pass Go if solo player.",
-        "gear": "Gadget Charge and Shield."
+        "gear": "Gadget Charge and Shield.",
+        "tips": "Best matchups are vs midhp brawlers (~6k range). Always preserve ammo to win engagement due to slow reload. Use super offensively on enemy walls."
     },
     "meg": {
         "gadget": "Jolting Volts. Toolbox against snipers.",
@@ -483,7 +484,7 @@
         "hypercharge": "Hypercharge is worth it."
     },
     "tick": {
-        "gadget": "Last Hurrah.",
+        "gadget": "Last Hurrah. Last Hurrah. Mine Mania underrated in maps with lots of chokepoints.",
         "starpower": "Well Oiled. Automa-Tick Reload if no enemy throwers/threats",
         "gear": "Thicc Head and Shield/Vision (grassy map)."
     },
