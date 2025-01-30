@@ -1,0 +1,341 @@
+Brawl Stars Data
+--- builds.json ---
+The brawler build for 8 bit. To build the brawler 8 bit: Gadgets = Cheat Cartridge overall. Use Extra Credits in Heist., Gears = Reload Speed and Health. Replace Health with Vision (grassy map) or Damage (Heist) when necessary., Star powers = Boosted Booster overall. Plugged In for sniper/counter matchups and Gem Grab.
+The brawler build for amber. To build the brawler amber: Gadgets = Dancing Flames. Fire Starters if sniper matchup., Gears = Reload Speed and Vision/Damage., Star powers = Wild Flames
+The brawler build for angelo. To build the brawler angelo: Gadgets = Stinging Flight for ladder. Master Fletcher used more by pros., Gears = Shield and Health/Damage., Star powers = Empower. Flow not bad for watery maps.
+The brawler build for ash. To build the brawler ash: Gadgets = Chill Pill., Gears = Damage and Speed., Star powers = First Bash.
+The brawler build for barley. To build the brawler barley: Gadgets = Sticky Syrup in ladder and for agro. Herbal Tonic good in Ranked., Gears = Gadget Charge and Shield., Star powers = Personal preference. Medical Use against throwers, Extra Noxious against tanks.
+The brawler build for bea. To build the brawler bea: Gadgets = Rattled Hive. Honey Molasses if against snipers., Gears = Shield and Damage/Gadget Charge., Star powers = Insta Beaload for casuals. Pros use Honeycomb to move up map.
+The brawler build for belle. To build the brawler belle: Gadgets = Nest Egg. Reverse Polarity has some uses in certain maps., Gears = Reload Speed and Shield., Star powers = Positive Feedback. Grounded underrated in ranked against agro.
+The brawler build for berry. To build the brawler berry: Gadgets = Friendship is Great. Healthy Additives in Heist (does 20% of safe)., Gears = Shield and Gadget Charge., Star powers = Floor is Fine is busted.
+The brawler build for bibi. To build the brawler bibi: Gadgets = Vitamin Booster., Gears = Speed/Health and Damage., Star powers = Home Run 99% of time. Batting Stance sometimes on grassy maps + vs tanks.
+The brawler build for bo. To build the brawler bo: Gadgets = Both are meh. Tripwire opens up map on command but Super Totem can tank shots., Gears = Reload Speed and Health/Vision., Star powers = Snare a Bear. Circling Eagle for weird bush maps (Snake Prairie and Cavern Churn).
+The brawler build for bonnie. To build the brawler bonnie: Gadgets = Sugar Rush., Gears = Gadget Charge and Super Charge/Health., Star powers = Black Powder.
+The brawler build for brock. To build the brawler brock: Gadgets = Rocket Fuel 99% of time. Rocket Laces okay in ladder for unknown enemies., Gears = Reload and Shield., Star powers = More Rockets! Rocket No. 4 can be good in Knockout or Bounty but hard to fully utilize.
+The brawler build for bull. To build the brawler bull: Gadgets = Stomper. T-Bone Injector can be used for Heist base races., Gears = Damage and Speed/Health/Super Charge., Star powers = Tough Guy. Berserker can work in Heist.
+The brawler build for buster. To build the brawler buster: Gadgets = Slow-Mo Replay., Gears = Damage and Speed/Gadget Charge., Star powers = Kevlar Vest. Blockbuster if enemy has no stuns/slows in Ranked.
+The brawler build for buzz. To build the brawler buzz: Gadgets = Reserve Buoy. X-Ray-Shades is very good on grassy maps., Gears = Damage and Shield/Speed/Health/Gadget Charge., Star powers = Eyes Sharp. Tougher Torpedo underrated for assassins.
+The brawler build for byron. To build the brawler byron: Gadgets = Booster Shots is good for cycling super. Shot in the Arm is okay against snipers., Gears = Shield and Gadget Charge., Star powers = Malaise messes up enemy healing. Injection if you're healing behind a tank.
+The brawler build for carl. To build the brawler carl: Gadgets = Heat Ejector for casuals and in Heist. Flying Hook in Bounty or for more skilled players., Gears = Damage and Health/Gadget Charge., Star powers = Protective Pirouette.
+The brawler build for charlie. To build the brawler charlie: Gadgets = Spiders unless enemy has piercing attacks, then use Personal Space., Gears = Gadget Charge and Damage., Star powers = Both meh, Digestive a bit better.
+The brawler build for chester. To build the brawler chester: Gadgets = Spicy Dice better for getting good supers. Candy Beans can work for bad matchups., Gears = Damage and Shield. Vision in grassy maps., Star powers = Single Bell'O'Mania.
+The brawler build for chuck. To build the brawler chuck: Gadgets = Rerouting in Heist. Ghost Train for Hot Zone or Knockout., Gears = Damage and Health/Shield., Star powers = Pit Stop. It and Tickets Please! are decent.
+The brawler build for clancy. To build the brawler clancy: Gadgets = Snappy Shooting. Pros have been starting to use Tactical Retreat to get closer., Gears = Damage and Shield., Star powers = Recon.
+The brawler build for collette. To build the brawler collette: Gadgets = Gotcha!, Gears = Damage and Gadget Charge., Star powers = Mass Tax for Heist, otherwise use Push It.
+The brawler build for colt. To build the brawler colt: Gadgets = Speedloader. Silver Bullet good for opening up map., Gears = Reload Speed and Damage/Shield., Star powers = Slick Boots. Magnum Special can still be good.
+The brawler build for cordelius. To build the brawler cordelius: Gadgets = Replanting. Poison Mushroom for bushy maps or Showdown., Gears = Shield and Gadget Charge., Star powers = Depends on your playstyle if Comboshrooms or Mushroom Kingdom is better.
+The brawler build for crow. To build the brawler crow: Gadgets = Slowing Toxin., Gears = Shield and Gadget Charge., Star powers = Carrion Crow in Heist. Extra Toxic everywhere else.
+The brawler build for darryl. To build the brawler darryl: Gadgets = Tar Barrel. Recoiling Rotator in Heist or to charge super., Gears = Damage and Health/Shield., Star powers = Steel Hoops. You could use Rolling Reload in Heist.
+The brawler build for doug. To build the brawler doug: Gadgets = Extra Mustard., Gears = Speed and Damage., Star powers = Self Service.
+The brawler build for draco. To build the brawler draco: Gadgets = Last Stand., Gears = Damage and Gadget Charge/Health., Star powers = Shredding.
+The brawler build for dynamike. To build the brawler dynamike: Gadgets = Satchel Charge., Gears = Gadget Charge and Damage/Shield., Star powers = Demolition.
+The brawler build for edgar. To build the brawler edgar: Gadgets = Let's Fly. Hardcore in passive game modes like Duels., Gears = Shield and Damage/Gadget Charge., Star powers = Fisticuffs for super cycling. Hard Landing against low health enemies.
+The brawler build for el primo. To build the brawler el primo: Gadgets = Suplex Supplement., Gears = Damage and Health/Super Charge (good matchup)., Star powers = Meteor Rush, but it can be personal preference if you use El Fuego to finish off opponents.
+The brawler build for emz. To build the brawler emz: Gadgets = Friendzoner., Gears = Speed and Damage/Gadget Charge, Star powers = Bad Karma.
+The brawler build for eve. To build the brawler eve: Gadgets = Gotta Go!, Gears = Reload and Quadruplets., Star powers = Unnatural Order.
+The brawler build for fang. To build the brawler fang: Gadgets = Roundhouse Kick. Corn-Fu is underrated., Gears = Shield and Damage., Star powers = Pros use Divine Soles. Fresh Kicks for noob stomping.
+The brawler build for frank. To build the brawler frank: Gadgets = Irresistible Attraction. Active Noise Cancelling for counters., Gears = Damage and Health., Star powers = Power Grab.
+The brawler build for gale. To build the brawler gale: Gadgets = Twister. Spring Ejector good for certain maps (Kaboom Canyon)., Gears = Damage and Shield. Speed and Vision for grassy maps, Star powers = Freezing Snow.
+The brawler build for gene. To build the brawler gene: Gadgets = Vengeful Spirits in open maps. Lamp Blowout for cancelling supers in Brawl Ball or Gem Grab., Gears = Talk to the Hand and Vision/Shield., Star powers = Magic Puffs is one of the best star powers in the game. Spirit Slap against tanks.
+The brawler build for gray. To build the brawler gray: Gadgets = Walking Cane., Gears = Gadget Charge and Shield/Damage (Hot Zone), Star powers = Fake Injury on Knockout/Bounty or against sharpshooters. New Perspective elsewhere.
+The brawler build for griff. To build the brawler griff: Gadgets = Piggy Bank., Gears = Reload Speed and Health/Gadget Charge., Star powers = Business Resilience. Keep the Change if you use him as a DPS.
+The brawler build for grom. To build the brawler grom: Gadgets = Radio Check. Watchtower has good niches., Gears = Shield and Gadget Charge/Damage., Star powers = X-factor.
+The brawler build for gus. To build the brawler gus: Gadgets = Kooky Popper., Gears = Gadget Charge and Shield/Damage/Health., Star powers = Spirit Animal.
+The brawler build for hank. To build the brawler hank: Gadgets = Barricade., Gears = Damage and Health/Gadget Charge., Star powers = It's Gonna Blow.
+The brawler build for jacky. To build the brawler jacky: Gadgets = Pneumatic Booster. Don't let TikTok convince you Rebuild is good., Gears = Damage and Speed/Gadget Charge., Star powers = Counter Crush.
+The brawler build for janet. To build the brawler janet: Gadgets = Drop the Bass., Gears = Vision and Speed/Shield., Star powers = Vocal Warm Up.
+The brawler build for jessie. To build the brawler jessie: Gadgets = Recoil Spring in Heist. Otherwise use Spark Plug., Gears = Damage and Shield/Pet Power., Star powers = Energize.
+The brawler build for juju. To build the brawler juju: Gadgets = Elementalist. Voodoo Chile against bad matchups., Gears = Gadget Charge and Shield., Star powers = Numbing Needles to oppress people. Guarded Gris-Gris for bad matchups. 
+The brawler build for kenji. To build the brawler kenji: Gadgets = Hosomaki Healing., Gears = Shield and Gadget Charge/Damage., Star powers = Nigiri Nemesis.
+The brawler build for kit. To build the brawler kit: Gadgets = Cardboard Box. Cheeseburger with Darryl., Gears = Gadget Charge and Shield., Star powers = Overly Attached in 3v3. Power Hungry in Showdown.
+The brawler build for larry & lawrie. To build the brawler larry & lawrie: Gadgets = Order: Fall Back., Gears = Shield and Damage/Gadget Charge., Star powers = Protocol: Assist.
+The brawler build for leon. To build the brawler leon: Gadgets = Lollipop Drop., Gears = Shield and Lingering Smoke/Damage., Star powers = Smoke Trails in Bounty/Knockout. Invisiheal for Hot Zone.
+The brawler build for lily. To build the brawler lily: Gadgets = Vanish., Gears = Gadget Charge and Shield/Damage., Star powers = Spiky. Vigilance for bad matchups.
+The brawler build for lola. To build the brawler lola: Gadgets = Freeze Frame., Gears = Reload Speed and Health/Damage/Vision., Star powers = Sealed with a Kiss. Improvise in Heist.
+The brawler build for lou. To build the brawler lou: Gadgets = Cryo Syrup. Ice Block isn't bad if timed well against snipers., Gears = Super Charge and Gadget Charge., Star powers = Hypothermia.
+The brawler build for maisie. To build the brawler maisie: Gadgets = Disengage!, Gears = Gadget Charge and Damage., Star powers = Tremors.
+The brawler build for mandy. To build the brawler mandy: Gadgets = Cookie Crumbs. Caramelize for unoptimal modes or to combo with super., Gears = Shield and Damage., Star powers = In My Sights.
+The brawler build for max. To build the brawler max: Gadgets = Phase Shifter., Gears = Shield and Health or Gadget Charge and Damage., Star powers = Run N Gun. Super Charged if passive team composition.
+The brawler build for meeple. To build the brawler meeple: Gadgets = Mansions of Meeple. Ragequit is really good as well., Gears = Gadget Charge and Shield., Star powers = Rule Bending. Do Not Pass Go if solo player.
+The brawler build for meg. To build the brawler meg: Gadgets = Jolting Volts. Toolbox against snipers., Gears = Damage and Shield/Health., Star powers = Heavy Metal.
+The brawler build for melodie. To build the brawler melodie: Gadgets = Interlude., Gears = Swap between Shield, Damage, and Gadget Charge., Star powers = Fast Beats.
+The brawler build for mico. To build the brawler mico: Gadgets = Clipping Screen., Gears = Shield and Damage., Star powers = Monkey business. Record Smash in Heist or Showdown.
+The brawler build for moe. To build the brawler moe: Gadgets = Dodgy Digging., Gears = Damage and Shield/Vision., Star powers = Skipping Stones for tanks. Speeding Ticket for Bounty/Knockout to move up and extend your range.
+The brawler build for mortis. To build the brawler mortis: Gadgets = Survival Shovel., Gears = Bat Storm and Shield/Damage., Star powers = Coiled Snake.
+The brawler build for mr p. To build the brawler mr p: Gadgets = Service Bell., Gears = Shield and Damage., Star powers = Revolving Door.
+The brawler build for nani. To build the brawler nani: Gadgets = Return to Sender in Bounty/Knockout or against other snipers. Warpin' Time in Heist/Brawl Ball/Gem Grab., Gears = Shield and Damage/Gadget Charge., Star powers = Autofocus in Bounty/Knockout. Tempered Steel in other gamemodes.
+The brawler build for nita. To build the brawler nita: Gadgets = Bear Paws. Faux Fur is easier to use., Gears = Swap between Speed, Shield, Damage, and Pet Power., Star powers = Hyper Bear. Bear With Me works well with Hyperbearing (hypercharge)
+The brawler build for otis. To build the brawler otis: Gadgets = Phat Splatter., Gears = Vision and Gadget Charge., Star powers = Ink Refill.
+The brawler build for pam. To build the brawler pam: Gadgets = Scrapsucker., Gears = Super Turret and Health/Vision., Star powers = Mama's Squeeze.
+The brawler build for pearl. To build the brawler pearl: Gadgets = Overcooked., Gears = All gears viable except Gadget Charge., Star powers = Heat Shield.
+The brawler build for penny. To build the brawler penny: Gadgets = Salty Barrel., Gears = Shield and Damage/Vision., Star powers = Heavy Coffers. Run Master Blaster in Brawl Ball.
+The brawler build for piper. To build the brawler piper: Gadgets = Auto Aimer. Homemade Recipe in Knockout/Bounty., Gears = Shield and Gadget Charge., Star powers = Snappy Sniping.
+The brawler build for poco. To build the brawler poco: Gadgets = Tuning Fork. Protective Tunes can work in Ranked (4 sec of immunity from poison and cc)., Gears = Gadget Charge and Shield., Star powers = Screeching Solo. Da Capo! has good synergy with other brawlers.
+The brawler build for r t. To build the brawler r t: Gadgets = Out of Line. Hacks! if long range matchup., Gears = Shield and Health/Gadget Charge. Damage gear is a bit bugged., Star powers = Recording. If you never have to split use Quick Maths.
+The brawler build for rico. To build the brawler rico: Gadgets = Multiball Launcher. Bouncy Castle for really bad matchups., Gears = Reload Speed and Gadget Charge., Star powers = Super Bouncy. Robo Retreat better if bad matchup (wall breakers, throwers, assassins).
+The brawler build for rosa. To build the brawler rosa: Gadgets = Unfriendly Bushes., Gears = Speed and Gadget Charge/Damage., Star powers = Thorny Gloves.
+The brawler build for ruffs. To build the brawler ruffs: Gadgets = Air Support. Take Cover against snipers., Gears = Damage and Shield. In grassy maps use Vision and Speed., Star powers = Air Superiority.
+The brawler build for sam. To build the brawler sam: Gadgets = Magnetic Field., Gears = Damage and Gadget Charge., Star powers = Hearty Recovery.
+The brawler build for sandy. To build the brawler sandy: Gadgets = Sweet Dreams., Gears = Damage and Speed/Gadget Charge., Star powers = Rude Sands. Healing Winds in an open map
+The brawler build for shade. To build the brawler shade: Gadgets = Long Arms., Gears = Gadget Charge and Shield., Star powers = Hardened Hoodie.
+The brawler build for shelly. To build the brawler shelly: Gadgets = Clay Pigeons., Gears = Damage and Speed., Star powers = Shell Shock. Band-Aid can be good on Showdown, Knockout, and Bounty.
+The brawler build for spike. To build the brawler spike: Gadgets = Life Plant. Popping Pincushion on Heist, Gears = Stick Spikes and Shield., Star powers = Curveball. Fertilize against noobs.
+The brawler build for sprout. To build the brawler sprout: Gadgets = Transplant., Gears = Super Charge and Gadget Charge/Shield., Star powers = Overgrowth.
+The brawler build for squeak. To build the brawler squeak: Gadgets = Residue., Gears = Gadget Charge and Damage/Health., Star powers = Super Sticky. Chain Reaction not bad against tanks.
+The brawler build for stu. To build the brawler stu: Gadgets = Breakthrough. Speedzone for Hot Zone/Gem Grab., Gears = Shield and Damage/Gadget Charge., Star powers = Gaso-Heal.
+The brawler build for surge. To build the brawler surge: Gadgets = Power Shield. Power Surge if against pros since hard to charge super., Gears = Damage and Speed/Shield. In very grassy maps replace Damage for Vision., Star powers = Serve Ice Cold.
+The brawler build for tara. To build the brawler tara: Gadgets = Support From Beyond. Psychic Enhancer on Snake Prairie., Gears = Speed and Damage/Gadget Charge., Star powers = Healing Shade.
+The brawler build for tick. To build the brawler tick: Gadgets = Last Hurrah. Last Hurrah. Mine Mania underrated in maps with lots of chokepoints., Gears = Thicc Head and Shield/Vision (grassy map)., Star powers = Well Oiled. Automa-Tick Reload if no enemy throwers/threats
+The brawler build for willow. To build the brawler willow: Gadgets = Spellbound. Dive for assassins., Gears = Damage and Shield., Star powers = Obsession. Love is blind is bugged
+
+
+--- counters.json ---
+Counter info for the brawler shelly. To counter the brawler shelly: - Outrange, slow, or overwhelm with spawnables
+- Stu, Nita, Spike, Crow, Emz, Tara
+Counter info for the brawler nita. To counter the brawler nita: - Wall break opens up map to outrange Nita and quickly kill or pierce through Bruce (throwers)
+- Willow, Barley, Spike, Ruffs, Carl, Griff, Amber
+Counter info for the brawler colt. To counter the brawler colt: - Outrange or out maneuver
+- Piper, Max, Belle, Leon, Mortis, Darryl
+Counter info for the brawler bull. To counter the brawler bull: - Don't let him get close or out damage him in close range (why are you even looking up this counter)
+- Maisie, Lou, Surge, Cordelius, Emz, Gale
+Counter info for the brawler brock. To counter the brawler brock: - Use agro or hit hard from a long range
+- Piper, Nani, Max, Sam, Mandy
+Counter info for the brawler el primo. To counter the brawler el primo: - Outrange or cancel/run away from him up close
+- Surge, Colette, Shelly, Cordelius, Otis, Stu, Gale
+Counter info for the brawler barley. To counter the brawler barley: - He's squishy so use assassins or break walls for throwers
+- Mortis, Mico, Leon, Edgar, Carl, Brock
+Counter info for the brawler poco. To counter the brawler poco: - Tank his shots and melt him down or slow
+- Emz, Mortis, Edgar, Bea, Griff, Crow
+Counter info for the brawler rosa. To counter the brawler rosa: - Scout Rosa out before she jumps on you or easily deal with her as she's approaching you. Countered by stuns/slows
+- Charlie, Lou, El Primo, Crow, Emz, Griff, Gale, Shelly
+Counter info for the brawler jessie. To counter the brawler jessie: - Find a way to beat Jessie 1v1 typically by outranging or agro, and quickly get rid of turret (throwers, long range)
+- Barley, Grom, Dynamike, Bo, Max, Piper, Leon
+Counter info for the brawler dynamike. To counter the brawler dynamike: - Dodge his main attack and get to him up close
+- Mico, Edgar, Mortis, Bibi, Gray, Stu
+Counter info for the brawler tick. To counter the brawler tick: - Pressure Tick up close or mid range
+- Mico, Darryl, Max, Sprout, Ash, Gene, Fang, Sam
+Counter info for the brawler 8 bit. To counter the brawler 8 bit: - Punish the player for being close to turret and being slow/tanky. Feed supers off him
+- Bo, Squeak, Penny, Colette, Belle, Dynamike
+Counter info for the brawler rico. To counter the brawler rico: - Since he's reliant on walls but can't break them, use throwers or assassins
+- Stu, Fang, Buzz, Mico, Edgar, Bonnie, Sprout, Grom
+Counter info for the brawler darryl. To counter the brawler darryl: - Be prepared for when he rolls in and destroy him before he does or when he does
+- Surge, El Primo, Gale, Charlie
+Counter info for the brawler penny. To counter the brawler penny: - Break walls or shoot around walls to deal with her turret
+- Mr. P, Barley, Willow, Squeak, Carl, Grom, Amber
+Counter info for the brawler carl. To counter the brawler carl: - Interrupt his super when he gets up close
+- Surge, Fang, Gene, Buzz, Colette
+Counter info for the brawler jacky. To counter the brawler jacky: - Outrange and mow her down or beat her 1v1
+- Rosa, Frank, Lou, Bea, Emz, Stu, Gale
+Counter info for the brawler gus. To counter the brawler gus: - Melt down his shield easily with high damage and usually getting up close. Low reload speed and can be outranged.
+- Piper, Nani, Mr. P, Sam, Mortis, Buzz, Fang, Edgar
+Counter info for the brawler bo. To counter the brawler bo: - Wiggle through his main attacks or stay out of range, then be aware of his mines or have some mobility to escape them or quickly trigger them
+- Stu, Mr. P, Max, Carl
+Counter info for the brawler emz. To counter the brawler emz: - Waste all her friend zoner gadgets and move in as an assassin/tank or outrange her by breaking down walls
+- Spike (vision gear on grassy maps), Mortis, Crow, Ruffs, Stu
+Counter info for the brawler stu. To counter the brawler stu: - Use spawnables to waste his ammo or have a wide attack that is hard to dodge
+- Ruffs, Spike, Pam, Crow, Poco
+Counter info for the brawler piper. To counter the brawler piper: - Use aggro, spawners, or outrange her with a longer range sniper or thrower
+- Charlie, Nani, Pearl, Mandy, Sprout, Max, Tick
+Counter info for the brawler pam. To counter the brawler pam: - Punish her HP and healing abilities
+- 8-bit, colette, Bo, Crow, Emz, Lou, Squeak
+Counter info for the brawler frank. To counter the brawler frank: - Punish his high HP and slow attacks. Any knockback destroys
+- Colette, El Primo, Lou, Shelly, Bull (PRIORITY: Colette and Lou), Maisie
+Counter info for the brawler bibi. To counter the brawler bibi: - Outrange her and destroy her cover
+- Maisie, El Primo, Darryl, Stu, Surge, Griff
+Counter info for the brawler bea. To counter the brawler bea: - She has low HP and can't break walls, be careful of her range, slow, and damage, she also struggles against spawnables that don't charge her loaded shot
+- Edgar, Mortis, Mico, Piper, Nani, Byron, Angelo, Mandy
+Counter info for the brawler nani. To counter the brawler nani: - Find brawlers that can chip her to avoid giving Return to Sender value as well as easily dodge her main attack and super
+- Max, Leon, Gene
+Counter info for the brawler edgar. To counter the brawler edgar: - Outrange him or deal with him up close with crowd control.
+- Cordelius, Surge, El Primo, Fang, Otis, Buzz, Stu, Shelly
+Counter info for the brawler griff. To counter the brawler griff: - Get out of his range which he spends a lot of time attacking in or beat him at midrange.
+- Stu, Bo, Bea, Spike
+Counter info for the brawler grom. To counter the brawler grom: - Get close and apply pressure
+- Fang, Mortis, Darryl, Mico, Edgar
+Counter info for the brawler gale. To counter the brawler gale: - Don't let him charge super by outranging him or peaking behind walls well and destroy walls so he can't utilize the stun with his super as much
+- Crow, Spike, Janet, Bea, Belle
+Counter info for the brawler bonnie. To counter the brawler bonnie: - Punish her Clyde form for slow attack and movement speed, find a way to best mitigate her Bonnie form
+- Colette, Fang, Meg
+Counter info for the brawler hank. To counter the brawler hank: - Use a brawler that can tank one shot from Hank and then melt him before he can deal another one, or outrange him before he can approach you and waste his big bubble
+- Shelly, Colette, Buzz, Fang, El Primo, Gale
+Counter info for the brawler mortis. To counter the brawler mortis: - Don't let him get close to your or destroy him for trying to go through you
+- Shelly, Otis, Maisie, Surge
+Counter info for the brawler tara. To counter the brawler tara: - Splash through her shadows or destroy her grass for ambushes
+- Emz, Sandy, Nita, Amber, Janet, Poco
+Counter info for the brawler gene. To counter the brawler gene: - Expect a pull and have an instantly spawnable gadget/super that can tank it or try to dodge it. Slow reload means overwhelmed by spawners or aggro.
+- Mr. P, Eve, Ruffs, Ash
+Counter info for the brawler max. To counter the brawler max: - Slow her down or be able to waste her ammo and tank/heal it off
+- Crow, Gale, Pam, Stu, Poco
+Counter info for the brawler melodie. To counter the brawler melodie: - Outrange or use hard cc to stop her. Move into her super trajectory to minimize note dmg
+- Pearl, R-T (Super when she dashes onto you), Cordelius (shadow realm removes notes), Charlie, Tanks, Surge (soft)
+Counter info for the brawler mr. p. To counter the brawler mr. p: - He is quite weak without his porters and can't deal with aggro well
+- Mortis, Jacky, Buzz, Sam, Janet, Amber, Edgar
+Counter info for the brawler sprout. To counter the brawler sprout: - Assassins destroy Sprout, if not an assassin try breaking walls or dodging to get close
+- Mortis, Darryl, Mico, Edgar, Buzz
+Counter info for the brawler byron. To counter the brawler byron: - Cripple his healing or destroy him due to low health. Weak to aggro.
+- Piper, Buzz, Edgar, Mortis, Mico, Crow, Angelo, Mandy, Leon, Lily
+Counter info for the brawler squeak. To counter the brawler squeak: - Easily gets overwhelmed by aggro due to his slow damage output
+- Buzz, Leon, Mortis, Carl, Max, Edgar, Fang
+Counter info for the brawler gray. To counter the brawler gray: - He plays like an assassin so just make it hard for him to teleport on you. Low reload spd/dps
+- Mr. P, Mico, Tanks
+Counter info for the brawler spike. To counter the brawler spike: - Squishy brawler, deal a lot of damage to him quickly or find a way to attack through his life plant. Can't handle throwers.
+- Grom, Sprout, Piper, Nani, Angelo, Squeak
+Counter info for the brawler crow. To counter the brawler crow: - Have something to tank his main attack and jumps or outrange and quickly kill him
+- Spike, Piper, Nani, Angelo, Belle, Gene, Mr. P
+Counter info for the brawler leon. To counter the brawler leon: - Use brawlers that can scout easily or are able to deal with his surprise attacks to prevent super chaining. Tanks are soft counters since they feed super, but can help defend teammates.
+- Crow, Stu, Tara, Amber, Jacky
+Counter info for the brawler sandy. To counter the brawler sandy: - Outrange and cripple Sandy or be able to tank his low DPS
+- Rosa, Jacky, Nita, Ash, El Primo, Piper, Gene (vision on grassy maps)
+Counter info for the brawler amber. To counter the brawler amber: - Waste her ammo by dodging her attacks or burst her up close. Be wary of gadget if she's hugging a wall nearby.
+- Crow, Piper, Leon
+Counter info for the brawler meg. To counter the brawler meg: - Slow and medium range while in mech. Once you knock her out of mech, barely a threat
+- Colette, Lou, Lola, Gale
+Counter info for the brawler chester. To counter the brawler chester: - Can't deal much damage at a range so either move around and dodge shots or out damage/range him in a lane/wall peak situation
+- Stu, Tara, Sandy
+Counter info for the brawler surge. To counter the brawler surge: - Don't let him get that first upgrade, if he can't he isn't a threat, if he does don't let him keep upgrading by having gadgets or spawnables to tank his shots due to slow reload
+- throwers, Spike, Tara, Eve, Mr. P
+Counter info for the brawler colette. To counter the brawler colette: - Don't be a tank and you already have a decent advantage into the matchup, swarm her with spawners since her damage is low against them or consistently heal/have a shield
+- Belle, Piper, Throwers, Griff (business resilience), Poco, Leon (invisiheal), Mr. P
+Counter info for the brawler lou. To counter the brawler lou: - Escape from his super or outrange him to avoid getting frozen. Or contest area denial.
+- Bo, Bea, Squeak, Buster, Max, Belle
+Counter info for the brawler ruffs. To counter the brawler ruffs: - Hit through his sandbags or be tanky enough to absorb his hits
+- (throwers), (assassins), Darryl, Carl
+Counter info for the brawler belle. To counter the brawler belle: - Outrange her with other snipers, or play agro/throwers
+- Nani, Piper, Mandy, Fang, Leon, Edgar
+Counter info for the brawler buzz. To counter the brawler buzz: - Have a way to move away or to stun Buzz before he stuns you
+- Stu, Surge, Gale, Jacky, Maisie, Shelly, Otis
+Counter info for the brawler ash. To counter the brawler ash: - Splash through his rats, and find a way to stun him or prevent him from getting a lot of rage and hitting hard. Brawlers that can get on top of him and win 1v1 are good vs Ash.
+- Darryl, Rosa, El Primo, Lou, Gale, Buster
+Counter info for the brawler lola. To counter the brawler lola: - Punish Lola for using her ego by hitting both of them or outsnipe her
+- Belle, Penny, Janet, Amber, Jessie
+Counter info for the brawler fang. To counter the brawler fang: - Spawnables and some form of counter play when he jumps onto you is necessary, with the stun you have to be faster than him as well
+- Surge, Otis, R-T, Maisie, Jacky, Charlie, Cordelius
+Counter info for the brawler eve. To counter the brawler eve: - Splash her hatchlings and avoid the big egg shot to have her retreat for control
+- Penny, Janet, Poco, Max
+Counter info for the brawler janet. To counter the brawler janet: - Outrange her or be able to deal with her chip damage before she can fly away. Lacks DPS to beat aggro
+- Sam, Fang, Jacky, Bonnie, Piper, Nani
+Counter info for the brawler otis. To counter the brawler otis: - Outrange him and don't rely on up close burst damage or use a spawnable to tank the shot
+- Spike, Stu, Pearl, Piper, Lola
+Counter info for the brawler sam. To counter the brawler sam: - Don't let him get back his knucklebusters and be aware of them when he's coming for you so you can dodge or not get pulled
+- Gale, Maisie, Lou, El Primo
+Counter info for the brawler buster. To counter the brawler buster: - Don't let him get the surprise on you with his gadget or super, flank him to get past his super or be patient for it to run out. Tanks outdps him close range.
+- Jacky, Rosa, Surge, Darryl, Buzz, Mr. P
+Counter info for the brawler mandy. To counter the brawler mandy: - Know where she is and always be aware of attacks you can't see, she is weak to agro or anything forcing her to move
+- Fang, Mr. P, Nani, Mico, Mortis, Angelo
+Counter info for the brawler r t. To counter the brawler r t: - Dodge his shots well since his attack is thin and be able to escape from him when he changes forms
+- Charlie, Bo, Nani, Mr. P
+Counter info for the brawler rt. To counter the brawler rt: - Dodge his shots well since his attack is thin and be able to escape from him when he changes forms
+- Charlie, Bo, Nani, Mr. P
+Counter info for the brawler maisie. To counter the brawler maisie: - Don't let her predict where you're going or slightly outrange her and be aware of her Disengage gadget and super.
+- Spike, Stu, Bo, Surge, Tara, Belle
+Counter info for the brawler cordelius. To counter the brawler cordelius: - Be aware of either him jumping on you with gadget or after shadow realm is over and using mute. You can waste shadow realm by being fidgety while he’s aiming it or running away when you get hit.
+- Spike, Tara, Stu
+Counter info for the brawler charlie. To counter the brawler charlie: - Outburst her or outsustain her. Take advantage of slow projectile speed at max range on squishy brawlers. She has low dmg in 1v1 so if you have a way to handle spiders (pierce), you will win.
+- Janet, Tara, Emz, Buster, Sandy, Larry
+Counter info for the brawler larry. To counter the brawler larry: - Thrower counters and some way to deal with lawrie will help a lot.
+- Edgar, Mortis, Mico, Gray, Stu
+Counter info for the brawler larry and lawrie. To counter the brawler larry and lawrie: - Thrower counters and some way to deal with lawrie will help a lot.
+- Edgar, Mortis, Mico, Gray, Stu
+Counter info for the brawler lawrie. To counter the brawler lawrie: - Thrower counters and some way to deal with lawrie will help a lot.
+- Edgar, Mortis, Mico, Gray, Stu
+Counter info for the brawler willow. To counter the brawler willow: - Usual thrower counters will do well vs willow. Willow also does poorly into tanks, esp if they can heal due to DoT.
+- Fang, Sam, Mico, Edgar, Mortis, Gray, Stu
+Counter info for the brawler mico. To counter the brawler mico: - Countered by any high hp brawler or fast brawler.
+- Fang, Edgar, Surge, Stu, tanks
+Counter info for the brawler pearl. To counter the brawler pearl: - Aggressive playstyle to force her to shoot constantly will keep her dmg low.
+- colette, Charlie, Bo
+Counter info for the brawler chuck. To counter the brawler chuck: - Weak 1v1. Assassinate him after he super to prevent him from superchaining.
+- Charlie (super), Lou, Crow (heal delay), 8-bit, Otis (super), Cordelius (super), Angelo, Eve
+Counter info for the brawler doug. To counter the brawler doug: - Don't let him get near you to charge his super. If you prevent him from super cycling and pumping dmg, not a major threat. 
+- Any tank counter especially good. colette, Otis, Surge
+Counter info for the brawler kit. To counter the brawler kit: - Kit wants to jump on squishy brawlers. Any tank deletes Kit
+- Cordelius, Charlie, R-T, Fang, Edgar, Mico, Pearl
+Counter info for the brawler lily. To counter the brawler lily: - He can pop out of anywhere with vanish gadget. Tanks/shotgunners outdps him. Do not play 6k hp brawlers (colt, rico, etc.) or you will get one shot.
+- Frank, Meg, Chester, R-T, 8-bit, Tanks(Rosa,Jacky,etc)
+Counter info for the brawler angelo. To counter the brawler angelo: - High upfront burst dmg, low overall dps and reload. Dodge his charged shot and he's not a major threat. Be careful hiding behind a wall if you're low due to his gadget.
+- Max, Draco, Throwers, Nani (gadget), Mr. P, Eve, Gray (50% less dmg SP)
+Counter info for the brawler draco. To counter the brawler draco: - Keep in mind his sweetspot and ban out healing comps that synergize with him (Kit, Byron)
+- Frank, Buzz, Cordelius (Soft Counter), Colette, Brawlers who interrupt his super work if you're fast (Gale, Surge)
+Counter info for the brawler berry. To counter the brawler berry: - Tanks and mobility overwhelm him. Same weaknesses as classic throwers
+- Melodie, Max, Mico, Mortis, Edgar, Lily, Bibi, Frank, etc.
+Counter info for the brawler clancy. To counter the brawler clancy: - Weak vs long range brawlers or throwers on some maps who can stay out of range. Try not to feed him his upgrades.
+- Belle, Piper, Byron, etc.
+Counter info for the brawler moe. To counter the brawler moe: - Weak in small form if you are close. Be careful of diagonals for stacked shots.
+- R-T
+Counter info for the brawler kenji. To counter the brawler kenji: - Similar counters to mortis. When he supers, look for small white smoke to see where he will be afters super.
+- Moe, Gale, Clancy, Surge, Rico (gadget), Stu, R-T
+Counter info for the brawler juju. To counter the brawler juju: - Too new but classic thrower counters are good and watch out for water maps preventing assassins from hitting her
+Counter info for the brawler shade. To counter the brawler shade: - Weak to tanks and wallbreaks (that aren't too squishy).
+- Jacky, Stu, Frank, Hank, R-T, Doug, Surge
+Counter info for the brawler meeple. To counter the brawler meeple: - Meeple is low dps and slow reload. Also midrange so loses to snipers on long range maps.
+- Nita, majority of tanks, Mr. P, Tara (shadow gadget), Charlie (spiders)
+
+
+--- drafts.json ---
+Draft info for the map last stop. To draft the map last stop: {'tips': 'Prioritize a good sniper as gem carrier in middle. In bushes you can run an anti agro, assassin, or brawler good at scouting.', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319872925066592286/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_16-26_screenshot.png?ex=67678af3&is=67663973&hm=9064fb1e10cf1b6c92d711bf0b33b81bbfe8ab2f393a50a1519baad366e08bc5&'}
+Draft info for the map triple dribble. To draft the map triple dribble: {'tips': "Thrower heavy draft. If you're not going a thrower or thrower counter pick brawlers that are tanky enough to shrug off some damage to create space, fast enough to close distance against throwers, or good wall peekers. Tanks/wall peekers good at playing around right lane. Longer range on left lane.", 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319872696414113802/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_11-15_screenshot.png?ex=67678abc&is=6766393c&hm=6b03f182d8e14b22c01fe2577dc5cb21808efe123c3fc3c01ae6e1c0c441d5ce&'}
+Draft info for the map bridge too far. To draft the map bridge too far: {'tips': 'Long range or abilities to go on water will win lanes easily. Ensure you have at least two brawlers who can deal a lot of damage to the safe.', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319873094067949621/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_19-41_screenshot.png?ex=67678b1b&is=6766399b&hm=a97b68043bb48b03a25d930ed39b80b8afd5d61b88d25def3685024e21f2206e&'}
+Draft info for the map layer cake. To draft the map layer cake: {'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1248829914644222014/ULTIMATE_CHEAT_SHEET_RANKED_-_BEST_PICKS__BANS_SEASON_27_-_YouTube_-_0-1-38.jpeg?ex=666516fd&is=6663c57d&hm=387edf081fc689efe4cc889de4e42c158b39b1ea7452cc58af69e41ede482aea&'}
+Draft info for the map shooting star. To draft the map shooting star: {'tips': "Run snipers. If enemy has a thrower make sure you have a long range assassin or your own thrower. Just draft in a way that doesn't leave you vulernable to 6th pick thrower.", 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319870458413453433/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_3-3_screenshot.png?ex=676788a7&is=67663727&hm=115e6b62947fa40d6bde3ba576ae1030bcf3566a43acf59f772c086f0c7e1b68&'}
+Draft info for the map ring of fire. To draft the map ring of fire: {'tips': 'Have a versatile brawler to create pressure or pick off kills, as well as a sneaky brawler to set up a spawn trap. Long range or brawlers that greatly benefit from their supers are appreciated due to the open map and forced interaction around zone.', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319873474528940135/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_30-35_screenshot.png?ex=67678b76&is=676639f6&hm=49b12fcf6dea266441530f7245c1b87a6b7120de7492fba2c76760ff8f98f705&'}
+Draft info for the map backyard bowl. To draft the map backyard bowl: {'tips': 'Use `/event` command to see more info about melodie challenge. This is temporarily set to melodie challenge', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1332447234247233556/FREE__Melodie__11_Drops_-_12-0_Melodie_Challenge_Guide_2-6_screenshot.png?ex=679549b0&is=6793f830&hm=2a2221313815f5b31cf68f93c829d5e869141dcb59baa3578845d7f1d2de70a7&'}
+Draft info for the map belles rock. To draft the map belles rock: {'tips': 'Map control is very strong, you can move up to the middle and force enemy to deal with the closing gas. First picks are generally squishy and long ranged, so last picks are assassins or controllers that deal well into them.', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319873658973458513/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_32-15_screenshot.png?ex=67678ba2&is=67663a22&hm=3c454e010bfdcb5fd1e512ff489d8388cb12d6ebb1d276436c706bc7df0f5d50&'}
+Draft info for the map out in the open. To draft the map out in the open: {'tips': "Having control of the middle usually leads to winning, either find brawlers that can confirm/initiate kills to push enemies back or have water brawlers/wall break to have multiple paths out of spawn. Last picks aren't as worrying.", 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319873817258233916/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_36-28_screenshot.png?ex=67678bc8&is=67663a48&hm=5abcd12fe008635c4393969300f10fe7bc47d7a8b3883e8116da6df506367fdf&'}
+Draft info for the map pinball dreams. To draft the map pinball dreams: {'tips': "Throwers and wall breakers are really strong first picks. Later in draft go for damage dealers or assassins when you know it's safer. Have at least one high dps brawler in draft to avoid getting counterpicked.", 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319872572883734538/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_8-11_screenshot.png?ex=67678a9f&is=6766391f&hm=e6f41f6cdc91c6a0d8bf00ee4fc5a5a1878220e871a2c5bcac541d5bfaf2f033&'}
+Draft info for the map double swoosh. To draft the map double swoosh: {'tips': "Sneaky map, don't get caught lacking by being cautious with scouting and vision gear.", 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319872804291608576/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_12-45_screenshot.png?ex=67678ad6&is=67663956&hm=6d8213a3c9193cafde9e6f9dbf5a4008c894d3aec51e8fbbc01400238e399f13&'}
+Draft info for the map hideout. To draft the map hideout: {'tips': "Run snipers unless you're playing against pros. Other good classes are assassins (Mortis) and long range supports (8-Bit, R-T). Wall break negates throwers and chanes draft a lot.", 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319870287046639709/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_1-45_screenshot.png?ex=6767887e&is=676636fe&hm=a602099750b42edb4a0eef4fcebb6035e0dc4dfe51fa22885ebcf9741ab68c24&'}
+Draft info for the map excel. To draft the map excel: {'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1248829831160795176/ULTIMATE_CHEAT_SHEET_RANKED_-_BEST_PICKS__BANS_SEASON_27_-_YouTube_-_0-1-12.jpeg?ex=666516e9&is=6663c569&hm=7eb6ec05c99e12923bb721ca94cff2b096a7c1cfea7e1b5f71f6ff3dc7cc9332&'}
+Draft info for the map center stage. To draft the map center stage: {'tips': 'Team comp should have a bush scouter and tank counter (weak dps/counters leave you vulnerable to tank last pick). Vision gear great on a lot of odd brawlers (lou, otis).', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319872573579985016/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_6-37_screenshot.png?ex=67678a9f&is=6766391f&hm=67e3c28e5616d0634e86a6e58be71a74c88a07c6e3025c7311878427ecb9f78e&'}
+Draft info for the map goalkeepers dream. To draft the map goalkeepers dream: {'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1225219740776140972/37_NEW_ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_BEST_PICKS__BANS_SEASON_25_-_YouTube_-_0-9-08.jpeg?ex=662055cd&is=660de0cd&hm=44aa1ebbc352cd3f735c64446c0e6ccbcd8701596d5ecc462e48c50cbe7cf08f&'}
+Draft info for the map minecart madness. To draft the map minecart madness: {'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1225220161804439562/37_NEW_ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_BEST_PICKS__BANS_SEASON_25_-_YouTube_-_0-13-59.jpeg?ex=66205632&is=660de132&hm=b335c7baf9c51ae903802a688783c1140850fe21c9a7b5608072729a8b7cb656&'}
+Draft info for the map rustic arcade. To draft the map rustic arcade: {'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1225220241173254154/37_NEW_ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_BEST_PICKS__BANS_SEASON_25_-_YouTube_-_0-15-27.jpeg?ex=66205644&is=660de144&hm=772ac7e728ff03742a8f0e3422832cdc1beb4be733a5b5ae66a6852ce64e43b7&'}
+Draft info for the map safe zone. To draft the map safe zone: {'tips': 'Longer range/sniper brawler in middle to win engagement, aggressive brawler on the left, "cleanup" brawler on the right. Draft plays out similar to other Heist maps.', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319873205271527454/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_24-56_screenshot.png?ex=67678b36&is=676639b6&hm=13ba68de8f7c3f836e98732c04b68b1a65896b18d8134a452eb3c6660815f08c&'}
+Draft info for the map pit stop. To draft the map pit stop: {'tips': 'Complete base race. 1 defender + 2 rush. Angelo not good until high elo', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1248830579944853594/ULTIMATE_CHEAT_SHEET_RANKED_-_BEST_PICKS__BANS_SEASON_27_-_YouTube_-_0-9-12.jpeg?ex=6665179c&is=6663c61c&hm=0b53ecd56f067fbdfc39395d54bd3f56fb45b6ddc0be32dfae2b210c6f5e58e5&'}
+Draft info for the map dueling beetles. To draft the map dueling beetles: {'tips': 'Lots of walls for turrets and throwers. Aggressive brawlers and supports are also good at holding zone.', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319873336452583525/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_26-20_screenshot.png?ex=67678b55&is=676639d5&hm=5202ef2ea42dcaf22a6b646e369fbe100c2998c5f2234acf8baded6d452fb6e1&'}
+Draft info for the map split. To draft the map split: {'tips': "Two down right, 1 down left. Don't break open right unless thrower, break open left.", 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1248830866860408862/ULTIMATE_CHEAT_SHEET_RANKED_-_BEST_PICKS__BANS_SEASON_27_-_YouTube_-_0-13-38.jpeg?ex=666517e0&is=6663c660&hm=994407715fe817092b8942f4f51db8c0abb5fe7f217900d79d5b1f9ebe397743&'}
+Draft info for the map new horizons. To draft the map new horizons: {'tips': 'Rock paper scissors type draft.', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1248830977942491237/ULTIMATE_CHEAT_SHEET_RANKED_-_BEST_PICKS__BANS_SEASON_27_-_YouTube_-_0-15-38.jpeg?ex=666517fb&is=6663c67b&hm=c279abc6562b154675a90c6f07d7cab1a2b19c2b5b8631de857505af29ea1f24&'}
+Draft info for the map canal grande. To draft the map canal grande: {'tips': "Water walking is op. Generic snipers are not that good, throwers and last pick takes run draft. Want a brawler that is generically good at cleaning up messes, thrower that won't die to aggro, and a tank or something aggressive. Controlling middle grass is important.", 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319870287629516861/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_0-30_screenshot.png?ex=6767887e&is=676636fe&hm=082d00d1625cf37243140d17f333181cd46d9eb75b98b541d015425b26551454&'}
+Draft info for the map sneaky fields. To draft the map sneaky fields: {'tips': "Abuse Vision gear on brawlers that aren't tanks. Lot of strong early picks (typical brawlball fare), so tanks/aggro are usually later picks.", 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319872697102110851/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_9-37_screenshot.png?ex=67678abd&is=6766393d&hm=0ecac5958e731d96ddcad566e25e6a2720bba1458b4b0fa837a1c84888bb472c&'}
+Draft info for the map beach ball. To draft the map beach ball: {'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1236116049083105320/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_BEST_PICKS__BANS_SEASON_26_-_YouTube_-_0-6-30.jpeg?ex=6636d648&is=663584c8&hm=0ce0baeb8514e3854ebe2c7aa2231d2215655762933fb0c2c1eac3c499119f14&'}
+Draft info for the map hard rock mine. To draft the map hard rock mine: {'tips': 'Focus on getting a good lane brawler (Surge, Rico, Ruffs, etc) as there are a lot of good middle map brawlers.', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319872803583037502/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_14-56_screenshot.png?ex=67678ad6&is=67663956&hm=3c071e232535ee5bdab9ea21f1c88f7d0fe0b9f67bfd59d13d06c51cdd821ce2&'}
+Draft info for the map gem fort. To draft the map gem fort: {'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1236116365908377641/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_BEST_PICKS__BANS_SEASON_26_-_YouTube_-_0-10-50.jpeg?ex=6636d693&is=66358513&hm=2137fa31ac918e3e9b8b1cb4bfc0e90d52b0810d225347d6cf6dd93e16e4d1ac&'}
+Draft info for the map kaboom canyon. To draft the map kaboom canyon: {'tips': 'Similar meta brawlers as Safe Zone and Heist in general. Get two solid DPS brawlers to play aggressive, then a cleanup brawler to establish map control.', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319873205871054939/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_23-10_screenshot.png?ex=67678b36&is=676639b6&hm=69fb841931d8b308f2c8cb8b1851834d1013043ea89f207fe0998c30ac673277&'}
+Draft info for the map hot potato. To draft the map hot potato: {'tips': 'BASE RACE. You need to properly access which opponents to ignore or defend on the safe. Make sure you have two aggressive damage dealing brawlers and a "cleanup" to defend and still deal damage on the safe. Do not control the map.', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319873093316903003/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_21-24_screenshot.png?ex=67678b1b&is=6766399b&hm=4c7549586fee514438d4f28fdd0073a0db27b58327859484c599dbe7b1bcb4f2&'}
+Draft info for the map parallel plays. To draft the map parallel plays: {'tips': 'Left zone needs defensive brawlers like throwers, high DPS, or brawlers that can charge strong supers. Middle range brawler can pinch lanes to secure either zone. Right zone will be aggressive with assassins or tanks.', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319873475120463892/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_29-8_screenshot.png?ex=67678b76&is=676639f6&hm=78402febae8205fc566aa1fc047fc86bb184ecd3df1839abecf2fbf70a4770d8&'}
+Draft info for the map open business. To draft the map open business: {'tips': 'Topsy-turvy draft with throwers and tanks. Cover your bases in draft to make sure nothing can unexpectedly throw you off.', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319873335739547711/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_28-0_screenshot.png?ex=67678b55&is=676639d5&hm=be815adf05e7dbf2da38ff84bed27e0e14c62edc0e611e6a03c1b25d650f8c85&'}
+Draft info for the map goldarm gulch. To draft the map goldarm gulch: {'tips': 'Consider trying different lane strategies or being aware of the enemy doing them. Sometimes you can send someone to sneak down right lane, or you triple stack left bush side and work your way horizontally. Lots of walls and people grouping up so use brawlers that benefit/punish those factors.', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319873817929060394/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_35-14_screenshot.png?ex=67678bc8&is=67663a48&hm=cd63fb3a1011ba46f2de479c14e78a08e90be1a68e58b3bc0d0041cf910e4cf5&'}
+Draft info for the map flaring phoenix. To draft the map flaring phoenix: {'tips': 'Two people in middle, then another brawler left. Usually you want a thrower on the left but if there is an assassin consider stacking same lane. High health is good when gas closes in, counter throwers with your own or an aggressive brawler.', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319873658390446091/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_33-45_screenshot.png?ex=67678ba2&is=67663a22&hm=578452d37f5864c11c3b101eefae8ce65c61dfb08c9c1603c7627177478d94d7&'}
+Draft info for the map galaxy arena. To draft the map galaxy arena: {'tips': 'Vision gear/tanks/tank counters great here', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1248830089660203070/ULTIMATE_CHEAT_SHEET_RANKED_-_BEST_PICKS__BANS_SEASON_27_-_YouTube_-_0-2-55.jpeg?ex=66651727&is=6663c5a7&hm=8253dcd07fb3bedf37560af4b95adb07278a6dda4664038582d7cdb23ddd1430&'}
+Draft info for the map acute angle. To draft the map acute angle: {'tips': 'Good mid can setup spawn trap', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1248830245323280384/ULTIMATE_CHEAT_SHEET_RANKED_-_BEST_PICKS__BANS_SEASON_27_-_YouTube_-_0-5-13.jpeg?ex=6665174c&is=6663c5cc&hm=c2b71858809fb96b176007fd215d0c969a6e01ad4199c3b56f194d340a956196&'}
+Draft info for the map retina. To draft the map retina: {'tips': 'Need tanks or tank counters', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1248830245700636683/ULTIMATE_CHEAT_SHEET_RANKED_-_BEST_PICKS__BANS_SEASON_27_-_YouTube_-_0-4-23.jpeg?ex=6665174c&is=6663c5cc&hm=100f54b3cf80447a80ea8918b8461a7dd2adb7891e36d02b7b54a724c2958d57&'}
+Draft info for the map undermine. To draft the map undermine: {'tips': 'Get a sniper in mid and then anti agro, assassin, scout brawler, or wall peaker in bushes. If skill issue in bushes double up in mid(do not triple stack) for more pressure or pinching', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319872924412411904/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_18-4_screenshot.png?ex=67678af3&is=67663973&hm=78d5a4563bf24aa9de818d7cf4c3efadbbf411b3ed9cf234aa185729ff65fecf&'}
+Draft info for the map penalty kick. To draft the map penalty kick: {'tips': 'Throwers are OP (except for Moe and Kenji). Best throwers are Barley and Larry & Lawrie so use them or ban them. Very easy to get away with random nonsense so make sure you have a good tank counter as well.', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1293022172738093107/NEW__ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_BEST_PICKS__BANS_SEASON_31_5-43_screenshot.png?ex=6705dc3d&is=67048abd&hm=8a52679f08e8b1f580817f400053dfaa3ebcfd6d7ff4442e444729bcd60e9bc8&'}
+Draft info for the map snake prarie. To draft the map snake prarie: {'tips': 'Rush in enemy with tanks or have better vision. Group up to be able to get revenge kills (not close enough for one enemy to teamwipe though). Vision gear runs this map.', 'link': 'https://cdn.discordapp.com/attachments/931255199627112458/1319870457825988709/ULTIMATE_Cheat_Sheet_For_RANKED_-_BEST_Picks__Bans_Season_33__34_4-53_screenshot.png?ex=676788a7&is=67663727&hm=58c025c826d07b8d7792c0e184f94033cc5ac2a54bdd97a5e3eee1c5535796a8&'}
+
+
+--- modifiers.json ---
+Draft info for the map modifier quickfire. To play the map modifier quickfire: - Modifier > Map. Regain 0.3 ammo per projectile that hits an enemy. Abuse brawlers that shoot out a lot of projectiles with one ammo.
+- Big three brawlers are Gene, Gale, and Leon
+- Any type of thrower (except Grom), Angelo, Bibi, Bo, Brock, Doug, Frank, Hank, Jacky, Kenji, Kit, Lily, Mico, Mortis, and Squeak do not benefit from Quickfire
+- Generally avoid tanks as it is harder to move up with other brawlers being able to spam more shots
+Draft info for the map modifier timed detonation. To play the map modifier timed detonation: - Map slowly breaks before going overtime halfway through. Open map meta overrides any preexisting mode/map meta, but draft 1 mode relevant brawlers.
+- Angelo, Piper, Melodie, Nani, Belle, Fang, 8-bit, Mandy, Brock, R-T
+Draft info for the map modifier big friend. To play the map modifier big friend: - Your team is set to the health of highest hp brawler on your team. Tanky brawler + high dps is good. Still play the map/mode meta a little. 
+- Collette, 8-bit, Frank, Pam, Bonnie, Bibi, Buzz, El Primo, Buster, Meg, Pearl, Gene (Magic Puffs), Bea, Spike (fertilize)
+Draft info for the map modifier sick beats. To play the map modifier sick beats: - Modifier > Map. All brawlers are immune to stuns and slows. Asassins and tank counters that do not rely on CC become way better. 
+- Notable edge cases: Meg (doesn't self stun when losing big form), Charlie (super works), Gene (super works), Kit (super on enemy works)
+https://cdn.discordapp.com/attachments/931255199627112458/1330832502129950730/THE_BEST_BRAWLERS_for_EVERY_Modifier_in_RANKED_-_Season_31_3-6_screenshot.png?ex=678f69da&is=678e185a&hm=d739377142ebb69c234de23aade5f0dd12a7bffc897d1577c7dee094613c40d1&
+Draft info for the map modifier barbed ammo. To play the map modifier barbed ammo: - All attacks deal an extra dmg (4%) over time. Can stack. DoT extends barbed ammo. Vision gear is extended by barbed ammo. 
+- R-T (poison activates mark), Max, Gene (vision, magic puffs), Crow (poison extends barbed ammo), Stu (healing sp), Nani, Griff (healing sp)
+https://cdn.discordapp.com/attachments/931255199627112458/1281305196386844722/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_BEST_PICKS__BANS_SEASON_30_0-25_screenshot.png?ex=66db3bf4&is=66d9ea74&hm=8424fe2fc8be1ec115f7ce5fc2e8c690ab908c41ef3347539353a78931b7f160&
+Draft info for the map modifier super bushy. To play the map modifier super bushy: - Middle of map starts growing expanding bushes around 1 min and regrows occasionally. Not major meta shift but vision gear is great
+https://cdn.discordapp.com/attachments/931255199627112458/1281305216213319771/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_BEST_PICKS__BANS_SEASON_30_1-58_screenshot.png?ex=66db3bf9&is=66d9ea79&hm=424cd4a690a1509eabe45809ea657c7a69dd46f97653453c354ab4ec753ea511&
+Draft info for the map modifier second wind. To play the map modifier second wind: - Wherever you die, respawn after 7 seconds (longer). Breaks hotzone/heist meta. Brawl ball more like knockout because you can't defend after team wipe
+- Jacky, Doug, Bull, Spike, Carl (super with invincibility), El Primo, Pearl
+Draft info for the map modifier healing winds. To play the map modifier healing winds: - Any healing is good obviously 
+ https://cdn.discordapp.com/attachments/931255199627112458/1268565807940636694/NEW__ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_BEST_PICKS__BANS_SEASON_29_1-20_screenshot.png?ex=66ace379&is=66ab91f9&hm=bcfd005ec4d4bb0a43b5333788022384229d34f68c1ddbafcca428ae1a453229&
+Draft info for the map modifier gotta go fast. To play the map modifier gotta go fast: - Gamemode objectives are achieved 2x faster. Hard to say exactly who meta is but aggro and gadget dependent brawlers probably stronger
+Draft info for the map modifier momentum. To play the map modifier momentum: - Landing a shot gives you increased movement speed. Avoid tanks as they feed momentum and can't get on top of people. Go for brawlers that are easy to hit shots or spam shots.
+https://cdn.discordapp.com/attachments/931255199627112458/1330832632174346290/THE_BEST_BRAWLERS_for_EVERY_Modifier_in_RANKED_-_Season_31_4-50_screenshot.png?ex=678f69f9&is=678e1879&hm=30c743aeda72697c4e445299c0e559ebb55fd702f18a50139e20638b6b03a344&
+Draft info for the map modifier gadgets galore. To play the map modifier gadgets galore: - Map > Modifier. Gadgets have unlimited uses but they have a 15 second cooldown instead of 5. Brawlers with good gadgets get a little better but meta doesn't change much. Do NOT use Gadget Charge Gear.
+ https://cdn.discordapp.com/attachments/931255199627112458/1330832291932540978/THE_BEST_BRAWLERS_for_EVERY_Modifier_in_RANKED_-_Season_31_0-51_screenshot.png?ex=678f69a8&is=678e1828&hm=078bc3ef76042cbf6990fdbba0c2e0cd2de97ce5326ce5de542968ac7a1df1f4&
