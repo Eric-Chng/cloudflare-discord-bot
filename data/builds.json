@@ -492,5 +492,11 @@
         "gadget": "Spellbound. Dive for assassins.",
         "starpower": "Obsession. Love is blind is bugged",
         "gear": "Damage and Shield."
+    },
+    "ollie": {
+        "gadget": "Probably ALL EYEZ ON ME. More reliable cc.",
+        "starpower": "Renegade. Kick,Push is really finicky.",
+        "gear": "Wait and see",
+        "tips": "After hypnotizing, if you have teammate nearby, walk in straight line to make enemy easy to hit."
     }
 }
