@@ -192,7 +192,7 @@ router.post('/', async (request, env) => {
       }
       case COUNTER_COMMAND.name.toLowerCase(): {
         var brawlerName = interaction.data.options.find(option => option.name === 'brawler')?.value.toLowerCase();
-        const brawlerNameQuery = brawlerName.replace(/[^\w\s]|_/g, "");
+        var brawlerNameQuery = brawlerName.replace(/[^\w\s]|_/g, "");
         if (counters[brawlerNameQuery] === undefined) {
           if (brawlerNameQuery === "rt") {
             brawlerNameQuery = "r t";
