@@ -194,6 +194,9 @@ router.post('/', async (request, env) => {
         var brawlerName = interaction.data.options.find(option => option.name === 'brawler')?.value.toLowerCase();
         const brawlerNameQuery = brawlerName.replace(/[^\w\s]|_/g, "");
         if (counters[brawlerNameQuery] === undefined) {
+          if (brawlerNameQuery === "rt") {
+            brawlerNameQuery = "r t";
+          }
           //fuzzy search time
           const countersFuzzyResult = countersFuzzySearch.search(brawlerNameQuery);
           if (countersFuzzyResult.length === 0) {
@@ -207,7 +210,8 @@ router.post('/', async (request, env) => {
           }
           var matchedCounterBrawler = countersFuzzyResult[0].item.brawlerName;
           matchedCounterBrawler = matchedCounterBrawler.charAt(0).toUpperCase() + matchedCounterBrawler.slice(1);
-          const matchedCounterInfo = countersFuzzyResult[0].item.counterInfo;
+          var matchedCounterInfo = countersFuzzyResult[0].item.counterInfo.tips;
+          matchedCounterInfo += `\n${countersFuzzyResult[0].item.counterInfo.brawler_counters}`;
           return new JsonResponse({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
             data: {
@@ -216,7 +220,8 @@ router.post('/', async (request, env) => {
             },
           });
         }
-        const counterInfo = counters[brawlerNameQuery];
+        var counterInfo = counters[brawlerNameQuery].tips;
+        counterInfo += `\n${counters[brawlerNameQuery].brawler_counters}`;
         brawlerName = brawlerName.charAt(0).toUpperCase() + brawlerName.slice(1);
 
         return new JsonResponse({
