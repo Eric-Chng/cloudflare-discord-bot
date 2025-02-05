@@ -1,4 +1,4 @@
-import { HELP_COMMAND, COUNTER_COMMAND, INVITE_COMMAND ,DRAFT_COMMAND, MODIFIER_COMMAND, BUILD_COMMAND, EVENT_COMMAND} from './commands.js';
+import { HELP_COMMAND, COUNTER_COMMAND, INVITE_COMMAND ,DRAFT_COMMAND, MODIFIER_COMMAND, BUILD_COMMAND, EVENT_COMMAND, TIER_LIST_COMMAND} from './commands.js';
 import dotenv from 'dotenv';
 import process from 'node:process';
 
@@ -6,6 +6,7 @@ import process from 'node:process';
  * This file is meant to be run from the command line, and is not used by the
  * application server.  It's allowed to use node.js primitives, and only needs
  * to be run once.
+ * Just run `node register.js` to register all commands.
  */
 
 dotenv.config({ path: '.dev.vars' });
@@ -34,7 +35,7 @@ const response = await fetch(url, {
     Authorization: `Bot ${token}`,
   },
   method: 'PUT',
-  body: JSON.stringify([HELP_COMMAND, INVITE_COMMAND,COUNTER_COMMAND, DRAFT_COMMAND, MODIFIER_COMMAND,BUILD_COMMAND,EVENT_COMMAND]),
+  body: JSON.stringify([HELP_COMMAND, INVITE_COMMAND,COUNTER_COMMAND, DRAFT_COMMAND, MODIFIER_COMMAND, BUILD_COMMAND, EVENT_COMMAND, TIER_LIST_COMMAND]),
 });
 
 if (response.ok) {

@@ -69,3 +69,26 @@ export const HELP_COMMAND = {
   name: 'help',
   description: 'See a list of commands and how to use them',
 };
+
+export const TIER_LIST_COMMAND = {
+  name: 'tierlist',
+  description: 'Get the current tier list',
+  options: [
+    {
+      type: 3, // 3 corresponds to STRING type
+      name: 'category',
+      description: 'Select which tier list to view',
+      required: true,
+      choices: [
+        {
+          name: 'Brawlers',
+          value: 'brawlers',
+        },
+        {
+          name: 'Hypercharges',
+          value: 'hypercharges',
+        },
+      ],
+    },
+  ],
+};

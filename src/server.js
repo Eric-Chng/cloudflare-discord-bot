@@ -127,7 +127,7 @@ router.post('/', async (request, env) => {
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
-            content: `**Commands**\n**/draft** - Return power league drafts for a map. Only has updated maps for current PL rotation\n**/counter** - Return brawler counters for a brawler\n**/modifier** - Return brawler recommendations for a modifier\n**/build** - Get the best build for a brawler.\n**/event - Get tips on the current event (if any).**\n**/invite** - Find out how to add the bot to your own server\n\nIf you would like to support the bot, check out: https://ko-fi.com/brawldraftbot`,
+            content: `**Commands**\n**/draft** - Return power league drafts for a map. Only has updated maps for current PL rotation\n**/counter** - Return brawler counters for a brawler\n**/modifier** - Return brawler recommendations for a modifier\n**/build** - Get the best build for a brawler.\n**/event** - Get tips on the current event (if any).\n**/invite** - Find out how to add the bot to your own server\n\nIf you would like to support the bot, check out: https://ko-fi.com/brawldraftbot`,
             flags: messageFlags,
           },
         });
@@ -333,6 +333,26 @@ router.post('/', async (request, env) => {
           });
         }
 
+      }
+      case TIER_LIST_COMMAND.name.toLowerCase(): {
+        var category = interaction.data.options.find(option => option.name === 'category')?.value.toLowerCase();
+        if (category === "brawlers") {
+          return new JsonResponse({
+            type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+            data: {
+              content: `Brawler Tier lists are not available at this time.`,
+              flags: messageFlags,
+            },
+          });
+        } else { //hypercharges
+          return new JsonResponse({
+            type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+            data: {
+              content: `Hypercharge Tier lists are not available at this time.`,
+              flags: messageFlags,
+            },
+          });
+        }
       }
       default:
         return new JsonResponse({ error: 'Unknown Type' }, { status: 400 });
