@@ -343,7 +343,7 @@ router.post('/', async (request, env) => {
           return new JsonResponse({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
             data: {
-              content: `**Brawler Tier List**\n${tierlists.brawlers}`,
+              content: `**Brawler Tier List**\n${tierlists["brawlers"]}`,
               flags: messageFlags,
             },
           });
@@ -351,7 +351,7 @@ router.post('/', async (request, env) => {
           return new JsonResponse({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
             data: {
-              content: `**Hypercharge Tier List**\n${tierlists.hypercharges}`,
+              content: `**Hypercharge Tier List**\n${tierlists["hypercharges"]}`,
               flags: messageFlags,
             },
           });
