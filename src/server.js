@@ -335,6 +335,7 @@ router.post('/', async (request, env) => {
 
       }
       case TIER_LIST_COMMAND.name.toLowerCase(): {
+        console.log(interaction.data.options);
         var category = interaction.data.options.find(option => option.name === 'category')?.value.toLowerCase();
         if (category === "brawlers") {
           return new JsonResponse({
