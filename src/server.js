@@ -129,7 +129,7 @@ router.post('/', async (request, env) => {
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
-            content: `**Commands**\n**/draft** - Return power league drafts for a map. Only has updated maps for current PL rotation\n**/counter** - Return brawler counters for a brawler\n**/modifier** - Return brawler recommendations for a modifier\n**/build** - Get the best build for a brawler.\n**/event** - Get tips on the current event (if any).\n**/invite** - Find out how to add the bot to your own server\n\nIf you would like to support the bot, check out: https://ko-fi.com/brawldraftbot`,
+            content: `**Commands**\n**/draft** - Return power league drafts for a map. Only has updated maps for current PL rotation\n**/counter** - Return brawler counters for a brawler\n**/modifier** - Return brawler recommendations for a modifier\n**/build** - Get the best build for a brawler.\n**/event** - Get tips on the current event (if any).\n**/tierlist** - See the top brawlers or hypercharges.\n**/invite** - Find out how to add the bot to your own server\n\nIf you would like to support the bot, check out: https://ko-fi.com/brawldraftbot`,
             flags: messageFlags,
           },
         });
