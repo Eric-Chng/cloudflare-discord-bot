@@ -335,25 +335,31 @@ router.post('/', async (request, env) => {
 
       }
       case TIER_LIST_COMMAND.name.toLowerCase(): {
-        console.log(interaction.data.options);
-        var category = interaction.data.options.find(option => option.name === 'category')?.value.toLowerCase();
-        if (category === "brawlers") {
-          return new JsonResponse({
-            type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
-            data: {
-              content: `Brawler Tier lists are not available at this time.`,
-              flags: messageFlags,
-            },
-          });
-        } else { //hypercharges
-          return new JsonResponse({
-            type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
-            data: {
-              content: `Hypercharge Tier lists are not available at this time.`,
-              flags: messageFlags,
-            },
-          });
-        }
+        return new JsonResponse({
+          type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+          data: {
+            content: `Tier lists are not available at this time.`,
+            flags: messageFlags,
+          },
+        });
+        // var category = interaction.data.options.find(option => option.name === 'category')?.value.toLowerCase();
+        // if (category === "brawlers") {
+        //   return new JsonResponse({
+        //     type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+        //     data: {
+        //       content: `Brawler Tier lists are not available at this time.`,
+        //       flags: messageFlags,
+        //     },
+        //   });
+        // } else { //hypercharges
+        //   return new JsonResponse({
+        //     type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+        //     data: {
+        //       content: `Hypercharge Tier lists are not available at this time.`,
+        //       flags: messageFlags,
+        //     },
+        //   });
+        // }
       }
       default:
         return new JsonResponse({ error: 'Unknown Type' }, { status: 400 });
