@@ -6,7 +6,9 @@ import process from 'node:process';
  * This file is meant to be run from the command line, and is not used by the
  * application server.  It's allowed to use node.js primitives, and only needs
  * to be run once.
+ * 
  * Just run `node register.js` to register all commands.
+ * REMEMBER TO IMPORT IT IN register.js AND server.js
  */
 
 dotenv.config({ path: '.dev.vars' });

@@ -29,6 +29,8 @@ const buildsFuzzyArray = Object.keys(builds).map(key => ({ brawlerName: key, bui
 
 const event_tips = require('../data/event_tips.json');
 
+const tierlists = require('../data/tierlists.json');
+
 const draftsFuzzySearch = new Fuse(draftsFuzzyArray, {
   // keys to search in (you can specify nested paths with dot notation)
   keys: ["mapName"],
@@ -335,31 +337,25 @@ router.post('/', async (request, env) => {
 
       }
       case TIER_LIST_COMMAND.name.toLowerCase(): {
-        return new JsonResponse({
-          type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
-          data: {
-            content: `Tier lists are not available at this time.`,
-            flags: messageFlags,
-          },
-        });
-        // var category = interaction.data.options.find(option => option.name === 'category')?.value.toLowerCase();
-        // if (category === "brawlers") {
-        //   return new JsonResponse({
-        //     type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
-        //     data: {
-        //       content: `Brawler Tier lists are not available at this time.`,
-        //       flags: messageFlags,
-        //     },
-        //   });
-        // } else { //hypercharges
-        //   return new JsonResponse({
-        //     type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
-        //     data: {
-        //       content: `Hypercharge Tier lists are not available at this time.`,
-        //       flags: messageFlags,
-        //     },
-        //   });
-        // }
+        var category = interaction.data.options.find(option => option.name === 'category')?.value.toLowerCase();
+        if (category === "brawlers") {
+          // Pull brawler tier list from tierlists var
+          return new JsonResponse({
+            type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+            data: {
+              content: `**Brawler Tier List**\n${tierlists.brawlers}`,
+              flags: messageFlags,
+            },
+          });
+        } else { //hypercharges
+          return new JsonResponse({
+            type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+            data: {
+              content: `**Hypercharge Tier List**\n${tierlists.hypercharges}`,
+              flags: messageFlags,
+            },
+          });
+        }
       }
       default:
         return new JsonResponse({ error: 'Unknown Type' }, { status: 400 });
