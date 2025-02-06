@@ -161,7 +161,7 @@
     },
     "sprout": {
         "tips": "- Assassins destroy Sprout, if not an assassin try breaking walls or dodging to get close",
-        "brawler_counters": "Assassins, tanks"
+        "brawler_counters": "Assassins/tanks like Mortis, Kenji, Darryl, Buzz"
     },
     "byron": {
         "tips": "- Cripple his healing or destroy him due to low health. Weak to aggro.",
@@ -169,7 +169,7 @@
     },
     "squeak": {
         "tips": "- Easily gets overwhelmed by aggro due to his slow damage output",
-        "brawler_counters": "Tanks, Assassins"
+        "brawler_counters": "Assassins/Tanks like Kenji, Buzz, Leon, Mortis, Carl, Max, Edgar, Fang"
     },
     "gray": {
         "tips": "- He plays like an assassin so just make it hard for him to teleport on you. Low reload spd/dps",
@@ -301,7 +301,7 @@
     },
     "pearl": {
         "tips": "- Aggressive playstyle to force her to shoot constantly will keep her dmg low.",
-        "brawler_counters": "Constant aggression to waste her heat, Lou, 8bit (HP), Buster (HP + Super)"
+        "brawler_counters": "Lou, 8bit (HP), Buster (HP + Super)"
     },
     "chuck": {
         "tips": "- Weak 1v1. Assassinate him after he super to prevent him from superchaining.",
@@ -349,11 +349,11 @@
     },
     "shade": {
         "tips": "- Weak to tanks and wallbreaks (that aren't too squishy).",
-        "brawler_counters": "Tanks, Lou (counters super), Jacky"
+        "brawler_counters": "Tanks, Frank, Lou (counters super), Jacky, Hank"
     },
     "meeple": {
         "tips": "- Meeple is low dps and slow reload. Also midrange so loses to snipers on long range maps.",
-        "brawler_counters": "Tanks/assassins, spawners"
+        "brawler_counters": "Tanks/assassins, spawners (Nita, Mr. P)"
     },
     "ollie": {
         "tips": "- Extremely low dps. Just don't chase him when he supers to avoid getting hypnotized.",
