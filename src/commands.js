@@ -10,7 +10,7 @@ export const INVITE_COMMAND = {
 
 export const DRAFT_COMMAND = {
   name: 'draft',
-  description: 'Return power league drafts for a map',
+  description: 'Return ranked drafts for a map',
   options: [
     {
       type: 3, 
