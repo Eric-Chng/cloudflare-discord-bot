@@ -13,9 +13,27 @@
     },
     "3": {
         "question": "https://cdn.discordapp.com/attachments/931255199627112458/1337245587380371456/bsc-draft-scenarios-what-brawler-would-you-pick-in-these-v0-q43wfoaew5he1.png?ex=67a6be80&is=67a56d00&hm=812d8569b2c128dd3fa5555eba2b844eb6e4af5e1fca9064087bb224f30e553e&",
-        "answer": "Lou. Other picks: Maisie",
+        "answer": "Lou. Other picks: Maisie. R-T prob good too",
         "notes": "The enemy composition lends itself into stacking up due to Berry's high healing and great AoE attack, forcing your team to bunch up as well due to Mortis posing a threat to Sprout otherwise. The grouping makes picks like R-T/Darryl harder to play as solo laners.",
         "date": "2025-02-05"
+    },
+    "4": {
+        "question": "https://cdn.discordapp.com/attachments/931255199627112458/1338399106489520148/bsc-draft-scenarios-what-brawler-would-you-pick-in-these-v0-tbwksq8tqjhe1.png?ex=67aaf0cd&is=67a99f4d&hm=df04ff9d399776adf65296f58df6e4f336f1fa104d1c5aaa0811c829e5070498&",
+        "answer": "Janet. Other picks: Ruffs, Tara, Jessie",
+        "notes": "Clear Janet game - she does well on Gem Fort into all 3 of the enemy brawlers, kind of a no brainer. Ruffs and Tara are also great option for sidelaners as they can block Lou shots, Gene pulls and deal with Leon up close. Of course, Jessie is also a fine pick due to her turret, but they're all secondary to Janet.",
+        "date": "2025-02-09"
+    },
+    "5": {
+        "question": "https://cdn.discordapp.com/attachments/931255199627112458/1338399522006503434/bsc-draft-scenarios-what-brawler-would-you-pick-in-these-v0-8nvp1o8tqjhe1.png?ex=67aaf130&is=67a99fb0&hm=f5d7c8885ca0927385ebd5d44320e3595b7d5d794f6e7369ae1ed0ba7541a787&",
+        "answer": "Leon. Other picks: Gray",
+        "notes": "Once again we are looking at Shooting Star with difficult lanes - the big problem is obviously the R-T. Leon's purpose is to help pressure him back from mid or by stacking with Nani on it; Not the easiest of teamcomps to play, but surprisingly effective. Secondary to Leon is the Gray pick due to his synergy with Gus's shield, though it's a pretty tough matchups execute quick kills at a high level.",
+        "date": "2025-02-09"
+    }, 
+    "6": {
+        "question": "https://cdn.discordapp.com/attachments/931255199627112458/1338399665745301545/bsc-draft-scenarios-what-brawler-would-you-pick-in-these-v0-xa1k6r8tqjhe1.png?ex=67aaf152&is=67a99fd2&hm=fcdff2460e6f9fc55ea083e2346d8386b9e649f27de35832a4856fc10b613aea&",
+        "answer": "Darryl. Other picks: Lola",
+        "notes": "Pretty clear scenario - blue has 2 controllers with low damage and Chuck, therefore killing Darryl is a big issue for them as it's basically impossible without letting Colette and Penny onto the safe. Lola is also viable due to simply having a great matchup into the enemy defence.",
+        "date": "2025-02-09"
     }
 
 }
