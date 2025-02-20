@@ -41,7 +41,7 @@ const draftsFuzzySearch = new Fuse(draftsFuzzyArray, {
 const countersFuzzySearch = new Fuse(countersFuzzyArray, {
   // keys to search in (you can specify nested paths with dot notation)
   keys: ["brawlerName"],
-  threshold: 0.25,
+  threshold: 0.4,
 });
 const modifiersFuzzySearch = new Fuse(modifiersFuzzyArray, {
   // keys to search in (you can specify nested paths with dot notation)
@@ -51,7 +51,7 @@ const modifiersFuzzySearch = new Fuse(modifiersFuzzyArray, {
 const buildsFuzzySearch = new Fuse(buildsFuzzyArray, {
   // keys to search in (you can specify nested paths with dot notation)
   keys: ["brawlerName"],
-  threshold: 0.25,
+  threshold: 0.4,
 });
 
 
