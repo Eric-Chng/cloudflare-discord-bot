@@ -10,25 +10,20 @@ drafts_file_path = os.path.join(current_dir, 'new_drafts.json')
 
 with open(drafts_file_path, 'r') as f:
     drafts = json.load(f)
+    
+
+# Load ../drafts.json
+drafts_path = os.path.join(current_dir, '../drafts.json')
+with open(drafts_path, 'r') as f:
+    old_drafts = json.load(f)
 
 
-# Building a new json file with the new builds
-new_builds = {}
-
+# Iterate new drafts
 for key, value in drafts.items():
-    # if value has a key "tips" then add it to the new_builds
-    map_value = {}
-    if "tips" in value:
-        map_value["tips"] = value["tips"]
-    if "s31 tips" in value:
-        map_value["tips"] = value["s31 tips"]
-    if "link" in value:
-        map_value["link"] = value["link"]
-    else:
-        print("No link for " + key)
-    new_builds[key] = map_value
+    old_drafts[key] = value
+
 
 # Write the new builds to a file
 new_builds_path = os.path.join(current_dir, 'output.json')
 with open(new_builds_path, 'w') as f:
-    json.dump(new_builds, f, indent=4)
+    json.dump(old_drafts, f, indent=4)
