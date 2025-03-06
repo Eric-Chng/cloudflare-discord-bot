@@ -1,8 +1,8 @@
 {
     "8 bit": {
-        "gadget": "Cheat Cartridge overall. Use Extra Credits in Heist.",
-        "starpower": "Boosted Booster overall. Plugged In for sniper/counter matchups and Gem Grab.",
-        "gear": "Reload Speed and Health. Replace Health with Vision (grassy map) or Damage (Heist) when necessary.",
+        "gadget": "Cheat Cartridge. Extra Credits locks you in so hard to get value, okay in heist..",
+        "starpower": "Boosted Booster overall. Plugged In for really bad matchups like sniper/counter matchups.",
+        "gear": "Reload Speed and Health. Replace Health with Vision (grassy map).",
         "hypercharge": "Mid hypercharge, do not buy."
     },
     "amber": {
@@ -23,7 +23,7 @@
         "hypercharge": "Very good hypercharge, consider buying."
     },
     "barley": {
-        "gadget": "Sticky Syrup in ladder and for agro. Herbal Tonic good in Ranked.",
+        "gadget": "Herbal tonic is easy spam. Sticky Syrup in ladder.",
         "starpower": "Personal preference. Medical Use against throwers, Extra Noxious against tanks.",
         "gear": "Gadget Charge and Shield.",
         "hypercharge": "Hypercharge is worth it."
@@ -66,11 +66,11 @@
         "gadget": "Rocket Fuel 99% of time. Rocket Laces okay in ladder for unknown enemies.",
         "starpower": "More Rockets! Rocket No. 4 can be good in Knockout or Bounty but hard to fully utilize.",
         "gear": "Reload and Shield.",
-        "hypercharge":"Do not buy the hypercharge.",
+        "hypercharge": "Do not buy the hypercharge.",
         "tips": "User super and then hypercharge for max dmg."
     },
     "bull": {
-        "gadget": "Stomper. T-Bone Injector can be used for Heist base races.",
+        "gadget": "Stomper. T-Bone Injector is ok for Heist base races.",
         "starpower": "Tough Guy. Berserker can work in Heist.",
         "gear": "Damage and Speed/Health/Super Charge."
     },
@@ -92,9 +92,10 @@
         "tips": "Autoaiming super almost always works perfectly."
     },
     "carl": {
-        "gadget": "Heat Ejector for casuals and in Heist. Flying Hook in Bounty or for more skilled players.",
+        "gadget": "Heat Ejector usually, esp if they have cc to stop your super. Flying Hook in KO/Bounty or for more skilled players.",
         "starpower": "Protective Pirouette.",
-        "gear": "Damage and Health/Gadget Charge.",
+        "gear": "Damage and Gadget Charge/Health.",
+        "hypercharge": "Hypercharge is worth it.",
         "tips": "Before supering, throw out one attack."
     },
     "charlie": {
@@ -128,8 +129,8 @@
     },
     "colt": {
         "gadget": "Speedloader. Silver Bullet good for opening up map.",
-        "starpower": "Slick Boots. Magnum Special can still be good.",
-        "gear": "Reload Speed and Damage/Shield."
+        "starpower": "Personal preference. Slight edge to Slick Boots.",
+        "gear": "Reload Speed and Damage/gadget. Vision is good as a pocket gear."
     },
     "cordelius": {
         "gadget": "Replanting. Poison Mushroom for bushy maps or Showdown.",
@@ -143,9 +144,9 @@
         "hypercharge": "Hypercharge is worth it."
     },
     "darryl": {
-        "gadget": "Tar Barrel. Recoiling Rotator in Heist or to charge super.",
+        "gadget": "Both suck but use Tar Barrel. Recoiling Rotator in Heist.",
         "starpower": "Steel Hoops. You could use Rolling Reload in Heist.",
-        "gear": "Damage and Health/Shield.",
+        "gear": "Damage and Shield/Health.",
         "tips": "Tip of his super will knockback again."
     },
     "doug": {
@@ -160,9 +161,9 @@
         "tips": "Pairs great with Kit, Byron when supering. Great for when pressure is needed (hot zone, etc.). Shoot normal attack and then super for extra super charge."
     },
     "dynamike": {
-        "gadget": "Satchel Charge.",
+        "gadget": "Satchel Charge. Fidget spinner is ok due to low cd.",
         "starpower": "Demolition.",
-        "gear": "Gadget Charge and Damage/Shield.",
+        "gear": "Shield and Damage/Gadget (satchel synergy).",
         "hypercharge": "Hypercharge is worth it."
     },
     "edgar": {
@@ -174,7 +175,7 @@
     "el primo": {
         "gadget": "Suplex Supplement.",
         "starpower": "Meteor Rush, but it can be personal preference if you use El Fuego to finish off opponents.",
-        "gear": "Damage and Health/Super Charge (good matchup).",
+        "gear": "Damage and Speed/Health/Super Charge (good matchup).",
         "tips": "Super can be chained into suplex for a lot of CC."
     },
     "emz": {
@@ -231,7 +232,7 @@
     "gus": {
         "gadget": "Kooky Popper.",
         "starpower": "Spirit Animal.",
-        "gear": "Gadget Charge and Shield/Damage/Health.",
+        "gear": "Shield and Damage/Health.",
         "tips": "Super niche but can spawn 2 ghosts if you shoot quickly and hit at max range."
     },
     "hank": {
@@ -251,9 +252,9 @@
         "hypercharge": "One of the best hypercharges in the game, buy it."
     },
     "jessie": {
-        "gadget": "Recoil Spring in Heist. Otherwise use Spark Plug.",
+        "gadget": "Spark Plug default. Recoil Spring in Heist.",
         "starpower": "Energize.",
-        "gear": "Damage and Shield/Pet Power.",
+        "gear": "Speed and Damage/vision. Damage and Pet Power in heist.",
         "hypercharge": "Meh hypercharge."
     },
     "juju": {
@@ -362,9 +363,9 @@
         "tips": "Overshoot behind a little to more reliably hit 2 shots"
     },
     "nita": {
-        "gadget": "Bear Paws. Faux Fur is easier to use.",
-        "starpower": "Hyper Bear. Bear With Me works well with Hyperbearing (hypercharge)",
-        "gear": "Swap between Speed, Shield, Damage, and Pet Power.",
+        "gadget": "Bear Paws into tanks. Faux Fur is easier to use.",
+        "starpower": "Bear with Me usually, Hyper Bear in heist.",
+        "gear": "Swap between Speed, Damage, and Pet Power.",
         "hypercharge": "Hypercharge is worth it."
     },
     "otis": {
@@ -387,7 +388,7 @@
     "penny": {
         "gadget": "Salty Barrel.",
         "starpower": "Heavy Coffers. Run Master Blaster in Brawl Ball.",
-        "gear": "Shield and Damage/Vision."
+        "gear": "Health and Damage/Pet Power."
     },
     "piper": {
         "gadget": "Auto Aimer. Homemade Recipe in Knockout/Bounty.",
@@ -396,9 +397,9 @@
         "hypercharge": "One of the best hypercharges in the game, buy it."
     },
     "poco": {
-        "gadget": "Tuning Fork. Protective Tunes can work in Ranked (4 sec of immunity from poison and cc).",
+        "gadget": "Both gadgets insane. Tuning Fork easy spam. Protective Tunes works vs cc and poison dmg.",
         "starpower": "Screeching Solo. Da Capo! has good synergy with other brawlers.",
-        "gear": "Gadget Charge and Shield.",
+        "gear": "Damage and Speed/Gadget (tuning fork).",
         "hypercharge": "Hypercharge is okay due to how easy it is to cycle."
     },
     "r t": {
@@ -407,15 +408,15 @@
         "gear": "Shield and Health/Gadget Charge. Damage gear is a bit bugged."
     },
     "rico": {
-        "gadget": "Multiball Launcher. Bouncy Castle for really bad matchups.",
-        "starpower": "Super Bouncy. Robo Retreat better if bad matchup (wall breakers, throwers, assassins).",
-        "gear": "Reload Speed and Gadget Charge.",
+        "gadget": "Multiball Launcher by far.",
+        "starpower": "Super Bouncy. Robo Retreat easier and better if bad matchup (wall breakers, throwers, assassins).",
+        "gear": "Reload Speed and Gadget Charge. Vision for grassy maps.",
         "hypercharge": "Hypercharge is worth it."
     },
     "rosa": {
-        "gadget": "Unfriendly Bushes.",
-        "starpower": "Thorny Gloves.",
-        "gear": "Speed and Gadget Charge/Damage.",
+        "gadget": "Grow light completely changes the game.",
+        "starpower": "Plant life for gadget synergy. Thorny is still good.",
+        "gear": "Speed and Damage.",
         "hypercharge": "Hypercharge is pretty good (recommended buy)."
     },
     "ruffs": {
@@ -444,9 +445,9 @@
     },
     "shelly": {
         "gadget": "Clay Pigeons.",
-        "starpower": "Shell Shock. Band-Aid can be good on Showdown, Knockout, and Bounty.",
-        "gear": "Damage and Speed.",
-        "hypercharge": "Hypercharge is pretty good."
+        "starpower": "Band-Aid slightly better to keep up with damage.",
+        "gear": "Damage and Speed/gadgetcd.",
+        "hypercharge": "Hypercharge is ok."
     },
     "spike": {
         "gadget": "Life Plant. Popping Pincushion on Heist",
@@ -484,7 +485,7 @@
         "hypercharge": "Hypercharge is worth it."
     },
     "tick": {
-        "gadget": "Last Hurrah. Last Hurrah. Mine Mania underrated in maps with lots of chokepoints.",
+        "gadget": "Last Hurrah by far. Mine Mania underrated in maps with lots of chokepoints.",
         "starpower": "Well Oiled. Automa-Tick Reload if no enemy throwers/threats",
         "gear": "Thicc Head and Shield/Vision (grassy map)."
     },
