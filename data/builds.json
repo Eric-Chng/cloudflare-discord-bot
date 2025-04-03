@@ -505,5 +505,11 @@
         "starpower": "Renegade. Kick, Push is really finicky.",
         "gear": "Damage and Health/Speed.",
         "tips": "After hypnotizing, if you have teammate nearby, walk in straight line to make enemy easy to hit. Can auto-aim to shorten super distance."
+    },
+    "lumi": {
+        "gadget": "Grim and Frostbitten",
+        "starpower": "Half-time.",
+        "gear": "Damage and Shield.",
+        "tips": "Positioning attacks for return is very important."
     }
 }
