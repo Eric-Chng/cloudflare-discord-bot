@@ -8,7 +8,7 @@ import {
   InteractionType,
   verifyKey,
 } from 'discord-interactions';
-import { INVITE_COMMAND, DRAFT_COMMAND, COUNTER_COMMAND, HELP_COMMAND, MODIFIER_COMMAND, BUILD_COMMAND, EVENT_COMMAND, TIER_LIST_COMMAND } from './commands.js';
+import { INVITE_COMMAND, DRAFT_COMMAND, COUNTER_COMMAND, HELP_COMMAND, MODIFIER_COMMAND, BUILD_COMMAND, EVENT_COMMAND, TIER_LIST_COMMAND, TEST_COMMAND } from './commands.js';
 import { InteractionResponseFlags } from 'discord-interactions';
 
 const botchannels = [`931255199627112458`, '1306466117140615281'];
@@ -146,6 +146,53 @@ router.post('/', async (request, env) => {
         });
       }
       case DRAFT_COMMAND.name.toLowerCase(): {
+        const mapName = interaction.data.options.find(option => option.name === 'map')?.value;
+        const mapQuery = mapName.toLowerCase().replace(/[^\w\s]|_/g, "");
+        const draftInfo = `https://www.youtube.com/watch?v=zRST0-eMhj4`;
+
+        if (drafts[mapQuery] === undefined) {
+          //fuzzy search time
+          const draftsFuzzyResult = draftsFuzzySearch.search(mapQuery);
+          if (draftsFuzzyResult.length === 0) {
+            return new JsonResponse({
+              type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+              data: {
+                content: `Sorry, I couldn't find a draft for "${mapName}".\nTry an external resource like: ${draftInfo}`,
+                flags: messageFlags,
+              },
+            });
+          }
+          const matchedUrl = draftsFuzzyResult[0].item.url;
+          var formattedDraftContent = `# Fuzzy Search for ${mapName}\n`;
+          if (matchedUrl.tips) {
+            formattedDraftContent += `### Tips\n${matchedUrl.tips}\n\n`;
+          }
+          formattedDraftContent += `${matchedUrl.link}`;
+          return new JsonResponse({
+            type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+            data: {
+              content: formattedDraftContent,
+              flags: messageFlags,
+              
+            },
+          });
+          
+        } 
+        var formattedDraftContent = `# Draft for ${mapName}\n`;
+        if (drafts[mapQuery].tips) {
+          formattedDraftContent += `### Tips\n${drafts[mapQuery].tips}\n\n`;
+        }
+        formattedDraftContent += `${drafts[mapQuery].link}`;
+
+        return new JsonResponse({
+          type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+          data: {
+            content: formattedDraftContent,
+            flags: messageFlags,
+          },
+        });
+      }
+      case TEST_COMMAND.name.toLowerCase(): {
         const mapName = interaction.data.options.find(option => option.name === 'map')?.value;
         const mapQuery = mapName.toLowerCase().replace(/[^\w\s]|_/g, "");
         const draftInfo = `https://www.youtube.com/watch?v=zRST0-eMhj4`;

@@ -21,6 +21,19 @@ export const DRAFT_COMMAND = {
   ],
 };
 
+export const TEST_COMMAND = {
+  name: 'test',
+  description: 'test embeds',
+  options: [
+    {
+      type: 3, 
+      name: 'map',
+      description: 'The name of the map to get drafts for',
+      required: true,
+    }
+  ],
+};
+
 export const COUNTER_COMMAND = {
   name: 'counter',
   description: 'Return brawler counters for a brawler',
