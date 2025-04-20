@@ -234,15 +234,15 @@ router.post('/', async (request, env) => {
             });
           }
           const matchedUrl = draftsFuzzyResult[0].item.url;
-          title_message = `# Fuzzy Search for ${mapName}\n`;
+          title_message = `# Fuzzy Search for ${mapName}`;
           if (matchedUrl.tips) {
-            tip_message = `### Tips\n${matchedUrl.tips}\n\n`;
+            tip_message = `${matchedUrl.tips}`;
           }
           image_link = `${matchedUrl.link}`;
         } 
-        title_message = `# Draft for ${mapName}\n`;
+        title_message = `# Draft for ${mapName}`;
         if (drafts[mapQuery].tips) {
-          tip_message = `### Tips\n${drafts[mapQuery].tips}\n\n`;
+          tip_message = `${drafts[mapQuery].tips}`;
         }
         image_link = `${drafts[mapQuery].link}`;
 
