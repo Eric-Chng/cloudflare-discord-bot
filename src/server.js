@@ -197,47 +197,69 @@ router.post('/', async (request, env) => {
         const mapQuery = mapName.toLowerCase().replace(/[^\w\s]|_/g, "");
         const draftInfo = `https://www.youtube.com/watch?v=zRST0-eMhj4`;
 
-        if (drafts[mapQuery] === undefined) {
-          //fuzzy search time
-          const draftsFuzzyResult = draftsFuzzySearch.search(mapQuery);
-          if (draftsFuzzyResult.length === 0) {
-            return new JsonResponse({
-              type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
-              data: {
-                content: `Sorry, I couldn't find a draft for "${mapName}".\nTry an external resource like: ${draftInfo}`,
-                flags: messageFlags,
-              },
-            });
-          }
-          const matchedUrl = draftsFuzzyResult[0].item.url;
-          var formattedDraftContent = `# Fuzzy Search for ${mapName}\n`;
-          if (matchedUrl.tips) {
-            formattedDraftContent += `### Tips\n${matchedUrl.tips}\n\n`;
-          }
-          formattedDraftContent += `${matchedUrl.link}`;
-          return new JsonResponse({
-            type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
-            data: {
-              content: formattedDraftContent,
-              flags: messageFlags,
-              
-            },
-          });
-          
-        } 
-        var formattedDraftContent = `# Draft for ${mapName}\n`;
-        if (drafts[mapQuery].tips) {
-          formattedDraftContent += `### Tips\n${drafts[mapQuery].tips}\n\n`;
-        }
-        formattedDraftContent += `${drafts[mapQuery].link}`;
-
+        const embed = {
+          title: '👋  Hello there!',
+          description: 'This response came from a **Cloudflare Worker**',
+          color: 0x5865f2,
+          fields: [
+            { name: 'Tip', value: 'Embeds work with raw JSON too 🎉', inline: true },
+          ],
+          image: {
+            url: 'https://cdn.discordapp.com/attachments/1292539410130141214/1363385992777826325/image.png?ex=6805d7a7&is=68048627&hm=d6c59dee85e1e03e718ab1ed5d621e64924afd28e205b8ae8c920db5d72000e3&',
+          },
+          footer: { text: 'Made with love', },
+          timestamp: new Date().toISOString(),
+        };
         return new JsonResponse({
-          type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+          type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE, // 4
           data: {
-            content: formattedDraftContent,
-            flags: messageFlags,
+            // content: 'optional plain text',
+            embeds: [embed],
+            // flags: 64,            // uncomment for ephemeral
           },
         });
+
+        // if (drafts[mapQuery] === undefined) {
+        //   //fuzzy search time
+        //   const draftsFuzzyResult = draftsFuzzySearch.search(mapQuery);
+        //   if (draftsFuzzyResult.length === 0) {
+        //     return new JsonResponse({
+        //       type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+        //       data: {
+        //         content: `Sorry, I couldn't find a draft for "${mapName}".\nTry an external resource like: ${draftInfo}`,
+        //         flags: messageFlags,
+        //       },
+        //     });
+        //   }
+        //   const matchedUrl = draftsFuzzyResult[0].item.url;
+        //   var formattedDraftContent = `# Fuzzy Search for ${mapName}\n`;
+        //   if (matchedUrl.tips) {
+        //     formattedDraftContent += `### Tips\n${matchedUrl.tips}\n\n`;
+        //   }
+        //   formattedDraftContent += `${matchedUrl.link}`;
+        //   return new JsonResponse({
+        //     type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+        //     data: {
+        //       content: formattedDraftContent,
+        //       flags: messageFlags,
+              
+        //     },
+        //   });
+          
+        // } 
+        // var formattedDraftContent = `# Draft for ${mapName}\n`;
+        // if (drafts[mapQuery].tips) {
+        //   formattedDraftContent += `### Tips\n${drafts[mapQuery].tips}\n\n`;
+        // }
+        // formattedDraftContent += `${drafts[mapQuery].link}`;
+
+        // return new JsonResponse({
+        //   type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+        //   data: {
+        //     content: formattedDraftContent,
+        //     flags: messageFlags,
+        //   },
+        // });
       }
       case COUNTER_COMMAND.name.toLowerCase(): {
         var brawlerName = interaction.data.options.find(option => option.name === 'brawler')?.value.toLowerCase();
