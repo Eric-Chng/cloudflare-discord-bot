@@ -239,13 +239,13 @@ router.post('/', async (request, env) => {
             tip_message = `${matchedUrl.tips}`;
           }
           image_link = `${matchedUrl.link}`;
-        } 
-        title_message = `Draft for ${mapName}`;
-        if (drafts[mapQuery].tips) {
-          tip_message = `${drafts[mapQuery].tips}`;
+        } else {
+          title_message = `Draft for ${mapName}`;
+          if (drafts[mapQuery].tips) {
+            tip_message = `${drafts[mapQuery].tips}`;
+          }
+          image_link = `${drafts[mapQuery].link}`;
         }
-        image_link = `${drafts[mapQuery].link}`;
-
 
         const embed = {
             title: title_message,
