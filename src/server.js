@@ -148,7 +148,7 @@ router.post('/', async (request, env) => {
       case DRAFT_COMMAND.name.toLowerCase(): {
         const mapName = interaction.data.options.find(option => option.name === 'map')?.value;
         const mapQuery = mapName.toLowerCase().replace(/[^\w\s]|_/g, "");
-        const draftInfo = `https://www.youtube.com/watch?v=S-8mUu3cnWI`;
+        const draftInfo = `https://www.youtube.com/watch?v=zRST0-eMhj4`;
 
         if (drafts[mapQuery] === undefined) {
           //fuzzy search time
