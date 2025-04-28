@@ -145,7 +145,7 @@ router.post('/', async (request, env) => {
           },
         });
       }
-      case DRAFT_COMMAND.name.toLowerCase(): {
+      case TEST_COMMAND.name.toLowerCase(): {
         const mapName = interaction.data.options.find(option => option.name === 'map')?.value;
         const mapQuery = mapName.toLowerCase().replace(/[^\w\s]|_/g, "");
         const draftInfo = `https://www.youtube.com/watch?v=zRST0-eMhj4`;
@@ -192,7 +192,7 @@ router.post('/', async (request, env) => {
           },
         });
       }
-      case TEST_COMMAND.name.toLowerCase(): {
+      case DRAFT_COMMAND.name.toLowerCase(): {
         const mapName = interaction.data.options.find(option => option.name === 'map')?.value;
         const mapQuery = mapName.toLowerCase().replace(/[^\w\s]|_/g, "");
         const draftInfo = `https://www.youtube.com/watch?v=zRST0-eMhj4`;
