@@ -197,27 +197,6 @@ router.post('/', async (request, env) => {
         const mapQuery = mapName.toLowerCase().replace(/[^\w\s]|_/g, "");
         const draftInfo = `https://www.youtube.com/watch?v=zRST0-eMhj4`;
 
-        // const embed = {
-        //   title: '👋  Hello there!',
-        //   description: 'This response came from a **Cloudflare Worker**',
-        //   color: 0x5865f2,
-        //   fields: [
-        //     { name: 'Tip', value: 'Embeds work with raw JSON too 🎉', inline: true },
-        //   ],
-        //   image: {
-        //     url: 'https://cdn.discordapp.com/attachments/1292539410130141214/1363385992777826325/image.png?ex=6805d7a7&is=68048627&hm=d6c59dee85e1e03e718ab1ed5d621e64924afd28e205b8ae8c920db5d72000e3&',
-        //   },
-        //   footer: { text: 'Made with love', },
-        //   timestamp: new Date().toISOString(),
-        // };
-        // return new JsonResponse({
-        //   type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE, // 4
-        //   data: {
-        //     // content: 'optional plain text',
-        //     embeds: [embed],
-        //     // flags: 64,            // uncomment for ephemeral
-        //   },
-        // });
         var title_message = '';
         var tip_message = '';
         var image_link = '';
@@ -355,7 +334,7 @@ router.post('/', async (request, env) => {
           var matchedBuildBrawler = buildsFuzzyResult[0].item.brawlerName;
           matchedBuildBrawler = matchedBuildBrawler.charAt(0).toUpperCase() + matchedBuildBrawler.slice(1);
           const matchedBuildInfo = buildsFuzzyResult[0].item.buildInfo;
-          var buildResponseContent = `Fuzzy Search for ${brawlerName} found **${matchedBuildBrawler}**: \n*Builds are updated as of 3/7!*\n__**Gadgets**__:\n${matchedBuildInfo.gadget}\n\n__**Star Powers**__:\n${matchedBuildInfo.starpower}\n\n__**Gears**__:\n${matchedBuildInfo.gear}`;
+          var buildResponseContent = `Fuzzy Search for ${brawlerName} found **${matchedBuildBrawler}**: \n__**Gadgets**__:\n${matchedBuildInfo.gadget}\n\n__**Star Powers**__:\n${matchedBuildInfo.starpower}\n\n__**Gears**__:\n${matchedBuildInfo.gear}`;
           if ("hypercharge" in matchedBuildInfo) {
             buildResponseContent += `\n\n__**Hypercharge**__:\n${matchedBuildInfo.hypercharge}`;
           }
@@ -372,7 +351,7 @@ router.post('/', async (request, env) => {
         }
         const buildInfo = builds[brawlerNameQuery];
         brawlerName = brawlerName.charAt(0).toUpperCase() + brawlerName.slice(1);
-        var buildResponseContent = `${brawlerName}: \n*Builds are updated as of 3/7!*\n__**Gadgets**__:\n${buildInfo.gadget}\n\n__**Star Powers**__:\n${buildInfo.starpower}\n\n__**Gears**__:\n${buildInfo.gear}`;
+        var buildResponseContent = `${brawlerName}: \n__**Gadgets**__:\n${buildInfo.gadget}\n\n__**Star Powers**__:\n${buildInfo.starpower}\n\n__**Gears**__:\n${buildInfo.gear}`;
         if ("hypercharge" in buildInfo) {
           buildResponseContent += `\n\n__**Hypercharge**__:\n${buildInfo.hypercharge}`;
         }
