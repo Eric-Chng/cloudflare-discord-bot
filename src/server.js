@@ -149,13 +149,12 @@ router.post('/', async (request, env) => {
       }
       case TEST_COMMAND.name.toLowerCase(): {
         // Example usage:
-        const featureArray = buildFeatureArray(
+        const embedded_features = buildFeatureArray(
           'heist',
           'Bridge Too Far',
           ['Colette','8-Bit','Mandy'],
           ['Brock','Lola','Piper']
         );
-        const embedded_features = buildFeatureArray(featureArray);
         var test_message = `Initial test message`;
         if (typeof embedded_features === 'string') {
           test_message = `Error: ${embedded_features}`;
