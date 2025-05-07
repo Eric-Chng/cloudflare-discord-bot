@@ -1,9 +1,9 @@
 // features.js
 const { score } = require('./rf_model');
 // Load your mappings JSON
-// const mappings = require('./mappings.json');
+const mappings = require('../data/mappings.json');
 // features.js (ES module style)
-import mappings from './mappings.json' assert { type: 'json' };
+// import mappings from './mappings.json' assert { type: 'json' };
 const { feature_cols, mode_mapping, map_mapping, all_brawlers } = mappings;
 
 /**
