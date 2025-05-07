@@ -159,8 +159,13 @@ router.post('/', async (request, env) => {
         if (typeof embedded_features === 'string') {
           test_message = `Error: ${embedded_features}`;
         } else {
-          const winProb = score(result);
-          test_message = `Win probability: ${winProb}`;
+          try {
+            const result = score(embedded_features);
+            test_message = `Win probability: ${result}`;
+          }
+          catch (error) {
+            test_message = `Error: ${error.message}`;
+          }
         }
 
         return new JsonResponse({
