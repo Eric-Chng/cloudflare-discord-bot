@@ -56,6 +56,47 @@ const buildsFuzzySearch = new Fuse(buildsFuzzyArray, {
   threshold: 0.4,
 });
 
+const mappings = require('../data/mappings.json');
+const { all_brawlers, map_mapping } = mappings;
+
+// 2) Build the choice arrays
+const mapChoices = Object.keys(map_mapping).map(name => ({
+  name,
+  value: name
+}));
+
+const brawlerChoices = all_brawlers.map(name => ({
+  name,
+  value: name
+}));
+
+const mapToMode = {
+  "Backyard Bowl": "brawlBall",
+  "Belle's Rock": "bounty",
+  "Bridge Too Far": "heist",
+  "Dry Season": "bounty",
+  "Dueling Beetles": "hotZone",
+  "Gem Fort": "gemGrab",
+  "Goldarm Gulch": "bounty",
+  "Hard Rock Mine": "gemGrab",
+  "Hideout": "knockout",
+  "Hot Potato": "heist",
+  "Last Stop": "gemGrab",
+  "Layer Cake": "bounty",
+  "Open Business": "hotZone",
+  "Open Zone": "hotZone",
+  "Out in the Open": "knockout",
+  "Pinhole Punt": "brawlBall", // unsure
+  "Pit Stop": "heist",
+  "Ring of Fire": "hotZone",
+  "Safe Zone": "heist",
+  "Shooting Star": "bounty",
+  "Sneaky Fields": "brawlBall",
+  "Sunny Soccer": "brawlBall",
+  "Super Beach": "brawlBall",
+  "Triple Dribble": "brawlBall"
+};
+
 
 class JsonResponse extends Response {
   constructor(body, init) {
@@ -103,6 +144,32 @@ router.post('/', async (request, env) => {
     });
   }
 
+  // ──────────────── AUTOCOMPLETE HANDLER ────────────────
+   if (interaction.type === InteractionType.APPLICATION_COMMAND_AUTOCOMPLETE) {
+       // find which field is focused (map or one of the brawler slots)
+       const focused = interaction.data.options.find(o => o.focused);
+       const query   = (focused.value || '').toLowerCase();
+  
+       // pick the right list
+       let pool;
+       if (focused.name === 'map') {
+         pool = Object.keys(map_mapping);
+       } else {
+         pool = all_brawlers;
+       }
+  
+       // filter & cap at 25, then respond
+       const choices = pool
+         .filter(item => item.toLowerCase().startsWith(query))
+         .slice(0, 25)
+         .map(name => ({ name, value: name }));
+  
+       return new JsonResponse({
+         type: InteractionResponseType.APPLICATION_COMMAND_AUTOCOMPLETE_RESULT,
+         data: { choices }
+       });
+     }
+
   if (interaction.type === InteractionType.APPLICATION_COMMAND) {
     const channel = interaction.channel_id;
     const roles = interaction.member.roles;
@@ -148,12 +215,33 @@ router.post('/', async (request, env) => {
         });
       }
       case TEST_COMMAND.name.toLowerCase(): {
-        // Example usage:
+        // 1) Pull values from the interaction
+        const opts      = interaction.data.options;
+        const mapName   = opts.find(o => o.name === 'map')?.value;
+        const t1b1      = opts.find(o => o.name === 'team1_brawler1')?.value;
+        const t1b2      = opts.find(o => o.name === 'team1_brawler2')?.value;
+        const t1b3      = opts.find(o => o.name === 'team1_brawler3')?.value;
+        const t2b1      = opts.find(o => o.name === 'team2_brawler1')?.value;
+        const t2b2      = opts.find(o => o.name === 'team2_brawler2')?.value;
+        const t2b3      = opts.find(o => o.name === 'team2_brawler3')?.value;
+
+        // 2) Check for missing values
+        if (!mapName || !t1b1 || !t1b2 || !t1b3 || !t2b1 || !t2b2 || !t2b3) {
+          return new JsonResponse({
+            type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+            data: {
+              content: 'Error: one or more options were not provided.',
+              flags: InteractionResponseFlags.EPHEMERAL
+            }
+          });
+        }
+
+        // 3) Build your feature array
         const embedded_features = buildFeatureArray(
-          'heist',
-          'Bridge Too Far',
-          ['Brock','Lola','Piper'],
-          ['Colette','8-Bit','Mandy']
+          mapName,
+          mapName,
+          [t1b1, t1b2, t1b3],
+          [t2b1, t2b2, t2b3]
         );
         var test_message = `Initial test message`;
         if (typeof embedded_features === 'string') {

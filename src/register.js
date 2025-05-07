@@ -24,7 +24,6 @@ if (!applicationId) {
     'The DISCORD_APPLICATION_ID environment variable is required.',
   );
 }
-
 /**
  * Register all commands globally.  This can take o(minutes), so wait until
  * you're sure these are the commands you want.

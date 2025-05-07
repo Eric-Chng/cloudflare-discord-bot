@@ -1,3 +1,4 @@
+
 /**
  * Share command metadata from a common spot to be used for both runtime
  * and registration.
@@ -26,12 +27,55 @@ export const TEST_COMMAND = {
   description: 'test embeds',
   options: [
     {
-      type: 3, 
+      type: 3,               // STRING
       name: 'map',
-      description: 'The name of the map to get drafts for',
+      description: 'Select a map',
       required: true,
+      autocomplete: true
+    },
+    {
+      type: 3,
+      name: 'team1_brawler1',
+      description: 'Team 1 slot 1',
+      required: true,
+      autocomplete: true
+    },
+    {
+      type: 3,
+      name: 'team1_brawler2',
+      description: 'Team 1 slot 2',
+      required: true,
+      autocomplete: true
+    },
+    {
+      type: 3,
+      name: 'team1_brawler3',
+      description: 'Team 1 slot 3',
+      required: true,
+      autocomplete: true
+    },
+    {
+      type: 3,
+      name: 'team2_brawler1',
+      description: 'Team 2 slot 1',
+      required: true,
+      autocomplete: true
+    },
+    {
+      type: 3,
+      name: 'team2_brawler2',
+      description: 'Team 2 slot 2',
+      required: true,
+      autocomplete: true
+    },
+    {
+      type: 3,
+      name: 'team2_brawler3',
+      description: 'Team 2 slot 3',
+      required: true,
+      autocomplete: true
     }
-  ],
+  ]
 };
 
 export const COUNTER_COMMAND = {
