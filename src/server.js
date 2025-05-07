@@ -161,7 +161,7 @@ router.post('/', async (request, env) => {
         } else {
           try {
             const result = score(embedded_features);
-            test_message = `Win probability: ${(result*100).toFixed(1)}`;
+            test_message = `Win probability: ${(result[1]*100)}`;
           }
           catch (error) {
             test_message = `Error: ${error.message}`;
