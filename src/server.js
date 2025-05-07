@@ -238,7 +238,7 @@ router.post('/', async (request, env) => {
 
         // 3) Build your feature array
         const embedded_features = buildFeatureArray(
-          mapName,
+          mapToMode[mapToMode[mapName]] || 'gemGrab',
           mapName,
           [t1b1, t1b2, t1b3],
           [t2b1, t2b2, t2b3]
@@ -254,6 +254,9 @@ router.post('/', async (request, env) => {
           catch (error) {
             test_message = `Error: ${error.message}`;
           }
+        }
+        if (!(mapName in mapToMode)) {
+          test_message = `Error: "${mapName}" lacks a valid map to mode mapping.`;
         }
 
         return new JsonResponse({
