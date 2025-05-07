@@ -152,8 +152,8 @@ router.post('/', async (request, env) => {
         const embedded_features = buildFeatureArray(
           'heist',
           'Bridge Too Far',
-          ['Colette','8-Bit','Mandy'],
-          ['Brock','Lola','Piper']
+          ['Brock','Lola','Piper'],
+          ['Colette','8-Bit','Mandy']
         );
         var test_message = `Initial test message`;
         if (typeof embedded_features === 'string') {
