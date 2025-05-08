@@ -282,7 +282,7 @@ router.post('/', async (request, env) => {
             return new JsonResponse({
               type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
               data: {
-                content: `Sorry, I couldn't find a draft for "${mapName}".\nTry an external resource like: ${draftInfo}`,
+                content: `Sorry, I couldn't find a draft for "${mapName}".\nSpen has not yet posted any garbage collection guides.\nTry an external resource like: ${draftInfo}`,
                 flags: messageFlags,
               },
             });
