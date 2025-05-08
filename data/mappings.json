@@ -190,19 +190,15 @@
     "knockout": 5
   },
   "map_mapping": {
-    "Backyard Bowl": 0,
     "Belle's Rock": 1,
     "Bridge Too Far": 2,
-    "Dry Season": 3,
     "Dueling Beetles": 4,
     "Gem Fort": 5,
     "Goldarm Gulch": 6,
     "Hard Rock Mine": 7,
     "Hideout": 8,
-    "Hot Potato": 9,
     "Last Stop": 10,
     "Layer Cake": 11,
-    "Open Business": 12,
     "Open Zone": 13,
     "Out in the Open": 14,
     "Pinhole Punt": 15,
@@ -210,8 +206,6 @@
     "Ring of Fire": 17,
     "Safe Zone": 18,
     "Shooting Star": 19,
-    "Sneaky Fields": 20,
-    "Sunny Soccer": 21,
     "Super Beach": 22,
     "Triple Dribble": 23
   },
