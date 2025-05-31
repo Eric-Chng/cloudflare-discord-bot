@@ -235,9 +235,9 @@ router.post('/', async (request, env) => {
             } else {
               const team2Result = score(embedded_features);
               if (team1Result > team2Result) {
-                test_message = `Team 1 wins by ${team1Result - team2Result} points`;
+                test_message = `Team 1 wins by ${team1Result} points`;
               } else {
-                test_message = `Team 2 wins by ${team2Result - team1Result} points`;}
+                test_message = `Team 2 wins by ${team2Result} points`;}
             }
           }
           catch (error) {
