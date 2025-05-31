@@ -237,7 +237,7 @@ router.post('/', async (request, env) => {
         }
 
         // 3) Build your feature array
-        const embedded_features = buildFeatureArray(
+        var embedded_features = buildFeatureArray(
           mapToMode[mapToMode[mapName]] || 'gemGrab',
           mapName,
           [t1b1, t1b2, t1b3],
@@ -249,7 +249,7 @@ router.post('/', async (request, env) => {
         } else {
           try {
             const team1Result = score(embedded_features);
-            const embedded_features = buildFeatureArray(
+            embedded_features = buildFeatureArray(
               mapToMode[mapToMode[mapName]] || 'gemGrab',
               mapName,
               [t2b1, t2b2, t2b3],
