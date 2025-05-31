@@ -223,7 +223,7 @@ router.post('/', async (request, env) => {
           test_message = `Error: ${embedded_features}`;
         } else {
           try {
-            const team1Result = score(embedded_features);
+            const team1Result = score(embedded_features)[0];
             embedded_features = buildFeatureArray(
               mapToMode[mapToMode[mapName]] || 'gemGrab',
               mapName,
@@ -233,11 +233,11 @@ router.post('/', async (request, env) => {
             if (typeof embedded_features === 'string') {
               test_message = `Error: ${embedded_features}`;
             } else {
-              const team2Result = score(embedded_features);
+              const team2Result = score(embedded_features)[0];
               if (team1Result > team2Result) {
-                test_message = `Team 1 wins by ${team1Result} points`;
+                test_message = `Team 1 wins by ${(team1Result-team2Result) * 100} points`;
               } else {
-                test_message = `Team 2 wins by ${team2Result} points`;}
+                test_message = `Team 2 wins by ${(team2Result-team1Result) * 100} points`;}
             }
           }
           catch (error) {
