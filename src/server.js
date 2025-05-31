@@ -70,32 +70,7 @@ const brawlerChoices = all_brawlers.map(name => ({
   value: name
 }));
 
-const mapToMode = {
-  "Backyard Bowl": "brawlBall",
-  "Belle's Rock": "bounty",
-  "Bridge Too Far": "heist",
-  "Dry Season": "bounty",
-  "Dueling Beetles": "hotZone",
-  "Gem Fort": "gemGrab",
-  "Goldarm Gulch": "bounty",
-  "Hard Rock Mine": "gemGrab",
-  "Hideout": "knockout",
-  "Hot Potato": "heist",
-  "Last Stop": "gemGrab",
-  "Layer Cake": "bounty",
-  "Open Business": "hotZone",
-  "Open Zone": "hotZone",
-  "Out in the Open": "knockout",
-  "Pinhole Punt": "brawlBall", // unsure
-  "Pit Stop": "heist",
-  "Ring of Fire": "hotZone",
-  "Safe Zone": "heist",
-  "Shooting Star": "bounty",
-  "Sneaky Fields": "brawlBall",
-  "Sunny Soccer": "brawlBall",
-  "Super Beach": "brawlBall",
-  "Triple Dribble": "brawlBall"
-};
+const mapToMode = {"Backyard Bowl": "brawlBall", "Beach Ball": "brawlBall", "Belle's Rock": "knockout", "Bridge Too Far": "heist", "Center Stage": "brawlBall", "Double Swoosh": "gemGrab", "Dry Season": "bounty", "Dueling Beetles": "hotZone", "Flaring Phoenix": "knockout", "Gem Fort": "gemGrab", "Goldarm Gulch": "knockout", "Hard Rock Mine": "gemGrab", "Hideout": "bounty", "Hot Potato": "heist", "Kaboom Canyon": "heist", "Last Stop": "gemGrab", "Layer Cake": "bounty", "New Horizons": "knockout", "No Excuses": "bounty", "Open Business": "hotZone", "Open Zone": "hotZone", "Out in the Open": "knockout", "Parallel Plays": "hotZone", "Pinball Dreams": "brawlBall", "Pinhole Punt": "brawlBall", "Pit Stop": "heist", "Ring of Fire": "hotZone", "Safe Zone": "heist", "Shooting Star": "bounty", "Sneaky Fields": "brawlBall", "Sunny Soccer": "brawlBall", "Super Beach": "brawlBall", "Triple Dribble": "brawlBall", "Undermine": "gemGrab"}
 
 
 class JsonResponse extends Response {
