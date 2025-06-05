@@ -517,5 +517,11 @@
         "starpower": "Extra high note since you don't stack too much in high level play.",
         "gear": "Damage and Shield/gadget.",
         "tips": "Really versatile in many team comps."
+    },
+    "kaze": {
+        "gadget": "Gracious Host.",
+        "starpower": "Gratuity Included",
+        "gear": "Damage and Shield.",
+        "hypercharge": "Unsure about hypercharge yet."
     }
 }
