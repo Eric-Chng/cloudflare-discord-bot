@@ -1,173 +1,530 @@
 {
-    "last stop": {
-        "tips": "Prioritize a good sniper as gem carrier in middle. In bushes you can run an anti agro, assassin, or brawler good at scouting.",
-        "link": "https://cdn.discordapp.com/attachments/931255199627112458/1337571359353606166/S35_RANKED_CHEAT_SHEET_-_Best_Brawlers__Bans_14-2_screenshot.png?ex=67a7ede6&is=67a69c66&hm=3c0d37a3c2a59008e39561c821eba6a0231e206e82d767a049788d28ba40af73&"
+    "8 bit": {
+        "gadget": "Cheat Cartridge. Extra Credits in Heist.",
+        "starpower": "Boosted Booster. Plugged In for Gem Grab.",
+        "gear": "Reload Speed and Health.",
+        "hypercharge": "Don't buy the hypercharge."
     },
-    "triple dribble": {
-        "tips": "Be wary of late pick throwers. Utilize good hypercharges and tanks.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1373162815241588787/image.png?ex=68296907&is=68281787&hm=97c929bd55761246d0c30bfb12c9a4b21d95d81ef4b31f19f437d60745c4bc4e&=&format=webp&quality=lossless"
+    "amber": {
+        "gadget": "Fire Starters in open maps. Dancing Flames in closed maps.",
+        "starpower": "Wild Flames.",
+        "gear": "Reload Speed and Vision/Damage. She's good with other gadgets as well."
     },
-    "bridge too far": {
-        "tips": "Heist rework less punishing with DPS brawlers. Still opt for 2 DPS brawlers and a \"clean-up\" brawler that will defend or win lanes.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1373435187022790666/image.png?ex=682a66b1&is=68291531&hm=7424784326ee1be0800f328cf1038f7f1df6d898d35dedb3bd184677304eb847&=&format=webp&quality=lossless"
+    "angelo": {
+        "gadget": "Master Fletcher. Stinging Flight isn't a bad option either.",
+        "starpower": "Empower.",
+        "gear": "Shield and Health.",
+        "hypercharge": "Don't buy the hypercharge.",
+        "tips": "Can hold down autoaim to charge an auto aimed shot."
     },
-    "layer cake": {
-        "tips": "Pressure wins games. You want tanks and brawlers good at wall peaking rather than snipers.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1373162813048098907/image.png?ex=68296906&is=68281786&hm=b9817290fa58eedaa9cdf1ea5f1cbe57a32bc7add1e348546d8c83a9b986bb08&=&format=webp&quality=lossless"
+    "ash": {
+        "gadget": "Chill Pill.",
+        "starpower": "First Bash.",
+        "gear": "Damage and Speed.",
+        "hypercharge": "Hypercharge is worth it."
     },
-    "shooting star": {
-        "tips": "Grab as many good snipers as possible. Get a good thrower or wall peak for middle then run snipers in lane.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1373162813597421608/image.png?ex=68296906&is=68281786&hm=b1f8b5c06f4c51726e386c8c0aec4a20a780b61d2ef936571f731e5362ab0ffd&=&format=webp&quality=lossless"
+    "barley": {
+        "gadget": "Sticky Syrup in ladder and for agro. Herbal Tonic good in Ranked.",
+        "starpower": "Extra Noxious. Medical Use against other throwers.",
+        "gear": "Gadget Charge and Shield.",
+        "hypercharge": "Hypercharge is worth it."
     },
-    "ring of fire": {
-        "tips": "For a middle brawler save them for later in the draft since there are plenty to choose from and they're all susceptible to being countered by each other.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1374935242376220682/image.png?ex=682fdbba&is=682e8a3a&hm=e4fe6c8abee4d9fda0251a1b7fb4955c8115090958564c91e82be97712dfb297&=&format=webp&quality=lossless"
+    "bea": {
+        "gadget": "Rattled Hive.",
+        "starpower": "Honeycomb. Insta Beaload is also good.",
+        "gear": "Shield and Damage.",
+        "tips": "Slow projectile speed mean bea is best at midrange rather than max range."
     },
-    "backyard bowl": {
-        "tips": "Use `/event` command to see more info about melodie challenge. This is temporarily set to melodie challenge",
-        "link": "https://cdn.discordapp.com/attachments/931255199627112458/1332447234247233556/FREE__Melodie__11_Drops_-_12-0_Melodie_Challenge_Guide_2-6_screenshot.png?ex=679549b0&is=6793f830&hm=2a2221313815f5b31cf68f93c829d5e869141dcb59baa3578845d7f1d2de70a7&"
+    "belle": {
+        "gadget": "Nest Egg. Reverse Polarity has some uses in certain maps.",
+        "starpower": "Positive Feedback. Grounded underrated in Ranked against agro.",
+        "gear": "Reload Speed and Shield. You can use Damage/Health instead of Shield in Heist.",
+        "hypercharge": "Don't buy the hypercharge."
     },
-    "belles rock": {
-        "tips": "Don't go too many snipers. If they miss too often they get pushed back. Higher health hybird snipers can rely more on positioning to move up. Late picks are very good so either get a thrower or thrower counter for yourself.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1374935889083371610/image.png?ex=682fdc55&is=682e8ad5&hm=56dd5d9802dcba7c82a281eee679dbe3dbaa9db06c2a77126164083bee2084aa&=&format=webp&quality=lossless"
+    "berry": {
+        "gadget": "Friendship is Great. Healthy Additives in Heist.",
+        "starpower": "Floor is Fine.",
+        "gear": "Shield and Gadget Cooldown.",
+        "tips": "Attack is impact + damage zone after. Damage zone doesn't stack. Weak vs tanks"
     },
-    "out in the open": {
-        "tips": "If you push enemy into their spawn you usually win since there are only two chokepoints for them to use. You can use gadget/super to open the back wall to create another opening, or use a brawler who can walk on water.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1374935243542499480/image.png?ex=682fdbbb&is=682e8a3b&hm=c3ee627251b52ff186219b3e9f8934021b20d12b7d17336bc97ef4819d1c1641&=&format=webp&quality=lossless"
+    "bibi": {
+        "gadget": "Vitamin Booster.",
+        "starpower": "Home Run.",
+        "gear": "Damage and Gadget Cooldown.",
+        "hypercharge": "Hypercharge is worth it."
     },
-    "pinball dreams": {
-        "tips": "Balance your comp between agro, control, wallbreak. Prepare for last pick throwers.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1373162814499323996/image.png?ex=68296907&is=68281787&hm=0a19edbbbca341f37ccc08f58915b8542e956cd2df25c450fe6e42b1de0076d0&=&format=webp&quality=lossless"
+    "bo": {
+        "gadget": "Super Totem. Tripwire in Heist.",
+        "starpower": "Snare a Bear.",
+        "gear": "Reload Speed and Health/Damage (Heist)."
     },
-    "double swoosh": {
-        "tips": "Have a brawler good at scouting in the middle, with tanker counter on left and tank on right to apply pressure.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1373431382973612053/image.png?ex=682a6326&is=682911a6&hm=b2f3dad9322380258ab72873cd3e908e8ac51df48c3e89f4802306ca2184caed&=&format=webp&quality=lossless"
+    "bonnie": {
+        "gadget": "Sugar Rush.",
+        "starpower": "Black Powder.",
+        "gear": "Super Charge and Damage/Gadget Cooldown."
     },
-    "hideout": {
-        "tips": "Focus on having strong early picks. Snipers get easily pushed back, try to get a semi-aggressive brawler and wall break for cheese comps.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1373162812431405146/image.png?ex=68296906&is=68281786&hm=177aa2369c8ade647e6905d41de08e1e47c5e72f9e485571bf7cd2eb516fdde6&=&format=webp&quality=lossless"
+    "brock": {
+        "gadget": "Rocket Fuel. Rocket Laces is okay in ladder against unknown enemies.",
+        "starpower": "More Rockets! Rocket No. 4 can be good in Knockout and Bounty.",
+        "gear": "Reload Speed and Shield.",
+        "hypercharge": "Don't buy the hypercharge.",
+        "tips": "User super and then hypercharge for max dmg."
     },
-    "excel": {
-        "link": "https://cdn.discordapp.com/attachments/931255199627112458/1248829831160795176/ULTIMATE_CHEAT_SHEET_RANKED_-_BEST_PICKS__BANS_SEASON_27_-_YouTube_-_0-1-12.jpeg?ex=666516e9&is=6663c569&hm=7eb6ec05c99e12923bb721ca94cff2b096a7c1cfea7e1b5f71f6ff3dc7cc9332&"
+    "bull": {
+        "gadget": "Stomper. T-Bone Injector can be used for Heist base races.",
+        "starpower": "Tough Guy. Berserker hard to get value out of.",
+        "gear": "Damage and Health/Super Charge (if you're Pika)."
     },
-    "center stage": {
-        "tips": "Be careful about early picking anti-tanks like Chester and Griff as enemy may not pick tanks to feed your hypercharge. Lots of good options but no late pick will guarantee you win.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1373162814163648623/image.png?ex=68296907&is=68281787&hm=2dbc66dde612f6c5c9b0e372c65c862e44adf7848b233b426150f7a572d4e8f1&=&format=webp&quality=lossless"
+    "buster": {
+        "gadget": "Slow-Mo Replay.",
+        "starpower": "Kevlar Vest. If enemy has no knockback use Blockbuster.",
+        "gear": "Damage and Speed/Health."
     },
-    "goalkeepers dream": {
-        "link": "https://cdn.discordapp.com/attachments/931255199627112458/1225219740776140972/37_NEW_ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_BEST_PICKS__BANS_SEASON_25_-_YouTube_-_0-9-08.jpeg?ex=662055cd&is=660de0cd&hm=44aa1ebbc352cd3f735c64446c0e6ccbcd8701596d5ecc462e48c50cbe7cf08f&"
+    "buzz": {
+        "gadget": "Reserve Buoy. X-Ray-Shades is very good on grassy maps.",
+        "starpower": "Eyes Sharp. Tougher Torpedo is used more in pro play.",
+        "gear": "Damage and Shield.",
+        "hypercharge": "Hypercharge is worth it."
     },
-    "minecart madness": {
-        "link": "https://cdn.discordapp.com/attachments/931255199627112458/1225220161804439562/37_NEW_ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_BEST_PICKS__BANS_SEASON_25_-_YouTube_-_0-13-59.jpeg?ex=66205632&is=660de132&hm=b335c7baf9c51ae903802a688783c1140850fe21c9a7b5608072729a8b7cb656&"
+    "byron": {
+        "gadget": "Booster Shots.",
+        "starpower": "Malaise.",
+        "gear": "Shield and Gadget Cooldown.",
+        "tips": "Autoaiming super almost always works perfectly."
     },
-    "rustic arcade": {
-        "link": "https://cdn.discordapp.com/attachments/931255199627112458/1225220241173254154/37_NEW_ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_BEST_PICKS__BANS_SEASON_25_-_YouTube_-_0-15-27.jpeg?ex=66205644&is=660de144&hm=772ac7e728ff03742a8f0e3422832cdc1beb4be733a5b5ae66a6852ce64e43b7&"
+    "carl": {
+        "gadget": "Heat Ejector. Flying Hook higher skill floor in Ranked.",
+        "starpower": "Protective Pirouette.",
+        "gear": "Gadget Cooldown and Damage.",
+        "hypercharge": "Hypercharge is worth it.",
+        "tips": "Before supering, throw out one attack."
     },
-    "safe zone": {
-        "tips": "Decent range to hold middle, high damage and long range on left. Don't bother picking a brawler for defending.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1373435189069348902/image.png?ex=682a66b2&is=68291532&hm=2ade62a1dde5885214cb5dc629fb625d5f63c8acb2b6d5f1ba6719f52625aa8c&=&format=webp&quality=lossless"
+    "charlie": {
+        "gadget": "Spiders.",
+        "starpower": "Digestive.",
+        "gear": "Damage and Shield.",
+        "hypercharge": "Don't buy the hypercharge."
     },
-    "pit stop": {
-        "tips": "Complete base race. 1 defender + 2 rush. Angelo not good until high elo",
-        "link": "https://cdn.discordapp.com/attachments/931255199627112458/1248830579944853594/ULTIMATE_CHEAT_SHEET_RANKED_-_BEST_PICKS__BANS_SEASON_27_-_YouTube_-_0-9-12.jpeg?ex=6665179c&is=6663c61c&hm=0b53ecd56f067fbdfc39395d54bd3f56fb45b6ddc0be32dfae2b210c6f5e58e5&"
+    "chester": {
+        "gadget": "Candy Beans.",
+        "starpower": "Single Bell'O'Mania.",
+        "gear": "Damage and Gadget Cooldown.",
+        "hypercharge": "Hypercharge is very strong."
     },
-    "dueling beetles": {
-        "tips": "Have some brawler with decent health to pressure the zone. Damage dealers with solid range are also good on the left. Look out for last pick assassins.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1374935240841236550/image.png?ex=682fdbba&is=682e8a3a&hm=103ffa0f68a8ef38208917f4908455731a803983928b2446639c5991d86de570&=&format=webp&quality=lossless"
+    "chuck": {
+        "gadget": "Rerouting in Heist. Ghost Train outside of Heist.",
+        "starpower": "Pit Stop.",
+        "gear": "Damage and Shield.",
+        "tips": "Putting post above safe lets you hit safe twice on the way back."
     },
-    "split": {
-        "tips": "Two down right, 1 down left. Don't break open right unless thrower, break open left.",
-        "link": "https://cdn.discordapp.com/attachments/931255199627112458/1248830866860408862/ULTIMATE_CHEAT_SHEET_RANKED_-_BEST_PICKS__BANS_SEASON_27_-_YouTube_-_0-13-38.jpeg?ex=666517e0&is=6663c660&hm=994407715fe817092b8942f4f51db8c0abb5fe7f217900d79d5b1f9ebe397743&"
+    "clancy": {
+        "gadget": "Tactical Retreat. Spen still likes Snappy Shooting.",
+        "starpower": "Recon.",
+        "gear": "Damage and Shield.",
+        "tips": "Stage one sucks and requires getting out of asap."
     },
-    "new horizons": {
-        "tips": "Usually both teams end up having a wall break to prevent a thrower/tank/wall peak to camp behind them. Rest of the game is snipers battling in middle. Obligatory Kit cheese warning.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1374935242950840391/image.png?ex=682fdbba&is=682e8a3a&hm=9c0312f0540414888d7fc1051005c2cddcd5f913f2102f2d10f7d04b68e6d9e9&=&format=webp&quality=lossless"
+    "colette": {
+        "gadget": "Gotcha!",
+        "starpower": "Mass Tax. Push It can be good into some tanks.",
+        "gear": "Shield and Damage/Gadget Cooldown.",
+        "hypercharge": "Hypercharge is worth it."
     },
-    "canal grande": {
-        "tips": "Water walking is op. Generic snipers are not that good, throwers and last pick takes run draft. Want a brawler that is generically good at cleaning up messes, thrower that won't die to aggro, and a tank or something aggressive. Controlling middle grass is important.",
-        "link": "https://cdn.discordapp.com/attachments/931255199627112458/1337570571466313820/S35_RANKED_CHEAT_SHEET_-_Best_Brawlers__Bans_1-7_screenshot.png?ex=67a7ed2b&is=67a69bab&hm=a727fb720cafbdce4a70817ab4d8217c46d33f10c1b62420f93b392741736082&"
+    "colt": {
+        "gadget": "Speedloader. Silver Bullet good for opening up map.",
+        "starpower": "Slick Boots. Magnum Special is good in Heist.",
+        "gear": "Damage and Reload Speed."
     },
-    "sneaky fields": {
-        "tips": "Get a balanced comp with a tank or two, and a tank counter or brawler in the middle. Even into a tank counter you may want a tank to pressure them into spawn.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1373162814914429019/image.png?ex=68296907&is=68281787&hm=ed33e74e2336d4bf66f950a0f6da7016ae30525ce9f225dfa6641dca1f0c8f93&=&format=webp&quality=lossless"
+    "cordelius": {
+        "gadget": "Replanting. Poison Mushroom for bushy maps or Showdown.",
+        "starpower": "Comboshrooms.",
+        "gear": "Damage and Shield/Gadget Cooldown."
     },
-    "beach ball": {
-        "link": "https://cdn.discordapp.com/attachments/931255199627112458/1236116049083105320/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_BEST_PICKS__BANS_SEASON_26_-_YouTube_-_0-6-30.jpeg?ex=6636d648&is=663584c8&hm=0ce0baeb8514e3854ebe2c7aa2231d2215655762933fb0c2c1eac3c499119f14&"
+    "crow": {
+        "gadget": "Slowing Toxin.",
+        "starpower": "Extra Toxic. Carrion Crow in Heist.",
+        "gear": "Enduring Toxins and Shield.",
+        "hypercharge": "Hypercharge is worth it."
     },
-    "hard rock mine": {
-        "tips": "Abuse Rico if you're below Masters. Make sure your mid has counterplay to agro. You need at least one person to apply pressure with a tank or hybrid of some sort.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1373431383896232027/image.png?ex=682a6327&is=682911a7&hm=140aaf9c3e748dcbb9df19baa08da38070fdd60001aecb52abd8d87384594bd0&=&format=webp&quality=lossless"
+    "darryl": {
+        "gadget": "Tar Barrel. Recoiling Rotator in Heist.",
+        "starpower": "Steel Hoops.",
+        "gear": "Damage and Health/Shield (Knockout).",
+        "tips": "Tip of his super will knockback again."
     },
-    "gem fort": {
-        "tips": "Get a brawler with a lot of burst damage or health to hold down their lane or middle of map. Go for a balanced comp with tank, control brawler, and tank counter.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1373431383396974622/image.png?ex=682a6326&is=682911a6&hm=3a86c45b7c5ae4caa9ed8639047d28c2d21e4e86a0cbd995c8aa791e44674f2e&=&format=webp&quality=lossless"
+    "doug": {
+        "gadget": "Extra Mustard.",
+        "starpower": "Self Service.",
+        "gear": "Speed and Damage."
     },
-    "kaboom canyon": {
-        "tips": "Get a high damage long range brawler, a pure Heist damage brawler, then a brawler that can some okay defense.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1373435188477956127/image.png?ex=682a66b2&is=68291532&hm=aa1292e8ad224df64e76d9366e8a86307d7499607539296e214d8ca3715e08c7&=&format=webp&quality=lossless"
+    "draco": {
+        "gadget": "Last Stand.",
+        "starpower": "Shredding.",
+        "gear": "Damage and Speed/Gadget Cooldown.",
+        "tips": "Pairs great with Kit, Byron when supering. Great for when pressure is needed (hot zone, etc.)"
     },
-    "hot potato": {
-        "tips": "Control doesn't work anymore. Get a strong antitank to defend and then the other two brawlers should be rushing the same.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1373435187739754526/image.png?ex=682a66b1&is=68291531&hm=f40761dbac174c754ae3f0dcbdd022f1219923d9d5838838b40675a7cfaefbda&=&format=webp&quality=lossless"
+    "dynamike": {
+        "gadget": "Satchel Charge. Some pros use Fidget Spinner.",
+        "starpower": "Demolition.",
+        "gear": "Damage and Speed/Gadget Cooldown.",
+        "hypercharge": "Hypercharge is worth it."
     },
-    "parallel plays": {
-        "tips": "Good defender down left side of left. Middle brawler helps pinch right side of left zone and then helps right lane. Right lane needs someone aggressive who can charge a good super or hypercharge to secure zone time.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1374935242082881586/image.png?ex=682fdbba&is=682e8a3a&hm=079c47e6af25597c95691b505370b277d2eeb29ac1d6055d150de43cf120a54c&=&format=webp&quality=lossless"
+    "edgar": {
+        "gadget": "Let's Fly. Hardcore against noobs.",
+        "starpower": "Fisticuffs.",
+        "gear": "Shield and Damage.",
+        "hypercharge": "Hypercharge is worth it."
     },
-    "open business": {
-        "tips": "Brawler in mid should have decent range and help pinch. Antitank is always good to have for zone time or camp behind a wall. Get wall break for late pick throwers. Do not early pick a thrower.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1374935241696743526/image.png?ex=682fdbba&is=682e8a3a&hm=8ab79b652c28137477d95ef8cf71c10a937c450bc1239bf2d85af2ce4f9b0d3e&=&format=webp&quality=lossless"
+    "el primo": {
+        "gadget": "Suplex Supplement. Asteroid Belt is okay for occassionally opening the map.",
+        "starpower": "El Fuego. Meteor Rush is better in Brawl Ball.",
+        "gear": "Super Charge and Damage/Health (tough matchup).",
+        "tips": "Super can be chained into suplex for a lot of CC."
     },
-    "goldarm gulch": {
-        "tips": "Consider trying different lane strategies or being aware of the enemy doing them. Sometimes you can send someone to sneak down right lane, or you triple stack left bush side and work your way horizontally. Lots of walls and people grouping up so use brawlers that benefit/punish those factors.",
-        "link": "https://cdn.discordapp.com/attachments/931255199627112458/1337572197048520715/S35_RANKED_CHEAT_SHEET_-_Best_Brawlers__Bans_30-5_screenshot.png?ex=67a7eeae&is=67a69d2e&hm=fe627990ace0c9e89d4ee782d6ebce002238a6e6fa1f83da7fe3f802d2fd56a8&"
+    "emz": {
+        "gadget": "Friendzoner.",
+        "starpower": "Bad Karma.",
+        "gear": "Speed and Damage.",
+        "hypercharge": "Don't buy the hypercharge."
     },
-    "flaring phoenix": {
-        "tips": "Thrower left, sniper middle, another person middle or far right. Wait for someone to overextend in the middle or for gas to close in for chaos. Look out for brawlers who can passively charge super.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1374935242661691453/image.png?ex=682fdbba&is=682e8a3a&hm=9de6ce0d3bb3ccc2101ed8067b60ba65aa6c50f92b8f713185ca2d1a5b6454c6&=&format=webp&quality=lossless"
+    "eve": {
+        "gadget": "Gotta Go!",
+        "starpower": "Unnatural Order.",
+        "gear": "Reload and Quadruplets/Shield (Knockout and Bounty)."
     },
-    "galaxy arena": {
-        "tips": "Vision gear/tanks/tank counters great here",
-        "link": "https://cdn.discordapp.com/attachments/931255199627112458/1248830089660203070/ULTIMATE_CHEAT_SHEET_RANKED_-_BEST_PICKS__BANS_SEASON_27_-_YouTube_-_0-2-55.jpeg?ex=66651727&is=6663c5a7&hm=8253dcd07fb3bedf37560af4b95adb07278a6dda4664038582d7cdb23ddd1430&"
+    "fang": {
+        "gadget": "Corn-Fu. Roundhouse Kick is good for combos and clip farming.",
+        "starpower": "Divine Soles. Fresh Kicks better against bad players.",
+        "gear": "Shield and Damage."
     },
-    "acute angle": {
-        "tips": "Good mid can setup spawn trap",
-        "link": "https://cdn.discordapp.com/attachments/931255199627112458/1248830245323280384/ULTIMATE_CHEAT_SHEET_RANKED_-_BEST_PICKS__BANS_SEASON_27_-_YouTube_-_0-5-13.jpeg?ex=6665174c&is=6663c5cc&hm=c2b71858809fb96b176007fd215d0c969a6e01ad4199c3b56f194d340a956196&"
+    "finx": {
+        "gadget": "Back to the Finxture. No Escape is underrated in specific matchups.",
+        "starpower": "Hieroglyph Hat.",
+        "gear": "Shield and Health/Damage."
     },
-    "retina": {
-        "tips": "Need tanks or tank counters",
-        "link": "https://cdn.discordapp.com/attachments/931255199627112458/1248830245700636683/ULTIMATE_CHEAT_SHEET_RANKED_-_BEST_PICKS__BANS_SEASON_27_-_YouTube_-_0-4-23.jpeg?ex=6665174c&is=6663c5cc&hm=100f54b3cf80447a80ea8918b8461a7dd2adb7891e36d02b7b54a724c2958d57&"
+    "frank": {
+        "gadget": "Irresistible Attraction. Active Noise Cancelling is decent.",
+        "starpower": "Power Grab.",
+        "gear": "Damage and Health.",
+        "tips": "Can wallpeek surprisingly well due to triangular attack."
     },
-    "undermine": {
-        "tips": "Win your first interaction in a lane. If you lose, go to your teammate's lane if they won.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1373431384299016203/image.png?ex=682a6327&is=682911a7&hm=aa4013c396b922adb976c1b6809006b56d7906db4be179606e2118516a507056&=&format=webp&quality=lossless"
+    "gale": {
+        "gadget": "Twister. Spring Ejector good for certain maps (Parallel Plays).",
+        "starpower": "Freezing Snow.",
+        "gear": "Damage and Shield.",
+        "hypercharge": "Hypercharge is worth it."
     },
-    "penalty kick": {
-        "tips": "Throwers are OP (except for Moe and Kenji). Best throwers are Barley and Larry & Lawrie so use them or ban them. Very easy to get away with random nonsense so make sure you have a good tank counter as well.",
-        "link": "https://cdn.discordapp.com/attachments/931255199627112458/1293022172738093107/NEW__ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_BEST_PICKS__BANS_SEASON_31_5-43_screenshot.png?ex=6705dc3d&is=67048abd&hm=8a52679f08e8b1f580817f400053dfaa3ebcfd6d7ff4442e444729bcd60e9bc8&"
+    "gene": {
+        "gadget": "Vengeful Spirits.",
+        "starpower": "Magic Puffs. Spirit Slap against tanks.",
+        "gear": "Talk to the Hand and Vision/Shield.",
+        "tips": "Move backwards after hitting a pull for longer CC."
     },
-    "snake prarie": {
-        "tips": "Rush in enemy with tanks or have better vision. Group up to be able to get revenge kills (not close enough for one enemy to teamwipe though). Vision gear runs this map.",
-        "link": "https://cdn.discordapp.com/attachments/931255199627112458/1337570866401247263/S35_RANKED_CHEAT_SHEET_-_Best_Brawlers__Bans_4-22_screenshot.png?ex=67a7ed71&is=67a69bf1&hm=56dad672acd09b6be7a45a61255e732821cd9e8269d2be69355fda2e51ce082a&"
+    "gray": {
+        "gadget": "Walking Cane.",
+        "starpower": "New Perspective. Fake Injury in Knockout and Bounty.",
+        "gear": "Gadget Cooldown and Shield.",
+        "tips": "Can super backwards after hitting pull gadget to extend pull distance."
     },
-    "below zero": {
-        "tips": "Good brawlers will have high mobility or ball control.",
-        "link": "https://drive.google.com/drive-viewer/AKGpihalJYXMZgrKPmXNKtssEI2qarOoNprlQ1udTnpj3LB4OJDnlicKXpeHRsCB5ZNpQJCnGm51Kfqd1brM2ELLevbjAJnlstsZFEc=s1600-rw-v1"
+    "griff": {
+        "gadget": "Piggy Bank.",
+        "starpower": "Business Resilience. Keep the Change into all tanks.",
+        "gear": "Reload Speed and Damage/Health.",
+        "tips": "Midrange wallbreaker. Use on any map you need a wallbreak + midrange on"
     },
-    "cool box": {
-        "tips": "Open map but it's very punishing if you get pushed back from agro. Be wary of high mobility brawlers that can easily score goals (counter then with stun/slow). Hit your shots, keep good positioning, and catch enemies making mistakes.",
-        "link": "https://drive.google.com/drive-viewer/AKGpihb6ASNc-hNGQ2lK_Hg7uJweSqRWP6Jn0Fdj0_xjCUVEz0iL_eenm6IDF0a25ZE7u96m4eFF4UCOxZy8kZwFNO6KXI2-casNIiU=s1600-rw-v1"
+    "grom": {
+        "gadget": "Radio Check. Watchtower in Center Stage.",
+        "starpower": "X-Factor.",
+        "gear": "Damage and Gadget Cooldown/Shield."
     },
-    "super center": {
-        "tips": "Tanks better here compared to other Brawl Hockey maps. Lots of good brawlers to go, so identify what tricks a brawler can use to score and adjust to counter or utilize that. Generally, your team composition should have someone good at scoring and someone good at defending.",
-        "link": "https://drive.google.com/drive-viewer/AKGpihbDkGrC-JtQOM1JG9J3RVFxSRMo-17j6qqCQEVGq4FD-EzAzqA4O7oz7o008vx2AZojo36zsrNexQ1o0rNQI3lO8J9dYV9S6YE=s1600-rw-v1"
+    "gus": {
+        "gadget": "Kooky Popper.",
+        "starpower": "Spirit Animal.",
+        "gear": "Shield and Health/Damage.",
+        "tips": "Super niche but can spawn 2 ghosts if you shoot quickly and hit at max range."
     },
-    "dry season": {
-        "tips": "Make sure you have some sort of wallbreak, agro, or a thrower. Have a diverse composition to deal with everything.",
-        "link": "https://media.discordapp.net/attachments/931255199627112458/1373162811848523856/image.png?ex=68296906&is=68281786&hm=1064b4fd6a268c80e5d0df0254197bd6b4cff2e15971195fbd00754a2c2fabcf&=&format=webp&quality=lossless"
+    "hank": {
+        "gadget": "Barricade. Water Balloons higher skill floor but good into tanks.",
+        "starpower": "It's Gonna Blow.",
+        "gear": "Damage and Health/Gadget Cooldown."
     },
-    "starr garden": {
-        "tips": "More walls to peak shots compared to other Brawl Hockey maps. Lots of single shot brawlers are good here (off meta spawner counters). Look out for agro strategies by picking an antitank.",
-        "link": ""
+    "jacky": {
+        "gadget": "Pneumatic Booster.",
+        "starpower": "Counter Crush. Hardy Hard Hat for worse matchups.",
+        "gear": "Damage and Speed/Gadget Cooldown."
+    },
+    "jae yong": {
+        "gadget": "Weekend Warrior.",
+        "starpower": "The Crowd Goes Mild.",
+        "gear": "Damage and Gadget Cooldown/Shield.",
+        "tips": "Really versatile in many team comps."
+    },
+    "janet": {
+        "gadget": "Drop the Bass.",
+        "starpower": "Vocal Warm Up.",
+        "gear": "Speed and Vision for grassy maps. Otherwise Damage and Shield.",
+        "hypercharge": "One of the best hypercharges in the game, buy it."
+    },
+    "jessie": {
+        "gadget": "Spark Plug. Recoil Spring in Heist",
+        "starpower": "Energize.",
+        "gear": "Damage and Pet Power (Heist)/Shield.",
+        "hypercharge": "Don't buy the hypercharge."
+    },
+    "juju": {
+        "gadget": "Elementalist",
+        "starpower": "Numbing Needles. Guarded Gris-Gris into ranged enemies.",
+        "gear": "Damage and Shield."
+    },
+    "kaze": {
+        "gadget": "Gracious Host.",
+        "starpower": "Gratuity Included.",
+        "gear": "Health and Shield.",
+        "hypercharge": "Unsure about hypercharge yet."
+    },
+    "kenji": {
+        "gadget": "Hosomaki Healing.",
+        "starpower": "Nigiri Nemesis.",
+        "gear": "Damage and Shield/Gadget Cooldown.",
+        "tips": "Can dash into wall and then use swipe to wall peak for more dmg/range"
+    },
+    "kit": {
+        "gadget": "Cardboard Box.",
+        "starpower": "Overly Attached in 3v3. Power Hungry in Showdown.",
+        "gear": "Gadget Cooldown and Shield."
+    },
+    "larry & lawrie": {
+        "gadget": "Order: Fall back.",
+        "starpower": "Protocol: Assist.",
+        "gear": "Shield and Damage."
+    },
+    "leon": {
+        "gadget": "Lollipop Drop.",
+        "starpower": "Smoke Trails. Invisiheal is the better competitive choice.",
+        "gear": "Lingering Smoke and Shield/Damage.",
+        "hypercharge": "Hypercharge is worth it."
+    },
+    "lily": {
+        "gadget": "Vanish.",
+        "starpower": "Vigilance. Spiky into tanks.",
+        "gear": "Damage and Gadget Cooldown/Shield (bad matchup)."
+    },
+    "lola": {
+        "gadget": "Freeze Frame.",
+        "starpower": "Sealed with a Kiss. Improvise decent in Heist.",
+        "gear": "Reload Speed and Damage.",
+        "hypercharge": "Hypercharge is not worth it."
+    },
+    "lou": {
+        "gadget": "Cryo Syrup. Some pros use Ice Block",
+        "starpower": "Hypothermia.",
+        "gear": "Super Charge and Gadget Cooldown/Damage."
+    },
+    "lumi": {
+        "gadget": "Grim and Frostbitten",
+        "starpower": "Half-Time",
+        "gear": "Shield and Gadget Cooldown/Damage.",
+        "tips": "Positioning attacks for return is very important."
+    },
+    "maisie": {
+        "gadget": "Disengage!",
+        "starpower": "Tremors.",
+        "gear": "Damage and Shield.",
+        "hypercharge": "Hypercharge is worth it."
+    },
+    "mandy": {
+        "gadget": "Cookie Crumbs.",
+        "starpower": "In My Sights.",
+        "gear": "Shield and Damage/Health.",
+        "tips": "Try moving a little bit after every attack instead of just standing still."
+    },
+    "max": {
+        "gadget": "Phase Shifter.",
+        "starpower": "Run N Gun. Super Charged against passive team compositions.",
+        "gear": "Shield and Health/Damage."
+    },
+    "meeple": {
+        "gadget": "Mansions of Meeple. Ragequit is good into assassins.",
+        "starpower": "Rule Bending. Do Not Pass Go can be good depending on the meta.",
+        "gear": "Shield and Damage/Gadget Cooldown.",
+        "tips": "Best matchups are vs midhp brawlers (~6k range). Always preserve ammo to win engagement due to slow reload. Use super offensively on enemy walls."
+    },
+    "meg": {
+        "gadget": "Jolting Volts.",
+        "starpower": "Heavy Metal.",
+        "gear": "Damage and Shield."
+    },
+    "melodie": {
+        "gadget": "Interlude. Perfect Pitch can work in weird maps.",
+        "starpower": "Fast Beats.",
+        "gear": "Shield and Damage.",
+        "hypercharge": "Really good but overrated."
+    },
+    "mico": {
+        "gadget": "Clipping Scream.",
+        "starpower": "Record Smash (since he's only good in Heist/Showdown). Monkey Business for player interactions.",
+        "gear": "Shield and Damage.",
+        "hypercharge": "Don't buy the hypercharge."
+    },
+    "moe": {
+        "gadget": "Dodgy Digging.",
+        "starpower": "Skipping Stones. Speeding Ticket for Bounty and Knockout to move up and extend your range.",
+        "gear": "Damage and Shield/Vision."
+    },
+    "mortis": {
+        "gadget": "Survival Shovel.",
+        "starpower": "Coiled Snake.",
+        "gear": "Bat Storm and Shield/Damage.",
+        "hypercharge": "Hypercharge is worth it."
+    },
+    "mr p": {
+        "gadget": "Porter Reinforcements.",
+        "starpower": "Revolving Door.",
+        "gear": "Damage and Shield/Gadget Cooldown."
+    },
+    "nani": {
+        "gadget": "Return to Sender. Warpin' Time sometimes in Heist.",
+        "starpower": "Tempered Steel. Spen still thinks that Autofocus is better.",
+        "gear": "Shield and Health/Super Charge.",
+        "hypercharge": "Don't buy the hypercharge.",
+        "tips": "Overshoot behind a little to more reliably hit 2 shots"
+    },
+    "nita": {
+        "gadget": "Faux Fur. Use Bear Paws against tanks.",
+        "starpower": "Bear With Me. Hyper Bear for Heist.",
+        "gear": "Damage and Speed",
+        "hypercharge": "Hypercharge is worth it."
+    },
+    "ollie": {
+        "gadget": "Regulate. All Eyez on Me into agro.",
+        "starpower": "Renegade. Kick, Push can be useful on certain maps for pressure.",
+        "gear": "Damage and Health/Speed.",
+        "tips": "After hypnotizing, if you have teammate nearby, walk in straight line to make enemy easy to hit. Can auto-aim to shorten super distance."
+    },
+    "otis": {
+        "gadget": "Phat Splatter.",
+        "starpower": "Ink Refill.",
+        "gear": "Speed and Vision for grassy maps. Otherwise use Damage and Gadget Cooldown.",
+        "hypercharge": "Hypercharge is worth it."
+    },
+    "pam": {
+        "gadget": "Scrapsucker.",
+        "starpower": "Mama's Squeeze. Mama's Hug in a very open map.",
+        "gear": "Super Turret and Health/Vision (grassy map)."
+    },
+    "pearl": {
+        "gadget": "Weekend Warrior.",
+        "starpower": "The Crowd Goes Mild.",
+        "gear": "Damage and Gadget Cooldown/Shield.",
+        "hypercharge": "Don't buy the hypercharge."
+    },
+    "penny": {
+        "gadget": "Salty Barrel.",
+        "starpower": "Heavy Coffers. Run Master Blaster in Brawl Ball.",
+        "gear": "Health/Damage (Heist) and Pet Power (Heist and Hot Zone)/Shield."
+    },
+    "piper": {
+        "gadget": "Homemade Recipe. Auto Aimer in Gem Grab.",
+        "starpower": "Snappy Sniping. Ambush can be okay in very bushy maps.",
+        "gear": "Shield and Damage/Health (Knockout and Bounty).",
+        "hypercharge": "Hypercharge is worth it."
+    },
+    "poco": {
+        "gadget": "Tuning Fork. Protective Tunes is good in Ranked.",
+        "starpower": "Screeching Solo. Da Capo! has good synergy with other brawlers.",
+        "gear": "Gadget Cooldown and any other gear.",
+        "hypercharge": "Hypercharge is worth it."
+    },
+    "r t": {
+        "gadget": "Out of Line. Hacks! in long range matchups.",
+        "starpower": "Recording. If you never have to split use Quick Maths.",
+        "gear": "Health and Shield."
+    },
+    "rico": {
+        "gadget": "Multiball Launcher. Bouncy Castle for Knockout and Bounty.",
+        "starpower": "Super Bouncy. Robo Retreat better for bad matchup (wall breakers, throwers, assassins).",
+        "gear": "Reload Speed and Gadget Cooldown/Vision.",
+        "hypercharge": "Hypercharge is worth it."
+    },
+    "rosa": {
+        "gadget": "Both gadgets unnecessary. Grow Light can be annoying and Unfriendly Bushes can be helpful on certain maps.",
+        "starpower": "Thorny Gloves.",
+        "gear": "Speed and Damage.",
+        "hypercharge": "Hypercharge is worth it."
+    },
+    "ruffs": {
+        "gadget": "Air Support. Take Cover can be good into countering single shot brawlers.",
+        "starpower": "Air Superiority.",
+        "gear": "Damage and Shield.",
+        "hypercharge": "Don't buy the hypercharge."
+    },
+    "sam": {
+        "gadget": "Magnetic Field.",
+        "starpower": "Hearty Recovery.",
+        "gear": "Damage and Shield/Gadget Cooldown.",
+        "hypercharge": "Hypercharge is not worth it."
+    },
+    "sandy": {
+        "gadget": "Sweet Dreams.",
+        "starpower": "Rude Sands.",
+        "gear": "Speed and Damage",
+        "hypercharge": "Hypercharge is worth it.",
+        "tips": "Try to use super in a way that enables you to charge your super back. (Generally avoid using unless you have full hp and can push up with team)."
+    },
+    "shade": {
+        "gadget": "Longarms.",
+        "starpower": "Hardened Hoodie.",
+        "gear": "Shield and Damage/Gadget Cooldown.",
+        "tips": "Heavily enabled by walls. Great in brawl ball, gem grab, and hot zone.\nMatchup list according to spen: https://cdn.discordapp.com/attachments/931255199627112458/1314104641247514624/The_Only_Shade_Guide_Youll_Ever_Need_4-11_screenshot.png?ex=67528ed1&is=67513d51&hm=50f1dee469c3079dcde589f9abda83b33c46a33bfd4f2dceffb288ba4fa597f4&"
+    },
+    "shelly": {
+        "gadget": "Clay Pigeons.",
+        "starpower": "Band-Aid. Use Shell Shock in Brawl Ball.",
+        "gear": "Shield and Gadget Cooldown/Speed.",
+        "hypercharge": "Hypercharge is okay."
+    },
+    "spike": {
+        "gadget": "Life Plant. Popping Pincushion on Heist.",
+        "starpower": "Fertilize. Curveball is still very good.",
+        "gear": "Sticky Spikes and Shield/Vision.",
+        "hypercharge": "Hypercharge is worth it."
+    },
+    "sprout": {
+        "gadget": "Transplant.",
+        "starpower": "Overgrowth.",
+        "gear": "Super Charge and Shield.",
+        "hypercharge": "Don't buy the hypercharge."
+    },
+    "squeak": {
+        "gadget": "Windup.",
+        "starpower": "Super Sticky. Chain Reaction is good with Windup.",
+        "gear": "Gadget Cooldown and Damage/Health.",
+        "hypercharge": "Don't buy the hypercharge."
+    },
+    "stu": {
+        "gadget": "Speed Zone. Breakthrough in for individual matchups.",
+        "starpower": "Gaso-Heal.",
+        "gear": "Damage and Shield. All other gears are viable as well.",
+        "hypercharge": "Hypercharge is worth it."
+    },
+    "surge": {
+        "gadget": "Power Surge. Power Shield for Brawl Ball noob stomping.",
+        "starpower": "Serve Ice Cold.",
+        "gear": "Damage and Shield/Speed."
+    },
+    "tara": {
+        "gadget": "Support From Beyond. Psychic Enhancer against pierce.",
+        "starpower": "Healing Shade.",
+        "gear": "Speed and Damage.",
+        "hypercharge": "Hypercharge is worth it."
+    },
+    "tick": {
+        "gadget": "Last Hurrah.",
+        "starpower": "Well Oiled.",
+        "gear": "Thicc Head and Shield/Vision (grassy map)."
+    },
+    "willow": {
+        "gadget": "Spellbound. Dive for assassins.",
+        "starpower": "Obsession.",
+        "gear": "Damage and Shield gear."
     }
 }

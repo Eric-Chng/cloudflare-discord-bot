@@ -40,23 +40,17 @@ def highest_fuzzy_match_on_keys(json_data, search_term):
 new_builds = {}
 
 for key, value in builds32.items():
+    if "gear" not in value:
+        print(f"Skipping {key} as it does not have 'gear' key.")
+    # Old values
     res_key, res_match, score = highest_fuzzy_match_on_keys(builds, key)
-    # if value has a key "tips" then add it to the new_builds
-    if "tips" in value:
-        if "hypercharge" in value["tips"].lower():
-            res_match["hypercharge"] = value["tips"]
-            print(f"Added hypercharge to {res_key}")
-        else:
-            print(f"Hypercharge not found in {res_key}")
-    if "tip" in value:
-        if "hypercharge" in value["tip"].lower():
-            res_match["hypercharge"] = value["tip"]
-            print(f"Added hypercharge to {res_key}")
-        else:
-            print(f"Hypercharge not found in {res_key}")
+    if "tips" in value and value["tips"] is not None and value["tips"] != "":
+        res_match["tips"] = value["tips"]
     res_match["gadget"] = value["gadget"]
     res_match["gear"] = value["gear"]
     res_match["starpower"] = value["starpower"]
+    if "hypercharge" in value and value["hypercharge"] is not None and value["hypercharge"] != "":
+        res_match["hypercharge"] = value["hypercharge"]
     new_builds[res_key] = res_match
 
 # Write the new builds to a file
