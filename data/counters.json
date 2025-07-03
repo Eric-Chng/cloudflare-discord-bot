@@ -361,6 +361,14 @@
     },
     "lumi": {
         "tips": "- Bad vs brawlers that outrange + throwers.",
-        "brawler_counters": ""
+        "brawler_counters": "Weak to aggro. Snipers beat her on long range maps."
+    },
+    "kaze": {
+        "tips": "- Walls can mess up geisha form like mortis. Bad against tanks.",
+        "brawler_counters": "Most tanks should beat her"
+    },
+    "alli": {
+        "tips": "- Just extremely strong right now, but should be weak to tanks due to dps difference.",
+        "brawler_counters": "Tanks technically counter"
     }
 }

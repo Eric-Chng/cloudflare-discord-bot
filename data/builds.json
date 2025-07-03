@@ -526,5 +526,10 @@
         "gadget": "Spellbound. Dive for assassins.",
         "starpower": "Obsession.",
         "gear": "Damage and Shield gear."
+    },
+    "alli": {
+        "gadget": "Cold-Blooded",
+        "starpower": "You Better Run, You better take cover.",
+        "gear": "Damage and Shield."
     }
 }
