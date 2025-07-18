@@ -277,7 +277,7 @@
         "gear": "Damage and Shield."
     },
     "kaze": {
-        "gadget": "Gracious Host.",
+        "gadget": "Gracious Host. Both are good now that invis bug is fixed, personal preference.",
         "starpower": "Advanced tecnique a little better. Gratuity Included good on hot zone.",
         "gear": "Health and Shield.",
         "hypercharge": "Unsure about hypercharge yet."
@@ -368,7 +368,7 @@
     },
     "moe": {
         "gadget": "Dodgy Digging.",
-        "starpower": "Skipping Stones. Speeding Ticket for Bounty and Knockout to move up and extend your range.",
+        "starpower": "Both are okayish. Skipping stones good into tanks but slows your projectile speed and range",
         "gear": "Damage and Shield/Vision."
     },
     "mortis": {
