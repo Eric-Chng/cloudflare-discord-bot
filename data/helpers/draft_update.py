@@ -20,6 +20,9 @@ with open(drafts_path, 'r') as f:
 
 # Iterate new drafts
 for key, value in drafts.items():
+    if "tips" not in value or value["tips"] is None or value["tips"] == "":
+        if key in old_drafts and "tips" in old_drafts[key] and old_drafts[key]["tips"] != "":
+            value["tips"] = old_drafts[key].get("tips")
     old_drafts[key] = value
 
 
