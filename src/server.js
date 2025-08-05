@@ -264,6 +264,7 @@ router.post('/', async (request, env) => {
         var title_message = '';
         var tip_message = '';
         var image_link = '';
+        var custom_footer_text = 'Drafts made with love';
         if (drafts[mapQuery] === undefined) {
           //fuzzy search time
           const draftsFuzzyResult = draftsFuzzySearch.search(mapQuery);
@@ -282,14 +283,21 @@ router.post('/', async (request, env) => {
             tip_message = `${matchedUrl.tips}`;
           }
           image_link = `${matchedUrl.link}`;
+          if (matchedUrl.last_updated) {
+            custom_footer_text = `Last updated: ${matchedUrl.last_updated}`;
+          }
         } else {
           title_message = `Draft for ${mapName}`;
           if (drafts[mapQuery].tips) {
             tip_message = `${drafts[mapQuery].tips}`;
           }
           image_link = `${drafts[mapQuery].link}`;
+          if (drafts[mapQuery].last_updated) {
+            custom_footer_text = `Last updated: ${drafts[mapQuery].last_updated}`;
+          }
         }
-
+        
+        
         const embed = {
             title: title_message,
             color: 0x5865f2,
