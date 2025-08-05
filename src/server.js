@@ -307,7 +307,7 @@ router.post('/', async (request, env) => {
             image: {
               url: image_link,
             },
-            footer: { text: 'Drafts made with love', },
+            footer: { text: custom_footer_text, },
             timestamp: new Date().toISOString(),
           };
         return new JsonResponse({
