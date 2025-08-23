@@ -532,5 +532,9 @@
         "gadget": "Cold-Blooded",
         "starpower": "You Better Run, You better take cover.",
         "gear": "Damage and Shield."
+    },
+    "trunk": {
+        "gadget": "Both good. Healing one is harder to use",
+        "starpower": "Damage reduction is probably better"
     }
 }

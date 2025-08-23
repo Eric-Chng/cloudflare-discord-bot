@@ -368,7 +368,11 @@
         "brawler_counters": "Most tanks should beat her"
     },
     "alli": {
-        "tips": "- Just extremely strong right now, but should be weak to tanks due to dps difference.",
+        "tips": "- Should be weak to tanks due to dps difference and slow reload.",
         "brawler_counters": "Tanks technically counter"
+    },
+    "trunk": {
+        "tips": "- Pretty underpowered right now. ",
+        "brawler_counters": "Tank counters and higher dps/hp tanks beat."
     }
 }
