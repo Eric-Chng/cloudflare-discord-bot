@@ -534,7 +534,14 @@
         "gear": "Damage and Shield."
     },
     "trunk": {
-        "gadget": "Both good. Healing one is harder to use",
-        "starpower": "Damage reduction is probably better"
+        "gadget": "Worker ants hard to use but super good.",
+        "starpower": "Damage reduction",
+        "gear": "damage and speed/health"
+    },
+    "mina": {
+        "gadget": "both really op. windmill for bounty/ko, capo-what for other modes",
+        "starpower": "both good, root better synergy with capo-what",
+        "gear": "damage and shield",
+        "tips": "good in gem grab, brawl ball"
     }
 }
