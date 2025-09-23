@@ -543,5 +543,11 @@
         "gadget": "Dive delays your death but can waste enemy super. Spellbound is underrated.",
         "starpower": "Love is Blind. Obsession better in Brawl Ball.",
         "gear": "Damage and Shield."
+    },
+    "spenlc": {
+        "gadget": "Weekend Warrior.",
+        "starpower": "The Crowd Goes Mild.",
+        "gear": "Shield and Health/Damage.",
+        "tips": "Great youtuber and support brawler."
     }
 }
