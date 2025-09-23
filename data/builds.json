@@ -26,7 +26,7 @@
         "gadget": "Chill Pill. Rotten Banana underrated.",
         "starpower": "First Bash.",
         "gear": "Damage and Speed.",
-        "hypercharge": "Hypercharge is worth it."
+        "hypercharge": "Rats overwhelm opponents and allow cycling through multiple supers, turning him into a wipe machine."
     },
     "barley": {
         "gadget": "Sticky Syrup Mixer is good into agro. Herbal Tonic good in Knockout and Hot Zone.",
@@ -61,12 +61,14 @@
     "bo": {
         "gadget": "Super Totem. Tripwire in Heist.",
         "starpower": "Snare a Bear.",
-        "gear": "Reload Speed and Health/Damage (Heist)."
+        "gear": "Reload Speed and Health/Damage (Heist).",
+        "hypercharge": "Wide-area damage that guarantees kills and shreds Heist safes, with fast cycling via mines."
     },
     "bonnie": {
         "gadget": "Sugar Rush.",
         "starpower": "Black Powder.",
-        "gear": "Super Charge and Damage/Health."
+        "gear": "Super Charge and Damage/Health.",
+        "hypercharge": "Insanely strong because she can land multiple stuns per hypercharge and kill even the tankiest brawlers."
     },
     "brock": {
         "gadget": "Rocket Fuel lets you open up the map against throwers and tanks. Rocket Laces provides counterplay into assassins.",
@@ -89,12 +91,13 @@
         "gadget": "Reserve Buoy. X-Ray-Shades is very good on grassy maps.",
         "starpower": "Tougher Torpedo better into tanks. Eyes Sharp works well with X-Ray-Shades",
         "gear": "Damage and Shield.",
-        "hypercharge": "Hypercharge is worth it."
+        "hypercharge": "Becomes “Spider-Man,” zipping across the map with unlimited stuns to make game-changing plays."
     },
     "byron": {
         "gadget": "Booster Shots. Shot in the Arm isn't bad either.",
         "starpower": "Malaise. Injection has some uses in Hot Zone.",
         "gear": "Shield and Gadget Cooldown.",
+        "hypercharge": "Extends his versatility by giving a bigger AoE super that charges fast and can be used aggressively.",
         "tips": "Autoaiming super almost always works perfectly."
     },
     "carl": {
@@ -159,13 +162,14 @@
     "doug": {
         "gadget": "Extra Mustard.",
         "starpower": "Self Service.",
-        "gear": "Speed and Damage."
+        "gear": "Speed and Damage.",
+        "hypercharge": "Enables cheesy combos by hypercharging allies like Janet or Gray for unstoppable setups in Knockout/Bounty."
     },
     "draco": {
         "gadget": "Last Stand.",
         "starpower": "Shredding. Expose helps in Heist base races.",
         "gear": "Damage and Health/Speed/Gadget Cooldown.",
-        "hypercharge": "Hypercharge is worth it. Super then hypercharge to maximize duration.",
+        "hypercharge": "Hard to charge but nearly guarantees team wipe.",
         "tips": "Pairs great with Kit, Byron when supering. Great for when pressure is needed (hot zone, etc.)"
     },
     "dynamike": {
@@ -235,6 +239,7 @@
         "gadget": "Piggy Bank.",
         "starpower": "Business Resilience. Keep the Change underrated into tanks.",
         "gear": "Reload Speed and Damage/Health.",
+        "hypercharge": "Chaining supers through walls lets him counter tanks and pull off devastating wipes.",
         "tips": "Midrange wallbreaker. Use on any map you need a wallbreak + midrange on"
     },
     "grom": {
@@ -246,12 +251,14 @@
         "gadget": "Kooky Popper.",
         "starpower": "Spirit Animal.",
         "gear": "Shield and Damage/Health/Vision.",
+        "hypercharge": "His hypercharge super melts any assassin/tank that approaches, easy to cycle thanks to accurate shots.",
         "tips": "Super niche but can spawn 2 ghosts if you shoot quickly and hit at max range."
     },
     "hank": {
         "gadget": "Barricade. Water Balloons higher skill floor but good into tanks.",
         "starpower": "It's Gonna Blow.",
-        "gear": "Damage and Health."
+        "gear": "Damage and Health.",
+        "hypercharge": "Cycles hypercharge quickly and loves the speed/damage buffs, suffocating opponents with torpedoes."
     },
     "jacky": {
         "gadget": "Pneumatic Booster.",
@@ -285,18 +292,20 @@
         "gadget": "Hensojutsu. Gracious Host is better in modes where invisibility isn't needed.",
         "starpower": "Gratuity Included.",
         "gear": "Shield and Damage/Health.",
-        "hypercharge": "Unsure about hypercharge yet."
+        "hypercharge": "In ninja form, dashes through weakened enemies for instant kills and easy super cycles."
     },
     "kenji": {
         "gadget": "Hosomaki Healing.",
         "starpower": "Nigiri Nemesis.",
         "gear": "Damage and Shield.",
+        "hypercharge": "Still broken post-nerfs, with an unavoidable Tara-like pull from range that guarantees team wipes.",
         "tips": "Can dash into wall and then use swipe to wall peak for more dmg/range"
     },
     "kit": {
         "gadget": "Cardboard Box.",
         "starpower": "Overly Attached in 3v3. Power Hungry in Showdown.",
-        "gear": "Shield and Damage/Gadget Cooldown."
+        "gear": "Shield and Damage/Gadget Cooldown.",
+        "hypercharge": "Turns him into an assassin by letting him chain hypercharge supers for back-to-back kills."
     },
     "larry & lawrie": {
         "gadget": "Order: Fall back.",
@@ -312,7 +321,8 @@
     "lily": {
         "gadget": "Vanish.",
         "starpower": "Vigilance.",
-        "gear": "Damage and Shield."
+        "gear": "Damage and Shield.",
+        "hypercharge": "Teleports enemies into the “shadow realm” where they’re helpless, and charges quickly for repeated kills."
     },
     "lola": {
         "gadget": "Freeze Frame.",
@@ -323,7 +333,8 @@
     "lou": {
         "gadget": "Cryo Syrup. Ice Block helps with Hot Zone survivability.",
         "starpower": "Hypothermia.",
-        "gear": "Super Charge and Damage."
+        "gear": "Super Charge and Damage.",
+        "hypercharge": "Instantly freezes enemies with no counterplay, then cycles into another super for cleanup."
     },
     "lumi": {
         "gadget": "Grim and Frostbitten",
@@ -341,12 +352,14 @@
         "gadget": "Cookie Crumbs. Caramelize pairs well with super and is viable in aggressive modes or more open maps.",
         "starpower": "In My Sights.",
         "gear": "Shield and Health/Damage.",
+        "hypercharge": "Boosts her damage enough to one-shot shielded snipers and meta brawlers, great for clutch team wipes.",
         "tips": "Try moving a little bit after every attack instead of just standing still."
     },
     "max": {
         "gadget": "Phase Shifter.",
         "starpower": "Run N Gun..",
-        "gear": "Shield and Health/Damage."
+        "gear": "Shield and Health/Damage.",
+        "hypercharge": "Gives her whole team speed plus ¾ of a super, enabling massive tempo swings in fights."
     },
     "meeple": {
         "gadget": "Mansions of Meeple. Ragequit is good into assassins or Brawl Ball.",
@@ -386,12 +399,13 @@
         "gadget": "Survival Shovel.",
         "starpower": "Coiled Snake.",
         "gear": "Bat Storm and Damage/Shield.",
-        "hypercharge": "Hypercharge is worth it."
+        "hypercharge": "Can chain bat supers through multiple enemies without getting close, leading massive pushes."
     },
     "mr p": {
         "gadget": "Porter Reinforcements.",
         "starpower": "Revolving Door.",
-        "gear": "Damage and Shield. Other gears are viable."
+        "gear": "Damage and Shield. Other gears are viable.",
+        "hypercharge": "Forces enemies to waste shots on hypercharged ports, shutting down single-shot brawlers like Piper or Jean."
     },
     "nani": {
         "gadget": "Return to Sender to counter snipers. Warpin' Time better outside of Knockout and Bounty with Tempered Steel.",
@@ -410,6 +424,7 @@
         "gadget": "All Eyez on Me has lower cooldown and helps into bad matchups. Regulate still good.",
         "starpower": "Renegade. Kick, Push can be useful on certain maps like Belle's Rock.",
         "gear": "Damage and Health/Speed.",
+        "hypercharge": "Hypercharge lets him wipe teams with huge damage output, though it takes over three supers to charge.",
         "tips": "After hypnotizing, if you have teammate nearby, walk in straight line to make enemy easy to hit. Can auto-aim to shorten super distance."
     },
     "otis": {
@@ -438,7 +453,7 @@
         "gadget": "Homemade Recipe in Bounty and Knockout. Auto Aimer in her washed modes like Gem Grab and Brawl Ball.",
         "starpower": "Snappy Sniping. Ambush can be okay in very bushy maps.",
         "gear": "Shield and Damage/Health (Knockout and Bounty).",
-        "hypercharge": "Hypercharge is worth it."
+        "hypercharge": "Adds damage and terrain opening to her jump, enabling aggressive plays and two-taps."
     },
     "poco": {
         "gadget": "Tuning Fork pairs well with tanks. Protective Tunes counters a lot of status condiitons in Ranked. Both gadgets are underwhelming due to their cooldowns.",
@@ -455,7 +470,7 @@
         "gadget": "Multiball Launcher. Bouncy Castle for Knockout.",
         "starpower": "Super Bouncy.",
         "gear": "Shield and Reload Speed/Vision.",
-        "hypercharge": "Hypercharge is worth it."
+        "hypercharge": "Unlimited bounce hypercharge cycles supers on the right maps, making him toxic and unstoppable."
     },
     "rosa": {
         "gadget": "Unfriendly Bushes. Enemies can take over your bush if you die after using Grow Light",
@@ -486,6 +501,7 @@
         "gadget": "Longarms.",
         "starpower": "Hardened Hoodie.",
         "gear": "Shield and Damage.",
+        "hypercharge": "Deals 4k per shot with hypercharge and gadget synergy, deleting teams once it’s charged.",
         "tips": "Heavily enabled by walls. Great in brawl ball, gem grab, and hot zone.\nMatchup list according to spen: https://cdn.discordapp.com/attachments/931255199627112458/1314104641247514624/The_Only_Shade_Guide_Youll_Ever_Need_4-11_screenshot.png?ex=67528ed1&is=67513d51&hm=50f1dee469c3079dcde589f9abda83b33c46a33bfd4f2dceffb288ba4fa597f4&"
     },
     "shelly": {
@@ -521,13 +537,14 @@
     "surge": {
         "gadget": "Power Surge. Power Shield for ladder noob stomping.",
         "starpower": "Serve Ice Cold.",
-        "gear": "Shield and Damage/Speed."
+        "gear": "Shield and Damage/Speed.",
+        "hypercharge": "Hypercharge is worth it."
     },
     "tara": {
         "gadget": "Support From Beyond. Psychic Enhancer against pierce.",
         "starpower": "Healing Shade. Black Portal further punishes single shot brawlers.",
         "gear": "Speed and Vision/Shield/Damage.",
-        "hypercharge": "Hypercharge is worth it."
+        "hypercharge": "Charges in only two supers, nearly unmissable, breaks terrain, and makes her dominant in Gem Grab."
     },
     "tick": {
         "gadget": "Last Hurrah. Mine Mania can be toxic in certain Knockout situations",
@@ -537,7 +554,8 @@
     "trunk": {
         "gadget": "Worker Ants wastes an enemy's ammo. For the Queen! was better before they got the tank trait.",
         "starpower": "New Insect Overlords.",
-        "gear": "Damage and Speed/Health."
+        "gear": "Damage and Speed/Health.",
+        "hypercharge": "Should be strong once bug is fixed, letting him instantly delete enemies when dashing through."
     },
     "willow": {
         "gadget": "Dive delays your death but can waste enemy super. Spellbound is underrated.",
