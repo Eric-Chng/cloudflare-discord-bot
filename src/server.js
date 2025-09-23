@@ -391,6 +391,8 @@ router.post('/', async (request, env) => {
         if (builds[brawlerNameQuery] === undefined) {
           if (brawlerNameQuery === "rt") {
             brawlerNameQuery = "r t";
+          } else if (brawlerNameQuery === "spen") {
+            brawlerNameQuery = "jae yong";
           }
           //fuzzy search time
           const buildsFuzzyResult = buildsFuzzySearch.search(brawlerNameQuery);
