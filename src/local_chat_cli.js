@@ -1,5 +1,4 @@
-import { chatWithSystemPrompt } from './generate_system_prompt.js';
-import { SYSTEM_PROMPT } from './system_prompt.js';
+import { chatWithSystemPrompt } from './chatbot.js';
 
 async function main() {
   const apiKey = process.env.GEMINI_API_KEY;
@@ -13,7 +12,7 @@ async function main() {
     process.exit(1);
   }
   const env = { GEMINI_API_KEY: apiKey };
-  const { text, error } = await chatWithSystemPrompt(message, env, { systemText: SYSTEM_PROMPT });
+  const { text, error } = await chatWithSystemPrompt(message, env);
   if (error) {
     console.error('Error:', error);
     process.exit(1);

@@ -10,8 +10,7 @@ import {
 } from 'discord-interactions';
 import { INVITE_COMMAND, DRAFT_COMMAND, COUNTER_COMMAND, HELP_COMMAND, MODIFIER_COMMAND, BUILD_COMMAND, EVENT_COMMAND, TIER_LIST_COMMAND, TEST_COMMAND, CHAT_COMMAND } from './commands.js';
 import { InteractionResponseFlags } from 'discord-interactions';
-import { chatWithSystemPrompt } from './generate_system_prompt.js';
-import { SYSTEM_PROMPT } from './system_prompt.js';
+import { chatWithSystemPrompt } from './chatbot.js';
 import { buildFeatureArray } from './run_model.js';
 import { score } from './rf_model.js';
 
@@ -270,7 +269,7 @@ router.post('/', async (request, env) => {
             },
           });
         }
-        const { text, error } = await chatWithSystemPrompt(userMessage, env, { systemText: SYSTEM_PROMPT });
+        const { text, error } = await chatWithSystemPrompt(userMessage, env);
         const reply = error ? `Gemini error: ${error}` : text;
         const limited = reply.length > 1900 ? reply.slice(0, 1900) + '\n…' : reply;
         return new JsonResponse({
