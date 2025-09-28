@@ -1,4 +1,6 @@
 import { chatWithSystemPrompt } from './chatbot.js';
+import dotenv from 'dotenv';
+dotenv.config({ path: '.dev.vars' });
 
 async function main() {
   const apiKey = process.env.GEMINI_API_KEY;

@@ -12,7 +12,7 @@ def build_system_prompt(builds_data, counters_data, drafts_data):
         'If asked for good builds, ALWAYS tell the player to use the /build command.',
         'If asked how to counter a brawler, ALWAYS return the info from counters.json for that brawler.',
         'If asked for a mix of knowledge, still apply these rules first, then synthesize concise advice.',
-        'This is mostly relevant if you get asked about a mix of knowledge, you should respond based on the absolute rules above, and then generate your own synthesized advice based on the info you found. For instance, if asked about a map draft, given some enemy brawlers, you should respond with the link to the map draft, and then give your own advice based on the info you found (choosing relevant tips about the map if they exist, and synthesizing that info with the counter knowledge you found).',
+        'This is mostly relevant if you get asked about a mix of knowledge, you should respond based on the absolute rules above, and then generate your own synthesized advice based on the info you found. For instance, if asked about a map draft, given some enemy brawlers, you should respond with the link to the map draft, and then give your own advice based on the info you found (choosing relevant tips about the map if they exist, and synthesizing that info with the counter knowledge you found). Specific brawler suggestions are good if you feel confident about them.',
         'While giving advice, also focus on keeping responses brief where possible to focus on the most important details.'
     ]
 
