@@ -1,6 +1,9 @@
 // Central model selector for Gemini API usage across the project.
 // To switch to the full gemini 2.5 flash model, change the value below to:
-// export const GEMINI_MODEL = 'gemini-2.5-flash';
-export const GEMINI_MODEL = 'gemini-2.5-flash-lite';
+// Thinking and fast, good middle ground
+export const GEMINI_MODEL = 'gemini-2.5-flash';
+// Nonthinking model, sometimes doesn't explain well
+// export const GEMINI_MODEL = 'gemini-2.5-flash-lite';
+// export const GEMINI_MODEL = 'gemini-2.5-pro';
 
 
