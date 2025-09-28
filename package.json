@@ -12,12 +12,15 @@
     "fix": "eslint --fix '**/*.js'",
     "lint": "eslint '**/*.js'",
     "register": "node src/register.js",
-    "publish": "wrangler deploy"
+    "publish": "wrangler deploy",
+    "gen:prompt": "node src/generate_system_prompt_cli.js",
+    "chat:local": "node src/local_chat_cli.js"
   },
   "keywords": [],
   "author": "Justin Beckwith <justin.beckwith@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@google/genai": "^1.21.0",
     "discord-interactions": "^4.0.0",
     "fuse.js": "^7.0.0",
     "itty-router": "^5.0.9"

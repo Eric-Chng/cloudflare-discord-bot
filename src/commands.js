@@ -22,6 +22,19 @@ export const DRAFT_COMMAND = {
   ],
 };
 
+export const CHAT_COMMAND = {
+  name: 'chat',
+  description: 'Chat with the the AI draft expert',
+  options: [
+    {
+      type: 3,
+      name: 'message',
+      description: 'The message to send to the bot',
+      required: true,
+    }
+  ],
+}
+
 export const TEST_COMMAND = {
   name: 'test',
   description: 'test embeds',

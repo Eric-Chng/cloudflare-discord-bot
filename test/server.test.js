@@ -8,7 +8,6 @@ import {
 import { INVITE_COMMAND } from '../src/commands.js';
 import sinon from 'sinon';
 import server from '../src/server.js';
-import { redditUrl } from '../src/reddit.js';
 
 describe('Server', () => {
   describe('GET /', () => {
@@ -59,6 +58,7 @@ describe('Server', () => {
       expect(body.type).to.equal(InteractionResponseType.PONG);
     });
 
+    /* Disabled: relies on reddit.js which was removed. Keeping for future reference.
     it('should handle an AWW command interaction', async () => {
       const interaction = {
         type: InteractionType.APPLICATION_COMMAND,
@@ -97,6 +97,7 @@ describe('Server', () => {
       );
       expect(result.calledOnce);
     });
+    */
 
     it('should handle an invite command interaction', async () => {
       const interaction = {

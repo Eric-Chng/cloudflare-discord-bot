@@ -13,3 +13,6 @@ But kind of sucks unless you are very experienced building discord bots.
 - Don't forget to edit wrangler.toml to match your worker/bot name
 - `wrangler login` to login to wrangler
   
+
+Test locally like: 
+GEMINI_API_KEY=<key> npm run chat:local -- "How do I draft on hard rock mine?"

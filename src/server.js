@@ -8,8 +8,10 @@ import {
   InteractionType,
   verifyKey,
 } from 'discord-interactions';
-import { INVITE_COMMAND, DRAFT_COMMAND, COUNTER_COMMAND, HELP_COMMAND, MODIFIER_COMMAND, BUILD_COMMAND, EVENT_COMMAND, TIER_LIST_COMMAND, TEST_COMMAND } from './commands.js';
+import { INVITE_COMMAND, DRAFT_COMMAND, COUNTER_COMMAND, HELP_COMMAND, MODIFIER_COMMAND, BUILD_COMMAND, EVENT_COMMAND, TIER_LIST_COMMAND, TEST_COMMAND, CHAT_COMMAND } from './commands.js';
 import { InteractionResponseFlags } from 'discord-interactions';
+import { chatWithSystemPrompt } from './generate_system_prompt.js';
+import { SYSTEM_PROMPT } from './system_prompt.js';
 import { buildFeatureArray } from './run_model.js';
 import { score } from './rf_model.js';
 
@@ -252,6 +254,29 @@ router.post('/', async (request, env) => {
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
             content: test_message,
+            flags: messageFlags,
+          },
+        });
+      }
+      case CHAT_COMMAND.name.toLowerCase(): {
+        const messageOption = interaction.data.options.find(option => option.name === 'message');
+        const userMessage = messageOption?.value || '';
+        if (!userMessage) {
+          return new JsonResponse({
+            type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+            data: {
+              content: 'Please provide a message.',
+              flags: InteractionResponseFlags.EPHEMERAL,
+            },
+          });
+        }
+        const { text, error } = await chatWithSystemPrompt(userMessage, env, { systemText: SYSTEM_PROMPT });
+        const reply = error ? `Gemini error: ${error}` : text;
+        const limited = reply.length > 1900 ? reply.slice(0, 1900) + '\n…' : reply;
+        return new JsonResponse({
+          type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+          data: {
+            content: limited,
             flags: messageFlags,
           },
         });
