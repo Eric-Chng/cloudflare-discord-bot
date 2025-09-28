@@ -14,6 +14,7 @@
     "register": "node src/register.js",
     "publish": "wrangler deploy",
     "gen:prompt": "node src/generate_system_prompt_cli.js",
+    "gen:prompt:py": "python3 scripts/generate_system_prompt.py",
     "chat:local": "node src/local_chat_cli.js"
   },
   "keywords": [],
