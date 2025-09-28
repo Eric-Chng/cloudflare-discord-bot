@@ -103,7 +103,7 @@ router.get('/', (request, env) => {
  * include a JSON payload described here:
  * https://discord.com/developers/docs/interactions/receiving-and-responding#interaction-object
  */
-router.post('/', async (request, env) => {
+router.post('/', async (request, env, ctx) => {
   const { isValid, interaction } = await server.verifyDiscordRequest(
     request,
     env,
@@ -269,15 +269,47 @@ router.post('/', async (request, env) => {
             },
           });
         }
-        const { text, error } = await chatWithSystemPrompt(userMessage, env);
-        const reply = error ? `Gemini error: ${error}` : text;
-        const limited = reply.length > 1900 ? reply.slice(0, 1900) + '\n…' : reply;
+        const generation = chatWithSystemPrompt(userMessage, env);
+        const timeoutMs = 2300;
+        const fast = Promise.race([
+          generation.then(result => ({ done: true, result })),
+          new Promise(resolve => setTimeout(() => resolve({ done: false }), timeoutMs)),
+        ]);
+        const first = await fast;
+        if (first.done) {
+          const { text, error } = first.result;
+          const reply = error ? `Gemini error: ${error}` : text;
+          const limited = reply.length > 1900 ? reply.slice(0, 1900) + '\n…' : reply;
+          return new JsonResponse({
+            type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+            data: {
+              content: limited,
+              flags: messageFlags,
+            },
+          });
+        }
+        // Defer immediately, finish work in background and send follow-up
+        if (ctx && typeof ctx.waitUntil === 'function') {
+          ctx.waitUntil((async () => {
+            try {
+              const { text, error } = await generation;
+              const reply = error ? `Gemini error: ${error}` : text;
+              const limited = reply.length > 1900 ? reply.slice(0, 1900) + '\n…' : reply;
+              await postFollowupMessage(env, interaction.token, env.DISCORD_APPLICATION_ID, {
+                content: limited,
+                flags: messageFlags,
+              });
+            } catch (e) {
+              await postFollowupMessage(env, interaction.token, env.DISCORD_APPLICATION_ID, {
+                content: `Gemini error: ${e?.message || e}`,
+                flags: messageFlags,
+              });
+            }
+          })());
+        }
         return new JsonResponse({
-          type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
-          data: {
-            content: limited,
-            flags: messageFlags,
-          },
+          type: InteractionResponseType.DEFERRED_CHANNEL_MESSAGE_WITH_SOURCE,
+          data: { flags: messageFlags },
         });
       }
       case DRAFT_COMMAND.name.toLowerCase(): {
@@ -532,6 +564,15 @@ async function verifyDiscordRequest(request, env) {
   }
 
   return { interaction: JSON.parse(body), isValid: true };
+}
+
+async function postFollowupMessage(env, interactionToken, applicationId, data) {
+  const url = `https://discord.com/api/v10/webhooks/${applicationId}/${interactionToken}`;
+  await fetch(url, {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify(data),
+  });
 }
 
 const server = {
