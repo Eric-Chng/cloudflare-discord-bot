@@ -181,7 +181,7 @@
     },
     "crow": {
         "tips": "- Have something to tank his main attack and jumps or outrange and quickly kill him",
-        "brawler_counters": "Snipers (heist), Spike, tanks (not in heist \u2013 they feed hyper)"
+        "brawler_counters": "Snipers (heist), Spike, tanks (not in heist, they feed hyper)"
     },
     "leon": {
         "tips": "- Use brawlers that can scout easily or are able to deal with his surprise attacks to prevent super chaining. Tanks are soft counters since they feed super, but can help defend teammates.",
@@ -205,7 +205,7 @@
     },
     "surge": {
         "tips": "- Don't let him get that first upgrade, if he can't he isn't a threat, if he does don't let him keep upgrading by having gadgets or spawnables to tank his shots due to slow reload",
-        "brawler_counters": "Throwers, spawners (Tara, Ruffs, Nita), Spike, just don\u2019t feed"
+        "brawler_counters": "Throwers, spawners (Tara, Ruffs, Nita), Spike, just don't feed"
     },
     "colette": {
         "tips": "- Don't be a tank and you already have a decent advantage into the matchup, swarm her with spawners since her damage is low against them or consistently heal/have a shield",
@@ -272,7 +272,7 @@
         "brawler_counters": "Throwers, Stu, Belle, Penny"
     },
     "cordelius": {
-        "tips": "- Be aware of either him jumping on you with gadget or after shadow realm is over and using mute. You can waste shadow realm by being fidgety while he\u2019s aiming it or running away when you get hit.",
+        "tips": "- Be aware of either him jumping on you with gadget or after shadow realm is over and using mute. You can waste shadow realm by being fidgety while he's aiming it or running away when you get hit.",
         "brawler_counters": "Frank, Buster, Surge, Nita"
     },
     "charlie": {
