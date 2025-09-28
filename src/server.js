@@ -269,7 +269,7 @@ router.post('/', async (request, env, ctx) => {
             },
           });
         }
-        const length_limit = 1960 - userMessage.length;
+        const length_limit = 1980 - userMessage.length;
         const generation = chatWithSystemPrompt(userMessage, env);
         const timeoutMs = 2300;
         const fast = Promise.race([
@@ -280,12 +280,12 @@ router.post('/', async (request, env, ctx) => {
         if (first.done) {
           const { text, error } = first.result;
           const reply = error ? `Gemini error: ${error}` : text;
-          const limited = "```" + userMessage + "```\n" +
-                reply.length > length_limit ? reply.slice(0, length_limit) + '\n…' : reply;
+          const limited = reply.length > length_limit ? reply.slice(0, length_limit) + '\n…' : reply;
+          const response_with_user_message = "```" + userMessage + "```\n" + limited;
           return new JsonResponse({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
             data: {
-              content: limited,
+              content: response_with_user_message,
               flags: messageFlags,
             },
           });
@@ -296,10 +296,10 @@ router.post('/', async (request, env, ctx) => {
             try {
               const { text, error } = await generation;
               const reply = error ? `Gemini error: ${error}` : text;
-              const limited = "```" + userMessage + "```\n" +
-                    reply.length > length_limit ? reply.slice(0, length_limit) + '\n…' : reply;
+              const limited = reply.length > length_limit ? reply.slice(0, length_limit) + '\n…' : reply;
+              const response_with_user_message = "```" + userMessage + "```\n" + limited;
               await postFollowupMessage(env, interaction.token, env.DISCORD_APPLICATION_ID, {
-                content: limited,
+                content: response_with_user_message,
                 flags: messageFlags,
               });
             } catch (e) {
