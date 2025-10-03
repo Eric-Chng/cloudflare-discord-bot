@@ -368,11 +368,11 @@
         "brawler_counters": "Most tanks should beat her"
     },
     "alli": {
-        "tips": "- Should be weak to tanks due to dps difference and slow reload.",
-        "brawler_counters": "Tanks technically counter"
+        "tips": "- Weak to tanks due to dps difference and slow reload.",
+        "brawler_counters": "Tanks counter due to his slow reload"
     },
     "trunk": {
-        "tips": "- Pretty underpowered right now. ",
-        "brawler_counters": "Tank counters and higher dps/hp tanks beat."
+        "tips": "- He has high dps but poor target access. ",
+        "brawler_counters": "Tank counters and higher dps/hp tanks beat (bull, shelly)."
     }
 }

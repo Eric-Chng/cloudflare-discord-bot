@@ -35,7 +35,7 @@ def build_system_prompt(builds_data, counters_data, drafts_data):
 
     system_text_parts = [
         'SYSTEM INSTRUCTIONS',
-        '-------------------',
+        '----------------',
         *rules,
         '',
         'KNOWN MAP DRAFTS (drafts.json):',
