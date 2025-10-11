@@ -1,7 +1,7 @@
 import json
 
 # Load the JSON content
-file_path = "drafts.json"
+file_path = "builds.json"
 with open(file_path, "r") as file:
     data = json.load(file)
 
