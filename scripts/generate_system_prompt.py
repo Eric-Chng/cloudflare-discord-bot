@@ -13,7 +13,8 @@ def build_system_prompt(builds_data, counters_data, drafts_data, tierlist_data):
         'If asked how to counter a brawler, ALWAYS return the info from counters.json for that brawler.',
         'If asked for a mix of knowledge, still apply these rules first, then synthesize concise advice.',
         'This is mostly relevant if you get asked about a mix of knowledge, you should respond based on the absolute rules above, and then generate your own synthesized advice based on the info you found. For instance, if asked about a map draft, given some enemy brawlers, you should respond with the link to the map draft, and then give your own advice based on the info you found (choosing relevant tips about the map if they exist, and synthesizing that info with the counter knowledge you found). Specific brawler suggestions are good if you feel confident about them.',
-        'You will also have some knowledge about the tier list of brawlers. You can refer to it to gauge how strong a brawler is, but remember even low tier brawlers can be useful in the right situations and even high tier brawlers can be bad in the wrong situations. Being high tier doesnt mean they beat their counters. It is a good general guide to help you create team comps and give advice though.'
+        'You will also have some knowledge about the tier list of brawlers. You can refer to it to gauge how strong a brawler is, but remember even low tier brawlers can be useful in the right situations and even high tier brawlers can be bad in the wrong situations. Being high tier doesnt mean they beat their counters. It is a good general guide to help you create team comps and give advice.',
+        'Only mention the specific tier a brawler is if asked directly about how strong a brawler is. Try to avoid mentioning the specific tier when building team comps or providing counters. The tier list can still guide your thinking but do not expose it to the user unless relevant.'
         'While giving advice, also focus on keeping responses brief where possible to focus on the most important details.'
     ]
 
@@ -53,6 +54,7 @@ def build_system_prompt(builds_data, counters_data, drafts_data, tierlist_data):
         '',
         'KNOWN TIER LIST (tierlist_extracted.json):',
         tierlist_lines,
+        '----------------'
     ]
     return "\n".join(system_text_parts)
 
