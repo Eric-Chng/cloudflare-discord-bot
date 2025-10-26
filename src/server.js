@@ -260,7 +260,8 @@ router.post('/', async (request, env, ctx) => {
       case CHAT_COMMAND.name.toLowerCase(): {
         const messageOption = interaction.data.options.find(option => option.name === 'message');
         const userMessage = messageOption?.value || '';
-        const showPrompt = interaction.options.getBoolean('show_prompt') ?? true;
+        const showPromptOption = interaction.data.options?.find(option => option.name === 'show_prompt');
+        const showPrompt = showPromptOption?.value ?? true;
         if (!userMessage) {
           return new JsonResponse({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
