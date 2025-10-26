@@ -260,6 +260,7 @@ router.post('/', async (request, env, ctx) => {
       case CHAT_COMMAND.name.toLowerCase(): {
         const messageOption = interaction.data.options.find(option => option.name === 'message');
         const userMessage = messageOption?.value || '';
+        const showPrompt = interaction.options.getBoolean('show_prompt') ?? true;
         if (!userMessage) {
           return new JsonResponse({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
@@ -269,7 +270,10 @@ router.post('/', async (request, env, ctx) => {
             },
           });
         }
-        const length_limit = 1980 - userMessage.length;
+        var length_limit = 1980;
+        if (showPrompt) {
+          length_limit -= userMessage.length;
+        }
         const generation = chatWithSystemPrompt(userMessage, env);
         const timeoutMs = 2300;
         const fast = Promise.race([
@@ -281,7 +285,10 @@ router.post('/', async (request, env, ctx) => {
           const { text, error } = first.result;
           const reply = error ? `Gemini error: ${error}` : text;
           const limited = reply.length > length_limit ? reply.slice(0, length_limit) + '\n…' : reply;
-          const response_with_user_message = "```" + userMessage + "```\n" + limited;
+          var response_with_user_message = limited;
+          if (showPrompt) {
+            response_with_user_message = "```" + userMessage + "```\n" + response_with_user_message;
+          }
           return new JsonResponse({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
             data: {
@@ -297,7 +304,10 @@ router.post('/', async (request, env, ctx) => {
               const { text, error } = await generation;
               const reply = error ? `Gemini error: ${error}` : text;
               const limited = reply.length > length_limit ? reply.slice(0, length_limit) + '\n…' : reply;
-              const response_with_user_message = "```" + userMessage + "```\n" + limited;
+              var response_with_user_message = limited;
+              if (showPrompt) {
+                response_with_user_message = "```" + userMessage + "```\n" + response_with_user_message;
+              }
               await postFollowupMessage(env, interaction.token, env.DISCORD_APPLICATION_ID, {
                 content: response_with_user_message,
                 flags: messageFlags,

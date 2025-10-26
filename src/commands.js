@@ -31,6 +31,12 @@ export const CHAT_COMMAND = {
       name: 'message',
       description: 'The message to send to the bot',
       required: true,
+    },
+    {
+      type: 5,
+      name: 'show_prompt',
+      description: 'Whether to show the prompt (defaults to true)',
+      required: false,
     }
   ],
 }
