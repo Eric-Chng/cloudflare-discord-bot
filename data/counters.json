@@ -386,5 +386,9 @@
     "ziggy": {
         "tips": "- Treat him like a thrower. Any aggro counters",
         "brawler_counters": "Weak to assassins (lily, shade, kenji, mico, edgar, mortis, kaze) and high movement speed (max, jae yong)"
+    },
+    "gigi": {
+        "tips": "- Slow initial attack and hard to charge super if people avoid her.",
+        "brawler_counters": "Weak to tanks, and assassins that attack faster than her and can outburst her high dmg. Single shot brawlers are also fairly good vs her."
     }
 }
