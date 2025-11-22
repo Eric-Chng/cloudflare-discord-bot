@@ -329,7 +329,7 @@ router.post('/', async (request, env, ctx) => {
       case DRAFT_COMMAND.name.toLowerCase(): {
         const mapName = interaction.data.options.find(option => option.name === 'map')?.value;
         const mapQuery = mapName.toLowerCase().replace(/[^\w\s]|_/g, "");
-        const draftInfo = `https://www.youtube.com/watch?v=zRST0-eMhj4`;
+        const draftInfo = `https://www.youtube.com/watch?v=UUvqUlM4jI0`;
 
         var title_message = '';
         var tip_message = '';
