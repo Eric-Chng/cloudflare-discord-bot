@@ -1,186 +1,99 @@
 {
-    "last stop": {
-        "tips": "Prioritize a good sniper as gem carrier in middle. In bushes you can run an anti agro, assassin, or brawler good at scouting.",
-        "link": ""
-    },
-    "triple dribble": {
-        "tips": "Similar to Pinball Dreams where throwers are quite dominant toward end of draft. Send a thrower or aggressive brawler in the middle. Left lane wants more range and you can send some sort of agro right lane.",
-        "link": ""
-    },
-    "bridge too far": {
-        "tips": "Compared to other Heist maps longer range is preferred. Have a defensive brawler or hybrid and then get two brawlers to focus on safe for an optimal Heist composition.",
-        "link": ""
-    },
-    "layer cake": {
-        "tips": "Much more aggressive Bounty map. Snipers can't fully utilize range here due to the walls.",
-        "link": ""
-    },
-    "shooting star": {
-        "tips": "Put snipers or long range assassin on lane and thrower/support/tank in mid.",
-        "link": ""
-    },
-    "ring of fire": {
-        "tips": "Messy map if enemy gets into your grass and sets up a spawn trap. Get a ranged brawler to contest mid (Byron, Bonnie). Get some agro (Kaze, Kit, Cordelius, Draco, Kenji) to exert pressure in either lane requiring two brawlers to pinch for teammates to push. Damage dealers with control supers (Amber, Lou, Bo) will help guarantee you zone time and have some range/health to make space in mid. Tara, Alli, Penny are underrated last picks.",
-        "link": ""
-    },
-    "backyard bowl": {
-        "tips": "Use `/event` command to see more info about melodie challenge. This is temporarily set to melodie challenge",
-        "link": ""
-    },
-    "belles rock": {
-        "tips": "Gene/Jae-Yong verstatile. Kit too but he's easier to ban instead of first pick due to tank synergy. Gray, Kaze and Brock notable early picks. Snipers are good later pick, otherwise just pick ones with counterplay into agro (Angelo, Belle, Gus). Squeak, Buster, Ollie, throwers are notable later picks.",
-        "link": ""
-    },
-    "out in the open": {
-        "tips": "Most annoying late picks are Darryl and Lily, otherwise not too bad. Wall break is good for back wall (Brock gadget or Piper super). Assassins to use jump pad could be sneaky at getting kills. Lots of good picks so very hard to outdraft or get outdrafted.",
-        "link": ""
-    },
-    "pinball dreams": {
-        "tips": "Cover the tank counter and tank role (and wall break) in draft. Account for centralizing picks (or abuse them in lower ranks) like Ollie and Mina.",
-        "link": ""
-    },
-    "double swoosh": {
-        "tips": "Too many hypercharges guarantee gem carrier kills. Ban or abuse the following: Tara, **Kit, Kaze, Lily**, Ollie, Kenji, Cordelius. Against these hypercharge brawlers use pure counter brawlers and scouts with vision gear.",
-        "link": ""
+    "dry season": {
+    "tips": "This is a passive control map. Secure the blue star early, then hold your ground and make enemies walk into your range. Draft mostly control brawlers but make sure at least one can escape or push back aggro to avoid being overrun.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441922563755212830/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_0-41_screenshot.png?ex=69238e88&is=69223d08&hm=1eca88a8e059c1b316be5bd3f1f9668fb054e3f5cd72a8a839f69d298acb372b&"
     },
     "hideout": {
-        "tips": "Usually send two people on the left side and one person on the right to avoid getting spawn trapped. Make sure to have counterplay against agro.",
-        "link": ""
+    "tips": "Use strong all-rounders like Gene and Gus, with Nani and Jae Yong being great damage and pressure picks. Ollie works well by soaking damage safely to build super and hypercharge, so play around taking damage then backing off rather than feeding deaths.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441922562983723299/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_2-1_screenshot.png?ex=69238e88&is=69223d08&hm=3cd87c70bbe236f444f80cbc29f45a6bfcdd03089985570649c1d5bcf300cf12&"
     },
-    "excel": {
-        "tips": "Snipers can be good but get pushed back easily. Throwers are more dominant. Pick snipers with more counterplay into bad matchups and some sort of agro.",
-        "link": ""
+    "layer cake": {
+    "tips": "Abuse bushes and cheese potential with picks like Juju and Kaze instead of stacking snipers. Watch out for Doug+Gray group comps, and consider early Squeak for choke control while saving answers like Lily, Ziggy or Trunk for dangerous late picks.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441922562463633478/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_3-35_screenshot.png?ex=69238e88&is=69223d08&hm=5098a1a806be783c83b3f0c225ce8f6773a6be5b595d35724a3ca119281de96e&"
+    },
+    "shooting star": {
+    "tips": "Aim to secure two of the best snipers and then decide on a flexible mid such as Gene, Max, Gray or Angelo. Nani is a very safe pick in ranked because most teams will not counter her properly, so you can often first-pick her without much risk.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441922561934889141/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_5-10_screenshot.png?ex=69238e88&is=69223d08&hm=d10b333842f52174a9714a83b5904cf0343d705b3ddacf14aa8607bf6e72ce8c&"
     },
     "center stage": {
-        "tips": "Very bushy map, so builds that let you scout help a lot. Always go a tank counter and an aggressive tank.",
-        "link": ""
+    "tips": "Treat it as a bushy but control oriented map where scouting and chip matter more than pure tanks. Draft a balanced comp with a strong lane holder like Moe or Otis,+damage and some aggression, and always include at least one brawler that can constantly check bushes in a lane.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441922561372983326/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_6-10_screenshot.png?ex=69238e88&is=69223d08&hm=69f1131e12adae4e651b1eba96955408229b6e1d2588ac02f1a0122a0bc28948&"
     },
-    "goalkeepers dream": {
-        "link": ""
-    },
-    "minecart madness": {
-        "link": ""
-    },
-    "rustic arcade": {
-        "link": ""
-    },
-    "safe zone": {
-        "tips": "Know your brawler's role in Heist. If you outdamage the enemy then focus on offense. If the enemy has a good lead and is about to end the game early then help out on defense. If you have a good brawler make sure you're making offensive pressure. Hiding in the corner wall forces two enemies to pinch you out.",
-        "link": ""
-    },
-    "pit stop": {
-        "tips": "Complete base race. 1 defender + 2 rush. Angelo not good until high elo",
-        "link": ""
-    },
-    "dueling beetles": {
-        "tips": "Pure brawler yap from Spen. Finx hc is underratred. Ollie is great if you ban Poco or have a teammate pick him (or just ban Ollie). Hank is good with Gray/Jae-Yong/Byron. Crow versatile. Spen really likes ranged \\\"cleanup brawlers\\\" such as Lumi, Charlie, Bonnie, Meg, and Amber. Control like Squeak, Barley, Sprout are dangerous last picks into those brawlers so agro (Cordelius, Bonnie, Draco) is needed.",
-        "link": ""
-    },
-    "split": {
-        "tips": "Two down right, 1 down left. Don't break open right unless thrower, break open left.",
-        "link": ""
-    },
-    "new horizons": {
-        "tips": "Get wall break or wall pierce or else get punished by throwers and tanks waiting for gas to close in. Have a good plan for late game or force enemy into spawn for gas to kill them.",
-        "link": ""
-    },
-    "canal grande": {
-        "tips": "Water walking is op. Generic snipers are not that good, throwers and last pick takes run draft. Want a brawler that is generically good at cleaning up messes, thrower that won't die to aggro, and a tank or something aggressive. Controlling middle grass is important.",
-        "link": ""
+    "pinball dreams": {
+    "tips": "Expect rock–paper–scissors between throwers, with Willow and other throwers being key picks, but remember they can be countered by later throwers. Mix in at least one damage dealer and one aggressive option to avoid giving free value to assassins like Alli or Kenji while keeping solid control.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441922560693501992/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_7-45_screenshot.png?ex=69238e88&is=69223d08&hm=99eed175d2e026bc3c191b10203f09e23aa0ca4229032f91a3bb749b7c0658f5&"
     },
     "sneaky fields": {
-        "tips": "Similar to Center Stage so scouting is important, but pinching is easier. Make sure to run a tank with presence to get grass control.",
-        "link": ""
+    "tips": "The biggest mistake here is picking weak mid-brawlers who cannot hold the grass. Mid must be able to stand in grassy center. Combine scouts like Ruffs or Otis with a tankier, more threatening mid such as Carl, Ollie or Chester so you do not get permanently pushed back by triple tank or heavy aggro comps.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441922362239881257/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_9-0_screenshot.png?ex=69238e58&is=69223cd8&hm=b2d10e28ad9d4e2bd8cf5e082aeca5b4df9aefece51620adb23eb628cd6febd3&"
     },
-    "beach ball": {
-        "link": ""
+    "triple dribble": {
+    "tips": "This is an extremely thrower-heavy map where you should pick throwers early (consider banning Alli to avoid being countered). Use a thrower mid, send your longer range lane to the more open side, and include a damage dealer while watching for scary late picks like Ziggy, Kenji, Trunk and Alli that can blow up fragile comps.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441922361640222750/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_10-29_screenshot.png?ex=69238e58&is=69223cd8&hm=56054f9953d7b5b04b5436f0245846a43df07c77fc32dccc8c1684937dee03bb&"
     },
-    "hard rock mine": {
-        "tips": "Kaze Kit Lily are dominant due to being able to sneaky around. Aggressive brawlers will always be needed to apply pressure on the gem carrier along with a gem carrier and damage brawler to hold lane.",
-        "link": ""
+    "double swoosh": {
+    "tips": "This is a chip-damage control map with few good aggressive options. Use flexible mids like Otis, Crow, Janet, Amber or Ruffs that can swap lanes if needed. Put your longer ranged brawler on the right to scout bushes, and remember that Tara is weaker in high elo but still fine below masters if enemy drafts do not hard-counter her.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441922361178853386/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_11-47_screenshot.png?ex=69238e58&is=69223cd8&hm=ffc34650718d52eace8b7a854c1908bcc66d70439ac6e65f9e8ee5f7893e2509&"
     },
     "gem fort": {
-        "tips": "If you haven't seen an enemy for a while, they're on your side of the map. Use vision gear to scout and avoid getting flanked. Abuse aggressive supers or hypercharges for turnarounds and make sure your mid has counterplay (Jae-Yong, Charlie, Janet).",
-        "link": ""
+    "tips": "Success here is all about establishing mid-control. Focus on strong mids such as Jae-Yong, Byron, Janet, Gus and Pam who can survive pressure. Establish control with two brawlers contesting mid and one flanking, and always be aware of sneaky enemies slipping behind because a single lost angle can cost the entire game.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441922360692183160/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_13-25_screenshot.png?ex=69238e58&is=69223cd8&hm=b27b09351c71940fa2b2f1456cf192c985d442113aeaec4886d4efb6beb0fac0&"
     },
-    "kaboom canyon": {
-        "tips": "Similar map to Safe Zone. Long map so Chuck and Angelo are good. If Angelo is banned Eve becomes really good. 2 agro and 1 defensive. Pick your option based on how your team drafts. 8-Bit is really sleeper since his counters are out of the meta. Only scary last pick is Mico.",
-        "link": ""
-    },
-    "hot potato": {
-        "tips": "Berry's Healthy Additives does 20% of the safe to draw enemy defense. Build the best composition with a defensive brawler and two of the best aggro.",
-        "link": ""
-    },
-    "parallel plays": {
-        "tips": "Lots of strategy and game sense communication required (which randoms can't have). Defense brawlers that are hard for assassins to push into and can wall peak on left, send a ranged pinching brawler in the middle to help defensively, then send an annoying assassin/tank on the right that needs pinching to deal with.",
-        "link": ""
-    },
-    "open business": {
-        "tips": "Very confined map for snipers unless you bring wall break, otherwise it's great for tanks. Finx and Crow can farm supers off tanks. Tanks such as Draco, Kenji, Lily will still exert pressure even into bad matchups. Don't sleep on Berry, Ruffs, Shade, and throwers.",
-        "link": ""
-    },
-    "goldarm gulch": {
-        "tips": "Consider trying different lane strategies or being aware of the enemy doing them. Sometimes you can send someone to sneak down right lane, or you triple stack left bush side and work your way horizontally. Lots of walls and people grouping up so use brawlers that benefit/punish those factors.",
-        "link": ""
-    },
-    "flaring phoenix": {
-        "tips": "Gene/Byron/Jae-Yong very versatile. Send two people in middle (one right, one in grass) and then someone left side. If going against an invisible assassin then group up in middle to pinch. Throwers are good on the left. Brock destroys grass to counter invisibility brawlers. Buster punishes overextenders and does well in gas.",
-        "link": ""
-    },
-    "galaxy arena": {
-        "tips": "Vision gear/tanks/tank counters great here",
-        "link": ""
-    },
-    "acute angle": {
-        "tips": "Good mid can setup spawn trap",
-        "link": ""
-    },
-    "retina": {
-        "tips": "Need tanks or tank counters",
-        "link": ""
+    "hard rock mine": {
+    "tips": "Use Ruffs and Max to control lanes and open space, and always draft at least one aggressive brawler like Shade, Mortis, Ash, Trunk, Alli or Hank to relieve pressure from your gem carrier. One mid should protect and rotate while the aggro pick looks for openings to push enemies back to their walls.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441922360230936576/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_14-53_screenshot.png?ex=69238e58&is=69223cd8&hm=0edf6a2daa490d74f66787c4e45bf2743c5312d1e75363158763c7b24e596018&"
     },
     "undermine": {
-        "tips": "Better to abandon middle at start of game to double up and secure a lane. Do not get spawn trapped. If you lose your lane help your teammate in their's.",
-        "link": ""
+    "tips": "Draft more ranged, poke focused brawlers like Amber, Pam, Janet, Ruffs, Sandy or Chester who can scout bushes safely and retake lanes when lost. Once the draft is done, choose lanes carefully for best matchups and play for spawn traps, using wallbreak and vision to stop sneaks through the grass.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441922359631282256/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_16-18_screenshot.png?ex=69238e58&is=69223cd8&hm=0ea1f427d572ea49af5f8abe65ca24a8c36a5c733f98d750d6a9b0d3799219dc&"
     },
-    "penalty kick": {
-        "tips": "Throwers are OP (except for Moe and Kenji). Best throwers are Barley and Larry & Lawrie so use them or ban them. Very easy to get away with random nonsense so make sure you have a good tank counter as well.",
-        "link": ""
+    "bridge too far": {
+    "tips": "Pair one solid defensive brawler such as Otis or Chuck with at least one strong aggressor like Kaze, Melodie or Lily. Treat each lane like a 1v1 and try to win your matchup, but use mobile aggro picks to swap lanes and surprise opponents when they overcommit on defense or offense.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441922130664095764/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_17-40_screenshot.png?ex=69238e21&is=69223ca1&hm=0af36d9f332188710ec9ab4a9572674c3e7b7d21b879ce5acc815bde22a63687&"
     },
-    "snake prarie": {
-        "tips": "Rush in enemy with tanks or have better vision. Group up to be able to get revenge kills (not close enough for one enemy to teamwipe though). Vision gear runs this map.",
-        "link": ""
+    "hot potato": {
+    "tips": "This is a base-race map where offense is far more valuable than defense. Stack aggressive damage dealers and one strong shutdown brawler like Otis, Crow/Amber (charge supers), R-T. One breakthrough on this map can lead to huge safe damage, so double stack offensive picks.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441922130030891019/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_19-17_screenshot.png?ex=69238e21&is=69223ca1&hm=fdd64301da634b0b4658b374842f64f7ba001e1ef0dac577f5bbdf7863c03154&"
     },
-    "below zero": {
-        "tips": "Good brawlers will have high mobility or ball control.",
-        "link": ""
+    "kaboom canyon": {
+    "tips": "Play it like a more control heavy Safe Zone, using defensive monsters such as Finx in mid to shut down pushes. Mix in aggressive options like Kaze, Melodie, Nani teleport or Alli to convert won fights into safe damage, but accept that overall you are playing a slower control style.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441922129548283985/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_20-20_screenshot.png?ex=69238e21&is=69223ca1&hm=b5f8030f614489f86278415f12c2e157fbce2493d28b2bd6732a3f4cb8191e19&"
     },
-    "cool box": {
-        "tips": "Open map but it's very punishing if you get pushed back from agro. Be wary of high mobility brawlers that can easily score goals (counter then with stun/slow). Hit your shots, keep good positioning, and catch enemies making mistakes.",
-        "link": ""
+    "safe zone": {
+    "tips": "Use a blend of one hard defensive brawler like Otis or Amber+long-range damage dealers such as Angelo, Kaze, Crow, Eve or Penny. Focus on securing safe angles rather than constantly diving, and consider a single strong aggressor while letting your range slowly chip down the enemy safe.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441922129062002688/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_21-30_screenshot.png?ex=69238e21&is=69223ca1&hm=54e5acbd995b70dcbbcb5faf80479f31c782f12866caa25493e70c82c0a653f9&"
     },
-    "super center": {
-        "tips": "Tanks better here compared to other Brawl Hockey maps. Lots of good brawlers to go, so identify what tricks a brawler can use to score and adjust to counter or utilize that. Generally, your team composition should have someone good at scoring and someone good at defending.",
-        "link": ""
+    "dueling beetles": {
+    "tips": "Lean into control and zone time with top picks like Finx, Pam hypercharge turret and Penny. You need at least one brawler who can sit on the zone and tank damage, supported by control picks and maybe a thrower, instead of drafting three fragile damage dealers who cannot stay on the point.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441922128348975164/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_22-37_screenshot.png?ex=69238e21&is=69223ca1&hm=e3de63226c54e4ac2faba7a8d24266406393baa8acb287d4b47c9bbfc4c4d335&"
     },
-    "dry season": {
-        "tips": "Agro brawler to pick up blue star. Then sit back and don't feed.",
-        "link": ""
+    "parallel plays": {
+    "tips": "Anchor the left side with a thrower such as Juju, Willow, Larry or Barley while using a flexible mid that can both support and defend. Save your aggressive right lane pick for later in the draft so it does not get easily countered, and always ensure your comp has reliable defense+one real win-condition lane.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441922127635808517/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_24-0_screenshot.png?ex=69238e20&is=69223ca0&hm=f6f3bf100d5e9e744af2d3048799c448a4743c17522face0b47123d83712473a&"
     },
-    "starr garden": {
-        "tips": "More walls to peak shots compared to other Brawl Hockey maps. Lots of single shot brawlers are good here (off meta spawner counters). Look out for agro strategies by picking an antitank.",
-        "link": ""
+    "open business": {
+    "tips": "You need a tanky distractor to sit in the zone. Treat it similarly to Dueling Beetles by combining strong control brawlers like Ruffs, Pam, Hank and Moe. Tank is centerpiece of draft, and prepare against late-pick assassins or throwers with wallbreak with some aggression of your own.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441921715713081364/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_25-3_screenshot.png?ex=69238dbe&is=69223c3e&hm=b4a21c0e564d1a14ce47a4a623fa38e6a7a76035ca6597336757c4aaa2d0d15a&"
     },
-    "crystal arcade": {
-        "tips": "Brawler yap: Draco (gets pinched but hc is a free win), Kit (jump on enemy to kill confirm with teammate, hc super on enemy gem carrier to get away with game), Lily (free pressure), Crow (tanky generalist), Tara (very strong warranting return of Sandy), Janet (very safe), Amber (strong lane), Kaze, Jae-Yong (mid), typical tanks aren't very good until late draft due to strong DPS.",
-        "link": ""
+    "ring of fire": {
+    "tips": "Avoid overvaluing snipers and instead draft heavy zone time brawlers like Pam, Finx, Crow and Penny to sit mid and left-mid. Use one or two beefy picks to hold the center while a third brawler threatens from grass and creates spawn traps, relying on control rather than all-in aggression.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441921715146985583/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_26-10_screenshot.png?ex=69238dbe&is=69223c3e&hm=902539d25c156a1152ef13910e17d91d3101c44a3b0b9a190848fb254bde162d&"
     },
-    "deathcap trap": {
-        "tips": "OG map that plays weird, very easy to push left and guarantee pressure for easy control. Gus, Gene, and Jae-Yong are good mids since they can defend themselves. Lots of walls so tanks, wall peaking, and attacking past walls will be very helpful.",
-        "link": ""
+    "belles rock": {
+    "tips": "Play for pressure by forcing enemies back into the lower parts of the map with Ollie, Gray and supportive mids like Byron or Jae-Yong. Doug comps that soak damage and then enable an aggressive partner are very strong, so expect chip-heavy enemies and consider only truly scary throwers as late-pick threats.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441921714609979462/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_27-16_screenshot.png?ex=69238dbe&is=69223c3e&hm=c279d6ccb256ac182ebe2c1986976b87b8b0082c12b5a1d27e9ec8acd681d8ce&"
     },
-    "infinite doom": {
-        "tips": "Vision gear is very important for control in early game. Always have an agro or tank counter to avoid getting run down by last pick agro.",
-        "link": ""
+    "flaring phoenix": {
+    "tips": "Usually send two brawlers mid and only put someone left if they can defend against sneaky assassins such as Darryl, Kit or Lily. Prioritize breaking enemy grass with Brock or Squeak and limit yourself to one sniper, while using Juju and other control tools if the enemy cannot easily destroy bushes.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441921713951740004/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_28-35_screenshot.png?ex=69238dbe&is=69223c3e&hm=3dd365853cdeff3b55180480e9d14879295c9f6bb230b1b3f0bc34f0de72f5e4&"
+    },
+    "new horizons": {
+    "tips": "Draft for pure control with brawlers like Squeak, Brock, Barley, Gus, Angelo and Jae-Yong that can block off paths and chip safely. Use wallbreak and heavy shots to stop cheesy dive comps, and choose picks that comfortably win long-range poke wars instead of relying on risky assassins.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441921713209217176/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_29-36_screenshot.png?ex=69238dbe&is=69223c3e&hm=608b1036c9bf7621fb39d297ae3959d380c6b79fb9e15543a0bef6ba595d2ef4&"
+    },
+    "out in the open": {
+    "tips": "First kill usually decides the round and draft accordingly to either play snipers or hard counters to them. Use Gray, Squeak, Buster, Ollie or Max to punish enemy sniper stacks, and consider Darryl or Ziggy as strong late picks that can suddenly swing a round with one good engage.",
+    "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441921712441786449/Ultimate_Cheat_Sheet_For_Ranked_-_Season_44_30-28_screenshot.png?ex=69238dbd&is=69223c3d&hm=0e14127d1aacf15ad06fff6eeef7e6336abb046f4703dfc68716e57573d82478&"
     }
-}
+    }
+    
