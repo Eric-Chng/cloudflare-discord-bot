@@ -165,7 +165,7 @@
     },
     "byron": {
         "tips": "- Cripple his healing or destroy him due to low health. Weak to aggro.",
-        "brawler_counters": "Snipers (Piper), Clancy/Lou (counters byron/tank synergy), Sprout (1v1)"
+        "brawler_counters": "Snipers (Piper), Clancy/Lou (counters byron/tank synergy), Sprout (1v1), crow"
     },
     "squeak": {
         "tips": "- Easily gets overwhelmed by aggro due to his slow damage output",
@@ -381,7 +381,7 @@
     },
     "jae yong": {
         "tips": "- It's really easy to push up for space vs him due to his low dmg, but don't overchase him due to his speed.",
-        "brawler_counters": "Weak to assassins (lily, shade, kenji) and tanks (Frank, Ollie, Bull, Doug) due to his low dps. "
+        "brawler_counters": "Weak to assassins (lily, shade, kenji) and tanks (Frank, Ollie, Bull, Doug) due to his low dps. Crow is decent. "
     }, 
     "ziggy": {
         "tips": "- Treat him like a thrower. Any aggro counters",
@@ -390,5 +390,9 @@
     "gigi": {
         "tips": "- Slow initial attack and hard to charge super if people avoid her.",
         "brawler_counters": "Weak to tanks, and assassins that attack faster than her and can outburst her high dmg. Single shot brawlers are also fairly good vs her."
+    },
+    "finx": {
+        "tips": "- He plays for pure control, so play assassins or stay coordinated to disrupt his game plan",
+        "brawler_counters": "Assassins (lily, shade, kenji, mico, edgar, mortis, kaze), throwers (barley, berry, juju)"
     }
 }

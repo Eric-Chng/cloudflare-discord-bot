@@ -2,7 +2,7 @@
     "8 bit": {
         "gadget": "Cheat Cartridge. Extra Credits sometimes in Heist.",
         "starpower": "Boosted Booster. Plugged In for Gem Grab or bad matchups (high damage, long range, or splash).",
-        "gear": "Reload Speed and Health/Damage.",
+        "gear": "Health/Damage.",
         "hypercharge": "Don't buy the hypercharge."
     },
     "alli": {
@@ -13,7 +13,7 @@
     "amber": {
         "gadget": "Fire Starters for super. Dancing Flames in closed maps.",
         "starpower": "Wild Flames. Scorchin' Siphon awkward to use.",
-        "gear": "Reload Speed and Shield/Vision/Damage."
+        "gear": "Shield/Vision/Damage."
     },
     "angelo": {
         "gadget": "Master Fletcher. Stinging Flight isn't a bad option either.",
@@ -43,7 +43,7 @@
     "belle": {
         "gadget": "Nest Egg. Reverse Polarity underrated in some Knockout maps.",
         "starpower": "Positive Feedback. Grounded underrated in Ranked against agro.",
-        "gear": "Reload Speed and Shield.",
+        "gear": "Shield and Damage.",
         "hypercharge": "Don't buy the hypercharge."
     },
     "berry": {
@@ -61,7 +61,7 @@
     "bo": {
         "gadget": "Super Totem. Tripwire in Heist.",
         "starpower": "Snare a Bear.",
-        "gear": "Reload Speed and Health/Damage (Heist).",
+        "gear": "Shield/Health/Damage (Heist).",
         "hypercharge": "Wide-area damage that guarantees kills and shreds Heist safes, with fast cycling via mines."
     },
     "bonnie": {
@@ -73,7 +73,7 @@
     "brock": {
         "gadget": "Rocket Fuel lets you open up the map against throwers and tanks. Rocket Laces provides counterplay into assassins.",
         "starpower": "More Rockets! Rocket No. 4 if you prefer occasionally bursting enemies with main attack.",
-        "gear": "Reload Speed and Shield.",
+        "gear": "Shield and Damage.",
         "hypercharge": "Don't buy the hypercharge.",
         "tips": "User super and then hypercharge for max dmg."
     },
@@ -140,7 +140,7 @@
     "colt": {
         "gadget": "Speedloader for open maps or Heist. Silver Bullet good for opening up map.",
         "starpower": "Magnum Special is good in Heist. Slick Boots might be bugged but helps if you like juking.",
-        "gear": "Reload Speed and Shield/Damage (Heist)."
+        "gear": "Shield/Damage/Vision."
     },
     "cordelius": {
         "gadget": "Replanting. Poison Mushroom good into agro.",
@@ -199,7 +199,7 @@
     "eve": {
         "gadget": "Gotta Go!",
         "starpower": "Unnatural Order. Happy Surprise on paper better but can be inconsistent.",
-        "gear": "Reload Speed and Shield (Knockout and Bounty)/Damage (Heist)/Quadruplets."
+        "gear": "Shield (Knockout and Bounty)/Damage (Heist)/Vision."
     },
     "fang": {
         "gadget": "Corn-Fu. Roundhouse Kick for main attack animation cancelling.",
@@ -238,7 +238,7 @@
     "griff": {
         "gadget": "Piggy Bank.",
         "starpower": "Business Resilience. Keep the Change underrated into tanks.",
-        "gear": "Reload Speed and Damage/Health.",
+        "gear": "Damage/Health.",
         "hypercharge": "Chaining supers through walls lets him counter tanks and pull off devastating wipes.",
         "tips": "Midrange wallbreaker. Use on any map you need a wallbreak + midrange on"
     },
@@ -327,7 +327,7 @@
     "lola": {
         "gadget": "Freeze Frame.",
         "starpower": "Sealed with a Kiss. Improvise decent in Heist.",
-        "gear": "Reload Speed and Damage/Shield.",
+        "gear": "Damage/Shield/Vision.",
         "hypercharge": "Hypercharge is not worth it."
     },
     "lou": {
@@ -398,7 +398,7 @@
     "mortis": {
         "gadget": "Survival Shovel.",
         "starpower": "Coiled Snake.",
-        "gear": "Bat Storm and Damage/Shield.",
+        "gear": "Damage and Shield.",
         "hypercharge": "Can chain bat supers through multiple enemies without getting close, leading massive pushes."
     },
     "mr p": {
@@ -469,7 +469,7 @@
     "rico": {
         "gadget": "Multiball Launcher. Bouncy Castle for Knockout.",
         "starpower": "Super Bouncy.",
-        "gear": "Shield and Reload Speed/Vision.",
+        "gear": "Shield and Damage/Vision.",
         "hypercharge": "Unlimited bounce hypercharge cycles supers on the right maps, making him toxic and unstoppable."
     },
     "rosa": {
@@ -513,7 +513,7 @@
     "spike": {
         "gadget": "Life Plant. Popping Pincushion on Heist.",
         "starpower": "Curveball. Fertilize very underrated in this meta.",
-        "gear": "Sticky Spikes and Shield.",
+        "gear": "Shield and Damage/Vision.",
         "hypercharge": "Hypercharge is worth it."
     },
     "sprout": {
