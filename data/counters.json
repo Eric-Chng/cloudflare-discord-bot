@@ -394,5 +394,13 @@
     "finx": {
         "tips": "- He plays for pure control, so play assassins or stay coordinated to disrupt his game plan",
         "brawler_counters": "Assassins (lily, shade, kenji, mico, edgar, mortis, kaze), throwers (barley, berry, juju)"
+    },
+    "glowbert": {
+        "tips": "- Dive on to glowbert or bring enough damage to overwhelm healing",
+        "brawler_counters": "any aggro/assassins, belle (counter groupup), jesse (counter groupup), crow (counter healing)"
+    },
+    "pierce": {
+        "tips": "- Pierce is a win more brawler. If he misses multiple shots in a row, push up vs him",
+        "brawler_counters": "Typical sniper counters like assassins, throwers (on right maps), and spawnables (waste ammo)"
     }
 }
