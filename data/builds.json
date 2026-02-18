@@ -572,5 +572,15 @@
         "gadget": "Longer Strings. Invis radius is too small to be useful.",
         "starpower": "Both are not too impactful, but probably a helping hand. Plie protection loses value after first engagement.",
         "gear": "Damage and Shield."
+    },
+    "pierce": {
+        "gadget": "Bottomless Mag is really strong pressure",
+        "starpower": "Swimpossible",
+        "gear": "Damage and Shield."
+    },
+    "glowbert": {
+        "gadget": "both are viable. More lumens is really easy to get value from",
+        "starpower": "Parasitism is best",
+        "gear": "Gears not that impactful. Damage and Shield default."
     }
 }
