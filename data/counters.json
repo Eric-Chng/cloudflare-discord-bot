@@ -402,5 +402,9 @@
     "pierce": {
         "tips": "- Pierce is a win more brawler. If he misses multiple shots in a row, push up vs him",
         "brawler_counters": "Typical sniper counters like assassins, throwers (on right maps), and spawnables (waste ammo)"
+    },
+    "sirius": {
+        "tips": "- piercing attacks are to counter shadows. He's a strong controller brawler, but will probably be beaten by other throwers",
+        "brawler_counters": "Janet, Jessie, throwers"
     }
 }

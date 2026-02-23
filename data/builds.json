@@ -583,5 +583,10 @@
         "starpower": "Parasitism is best",
         "gear": "Gears not that impactful. Damage and Shield default.",
         "tips": "Best in any control map, especially on more open maps. Reconnect beam to burst an extra 300 dmg. Glowbert is all about good positioning."
+    },
+    "sirius": {
+        "gadget": "both are great",
+        "starpower": "the darkest star. shadows are op",
+        "gear": "damage and shield"
     }
 }
