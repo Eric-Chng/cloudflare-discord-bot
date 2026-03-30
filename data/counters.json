@@ -406,5 +406,9 @@
     "sirius": {
         "tips": "- piercing attacks are to counter shadows. He's a strong controller brawler, but will probably be beaten by other throwers",
         "brawler_counters": "Janet, Jessie, throwers"
+    },
+    "najia": {
+        "tips": "- She has phenomenal poke due to poison and ability to hit around walls. 1 ammo + DoT means weak to assassins/aggro. Also poor at scouting bushes if you've already taken control.",
+        "brawler_counters": "Assassins, poco (protective tunes), spawnables (waste ammo)"
     }
 }

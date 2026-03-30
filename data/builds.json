@@ -589,5 +589,10 @@
         "starpower": "The Darkest Star.",
         "gear": "Damage and Shield.",
         "tips": "Try to keep your shadows alive and sync pushes with team. Will dominate control modes"
+    },
+    "najia": {
+        "gadget": "poison puddles generically. Jar vs assassins",
+        "starpower": "venomous for extra dmg",
+        "gear": "Damage and shield"
     }
 }
