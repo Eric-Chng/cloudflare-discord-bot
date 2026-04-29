@@ -410,5 +410,9 @@
     "najia": {
         "tips": "- She has phenomenal poke due to poison and ability to hit around walls. 1 ammo + DoT means weak to assassins/aggro. Also poor at scouting bushes if you've already taken control.",
         "brawler_counters": "Assassins, poco (protective tunes), spawnables (waste ammo)"
+    },
+    "damian": {
+        "tips": "- He's broken rn so not much. Typical tank counters do well into him",
+        "brawler_counters": "cordelius, edgar good timing to dodge super, shelly, gale, R-T, otis"
     }
 }

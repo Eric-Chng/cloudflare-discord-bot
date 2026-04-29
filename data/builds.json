@@ -594,5 +594,10 @@
         "gadget": "poison puddles generically. Jar vs assassins",
         "starpower": "venomous for extra dmg",
         "gear": "Damage and shield"
+    },
+    "damian": {
+        "gadget": "spiritual healing",
+        "starpower": "vulgar display of punch",
+        "gear": "damage and shield/speed/health"
     }
 }
