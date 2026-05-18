@@ -3,3 +3,6 @@ coverage
 .dev.vars
 secret.json
 .DS_Store
+
+/scripts/screenshots/*
+/scripts/screenshot_outputs/*
