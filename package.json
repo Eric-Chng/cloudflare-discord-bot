@@ -14,7 +14,9 @@
     "register": "node src/register.js",
     "publish": "wrangler deploy",
     "gen:prompt:py": "python3 scripts/generate_system_prompt.py",
-    "chat:local": "node src/local_chat_cli.js"
+    "chat:local": "node src/local_chat_cli.js",
+    "validate:staged-json": "node scripts/validate_staged_json.js",
+    "prepare": "node scripts/install_git_hooks.js"
   },
   "keywords": [],
   "author": "Justin Beckwith <justin.beckwith@gmail.com>",
