@@ -599,5 +599,10 @@
         "gadget": "Spiritual Healing most of the time. The range/cheese gadget has niche use into many ranged brawlers.",
         "starpower": "Vulgar Display of Punch.",
         "gear": "Damage and Shield/Speed/Health."
+    },
+    "star nova": {
+        "star power": "Both are okay, but not too impactful",
+        "gadget": "Floaty Time has more team synergy potential",
+        "gear": "Shield and damage/speed"
     }
 }

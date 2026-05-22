@@ -414,5 +414,9 @@
     "damian": {
         "tips": "- He's broken rn so not much. Typical tank counters do well into him",
         "brawler_counters": "cordelius, edgar good timing to dodge super, shelly, gale, R-T, otis"
+    },
+    "star nova": {
+        "tips": "- She's more of a jack of all trades, so any assassin/tank will beat her close range",
+        "brawler_counters": "Assassins, tanks"
     }
 }
