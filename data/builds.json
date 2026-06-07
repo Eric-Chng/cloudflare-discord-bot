@@ -601,8 +601,8 @@
         "gear": "Damage and Shield/Speed/Health."
     },
     "star nova": {
-        "star power": "Both are okay, but not too impactful",
-        "gadget": "Floaty Time has more team synergy potential",
+        "starpower": "Both are okay, but not too impactful. Pref heal",
+        "gadget": "Go the teleport as default. Floaty Time has more team synergy potential but also easy to troll.",
         "gear": "Shield and damage/speed"
     }
 }
