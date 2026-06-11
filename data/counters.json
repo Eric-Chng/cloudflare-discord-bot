@@ -412,11 +412,15 @@
         "brawler_counters": "Assassins, poco (protective tunes), spawnables (waste ammo)"
     },
     "damian": {
-        "tips": "- He's broken rn so not much. Typical tank counters do well into him",
+        "tips": "- Don't stand in exact center or edge of where he targets super. He's suprisingly low dps so typical tank counters do well into him",
         "brawler_counters": "cordelius, edgar good timing to dodge super, shelly, gale, R-T, otis"
     },
     "star nova": {
         "tips": "- She's more of a jack of all trades, so any assassin/tank will beat her close range",
         "brawler_counters": "Assassins, tanks"
+    },
+    "bolt": {
+        "tips": "- Gets shut down by cc",
+        "brawler_counters": "cc (tara, gene, gale, etc.)"
     }
 }

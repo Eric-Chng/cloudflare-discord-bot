@@ -604,5 +604,10 @@
         "starpower": "Both are okay, but not too impactful. Pref heal",
         "gadget": "Go the teleport as default. Floaty Time has more team synergy potential but also easy to troll.",
         "gear": "Shield and damage/speed"
+    },
+    "bolt": {
+        "starpower": "Both are good, anti-cc is good vs counters",
+        "gadget": "Both are good, bounce is harder to use but better if need wallbreak",
+        "gear": "Shield and damage"
     }
 }
