@@ -478,7 +478,7 @@ router.post('/', async (request, env, ctx) => {
           var matchedBuildBrawler = buildsFuzzyResult[0].item.brawlerName;
           matchedBuildBrawler = matchedBuildBrawler.charAt(0).toUpperCase() + matchedBuildBrawler.slice(1);
           const matchedBuildInfo = buildsFuzzyResult[0].item.buildInfo;
-          var buildResponseContent = `Fuzzy Search for ${brawlerName} found **${matchedBuildBrawler}**: \n__**Gadgets**__:\n${matchedBuildInfo.gadget}\n\n__**Star Powers**__:\n${matchedBuildInfo.starpower}\n\n__**Gears**__:\n${matchedBuildInfo.gear}`;
+          var buildResponseContent = `Fuzzy Search for ${brawlerName} found **${matchedBuildBrawler} (updated ${matchedBuildInfo.last_updated})**: \n__**Gadgets**__:\n${matchedBuildInfo.gadget}\n\n__**Star Powers**__:\n${matchedBuildInfo.starpower}\n\n__**Gears**__:\n${matchedBuildInfo.gear}`;
           if ("hypercharge" in matchedBuildInfo) {
             buildResponseContent += `\n\n__**Hypercharge**__:\n${matchedBuildInfo.hypercharge}`;
           }
@@ -495,7 +495,7 @@ router.post('/', async (request, env, ctx) => {
         }
         const buildInfo = builds[brawlerNameQuery];
         brawlerName = brawlerName.charAt(0).toUpperCase() + brawlerName.slice(1);
-        var buildResponseContent = `${brawlerName}: \n__**Gadgets**__:\n${buildInfo.gadget}\n\n__**Star Powers**__:\n${buildInfo.starpower}\n\n__**Gears**__:\n${buildInfo.gear}`;
+        var buildResponseContent = `${brawlerName} (updated ${buildInfo.last_updated}): \n__**Gadgets**__:\n${buildInfo.gadget}\n\n__**Star Powers**__:\n${buildInfo.starpower}\n\n__**Gears**__:\n${buildInfo.gear}`;
         if ("hypercharge" in buildInfo) {
           buildResponseContent += `\n\n__**Hypercharge**__:\n${buildInfo.hypercharge}`;
         }
