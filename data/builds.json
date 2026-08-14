@@ -719,5 +719,11 @@
         "gadget": "Oil Change is the better competitive option. Bouncy Ball still has uses, especially when its wall break matters.",
         "gear": "Shield and Damage. Health is also usable.",
         "last_updated": "Aug 1, 2026"
+    },
+    "wendy": {
+        "starpower": "Solar Shield",
+        "gadget": "Both very good. Wind-powered good default",
+        "gear": "Damage and Shield.",
+        "last_updated": "Aug 13, 2026"
     }
 }

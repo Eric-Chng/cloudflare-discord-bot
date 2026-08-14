@@ -422,5 +422,9 @@
     "bolt": {
         "tips": "- Gets shut down by cc",
         "brawler_counters": "cc (tara, shelly, gale, etc.)"
+    },
+    "wendy": {
+        "tips": "- She's low range and low dps, so you can push into her easily",
+        "brawler_counters": "Assassins, long range (some maps)"
     }
 }
