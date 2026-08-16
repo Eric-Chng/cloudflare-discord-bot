@@ -1,243 +1,296 @@
 {
     "last stop": {
+        "mode": "Gem Grab",
         "tips": "Prioritize a good sniper as gem carrier in middle. In bushes you can run an anti agro, assassin, or brawler good at scouting.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1337571359353606166/S35_RANKED_CHEAT_SHEET_-_Best_Brawlers__Bans_14-2_screenshot.png?ex=67a7ede6&is=67a69c66&hm=3c0d37a3c2a59008e39561c821eba6a0231e206e82d767a049788d28ba40af73&"
     },
     "triple dribble": {
+        "mode": "Brawl Ball",
         "tips": "This is a thrower-heavy map but you must pick survivable throwers like Willow or Sirius. Always include a tank counter and a brawler that can pressure throwers or break walls, while preparing for assassin threats.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538415021913022494/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_8-26_screenshot.png?ex=6a829823&is=6a8146a3&hm=c184fa22900af8cf2c40cbae1dd84119d6861ec4adbddbf4bc29e5ad58ee0580&",
         "last_updated": "Aug 16, 2026"
     },
     "bridge too far": {
+        "mode": "Heist",
         "tips": "Treat this as a lane matchup map where winning 1v1s is key. Draft long-range damage dealers like Colt and Angelo, and either counter Chuck directly or commit to a base race strategy.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538414630240780288/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_15-15_screenshot.png?ex=6a8297c6&is=6a814646&hm=5a05c8f9dbacbeb76916c295b879b5d8d157f86a06b3dc2dd817dc9825795e33&",
         "last_updated": "Aug 16, 2026"
     },
     "layer cake": {
+        "mode": "Bounty",
         "tips": "This is an extremely aggressive map where snipers are weak. Build around aggression with at least one engager like Mortis or Kenji, supported by control and a safe thrower. Tank counters are essential, and Alli remains a viable niche pick here despite being weaker overall.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538415254650880010/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_2-31_screenshot.png?ex=6a82985b&is=6a8146db&hm=a52a389a8ddb4382f398c96189cfb92e0268ff9b545478068ca75e18fd36a7d8&",
         "last_updated": "Aug 16, 2026"
     },
     "shooting star": {
+        "mode": "Bounty",
         "tips": "Draft the strongest snipers early and fight for blue star control with picks like Mortis or Kaze. Pierce is a premium long-range option and Angelo remains flexible, but Nani should no longer be treated as a safe first pick; she is better as a matchup-dependent late pick into other snipers. Focus on winning long-range duels without overstacking fragile picks.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538415159427473479/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_3-39_screenshot.png?ex=6a829844&is=6a8146c4&hm=a9033ac268216ac7ee812e823345879e2cc20101390f35535035b35da7f30e04&",
         "last_updated": "Aug 16, 2026"
     },
     "ring of fire": {
+        "mode": "Hot Zone",
         "tips": "Prioritize strong zone control brawlers in mid while keeping one player applying pressure. Avoid overcommitting to flanks and focus on consistent zone time while adapting to enemy drafts.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538414395590180954/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_21-38_screenshot.png?ex=6a82978e&is=6a81460e&hm=f295b222d3a0f32017ea46a34e8b416becdc8748334e3cbc58348c45e7e27696&",
         "last_updated": "Aug 16, 2026"
     },
     "backyard bowl": {
+        "mode": "Brawl Ball",
         "tips": "Use `/event` command to see more info about melodie challenge. This is temporarily set to melodie challenge",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1332447234247233556/FREE__Melodie__11_Drops_-_12-0_Melodie_Challenge_Guide_2-6_screenshot.png?ex=679549b0&is=6793f830&hm=2a2221313815f5b31cf68f93c829d5e869141dcb59baa3578845d7f1d2de70a7&"
     },
     "belles rock": {
+        "mode": "Knockout",
         "tips": "Avoid stacking identical brawlers like triple snipers. Draft a mix of durable snipers, poke, and pressure, while preparing counters to strategies like Rico with wall break or throwers.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538414394889998456/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_22-28_screenshot.png?ex=6a82978e&is=6a81460e&hm=6cf1ce78f7e8aabc477d9a88e663f346927b974b74189c65825779fc1e06ee5b&",
         "last_updated": "Aug 16, 2026"
     },
     "out in the open": {
+        "mode": "Knockout",
         "tips": "Focus on winning long-range engagements and maintaining vision control. Use bush clearing and wall break to apply pressure and push enemies back into spawn.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538413770131505152/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_24-35_screenshot.png?ex=6a8296f9&is=6a814579&hm=6220d98608144111597828d96e09524dd3601aa00d8ddc7a81beeb97bdf47e42&",
         "last_updated": "Aug 16, 2026"
     },
     "pinball dreams": {
+        "mode": "Brawl Ball",
         "tips": "This map revolves around thrower, assassin, and tank interactions. Build a balanced comp with a tank counter, an aggressive pick, and either a thrower or control brawler. Avoid weak mids like fragile snipers that get easily countered.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538415158131695616/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_6-3_screenshot.png?ex=6a829844&is=6a8146c4&hm=1442b25e1ab649ba0c275e09e316b7b4a8bd57c7cd17b472064491ad3a9a9e3d&",
         "last_updated": "Aug 16, 2026"
     },
     "double swoosh": {
+        "mode": "Gem Grab",
         "tips": "Use a flexible mid that can defend itself with knockback or mobility. Structure lanes with a defensive ranged brawler on the left and an aggressive playmaker on the right, always including pressure to threaten the enemy gem carrier. Tara is also one of the few maps where she still has a clear niche.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538414911070404748/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_11-14_screenshot.png?ex=6a829809&is=6a814689&hm=fde7e9e5027d3fb42f2f8144986fc15fc8bcf7290d9284b8ba047e17466ba609&",
         "last_updated": "Aug 16, 2026"
     },
     "hideout": {
+        "mode": "Bounty",
         "tips": "Prioritize strong snipers and pair them with a blue star contender like Leon or Mortis. Avoid triple-sniper comps by adding a semi-aggressive pick and include wall break to prevent strong last picks from taking over. Nani is no longer a safe first pick and should be reserved for favorable sniper matchups later in draft.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538415255317651586/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_1-39_screenshot.png?ex=6a82985b&is=6a8146db&hm=b9bfe24cc058fcfca9909d111cb1e557efb0d5942f8cd43774c68321c9e7981d&",
         "last_updated": "Aug 16, 2026"
     },
     "excel": {
+        "mode": "Bounty",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1421157098783375512/S42_-_Ranked_Cheat_Sheet_-_Best_Brawlers__Bans_2-2_screenshot.png?ex=68d80330&is=68d6b1b0&hm=ede286fbddf6edc86c7884a09f34057177c0f6f322a2ab55c58ba54a6172827c&",
         "last_updated": "Sep 26, 2025",
         "tips": "Snipers can be good but get pushed back easily. Throwers are more dominant. Pick snipers with more counterplay into bad matchups and some sort of agro."
     },
     "center stage": {
+        "mode": "Brawl Ball",
         "tips": "Draft strong tank counters and control tools for this bushy map. Throwers like Sirius are strong early but need protection. Use vision and scouting to control bushes and maintain a balanced comp with pressure, defense, and control.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538415158786002964/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_4-42_screenshot.png?ex=6a829844&is=6a8146c4&hm=c999f964e0c3eb24946347c90ce0b07a9e740d0ed364f636e8480e74c6d71b9d&",
         "last_updated": "Aug 16, 2026"
     },
     "spiralling out": {
+        "mode": "Brawl Ball",
         "tips": "Maintain strict lane discipline by sending one player to each lane to avoid free goals. Draft a balanced composition with a tank counter, an aggressive brawler, and a flexible support or control pick to handle pressure and late picks.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1491843735468769371/Ulltimate_CHEAT_Sheet_For_Ranked_-_Best_Picks__Bans_Season_49_9-31_screenshot.png?ex=69d92b3f&is=69d7d9bf&hm=a1f159929f901efc327b0229985e85257d82580735bf4ac8bde39a73bd78301c&",
         "last_updated": "April 9, 2026"
     },
     "goalkeepers dream": {
+        "mode": "Brawl Ball",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1225219740776140972/37_NEW_ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_BEST_PICKS__BANS_SEASON_25_-_YouTube_-_0-9-08.jpeg?ex=662055cd&is=660de0cd&hm=44aa1ebbc352cd3f735c64446c0e6ccbcd8701596d5ecc462e48c50cbe7cf08f&"
     },
     "minecart madness": {
+        "mode": "Gem Grab",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1225220161804439562/37_NEW_ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_BEST_PICKS__BANS_SEASON_25_-_YouTube_-_0-13-59.jpeg?ex=66205632&is=660de132&hm=b335c7baf9c51ae903802a688783c1140850fe21c9a7b5608072729a8b7cb656&"
     },
     "rustic arcade": {
+        "mode": "Gem Grab",
         "tips": "All about long range brawlers, but assassin last pick is good bc generic tank counters are not good here. Only long range tank counters usable. Not very map draft dependent, mostly about brawler matchups.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538414806267203655/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_13-22_screenshot.png?ex=6a8297f0&is=6a814670&hm=a2b31d23541f533fbec251462da78c092cfe410995bee5fcfe5bbf5d21fd778c&",
         "last_updated": "Aug 16, 2026"
     },
     "safe zone": {
+        "mode": "Heist",
         "tips": "Run one strong defender with two offensive brawlers, prioritizing aggression to secure safe damage. Control key areas like Penny turret positions and use pressure to enable consistent damage.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538414513739796560/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_18-12_screenshot.png?ex=6a8297aa&is=6a81462a&hm=b3b7860e2eb38dc605f1a8e6404eb57facaee056b0f32c24df7d263e86d23129&",
         "last_updated": "Aug 16, 2026"
     },
     "pit stop": {
+        "mode": "Heist",
         "tips": "Play this as a base race with one defender and two rushers. Mico is the standout map-specific pick and is described as the best option here, while Dynamike also has a small niche as a late pick.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1248830579944853594/ULTIMATE_CHEAT_SHEET_RANKED_-_BEST_PICKS__BANS_SEASON_27_-_YouTube_-_0-9-12.jpeg?ex=6665179c&is=6663c61c&hm=0b53ecd56f067fbdfc39395d54bd3f56fb45b6ddc0be32dfae2b210c6f5e58e5&"
     },
     "dueling beetles": {
+        "mode": "Hot Zone",
         "tips": "Draft a durable brawler to hold the zone, supported by tank counters and control picks. Include some aggression to avoid being countered by throwers and maintain pressure on the objective. Sprout can be a dangerous last pick here, while Hank also has a niche as a zone-holding option.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538414512997400586/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_19-1_screenshot.png?ex=6a8297aa&is=6a81462a&hm=e994c50a580304ba497a404f45a60e02b817fdd9fa3c542b94ab71244c1da03a&",
         "last_updated": "Aug 16, 2026"
     },
     "split": {
+        "mode": "Hot Zone",
         "tips": "Two down right, 1 down left. Don't break open right unless thrower, break open left.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1248830866860408862/ULTIMATE_CHEAT_SHEET_RANKED_-_BEST_PICKS__BANS_SEASON_27_-_YouTube_-_0-13-38.jpeg?ex=666517e0&is=6663c660&hm=994407715fe817092b8942f4f51db8c0abb5fe7f217900d79d5b1f9ebe397743&"
     },
     "new horizons": {
+        "mode": "Knockout",
         "tips": "Draft long-range brawlers and snipers that can win poke battles, including at least one hybrid that can defend itself or break terrain. Stay aware of thrower threats.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538413771234611230/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_23-59_screenshot.png?ex=6a8296f9&is=6a814579&hm=6bae1c79853a38958d429ef28cb75d1fb539283fc5ef82d901a8f0c1f48b0d82&",
         "last_updated": "Aug 16, 2026"
     },
     "canal grande": {
+        "mode": "Bounty",
         "tips": "Water walking is op. Generic snipers are not that good, throwers and last pick takes run draft. Want a brawler that is generically good at cleaning up messes, thrower that won't die to aggro, and a tank or something aggressive. Controlling middle grass is important.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1337570571466313820/S35_RANKED_CHEAT_SHEET_-_Best_Brawlers__Bans_1-7_screenshot.png?ex=67a7ed2b&is=67a69bab&hm=a727fb720cafbdce4a70817ab4d8217c46d33f10c1b62420f93b392741736082&"
     },
     "sneaky fields": {
+        "mode": "Brawl Ball",
         "tips": "Draft a balanced comp with strong bush presence, including a threatening close-range brawler, a vision or scouting option, and an aggressive goal scorer. Avoid passive mids and ensure your team can hold ground against tanks and aggro.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538415022655406080/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_7-24_screenshot.png?ex=6a829823&is=6a8146a3&hm=d34cb98b82b0d4f4cf37824f08f5f68b4c3d87d43f8c9edd7946704e4110b191&",
         "last_updated": "Aug 16, 2026"
     },
     "beach ball": {
+        "mode": "Brawl Ball",
         "tips": "Opening the map with wall break enables long-range brawlers to dominate. Draft ranged tank counters and include an aggressive pick to create scoring chances, while avoiding early throwers that lose value once walls are gone.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1491843629562593321/Ulltimate_CHEAT_Sheet_For_Ranked_-_Best_Picks__Bans_Season_49_11-45_screenshot.png?ex=69d92b26&is=69d7d9a6&hm=917b31134edaae8a47d2f5199cf5c3932666fef011791b15d4b50d73da615e4d&",
         "last_updated": "April 9, 2026"
     },
     "hard rock mine": {
+        "mode": "Gem Grab",
         "tips": "Use strong lane controllers like Rico or Ruffs with a safe gem carrier that can survive pressure. Add an aggressive brawler for openings and a tank counter to stabilize fights while gradually pushing enemies back. Sprout is also a dangerous last pick into squishier, low-pressure drafts.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538414807177236500/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_12-35_screenshot.png?ex=6a8297f0&is=6a814670&hm=42d23ca95792b6b3c246912a87e59b84b46d718faa79349d3e7adac38b2ba53b&",
         "last_updated": "Aug 16, 2026"
     },
     "gem fort": {
+        "mode": "Gem Grab",
         "tips": "This map is chaotic and bush-heavy, so focus on mid control while embracing messy fights. Use a survivable gem carrier with anti-tank tools, add an assassin for pressure, and stay aware of flanks to avoid losing control.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538414910235615252/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_11-46_screenshot.png?ex=6a829808&is=6a814688&hm=443c4ade7c61e2d944fdb55f735516a4e60ef9d750c9182714695961b4f030a1&",
         "last_updated": "Aug 16, 2026"
     },
     "kaboom canyon": {
+        "mode": "Heist",
         "tips": "Draft a mix of aggression and defense, with at least one aggressive brawler to convert fights into safe damage. Pair this with tank counters and flexible damage dealers to maintain control.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538414628651012136/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_17-19_screenshot.png?ex=6a8297c5&is=6a814645&hm=fd2b7c4fcde16687ec93f9f9ae59e2c8b358ced18cc96855e6ca3f45fcf52f29&",
         "last_updated": "Aug 16, 2026"
     },
     "hot potato": {
+        "mode": "Heist",
         "tips": "This is a chaotic base-race map, so balance offense and defense with one defender, one aggressive damage dealer, and a flexible third option. Do not default to Clancy as the defender anymore; his range nerf has pushed him into D tier and the transcript describes his remaining niche as mainly Hot Zone.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538414629464576110/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_16-24_screenshot.png?ex=6a8297c6&is=6a814646&hm=f4b40a16e373ac5b9fae767c30e582fc00a1df7ba4f3c23c5e0a53f021084198&",
         "last_updated": "Aug 16, 2026"
     },
     "parallel plays": {
+        "mode": "Hot Zone",
         "tips": "Use a defensive left lane brawler that can handle pressure, an aggressive right lane pick to create opportunities, and a flexible mid that supports both sides. Mobility and wall interaction are key, and Juju is one of the throwers that can still work well here.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538414396450275348/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_20-47_screenshot.png?ex=6a82978e&is=6a81460e&hm=4d1e74bfd4077858be9a5bc9bef71bf61019eea78e17ec6d7def071fcbc5f44e&",
         "last_updated": "Aug 16, 2026"
     },
     "open business": {
+        "mode": "Hot Zone",
         "tips": "Focus on constant zone pressure with a tanky mid and strong support like Ruffs. Add an aggressive pick and a tank counter while using wall break and damage to maintain control. Hank can still be a niche option here, especially when supported by Gray.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538414511919206580/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_19-55_screenshot.png?ex=6a8297aa&is=6a81462a&hm=9a85415af3e07ebcb3141bb8fb7a9ee8e9f46717047a8e0bab50171ad9a42552&",
         "last_updated": "Aug 16, 2026"
     },
     "goldarm gulch": {
+        "mode": "Knockout",
         "tips": "Consider trying different lane strategies or being aware of the enemy doing them. Sometimes you can send someone to sneak down right lane, or you triple stack left bush side and work your way horizontally. Lots of walls and people grouping up so use brawlers that benefit/punish those factors.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1337572197048520715/S35_RANKED_CHEAT_SHEET_-_Best_Brawlers__Bans_30-5_screenshot.png?ex=67a7eeae&is=67a69d2e&hm=fe627990ace0c9e89d4ee782d6ebce002238a6e6fa1f83da7fe3f802d2fd56a8&"
     },
     "flaring phoenix": {
+        "mode": "Knockout",
         "tips": "Play for pinching and positioning, sending two players mid and one to the side. Use self-sufficient lane brawlers and aim for early picks before the gas closes.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538413772069273661/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_23-13_screenshot.png?ex=6a8296f9&is=6a814579&hm=f3b5383359df80b02467549bb740401c0ab870057f67301f240dce00edf21c2c&",
         "last_updated": "Aug 16, 2026"
     },
     "galaxy arena": {
+        "mode": "Brawl Ball",
         "tips": "Vision gear/tanks/tank counters great here",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1248830089660203070/ULTIMATE_CHEAT_SHEET_RANKED_-_BEST_PICKS__BANS_SEASON_27_-_YouTube_-_0-2-55.jpeg?ex=66651727&is=6663c5a7&hm=8253dcd07fb3bedf37560af4b95adb07278a6dda4664038582d7cdb23ddd1430&"
     },
     "acute angle": {
+        "mode": "Gem Grab",
         "tips": "Good mid can setup spawn trap",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1248830245323280384/ULTIMATE_CHEAT_SHEET_RANKED_-_BEST_PICKS__BANS_SEASON_27_-_YouTube_-_0-5-13.jpeg?ex=6665174c&is=6663c5cc&hm=c2b71858809fb96b176007fd215d0c969a6e01ad4199c3b56f194d340a956196&"
     },
     "retina": {
+        "mode": "Brawl Ball",
         "tips": "Need tanks or tank counters",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1248830245700636683/ULTIMATE_CHEAT_SHEET_RANKED_-_BEST_PICKS__BANS_SEASON_27_-_YouTube_-_0-4-23.jpeg?ex=6665174c&is=6663c5cc&hm=100f54b3cf80447a80ea8918b8461a7dd2adb7891e36d02b7b54a724c2958d57&"
     },
     "undermine": {
+        "mode": "Gem Grab",
         "tips": "This map favors aggression and assassins. Draft a safe gem carrier with escape tools, a strong anti-tank, and a high-pressure aggressive pick. Control one side and use vision and wall break to stop sneaky plays.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538414805021368350/ULTIMATE_CHEATSHEET.png?ex=6a8297ef&is=6a81466f&hm=12d2aa734d43752c59543ef922534b01b39fc4c5d4fb9c8cd942c3a0d68a9028&",
         "last_updated": "Aug 16, 2026"
     },
     "penalty kick": {
+        "mode": "Brawl Ball",
         "tips": "Throwers can still be strong here, especially as later picks, but Larry & Lawrie should no longer be treated as a default top option because they are currently very weak and struggle even into aggression. Barley is the more credible thrower option after his buffs, but still needs protection from assassins. Keep a reliable tank counter in the draft.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1293022172738093107/NEW__ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_BEST_PICKS__BANS_SEASON_31_5-43_screenshot.png?ex=6705dc3d&is=67048abd&hm=8a52679f08e8b1f580817f400053dfaa3ebcfd6d7ff4442e444729bcd60e9bc8&"
     },
     "snake prarie": {
+        "mode": "Bounty",
         "tips": "Rush in enemy with tanks or have better vision. Group up to be able to get revenge kills (not close enough for one enemy to teamwipe though). Vision gear runs this map.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1337570866401247263/S35_RANKED_CHEAT_SHEET_-_Best_Brawlers__Bans_4-22_screenshot.png?ex=67a7ed71&is=67a69bf1&hm=56dad672acd09b6be7a45a61255e732821cd9e8269d2be69355fda2e51ce082a&"
     },
     "below zero": {
+        "mode": "Brawl Hockey",
         "tips": "Good brawlers will have high mobility or ball control.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1363394957829869578/ULTIMATE_Ranked_Guide_To_Pro_-_Best_Brawlers__Bans_12-15_screenshot.png?ex=6805e000&is=68048e80&hm=bfd312dda0436630062ed69ed26fbbe5c1aa7fd90e94953eac833ec6feed6e44&"
     },
     "cool box": {
+        "mode": "Brawl Hockey",
         "tips": "Open map but it's very punishing if you get pushed back from agro. Be wary of high mobility brawlers that can easily score goals (counter then with stun/slow). Hit your shots, keep good positioning, and catch enemies making mistakes.",
         "link": "https://cdn.discordapp.com/attachments/1097674539154014288/1362238512551825508/S37_BH_Cool_Box.png?ex=6804f6ba&is=6803a53a&hm=5585b428237b05f88bfc457efe77ab9576ff688fadd976909ca52d2ab851da2d&"
     },
     "super center": {
+        "mode": "Brawl Hockey",
         "tips": "Tanks better here compared to other Brawl Hockey maps. Lots of good brawlers to go, so identify what tricks a brawler can use to score and adjust to counter or utilize that. Generally, your team composition should have someone good at scoring and someone good at defending.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1363393984495616020/ULTIMATE_Ranked_Guide_To_Pro_-_Best_Brawlers__Bans_16-57_screenshot.png?ex=6805df18&is=68048d98&hm=eb2b30c0858cc902aa8e5f5669631191cd76ffa32ae390073fd387cd1657e30d&"
     },
     "dry season": {
+        "mode": "Bounty",
         "tips": "Secure the blue star as fast as possible with top options like Kaze or Mortis, then shift into a defensive hold behind walls. Draft a balanced comp with wall break, aggression, and strong peek damage so you can maintain a lead and still respond to late picks.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538415256093728938/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_0-47_screenshot.png?ex=6a82985b&is=6a8146db&hm=5b8a1fc37455b4d4d32464d6c02ad3b545a2157dcc415d8147503d0e07af60b1&",
         "last_updated": "Aug 16, 2026"
     },
     "starr garden": {
+        "mode": "Brawl Hockey",
         "tips": "More walls to peak shots compared to other Brawl Hockey maps. Lots of single shot brawlers are good here (off meta spawner counters). Look out for agro strategies by picking an antitank.",
         "link": ""
     },
     "crystal arcade": {
+        "mode": "Gem Grab",
         "tips": "Treat this as a matchup-heavy Gem Grab draft. Crow and Kaze are the safer high-meta options from the old pick pool, while picks like Draco, Kit, Lily, Janet, Amber, Tara, and Jae-Yong are more matchup-dependent now. Do not treat Tara or Amber as automatic power picks; Tara is highly map-specific and Amber has fallen sharply in the meta. Draft typical tanks later because strong DPS can punish them.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538415021258706975/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_9-29_screenshot.png?ex=6a829823&is=6a8146a3&hm=64ee43623b0644c0b1733e313f2b3e10ddd85ed32a95e1704130a2078184e1b1&",
         "last_updated": "Aug 16, 2026"
     },
     "deathcap trap": {
+        "mode": "Gem Grab",
         "tips": "OG map that plays weird, very easy to push left and guarantee pressure for easy control. Gus, Gene, and Jae-Yong are good mids since they can defend themselves. Lots of walls so tanks, wall peaking, and attacking past walls will be very helpful.",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1538414911745556581/ULTIMATE_CHEAT_SHEET_FOR_RANKED_-_SEASON_53_10-22_screenshot.png?ex=6a829809&is=6a814689&hm=86d9d71b6db6afe9df7856a4092c932adccb7de623ab343ee09c7bc79cef69cf&",
         "last_updated": "Aug 16, 2026"
     },
     "infinite doom": {
+        "mode": "Bounty",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1421157264294936626/S42_-_Ranked_Cheat_Sheet_-_Best_Brawlers__Bans_4-58_screenshot.png?ex=68d80357&is=68d6b1d7&hm=31ace06e692887da02c1f30fbd1df4749c9d41a0bd062e4f8b7f685a1acd4f21&",
         "last_updated": "Sep 26, 2025",
         "tips": "Vision gear is very important for control in early game. Always have an agro or tank counter to avoid getting run down by last pick agro."
     },
     "sprialing out": {
+        "mode": "Brawl Ball",
         "link": "https://cdn.discordapp.com/attachments/1406902240530137108/1440172778404843682/Screenshot_2025-11-17_at_9.52.24_PM.png?ex=691d30eb&is=691bdf6b&hm=c3b82a2196f9adf3e70067c68a056c7c4ff59d52bde00dbe2ec392657affe7b3&",
         "last_updated": "Nov 17, 2025"
     },
     "grass knot": {
+        "mode": "Brawl Ball",
         "link": "https://cdn.discordapp.com/attachments/1406902240530137108/1440526235846574201/Screenshot_2025-11-18_at_9.16.51_PM.png?ex=691e7a1a&is=691d289a&hm=7481ffc87c77a9ea0ddffaa5b3c9a2bcfc5cfa748fd88be92b2017fef5081f0d&",
         "last_updated": "Nov 18, 2025"
     },
     "massive attack": {
+        "mode": "Hot Zone",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1441972004138782742/Screenshot_2025-11-22_at_9.01.50_PM.png?ex=6923bc94&is=69226b14&hm=eeb3f69e165e5891d17c3dd1c740b53e3aa80d69dc23ca35229c9103f617d6fe&",
         "tips": "Some solid picks are Mina Cordelius, Squeak, Stu, Meeple, Juju, Hank, Ruffs, Gale, Doug, Lumi, Crow, Bo. Goofy map that spen didn't bother making a guide on.",
         "last_updated": "Nov 20, 2025"
     },
     "quick travel": {
+        "mode": "Hot Zone",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1505028238123073801/The_ULTIMATE_Ranked_Guide_-_Cheat_Sheet_Season_50_36-0_screenshot.png?ex=6a092246&is=6a07d0c6&hm=e084a236a1ff562a7160fb2613520396ffeefe35ad2fcaaf6fe0b854a86e0730&",
         "last_updated": "May 15, 2026"
     },
     "in the liminal": {
+        "mode": "Hot Zone",
         "link": "https://cdn.discordapp.com/attachments/931255199627112458/1505028504058593490/The_ULTIMATE_Ranked_Guide_-_Cheat_Sheet_Season_50_31-34_screenshot.png?ex=6a092285&is=6a07d105&hm=9110cad7717a71f074ae2b920dc99f8e4c63070f931983e78196cf5db2f19e7c&",
         "last_updated": "May 15, 2026"
     }
