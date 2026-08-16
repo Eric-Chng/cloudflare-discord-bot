@@ -1,14 +1,42 @@
 #!/usr/bin/env python3
 import json
+from datetime import datetime
 from pathlib import Path
 
 
-def build_system_prompt(builds_data, counters_data, drafts_data, tierlist_data):
+def latest_drafts(drafts_data):
+    dated_drafts = []
+    for map_name, info in drafts_data.items():
+        last_updated = (info or {}).get('last_updated')
+        if not last_updated:
+            continue
+        for date_format in ('%b %d, %Y', '%B %d, %Y'):
+            try:
+                updated_at = datetime.strptime(last_updated, date_format)
+                break
+            except ValueError:
+                updated_at = None
+        if updated_at is not None:
+            dated_drafts.append((map_name, info, updated_at))
+
+    if not dated_drafts:
+        return {}
+
+    latest_date = max(updated_at for _, _, updated_at in dated_drafts)
+    return {
+        map_name: info
+        for map_name, info, updated_at in dated_drafts
+        if updated_at == latest_date
+    }
+
+
+def build_system_prompt(builds_data, counters_data, drafts_data, tierlist_data, meta_text):
     rules = [
         'You are a Brawl Stars strategy expert.',
         'Use ONLY the provided knowledge base where applicable.',
         'If a player asks about a known map, ALWAYS return the associated link from drafts. Returning the associated link is of UTMOST IMPORTANCE. Using the tips to give advice is of secondary importance and should only be done after giving the link.',
         "If the map isn't in drafts, clearly state your current knowledge doesn't include that map.",
+        'Tell the user to use the draft command to find older maps, or BrawlBot may not know about that map.',
         'If asked for good builds, ALWAYS tell the player to use the /build command.',
         'If asked how to counter a brawler, ALWAYS return the info from counters.json for that brawler.',
         'If asked for a mix of knowledge, still apply these rules first, then synthesize concise advice.',
@@ -18,9 +46,9 @@ def build_system_prompt(builds_data, counters_data, drafts_data, tierlist_data):
         'While giving advice, also focus on keeping responses brief where possible to focus on the most important details.'
     ]
 
-    # Maintain insertion order from JSON
+    # Include only maps sharing the newest last_updated date, preserving JSON order.
     drafts_lines_parts = []
-    for map_name, info in drafts_data.items():
+    for map_name, info in latest_drafts(drafts_data).items():
         link = (info or {}).get('link', '')
         tips = (info or {}).get('tips', '')
         line = f"- Map: {map_name}\n  Link: {link}" + (f"\n  Tips: {tips}" if tips else '')
@@ -45,6 +73,9 @@ def build_system_prompt(builds_data, counters_data, drafts_data, tierlist_data):
         'SYSTEM INSTRUCTIONS',
         '----------------',
         *rules,
+        '',
+        'CURRENT META CONTEXT (meta.txt):',
+        meta_text.strip(),
         '',
         'KNOWN MAP DRAFTS (drafts.json):',
         drafts_lines,
@@ -72,7 +103,8 @@ def main():
         drafts = json.load(f)
     with (data_dir / 'tierlist_extracted.json').open('r', encoding='utf-8') as f:
         tierlist = json.load(f)
-    system_text = build_system_prompt(builds, counters, drafts, tierlist)
+    meta_text = (data_dir / 'meta.txt').read_text(encoding='utf-8')
+    system_text = build_system_prompt(builds, counters, drafts, tierlist, meta_text)
 
     out_path = src_dir / 'system_prompt.js'
     js_content = f"export const SYSTEM_PROMPT = {json.dumps(system_text)};\n"
@@ -82,5 +114,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-

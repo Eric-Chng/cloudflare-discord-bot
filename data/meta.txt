@@ -1,0 +1,63 @@
+The meta is **very damage-heavy, pressure-oriented, and hypercharge-driven** right now. The strongest brawlers are generally those that can either overwhelm opponents with raw DPS, survive while applying constant pressure, or create huge swing moments with supers/hypercharges. 
+
+### Overall meta
+
+The top of the meta is dominated by **Surge, Starr Nova, 8-Bit, Max, Nori, Damian, Griff, Meg, and Crow**. These brawlers are difficult to draft around because they either have very few bad matchups or bring so much pressure that opponents are forced to react to them.
+
+**High DPS is one of the defining features of the meta.** Griff, Surge, 8-Bit, Meg, Lou, Lumi, Starr Nova, and Crow make it much harder for traditional tanks and short-range brawlers to simply walk forward. This is a major reason brawlers like Hank, Draco, Jacky, Primo, and Sam are struggling.
+
+### Drafting trends
+
+**Flexible early picks are extremely valuable.** Max, Ruffs, Crow, Meg, Gene, Byron, and similar brawlers work because they don't heavily expose your draft and can support many different compositions. Max in particular is everywhere because her speed enables almost any teammate.
+
+At the same time, **late-pick counter brawlers remain extremely dangerous**. Shade, Edgar, Mortis, Bolt, Fang, Bibi, Lily, Sprout, and others can completely take over when the enemy draft lacks the correct answer. You generally don't want to blind-pick these brawlers, but they become very strong once favorable matchups are visible.
+
+### Tanks and aggression
+
+Aggression is strong, but **blind tanks are not**. The successful aggressive brawlers tend to have exceptional mobility, hypercharges, defensive tools, or matchup dominance.
+
+Ash is a major exception among traditional tanks because the tank trait lets him build rage and cycle supers much more consistently. Edgar and Shade remain extremely threatening because their hypercharges give them massive takeover potential.
+
+Traditional tanks like Primo, Jacky, Hank, Draco, Bull, and Sam are much more matchup-dependent because there are simply too many high-damage answers available.
+
+### Throwers
+
+**Throwers are generally weaker than usual.** Mr. P, Grom, Tick, Dynamike, Juju, and Larry & Lawrie are all near the bottom because the meta has too much mobility and aggression for them to survive consistently.
+
+The useful throwers are mostly **situational last picks**. Sprout can still punish passive drafts, Willow is useful in Brawl Ball because she can defend against aggression, Barley has improved after his projectile buffs, and Sirius remains relevant because he has strong matchups into certain high-health brawlers.
+
+So the draft pattern is usually: **don't pick a thrower early unless the map or matchup strongly supports it.**
+
+### Snipers and long range
+
+Snipers are viable, but the hierarchy has shifted. **Pierce and Brock are among the strongest**, Piper has climbed again after her damage buff, while older safe picks like Nani, Gus, RT, Bea, and Mandy have fallen.
+
+The problem for traditional snipers is pressure. Max, Mortis, Edgar, Damian, Nori and other mobile threats can make static long-range brawlers uncomfortable. The best snipers currently either have strong defensive tools, huge burst, or additional utility.
+
+### Control and support
+
+Support is especially valuable because many of the strongest carries become much harder to stop when enabled properly.
+
+**Ruffs is one of the biggest winners of the meta** because his hypercharge synergy works with almost everyone. Byron and Gene remain consistently strong, while Poco has value specifically into lower-DPS compositions and certain top meta brawlers.
+
+Gray is also improving primarily because of **composition synergy**, particularly with tanks and aggressive Hot Zone strategies.
+
+### Mode tendencies
+
+**Hot Zone:** Lou is arguably the defining brawler. Meg, 8-Bit, Emz, Gray compositions, Ruffs, and other durable control options are strong. You generally want sustained pressure plus enough damage to stop tanks.
+
+**Heist:** Extremely offense-defense dependent. 8-Bit, Griff, Kaze, Colt, Brock, Crow and other high-DPS options are valuable, while niche picks like Mico can become extremely strong on specific maps such as Pit Stop.
+
+**Bounty / Knockout:** Long-range damage still matters, but pure sniper comps are easier to punish. Pierce, Brock, Gene, Byron, Piper, Max and aggressive counterpicks are particularly relevant.
+
+**Gem Grab:** Max is one of the biggest defining picks. Durable carriers and flexible mids like Pearl, Lola, Gene and Byron are strong, while assassins become dangerous last picks against vulnerable carriers.
+
+**Brawl Ball:** Matchups matter heavily. Shade, Moe, Ash, Rico, tanks, anti-tanks and wall interactions can all dominate depending on draft.
+
+### Biggest meta takeaway
+
+The meta rewards **versatility first, then matchup exploitation**.
+
+A strong draft usually starts with flexible pressure or support, maintains enough DPS to prevent tanks from running over you, and saves the final picks for something capable of heavily punishing the opponent's composition.
+
+The biggest drafting mistake right now is committing too early to a vulnerable archetype, especially **traditional tanks, fragile throwers, or static snipers**, because there are so many powerful counterpicks available.
