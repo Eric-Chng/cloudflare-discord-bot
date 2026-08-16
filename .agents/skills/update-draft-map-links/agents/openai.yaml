@@ -1,0 +1,4 @@
+interface:
+  display_name: "Update Draft Map Links"
+  short_description: "Map Discord screenshots into drafts.json"
+  default_prompt: "Use $update-draft-map-links to inspect these Discord image links and update data/drafts.json."

@@ -724,6 +724,7 @@
         "starpower": "Solar Shield",
         "gadget": "Both very good. Wind-powered good default",
         "gear": "Damage and Shield.",
+        "tips": "Good in any control map",
         "last_updated": "Aug 13, 2026"
     }
 }
