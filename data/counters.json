@@ -426,5 +426,9 @@
     "wendy": {
         "tips": "- She's low range and low dps, so you can push into her easily",
         "brawler_counters": "Assassins, long range (some maps)"
+    },
+    "cosmo": {
+        "tips": "- Be up close or far. be careful as the orbit can go around walls",
+        "brawler_counters": "Assassins (edgar, lily, mico), long range (some maps)"
     }
 }
